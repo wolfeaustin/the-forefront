@@ -1,0 +1,25 @@
+{
+  "comment": "The Forefront source list. type: rss | hn | github-trending. Add/remove freely — the pipeline picks up changes on the next run.",
+  "sources": [
+    { "name": "Hacker News (top)",        "type": "hn" },
+    { "name": "GitHub Trending",          "type": "github-trending" },
+
+    { "name": "Simon Willison",           "type": "rss", "url": "https://simonwillison.net/atom/everything/" },
+    { "name": "Stratechery",              "type": "rss", "url": "https://stratechery.com/feed/" },
+    { "name": "Anthropic News",           "type": "rss", "url": "https://www.anthropic.com/rss.xml" },
+    { "name": "Paul Graham Essays",       "type": "rss", "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss" },
+    { "name": "Import AI",                "type": "rss", "url": "https://importai.substack.com/feed" },
+    { "name": "Lenny's Newsletter",       "type": "rss", "url": "https://www.lennysnewsletter.com/feed" },
+    { "name": "The Pragmatic Engineer",   "type": "rss", "url": "https://blog.pragmaticengineer.com/rss/" },
+    { "name": "Latent Space",             "type": "rss", "url": "https://www.latent.space/feed" },
+
+    { "name": "Dwarkesh Podcast",         "type": "rss", "url": "https://api.substack.com/feed/podcast/69345.rss", "media": "podcast" },
+    { "name": "Acquired",                 "type": "rss", "url": "https://feeds.transistor.fm/acquired", "media": "podcast" },
+    { "name": "Invest Like the Best",     "type": "rss", "url": "https://feeds.megaphone.fm/investlikethebest", "media": "podcast" },
+    { "name": "My First Million",         "type": "rss", "url": "https://feeds.megaphone.fm/HS2300184645", "media": "podcast" },
+    { "name": "Founders Podcast",         "type": "rss", "url": "https://feeds.redcircle.com/50a5d05f-1d68-4d99-8a04-31a2b09f0768", "media": "podcast" },
+
+    { "name": "Y Combinator (YouTube)",   "type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcefcZRL2oaA_uBNeo5UOWg", "media": "video" }
+  ],
+  "note": "Feed URLs are best-guesses to start — run `npm run fetch` once and check logs; any 404s will be reported and can be corrected here."
+}

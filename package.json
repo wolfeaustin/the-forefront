@@ -1,0 +1,19 @@
+{
+  "name": "the-forefront",
+  "version": "1.0.0",
+  "description": "Opinionated daily signal brief — we read 400 things so you don't have to.",
+  "main": "index.js",
+  "scripts": {
+    "today": "node pipeline/run.js",
+    "mock": "node pipeline/run.js --mock",
+    "fetch": "node -e \"import('./pipeline/fetch.js').then(m=>m.runFetch())\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0",
+    "rss-parser": "^3.13.0"
+  },
+  "type": "module"
+}
