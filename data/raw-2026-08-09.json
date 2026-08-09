@@ -1,0 +1,261 @@
+{
+  "date": "2026-08-09",
+  "fetchedAt": "2026-08-09T20:16:08.922Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "publishedAt": "2026-08-09T19:16:49.000Z",
+      "snippet": "82 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49234675",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mea Culpa – Dark Hours",
+      "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+      "publishedAt": "2026-08-09T13:20:43.000Z",
+      "snippet": "455 points · 208 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49231154",
+      "hnPoints": 455
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: What are you working on? (August 2026)",
+      "url": "https://news.ycombinator.com/item?id=49233423",
+      "publishedAt": "2026-08-09T17:23:22.000Z",
+      "snippet": "87 points · 326 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49233423",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cool URIs Don't Change (1998)",
+      "url": "https://www.w3.org/Provider/Style/URI",
+      "publishedAt": "2026-08-09T14:32:53.000Z",
+      "snippet": "109 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49231809",
+      "hnPoints": 109
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
+      "url": "https://kibotronics.net/unlisted/lilly-machines/",
+      "publishedAt": "2026-08-09T13:47:36.000Z",
+      "snippet": "96 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49231397",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+      "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32",
+      "publishedAt": "2026-08-09T12:43:16.000Z",
+      "snippet": "85 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49230891",
+      "hnPoints": 85
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "There Are Magic Hexagons of Every Order",
+      "url": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+      "publishedAt": "2026-08-09T07:19:58.000Z",
+      "snippet": "169 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49229174",
+      "hnPoints": 169
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FCC moves to ban Lidar-equipped foreign drones from US",
+      "url": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
+      "publishedAt": "2026-08-09T16:24:59.000Z",
+      "snippet": "88 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49232857",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Analyzing data from Silicon Valley ventures and founders prosecuted for fraud",
+      "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+      "publishedAt": "2026-08-09T15:26:45.000Z",
+      "snippet": "163 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49232318",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
+      "url": "https://github.com/jmarshall23/msword",
+      "publishedAt": "2026-08-09T05:23:41.000Z",
+      "snippet": "151 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49228663",
+      "hnPoints": 151
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "publishedAt": "2026-08-09T15:08:51.000Z",
+      "snippet": "149 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49232110",
+      "hnPoints": 149
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Grid That Doubles the Strength of the Ground",
+      "url": "https://practical.engineering/blog/2026/8/4/the-grid-that-doubles-the-strength-of-the-ground",
+      "publishedAt": "2026-08-05T04:11:13.000Z",
+      "snippet": "118 points · 33 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49178476",
+      "hnPoints": 118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Silicon Valley misreads science fiction and undermines democracy",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "publishedAt": "2026-08-09T15:18:25.000Z",
+      "snippet": "204 points · 158 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49232221",
+      "hnPoints": 204
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firecrawl/anydoc — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "publishedAt": "2026-08-03T16:36:14Z",
+      "snippet": "12647 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/human-writing — 让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "publishedAt": "2026-08-05T01:19:41Z",
+      "snippet": "2090 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ZzzLc0405/photo-abstract-editorial — no description",
+      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
+      "publishedAt": "2026-08-04T09:35:31Z",
+      "snippet": "1944 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Binaryify/open-kimi-ppt-skill — 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor",
+      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+      "publishedAt": "2026-08-05T07:30:56Z",
+      "snippet": "1606 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mikiarlo3/awesome-growth-hacking-skills — Find agentic growth hacking skills for Claude, ChatGPT, Manus | by enso.bot",
+      "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
+      "publishedAt": "2026-08-04T19:45:15Z",
+      "snippet": "793 stars · Shell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ShawnPana/phone-harness — let your agent control your phone",
+      "url": "https://github.com/ShawnPana/phone-harness",
+      "publishedAt": "2026-08-07T22:28:53Z",
+      "snippet": "755 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "0xwilliamortiz/claude-red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-",
+      "url": "https://github.com/0xwilliamortiz/claude-red",
+      "publishedAt": "2026-08-05T16:54:36Z",
+      "snippet": "699 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wumingqi60/lingxi — 灵犀跨境-开源共建版",
+      "url": "https://github.com/wumingqi60/lingxi",
+      "publishedAt": "2026-08-03T05:46:34Z",
+      "snippet": "697 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "google-gemma/gemma-translator — no description",
+      "url": "https://github.com/google-gemma/gemma-translator",
+      "publishedAt": "2026-08-03T18:50:34Z",
+      "snippet": "679 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xoreaxeaxeax/asm-hall-of-shame — Racing to the bottom of CPU performance",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "publishedAt": "2026-08-06T00:08:06Z",
+      "snippet": "648 stars · C"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "publishedAt": "2026-08-08T22:36:03.000Z",
+      "snippet": " <p><strong><a href=\"https://claude.com/blog/auto-mode-default-in-claude-code\">Auto mode is now the default in Claude Code for Pro, Max, and Team plans</a></strong></p> Anthropic are <em>really</em> confident in Claude Code's <a href=\"https://code.claude.com/docs/en/auto-mode-config\">auto mode</a>, to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th.</p> <p>This was one of the topics discussed in <a href=\"https://simonwillis",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "publishedAt": "2026-08-09T12:31:29.000Z",
+      "snippet": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+      "enclosure": "https://api.substack.com/feed/podcast/209025209/a266314f944e73b52dd2625cb49642a9.mp3"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
+      "publishedAt": "2026-08-08T17:08:14.000Z",
+      "snippet": "Community Wisdom 196",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    }
+  ]
+}
