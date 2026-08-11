@@ -1,0 +1,405 @@
+{
+  "date": "2026-08-11",
+  "fetchedAt": "2026-08-11T10:20:52.279Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "France to ban unsolicited telemarketing calls",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "publishedAt": "2026-08-11T08:15:46.000Z",
+      "snippet": "147 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49254880",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "url": "https://github.com/antirez/h3.c",
+      "publishedAt": "2026-08-11T01:22:09.000Z",
+      "snippet": "279 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49252179",
+      "hnPoints": 279
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "As AI eats the web, the internet’s collective memory is disappearing",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "publishedAt": "2026-08-10T22:36:30.000Z",
+      "snippet": "305 points · 310 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49250836",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Chicken Scheme 6.0",
+      "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
+      "publishedAt": "2026-08-11T00:24:15.000Z",
+      "snippet": "197 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49251702",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LFM2.5 2.6B model competitive with 4x larger models",
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "publishedAt": "2026-08-04T18:47:25.000Z",
+      "snippet": "81 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49173107",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "publishedAt": "2026-08-10T17:22:07.000Z",
+      "snippet": "337 points · 131 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49246804",
+      "hnPoints": 337
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+      "url": "https://everycube.alen.is/",
+      "publishedAt": "2026-08-10T23:16:25.000Z",
+      "snippet": "193 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49251179",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "publishedAt": "2026-08-10T14:06:22.000Z",
+      "snippet": "509 points · 469 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49243880",
+      "hnPoints": 509
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The “mechanical miracle” that ruined Mark Twain’s life",
+      "url": "https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined",
+      "publishedAt": "2026-08-05T15:22:23.000Z",
+      "snippet": "142 points · 72 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49184220",
+      "hnPoints": 142
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stowaway – Take the window seat on any plane or satellite overhead",
+      "url": "https://stowaway.live/",
+      "publishedAt": "2026-08-07T13:15:10.000Z",
+      "snippet": "273 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49209918",
+      "hnPoints": 273
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sonic Pi v5",
+      "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+      "publishedAt": "2026-08-07T10:26:34.000Z",
+      "snippet": "379 points · 90 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49208296",
+      "hnPoints": 379
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The UK's war on anonymity has come to America",
+      "url": "https://www.effort.news/uk-lobby",
+      "publishedAt": "2026-08-10T23:45:50.000Z",
+      "snippet": "505 points · 437 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49251411",
+      "hnPoints": 505
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rust SIMD on the GPU",
+      "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+      "publishedAt": "2026-08-10T18:12:49.000Z",
+      "snippet": "188 points · 92 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49247477",
+      "hnPoints": 188
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Claude marks AI-generated content",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "publishedAt": "2026-08-10T21:36:56.000Z",
+      "snippet": "181 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49250109",
+      "hnPoints": 181
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What's the best programming language for coding agents?",
+      "url": "http://danluu.com/pl-tokens/",
+      "publishedAt": "2026-08-10T16:28:58.000Z",
+      "snippet": "183 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49245936",
+      "hnPoints": 183
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Confessions of a Long-Distance Sailor",
+      "url": "https://arachnoid.com/lutusp/sailbook.html",
+      "publishedAt": "2026-08-10T20:52:55.000Z",
+      "snippet": "118 points · 33 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49249555",
+      "hnPoints": 118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "publishedAt": "2026-08-10T10:10:02.000Z",
+      "snippet": "1118 points · 609 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49241679",
+      "hnPoints": 1118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Publishing Schematics Before “Open Source” Was a Word",
+      "url": "https://fabscene.medium.com/publishing-schematics-before-open-source-was-a-word-55-years-of-akizuki-denshi-japans-be7ca9629704",
+      "publishedAt": "2026-08-07T15:59:08.000Z",
+      "snippet": "91 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49212449",
+      "hnPoints": 91
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Squeak 6.1",
+      "url": "https://squeak.org/release_notes/6.1/",
+      "publishedAt": "2026-08-10T12:15:53.000Z",
+      "snippet": "267 points · 130 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49242653",
+      "hnPoints": 267
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tail-call optimization in C is relatively recent (2025)",
+      "url": "https://lwn.net/Articles/1034703/",
+      "publishedAt": "2026-08-10T11:34:40.000Z",
+      "snippet": "151 points · 135 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49242297",
+      "hnPoints": 151
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "publishedAt": "2026-08-10T17:41:13.000Z",
+      "snippet": "206 points · 139 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49247070",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
+      "url": "https://github.com/AntigmaLabs/ante",
+      "publishedAt": "2026-08-10T15:59:23.000Z",
+      "snippet": "134 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49245437",
+      "hnPoints": 134
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/human-writing — 让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "publishedAt": "2026-08-05T01:19:41Z",
+      "snippet": "2370 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Binaryify/open-kimi-ppt-skill — 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor",
+      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+      "publishedAt": "2026-08-05T07:30:56Z",
+      "snippet": "1604 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ShawnPana/phone-harness — let your agent control your phone",
+      "url": "https://github.com/ShawnPana/phone-harness",
+      "publishedAt": "2026-08-07T22:28:53Z",
+      "snippet": "1425 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "oil-oil/oil-motion — Create smooth, responsive interactive web animations.",
+      "url": "https://github.com/oil-oil/oil-motion",
+      "publishedAt": "2026-08-07T12:36:33Z",
+      "snippet": "1348 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SMNETSTUDIO/WeChat-AI — no description",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "publishedAt": "2026-08-10T09:06:43Z",
+      "snippet": "1289 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "antirez/h3.c — MiniMax H3 inference engine for Mac computers",
+      "url": "https://github.com/antirez/h3.c",
+      "publishedAt": "2026-08-09T09:12:47Z",
+      "snippet": "823 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MengTo/kage — An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.",
+      "url": "https://github.com/MengTo/kage",
+      "publishedAt": "2026-08-08T07:05:07Z",
+      "snippet": "796 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xoreaxeaxeax/asm-hall-of-shame — Racing to the bottom of CPU performance",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "publishedAt": "2026-08-06T00:08:06Z",
+      "snippet": "753 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "eternityspring/shuohao-skills — AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in Claude Code & codex.",
+      "url": "https://github.com/eternityspring/shuohao-skills",
+      "publishedAt": "2026-08-06T10:38:49Z",
+      "snippet": "685 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "T8mars/comfyui-minimax-h3-audio-T8 — no description",
+      "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
+      "publishedAt": "2026-08-05T15:30:15Z",
+      "snippet": "606 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "publishedAt": "2026-08-10T23:56:03.000Z",
+      "snippet": " <p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">Introducing Muse Glimmer</a></strong></p> Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).</p> <p>They claim to have optimized it for exactly the kind of things I'm looking for in a local model:</p> <blockquote> <ul> <li><strong>End-to-end Agentic Task Completion.</strong> Muse Glimmer achie",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Nvidia’s Risky Business",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "snippet": "Nvidia is finding new ways for its customers to raise money, and it's expanding the risk of the AI buildout significantly.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple Earnings, More on Amazon’s Earnings",
+      "url": "https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "snippet": "Apple's earnings (and stock) are limited not by memory but rather chip shortages; then, more on Amazon's earnings and Andy Jassy's market analysis.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "publishedAt": "2026-08-10T15:01:49.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/347cb3d0-f0ab-4f9c-8574-b7c60b248320_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "publishedAt": "2026-08-10T12:01:44.000Z",
+      "snippet": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
+      "enclosure": "https://api.substack.com/feed/podcast/210264025/50984fb3525ea5f0b892afa589754e02.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+      "publishedAt": "2026-08-11T05:16:41.000Z",
+      "snippet": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png"
+    },
+    {
+      "source": "Acquired",
+      "media": "podcast",
+      "title": "Disney: The Renaissance and the Empire",
+      "url": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+      "publishedAt": "2026-08-10T04:41:43.000Z",
+      "snippet": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled, salivating over offers to sell off the film library to MGM and offload the parks to hotel operators. But what followed instead was the greatest turnaround in media history under Michael Eisner and Frank Wells. Beauty and the Beast. The Lion King. Broadway. Bringing the Disney Vault home on VHS and ",
+      "enclosure": "https://pscrb.fm/rss/p/media.transistor.fm/4bcdc326/22e5d62f.mp3"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+      "url": "https://colossus.com/episode/sandcastles-and-silicon/",
+      "publishedAt": "2026-08-11T08:00:00.000Z",
+      "snippet": "My guest today is Eric Vishria, a General Partner at Benchmark. Eric has spent his career in software and cloud, and few people know the history of these markets as well as he does. What makes him special is his ability to use that history to make sense of today. We discuss what the rise of AWS teaches us about AI, what he has learned from investing in Fireworks, Sierra, and Cerebras, and how the criteria for winning have changed for founders and investors. Please enjoy my conversation with Eric",
+      "enclosure": "https://traffic.megaphone.fm/CLS6500696931.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Peter Steinberger: What Happens When 4.7 Million People Let It Cook",
+      "url": "https://www.youtube.com/watch?v=whcfSGN6CAU",
+      "publishedAt": "2026-08-10T20:30:26.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
