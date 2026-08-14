@@ -1,0 +1,144 @@
+{
+  "date": "2026-08-14",
+  "fetchedAt": "2026-08-14T10:24:05.391Z",
+  "errors": [
+    {
+      "source": "Hacker News (top)",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/deepseek-harness — DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "snippet": "84382 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "guillaumemeyer/watermarks-remover — Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "publishedAt": "2026-08-11T16:32:38Z",
+      "snippet": "6320 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "antirez/h3.c — MiniMax H3 inference engine for Mac computers",
+      "url": "https://github.com/antirez/h3.c",
+      "publishedAt": "2026-08-09T09:12:47Z",
+      "snippet": "1820 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SMNETSTUDIO/WeChat-AI — no description",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "publishedAt": "2026-08-10T09:06:43Z",
+      "snippet": "1700 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zhu1090093659/dsh-web-ui — Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "publishedAt": "2026-08-12T05:15:20Z",
+      "snippet": "1499 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xoreaxeaxeax/skitter-creek-bath-salts — Unlocking _everything_ on the CPU with DRAM scrambling",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "publishedAt": "2026-08-13T13:50:42Z",
+      "snippet": "1323 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cordiverse/paper — A Programming Paradigm for Spatiotemporal Composability",
+      "url": "https://github.com/cordiverse/paper",
+      "publishedAt": "2026-08-13T09:53:33Z",
+      "snippet": "1075 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leutenegger/book-to-skill — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "publishedAt": "2026-08-13T13:15:23Z",
+      "snippet": "1050 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "gvzdv/claudish-to-english — no description",
+      "url": "https://github.com/gvzdv/claudish-to-english",
+      "publishedAt": "2026-08-10T18:32:23Z",
+      "snippet": "995 stars · Shell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+      "url": "https://github.com/SaladDay/pi-from-scratch",
+      "publishedAt": "2026-08-09T12:15:30Z",
+      "snippet": "946 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "sqlite-utils 4.2.1",
+      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+      "publishedAt": "2026-08-13T23:53:47.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p> <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p> <pre><code>from typing_extensions import Self </code></pre> <p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "sqlite-utils 4.2",
+      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+      "publishedAt": "2026-08-13T20:11:29.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2\">sqlite-utils 4.2</a></p> <p>Lots of improvements in this one relating to the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table\">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p> <p><code>transform()</code> now preserves a much la",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-gemini 0.33",
+      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "publishedAt": "2026-08-13T19:37:34.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.33\">llm-gemini 0.33</a></p> <p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\">Gemini 3.7 Flash</a> release, plus <code>gemini-3.6-flash</code>, <code>gemini-3.5-flash-lite</code> and two embedding models <code>gemini-embedding",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "publishedAt": "2026-08-14T05:30:39.000Z",
+      "snippet": "Down, but not out!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png"
+    }
+  ]
+}
