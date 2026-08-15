@@ -1,0 +1,357 @@
+{
+  "date": "2026-08-15",
+  "fetchedAt": "2026-08-15T10:07:00.418Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The other Sean Byrne doesn't exist",
+      "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+      "publishedAt": "2026-08-15T04:18:44.000Z",
+      "snippet": "153 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49307592",
+      "hnPoints": 153
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
+      "snippet": "1143 points · 698 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49299605",
+      "hnPoints": 1143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Going Dark, and the era of law enforcement hacking",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "publishedAt": "2026-08-14T20:52:44.000Z",
+      "snippet": "345 points · 154 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49304447",
+      "hnPoints": 345
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "publishedAt": "2026-08-14T15:43:10.000Z",
+      "snippet": "390 points · 238 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49300314",
+      "hnPoints": 390
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "publishedAt": "2026-08-15T01:14:05.000Z",
+      "snippet": "195 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49306577",
+      "hnPoints": 195
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "eigendrum",
+      "url": "https://eigendrum.com/#p=circle",
+      "publishedAt": "2026-08-14T22:15:12.000Z",
+      "snippet": "158 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49305250",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "publishedAt": "2026-08-14T16:12:52.000Z",
+      "snippet": "295 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49300759",
+      "hnPoints": 295
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Firefox is now the last major browser that still supports uBlock Origin",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "publishedAt": "2026-08-14T19:03:20.000Z",
+      "snippet": "1032 points · 390 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49303202",
+      "hnPoints": 1032
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "publishedAt": "2026-08-14T15:58:59.000Z",
+      "snippet": "305 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49300568",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Ploopy A+ Trackball Is Here",
+      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "publishedAt": "2026-08-15T00:55:31.000Z",
+      "snippet": "104 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49306443",
+      "hnPoints": 104
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Simplifying and Refactoring Introductory Calculus (2018)",
+      "url": "https://arxiv.org/abs/1811.03459",
+      "publishedAt": "2026-08-15T00:15:23.000Z",
+      "snippet": "89 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49306196",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unearthing a 31 year old Easter egg in Ecco the Dolphin",
+      "url": "https://32bits.substack.com/p/under-the-microscope-ecco-the-dolphin-98c",
+      "publishedAt": "2026-08-12T14:19:05.000Z",
+      "snippet": "83 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49272784",
+      "hnPoints": 83
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "publishedAt": "2026-08-14T16:15:21.000Z",
+      "snippet": "224 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49300800",
+      "hnPoints": 224
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
+      "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+      "publishedAt": "2026-08-14T14:21:18.000Z",
+      "snippet": "187 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49299081",
+      "hnPoints": 187
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Introducing Toast 1",
+      "url": "https://www.mixedbread.com/blog/toast-1",
+      "publishedAt": "2026-08-14T15:07:57.000Z",
+      "snippet": "206 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49299746",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Super Mario Derivations",
+      "url": "https://fzakaria.com/2026/08/05/super-mario-derivations",
+      "publishedAt": "2026-08-07T20:16:10.000Z",
+      "snippet": "104 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49215682",
+      "hnPoints": 104
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "publishedAt": "2026-08-14T05:19:59.000Z",
+      "snippet": "1093 points · 538 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49294997",
+      "hnPoints": 1093
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Racket v9.3",
+      "url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+      "publishedAt": "2026-08-14T18:14:48.000Z",
+      "snippet": "88 points · 6 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49302562",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ultraviolet Bird Photography",
+      "url": "https://uvbirds.com/",
+      "publishedAt": "2026-08-07T14:51:09.000Z",
+      "snippet": "147 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49211375",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "publishedAt": "2026-08-14T10:12:48.000Z",
+      "snippet": "871 points · 793 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49296740",
+      "hnPoints": 871
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/deepseek-harness — DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "snippet": "105674 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "guillaumemeyer/watermarks-remover — Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "publishedAt": "2026-08-11T16:32:38Z",
+      "snippet": "8997 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anywhere-labs/deepseek-harness-desktop — 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "publishedAt": "2026-08-13T16:30:50Z",
+      "snippet": "3870 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zhu1090093659/dsh-web-ui — Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "publishedAt": "2026-08-12T05:15:20Z",
+      "snippet": "2304 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "publishedAt": "2026-08-13T13:55:31Z",
+      "snippet": "2135 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "antirez/h3.c — MiniMax H3 inference engine for Mac computers",
+      "url": "https://github.com/antirez/h3.c",
+      "publishedAt": "2026-08-09T09:12:47Z",
+      "snippet": "1875 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SMNETSTUDIO/WeChat-AI — no description",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "publishedAt": "2026-08-10T09:06:43Z",
+      "snippet": "1728 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xoreaxeaxeax/skitter-creek-bath-salts — Unlocking _everything_ on the CPU with DRAM scrambling",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "publishedAt": "2026-08-13T13:50:42Z",
+      "snippet": "1616 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaobright/dsh-anchored-standard — Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "publishedAt": "2026-08-14T14:06:39Z",
+      "snippet": "1472 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cordiverse/paper — A Programming Paradigm for Spatiotemporal Composability",
+      "url": "https://github.com/cordiverse/paper",
+      "publishedAt": "2026-08-13T09:53:33Z",
+      "snippet": "1467 stars · n/a"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Northern Gannet",
+      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "publishedAt": "2026-08-15T03:22:00.000Z",
+      "snippet": " <p><img src=\"https://static.inaturalist.org/photos/716984157/large.jpg\" alt=\"Northern Gannet\"></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p> <p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p> <p>He showed up in the Farallon Islands off the coast of San Francisco <a href=\"https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/\">14 years ago</a>.",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "publishedAt": "2026-08-14T21:54:35.000Z",
+      "snippet": " <p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p> I still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p> <p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the e",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.33: The CapEx Train Keeps Rolling",
+      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+      "publishedAt": "2026-08-14T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of August 10, 2026, including the capital constraint, AI writing, and a tale of two cities.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "publishedAt": "2026-08-14T05:30:39.000Z",
+      "snippet": "Down, but not out!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "$39B founder says his company could 100x in 5 years",
+      "publishedAt": "2026-08-14T11:11:00.000Z",
+      "snippet": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/elft Episode 851: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Brett Adcock ( https://x.com/adcock_brett ), the founder of Figure.ai. — Show Notes: (0:00) Intro (3:29) Hark, a human in a box (8:00) zero constraints (17:32) rapid prototyping (21:38) What are the robots doing? (23:45) what about the hype is real? (27:54) finding the best people (30:14) $20M dollar salarie",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS4350312404.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+      "url": "https://www.youtube.com/watch?v=YEvLKzsEwMw",
+      "publishedAt": "2026-08-14T19:14:32.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
