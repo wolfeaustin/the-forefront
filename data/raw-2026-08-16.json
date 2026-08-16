@@ -1,0 +1,281 @@
+{
+  "date": "2026-08-16",
+  "fetchedAt": "2026-08-16T10:07:22.220Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Asus Bike Booster",
+      "url": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
+      "publishedAt": "2026-08-12T06:33:12.000Z",
+      "snippet": "397 points · 253 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49268580",
+      "hnPoints": 397
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "publishedAt": "2026-08-10T13:01:18.000Z",
+      "snippet": "157 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49243061",
+      "hnPoints": 157
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "publishedAt": "2026-08-16T02:12:53.000Z",
+      "snippet": "90 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49316271",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Semaglutide linked to lower predicted dementia risk",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "publishedAt": "2026-08-15T15:58:53.000Z",
+      "snippet": "427 points · 298 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49311651",
+      "hnPoints": 427
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Software Engineering fundamentals matter more",
+      "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+      "publishedAt": "2026-08-15T22:31:09.000Z",
+      "snippet": "143 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49314902",
+      "hnPoints": 143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cultivating a state of mind where new ideas are born (2023)",
+      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "publishedAt": "2026-08-15T20:54:11.000Z",
+      "snippet": "173 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49314235",
+      "hnPoints": 173
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What happens when an LLM never sees material beyond fifth grade?",
+      "url": "https://littlelearner-ll.github.io/",
+      "publishedAt": "2026-08-16T07:37:53.000Z",
+      "snippet": "113 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49317760",
+      "hnPoints": 113
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+      "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
+      "publishedAt": "2026-08-15T19:20:51.000Z",
+      "snippet": "244 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49313428",
+      "hnPoints": 244
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
+      "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
+      "publishedAt": "2026-08-15T14:04:49.000Z",
+      "snippet": "256 points · 94 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49310682",
+      "hnPoints": 256
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI in drug discovery – what it is, where we stand and the path forward",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "publishedAt": "2026-08-15T19:12:53.000Z",
+      "snippet": "140 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49313367",
+      "hnPoints": 140
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RISC-V: They Should Have Known Better",
+      "url": "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV",
+      "publishedAt": "2026-08-14T12:50:56.000Z",
+      "snippet": "311 points · 365 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49298035",
+      "hnPoints": 311
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A fortuitous decade as an indie software developer",
+      "url": "https://lapcatsoftware.com/articles/2026/8/3.html",
+      "publishedAt": "2026-08-10T15:20:25.000Z",
+      "snippet": "86 points · 9 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49244872",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI has access to a vastly larger working memory than the human brain",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "publishedAt": "2026-08-15T18:13:02.000Z",
+      "snippet": "500 points · 420 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49312845",
+      "hnPoints": 500
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Abdominal fat predicts heart disease risk better than BMI",
+      "url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+      "publishedAt": "2026-08-15T21:14:34.000Z",
+      "snippet": "261 points · 197 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49314403",
+      "hnPoints": 261
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A spectre is haunting Unicode",
+      "url": "https://www.dampfkraft.com/ghost-characters.html",
+      "publishedAt": "2026-08-15T14:34:04.000Z",
+      "snippet": "225 points · 86 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49310926",
+      "hnPoints": 225
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/deepseek-harness — DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "snippet": "123553 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "guillaumemeyer/watermarks-remover — Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "publishedAt": "2026-08-11T16:32:38Z",
+      "snippet": "10282 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anywhere-labs/deepseek-harness-desktop — 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "publishedAt": "2026-08-13T16:30:50Z",
+      "snippet": "7672 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "publishedAt": "2026-08-13T13:55:31Z",
+      "snippet": "3823 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zhu1090093659/dsh-web-ui — Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "publishedAt": "2026-08-12T05:15:20Z",
+      "snippet": "3082 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaobright/dsh-anchored-standard — Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "publishedAt": "2026-08-14T14:06:39Z",
+      "snippet": "2629 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yjh051108/dsh-routing-suite — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "publishedAt": "2026-08-14T21:20:55Z",
+      "snippet": "2362 stars · PowerShell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SMNETSTUDIO/WeChat-AI — no description",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "publishedAt": "2026-08-10T09:06:43Z",
+      "snippet": "1757 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cordiverse/paper — A Programming Paradigm for Spatiotemporal Composability",
+      "url": "https://github.com/cordiverse/paper",
+      "publishedAt": "2026-08-13T09:53:33Z",
+      "snippet": "1738 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xoreaxeaxeax/skitter-creek-bath-salts — Unlocking _everything_ on the CPU with DRAM scrambling",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "publishedAt": "2026-08-13T13:50:42Z",
+      "snippet": "1694 stars · C"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "CORS Chat",
+      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "publishedAt": "2026-08-15T14:49:54.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/cors-chat\">CORS Chat</a></p> <p>I built this today (<a href=\"https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36\">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p> <p>It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the <code>--cors</code> option and OpenRouter, and bot",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
+      "publishedAt": "2026-08-15T17:01:13.000Z",
+      "snippet": "Community Wisdom 197",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "publishedAt": "2026-08-15T15:46:22.000Z",
+      "snippet": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png"
+    }
+  ]
+}
