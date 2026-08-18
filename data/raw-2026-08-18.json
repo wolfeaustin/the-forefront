@@ -1,0 +1,404 @@
+{
+  "date": "2026-08-18",
+  "fetchedAt": "2026-08-18T10:09:29.795Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "publishedAt": "2026-08-18T07:51:50.000Z",
+      "snippet": "108 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49342719",
+      "hnPoints": 108
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Bluesky draws its logo on screenshots",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "publishedAt": "2026-08-17T22:20:40.000Z",
+      "snippet": "521 points · 350 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49338459",
+      "hnPoints": 521
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "publishedAt": "2026-08-17T21:03:18.000Z",
+      "snippet": "447 points · 267 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49337602",
+      "hnPoints": 447
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Quake Shareware, a CD-ROM just a little too full",
+      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+      "publishedAt": "2026-08-17T22:06:14.000Z",
+      "snippet": "347 points · 149 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49338328",
+      "hnPoints": 347
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "publishedAt": "2026-08-17T22:01:17.000Z",
+      "snippet": "197 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49338285",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "publishedAt": "2026-08-17T13:46:27.000Z",
+      "snippet": "639 points · 113 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49330781",
+      "hnPoints": 639
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Benchmarkpocalypse",
+      "url": "https://danluu.com/benchpocalypse/",
+      "publishedAt": "2026-08-18T02:11:02.000Z",
+      "snippet": "106 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49340299",
+      "hnPoints": 106
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "publishedAt": "2026-08-17T14:18:38.000Z",
+      "snippet": "375 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49331423",
+      "hnPoints": 375
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Olo (Color)",
+      "url": "https://en.wikipedia.org/wiki/Olo_(color)",
+      "publishedAt": "2026-08-12T10:26:14.000Z",
+      "snippet": "445 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49270194",
+      "hnPoints": 445
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "publishedAt": "2026-08-17T20:46:10.000Z",
+      "snippet": "507 points · 316 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49337392",
+      "hnPoints": 507
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+      "url": "https://arxiv.org/abs/2608.13759",
+      "publishedAt": "2026-08-17T17:54:59.000Z",
+      "snippet": "214 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49334991",
+      "hnPoints": 214
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "publishedAt": "2026-08-17T12:09:42.000Z",
+      "snippet": "340 points · 162 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49329575",
+      "hnPoints": 340
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An update on leaving Gmail for Fastmail",
+      "url": "https://moddedbear.com/an-update-on-leaving-gmail-for-fastmail/",
+      "publishedAt": "2026-08-17T17:15:20.000Z",
+      "snippet": "236 points · 143 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49334409",
+      "hnPoints": 236
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Repair Cafe – Fix Your Broken Items",
+      "url": "https://www.repaircafe.org/",
+      "publishedAt": "2026-08-17T23:28:28.000Z",
+      "snippet": "111 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49339097",
+      "hnPoints": 111
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Judge sets framework for Nine PBS to retrieve archival data",
+      "url": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
+      "publishedAt": "2026-08-17T16:11:37.000Z",
+      "snippet": "166 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49333344",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "publishedAt": "2026-08-17T19:47:15.000Z",
+      "snippet": "886 points · 539 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49336573",
+      "hnPoints": 886
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sun Clock",
+      "url": "https://sunclock.net/",
+      "publishedAt": "2026-08-17T16:37:54.000Z",
+      "snippet": "231 points · 77 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49333824",
+      "hnPoints": 231
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "publishedAt": "2026-08-17T14:07:56.000Z",
+      "snippet": "300 points · 178 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49331220",
+      "hnPoints": 300
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Los Puesteros, solitary men who look after ranches and livestock in Patagonia",
+      "url": "https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world",
+      "publishedAt": "2026-08-17T18:34:09.000Z",
+      "snippet": "146 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49335600",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "India has paved the way for charging merchants a fee on UPI transactions",
+      "url": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
+      "publishedAt": "2026-08-17T19:25:11.000Z",
+      "snippet": "151 points · 186 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49336304",
+      "hnPoints": 151
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "publishedAt": "2026-08-17T15:36:18.000Z",
+      "snippet": "106 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49332751",
+      "hnPoints": 106
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A particle made of force: physicists say they've found mysterious 'glueball'",
+      "url": "https://www.nature.com/articles/d41586-026-02498-1",
+      "publishedAt": "2026-08-12T14:26:41.000Z",
+      "snippet": "138 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49272891",
+      "hnPoints": 138
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/deepseek-harness — DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "snippet": "156743 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anywhere-labs/deepseek-harness-desktop — 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "publishedAt": "2026-08-13T16:30:50Z",
+      "snippet": "12968 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "publishedAt": "2026-08-13T13:55:31Z",
+      "snippet": "8229 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yjh051108/dsh-routing-suite — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "publishedAt": "2026-08-14T21:20:55Z",
+      "snippet": "5801 stars · PowerShell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zhu1090093659/dsh-web-ui — Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "publishedAt": "2026-08-12T05:15:20Z",
+      "snippet": "4423 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaobright/dsh-anchored-standard — Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "publishedAt": "2026-08-14T14:06:39Z",
+      "snippet": "3510 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dmmulroy/anti-slop — Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "url": "https://github.com/dmmulroy/anti-slop",
+      "publishedAt": "2026-08-12T13:48:50Z",
+      "snippet": "2483 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cordiverse/paper — A Programming Paradigm for Spatiotemporal Composability",
+      "url": "https://github.com/cordiverse/paper",
+      "publishedAt": "2026-08-13T09:53:33Z",
+      "snippet": "2212 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yetone/cumora — Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "publishedAt": "2026-08-17T09:13:52Z",
+      "snippet": "2025 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ccch1mneyyy/dsh-TUI — DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming th",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "snippet": "1922 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "publishedAt": "2026-08-17T23:58:14.000Z",
+      "snippet": " <p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is <a href=\"https://huggingface.co/zai-org/GLM-5.2\">753B</a> and that DeepSeek is <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813\">1.7T parameters</a>, and Luna is size unknown but presumably a whole",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "publishedAt": "2026-08-17T15:21:29.000Z",
+      "snippet": " <p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p> Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data",
+      "url": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/",
+      "publishedAt": "2026-08-18T10:00:00.000Z",
+      "snippet": "Nvidia makes another deal, this time with a frontier lab; Anthropic's revenue continues to amaze; and maybe data finally is oil.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model",
+      "url": "https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/",
+      "publishedAt": "2026-08-17T10:00:00.000Z",
+      "snippet": "Stripe is reportedly acquiring OpenRouter, an implicit bet on a future market of models and the chance at Aggregation.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+      "publishedAt": "2026-08-17T15:03:16.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/3a20691b-3814-4c2d-8bca-2aeaac598ba4_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "publishedAt": "2026-08-17T12:04:02.000Z",
+      "snippet": "Watch now | 🎙️From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use makes previously unmanufacturable garments and full e-commerce builds possible for a solo founder",
+      "enclosure": "https://api.substack.com/feed/podcast/210800379/c3cc3683947c15288bc7bde725c34551.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "publishedAt": "2026-08-17T23:13:41.000Z",
+      "snippet": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]",
+      "url": "https://colossus.com/episode/winners-losers-ai-era/",
+      "publishedAt": "2026-08-18T08:00:00.000Z",
+      "snippet": "My guest today is Ben Thompson, the founder and author of Stratechery. Ben is one of my favorite business thinkers and I love talking to him about everything happening in markets and technology. We go through every important company, including OpenAI, Nvidia, Intel, Apple, Microsoft, Google, and Amazon. We also discuss why he thinks it would be dangerous for the United States to win the AI race outright, what container shipping and the railroads of the 1870s tell us about the buildout, and why t",
+      "enclosure": "https://traffic.megaphone.fm/CLS4584299095.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "3 strangers showed us how they made $8M, $10M, & $40M/year",
+      "publishedAt": "2026-08-17T11:07:00.000Z",
+      "snippet": "140+ real business ideas database: https://clickhubspot.com/pkst Episode 852: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) ask 3 founders to tell them the juiciest number behind their businesses and get advice live. — Show Notes: (0:00) Intro (1:31) Raav Gupta, Posha (20:03) Nick Saltarelli, Mid-Day Squares (39:48) Shreyas Parab, DayDream Dental — Links: • Posha - https://www.posha.com/ • Mid-Day Squares - https://www.middaysquares.com/ • DayDream Dental - https",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS2192976864.mp3"
+    }
+  ]
+}
