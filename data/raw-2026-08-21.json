@@ -1,0 +1,337 @@
+{
+  "date": "2026-08-21",
+  "fetchedAt": "2026-08-21T10:10:32.328Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The August 17 outage",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "publishedAt": "2026-08-20T19:22:24.000Z",
+      "snippet": "532 points · 591 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49378957",
+      "hnPoints": 532
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "publishedAt": "2026-08-18T15:50:52.000Z",
+      "snippet": "731 points · 303 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49347543",
+      "hnPoints": 731
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "publishedAt": "2026-08-19T15:11:36.000Z",
+      "snippet": "808 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49362689",
+      "hnPoints": 808
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "publishedAt": "2026-08-20T13:23:12.000Z",
+      "snippet": "499 points · 424 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49374269",
+      "hnPoints": 499
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "publishedAt": "2026-08-20T23:56:35.000Z",
+      "snippet": "159 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49381896",
+      "hnPoints": 159
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I should have loved biology (2020)",
+      "url": "https://jsomers.net/i-should-have-loved-biology/",
+      "publishedAt": "2026-08-20T17:50:02.000Z",
+      "snippet": "283 points · 107 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49377853",
+      "hnPoints": 283
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Japan tried to build an operating system for the world, the US intervened",
+      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "publishedAt": "2026-08-21T05:31:34.000Z",
+      "snippet": "163 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49384180",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why aren't smart people happier? (2022)",
+      "url": "https://www.experimental-history.com/p/why-arent-smart-people-happier",
+      "publishedAt": "2026-08-20T18:38:47.000Z",
+      "snippet": "183 points · 257 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49378446",
+      "hnPoints": 183
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "publishedAt": "2026-08-20T19:05:36.000Z",
+      "snippet": "313 points · 164 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49378768",
+      "hnPoints": 313
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CIA funding helped keep NeXT afloat in the 80s",
+      "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
+      "publishedAt": "2026-08-20T00:15:01.000Z",
+      "snippet": "401 points · 245 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49368886",
+      "hnPoints": 401
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "publishedAt": "2026-08-20T15:26:02.000Z",
+      "snippet": "257 points · 254 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49375996",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Linux 7.2",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "publishedAt": "2026-08-20T15:46:18.000Z",
+      "snippet": "254 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49376265",
+      "hnPoints": 254
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "publishedAt": "2026-08-20T10:08:52.000Z",
+      "snippet": "970 points · 306 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49372583",
+      "hnPoints": 970
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stop Anthropomorphizing Intermediate Tokens as Reasoning/Thinking Traces (2025)",
+      "url": "https://arxiv.org/abs/2504.09762",
+      "publishedAt": "2026-08-19T11:35:26.000Z",
+      "snippet": "239 points · 174 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49360140",
+      "hnPoints": 239
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Anti-AI fonts are useless and harmful",
+      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "publishedAt": "2026-08-20T15:06:53.000Z",
+      "snippet": "170 points · 128 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49375719",
+      "hnPoints": 170
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "publishedAt": "2026-08-21T03:17:43.000Z",
+      "snippet": "133 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49383326",
+      "hnPoints": 133
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SpacetimeDB: a short technical review",
+      "url": "https://strn.cat/posts/spacetime/",
+      "publishedAt": "2026-08-20T19:19:53.000Z",
+      "snippet": "97 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49378933",
+      "hnPoints": 97
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "s1dashu/ip-as-logo-skill — A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "publishedAt": "2026-08-18T13:59:23Z",
+      "snippet": "3350 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yetone/cumora — Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "publishedAt": "2026-08-17T09:13:52Z",
+      "snippet": "2828 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "publishedAt": "2026-08-17T00:44:59Z",
+      "snippet": "1881 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cinderline/northcinder — Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+      "url": "https://github.com/cinderline/northcinder",
+      "publishedAt": "2026-08-17T11:42:31Z",
+      "snippet": "1203 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report — DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSee",
+      "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+      "publishedAt": "2026-08-16T11:38:42Z",
+      "snippet": "1037 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leutenegger/watermarks-remover — Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD f",
+      "url": "https://github.com/Leutenegger/watermarks-remover",
+      "publishedAt": "2026-08-19T15:20:24Z",
+      "snippet": "929 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wang2122/sprix-sage-router — Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "publishedAt": "2026-08-18T04:08:11Z",
+      "snippet": "926 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vvxw/deploy-vercel — Install Command：npm install",
+      "url": "https://github.com/vvxw/deploy-vercel",
+      "publishedAt": "2026-08-18T13:25:45Z",
+      "snippet": "904 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leutenegger/vanity-eth — Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWit, Native SegWit, Taproot, and ETH ",
+      "url": "https://github.com/Leutenegger/vanity-eth",
+      "publishedAt": "2026-08-21T00:42:33Z",
+      "snippet": "801 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DenisSergeevitch/desktop-fly — A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "publishedAt": "2026-08-18T17:29:17Z",
+      "snippet": "658 stars · Swift"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "publishedAt": "2026-08-20T23:57:32.000Z",
+      "snippet": " <p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat product",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "publishedAt": "2026-08-20T15:37:00.000Z",
+      "snippet": " <p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release no",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: Meta’s self-inflicted resignation-wave",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-metas-self-inflicted-resignation-wave/",
+      "publishedAt": "2026-08-20T18:08:45.000Z",
+      "snippet": "In what was predictable: Meta’s layoffs and forced reassignments pushed engineers not impacted by either to look for a new job. Meta is now offering large equity retainers, and it doesn’t seem working",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "publishedAt": "2026-08-21T05:45:21.000Z",
+      "snippet": "Yes, we’re confused too.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "publishedAt": "2026-08-20T20:59:09.000Z",
+      "snippet": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "publishedAt": "2026-08-20T05:17:12.000Z",
+      "snippet": "Every lab CEO is on X now",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Xdc0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b1d78e9-d676-408c-9f84-8c9f244ef898_864x1821.png"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Going In Deep On Data | YC Paper Club",
+      "url": "https://www.youtube.com/watch?v=IfoPg2QefF8",
+      "publishedAt": "2026-08-20T14:00:12.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
