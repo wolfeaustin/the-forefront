@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-22",
+  "fetchedAt": "2026-08-22T10:07:12.978Z",
+  "errors": [
+    {
+      "source": "GitHub Trending",
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "publishedAt": "2026-08-21T19:51:54.000Z",
+      "snippet": "224 points · 50 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49393052",
+      "hnPoints": 224
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "publishedAt": "2026-08-21T15:17:04.000Z",
+      "snippet": "705 points · 279 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49389430",
+      "hnPoints": 705
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "publishedAt": "2026-08-21T16:25:25.000Z",
+      "snippet": "549 points · 188 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49390427",
+      "hnPoints": 549
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "publishedAt": "2026-08-22T01:06:17.000Z",
+      "snippet": "410 points · 299 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49395628",
+      "hnPoints": 410
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "publishedAt": "2026-08-21T12:10:13.000Z",
+      "snippet": "790 points · 919 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49386895",
+      "hnPoints": 790
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "publishedAt": "2026-08-21T13:11:28.000Z",
+      "snippet": "550 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49387570",
+      "hnPoints": 550
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "url": "https://kagi.com/changelog#11296",
+      "publishedAt": "2026-08-21T13:56:37.000Z",
+      "snippet": "1126 points · 363 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49388154",
+      "hnPoints": 1126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Three important steps in my maturation process",
+      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+      "publishedAt": "2026-08-21T22:29:00.000Z",
+      "snippet": "141 points · 66 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49394496",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scientists release biggest 2D map of the universe",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "publishedAt": "2026-08-21T18:36:34.000Z",
+      "snippet": "206 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49392200",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OTel isn’t going well",
+      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "publishedAt": "2026-08-21T17:45:41.000Z",
+      "snippet": "120 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49391553",
+      "hnPoints": 120
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stop Making TUIs",
+      "url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "publishedAt": "2026-08-21T05:37:38.000Z",
+      "snippet": "140 points · 206 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49384210",
+      "hnPoints": 140
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "publishedAt": "2026-08-19T06:13:31.000Z",
+      "snippet": "308 points · 321 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49357530",
+      "hnPoints": 308
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "People of ACM – Russ Cox",
+      "url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+      "publishedAt": "2026-08-17T07:12:15.000Z",
+      "snippet": "137 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49327408",
+      "hnPoints": 137
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "publishedAt": "2026-08-21T14:31:52.000Z",
+      "snippet": "275 points · 181 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49388752",
+      "hnPoints": 275
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "publishedAt": "2026-08-21T11:48:05.000Z",
+      "snippet": "368 points · 365 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49386699",
+      "hnPoints": 368
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Early-life stress leaves a 'scar' inside brain cells in mice",
+      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
+      "publishedAt": "2026-08-20T21:08:36.000Z",
+      "snippet": "88 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49380303",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
+      "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds/",
+      "publishedAt": "2026-08-21T13:07:26.000Z",
+      "snippet": "243 points · 165 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49387525",
+      "hnPoints": 243
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "publishedAt": "2026-08-21T15:51:10.000Z",
+      "snippet": "146 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49389952",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "publishedAt": "2026-08-22T01:02:09.000Z",
+      "snippet": "112 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49395605",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The coolest anti-surveillance tools at Defcon [video]",
+      "url": "https://www.youtube.com/watch?v=-2uAsJ5EPAw",
+      "publishedAt": "2026-08-18T14:49:19.000Z",
+      "snippet": "200 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49346444",
+      "hnPoints": 200
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A look under our trunk: what's in our compute",
+      "url": "https://waymo.com/blog/2026/08/look-under-our-trunk/",
+      "publishedAt": "2026-08-20T14:13:45.000Z",
+      "snippet": "123 points · 69 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49374853",
+      "hnPoints": 123
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "publishedAt": "2026-08-21T17:16:13.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <cod",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "publishedAt": "2026-08-21T16:58:19.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's imp",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "publishedAt": "2026-08-21T16:07:32.000Z",
+      "snippet": " <p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "publishedAt": "2026-08-21T15:06:26.000Z",
+      "snippet": " <blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p> <p>So learning doesn’t stop just because I outsource a",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.34: App Snore",
+      "url": "https://stratechery.com/2026/app-snore/",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of August 17, 2026, including Apple making compromises in the EU, Truth (Social) and reconciliation, and August fun with the Clippers and Lakers.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "publishedAt": "2026-08-22T07:36:00.000Z",
+      "snippet": "Did you think RSI stopped at model training?",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Evolution of the Agent Harness",
+      "url": "https://www.latent.space/p/attention-interface",
+      "publishedAt": "2026-08-22T07:30:52.000Z",
+      "snippet": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "publishedAt": "2026-08-21T23:37:38.000Z",
+      "snippet": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "enclosure": "https://api.substack.com/feed/podcast/212197985/bfb37479177211a59519fff64084acf8.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "publishedAt": "2026-08-21T05:45:21.000Z",
+      "snippet": "Yes, we’re confused too.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "3 millionaires reveal their super niche businesses",
+      "publishedAt": "2026-08-21T11:01:00.000Z",
+      "snippet": "30+ unsexy business ideas: https://clickhubspot.com/dwtb Episode 854: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) ask 3 founders to tell them the juiciest number behind their businesses and get advice live. — Show Notes: (0:00) Rishi Talati, Hot Plate (20:10) Ajay Mehta, Tolan (39:53) Jonathan Baer, Overlap — Links: • Hot Plate - https://www.hotplate.com/ • Tolan - https://www.tolans.com/ • Overlap - https://overlap.ai/ — Check Out Sam's Stuff: • Hampton (joinh",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS4046736191.mp3"
+    }
+  ]
+}
