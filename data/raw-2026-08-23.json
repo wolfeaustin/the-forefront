@@ -1,0 +1,388 @@
+{
+  "date": "2026-08-23",
+  "fetchedAt": "2026-08-23T10:06:54.269Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The End of an Athlon",
+      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
+      "publishedAt": "2026-08-23T05:51:01.000Z",
+      "snippet": "85 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49406333",
+      "hnPoints": 85
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "To become a better writer, read as much as you can",
+      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+      "publishedAt": "2026-08-23T03:32:25.000Z",
+      "snippet": "145 points · 96 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49405870",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "url": "https://martypc.net/",
+      "publishedAt": "2026-08-23T03:13:16.000Z",
+      "snippet": "116 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49405816",
+      "hnPoints": 116
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "publishedAt": "2026-08-22T18:14:16.000Z",
+      "snippet": "353 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49402232",
+      "hnPoints": 353
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Art and Beauty of Blade Runner (2015)",
+      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+      "publishedAt": "2026-08-23T00:56:03.000Z",
+      "snippet": "82 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49405331",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scrap (2006)",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "publishedAt": "2026-08-22T18:08:56.000Z",
+      "snippet": "374 points · 197 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49402189",
+      "hnPoints": 374
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "url": "https://quantumi.sh/public/labs.html",
+      "publishedAt": "2026-08-22T14:54:07.000Z",
+      "snippet": "401 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49400408",
+      "hnPoints": 401
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hister – A private, full content search index that you control",
+      "url": "https://hister.org/",
+      "publishedAt": "2026-08-18T20:00:50.000Z",
+      "snippet": "351 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49351802",
+      "hnPoints": 351
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "publishedAt": "2026-08-22T22:14:27.000Z",
+      "snippet": "99 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49404380",
+      "hnPoints": 99
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "typ.ing",
+      "url": "https://typ.ing/",
+      "publishedAt": "2026-08-18T15:12:53.000Z",
+      "snippet": "276 points · 91 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49346854",
+      "hnPoints": 276
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RF Cafe",
+      "url": "https://www.rfcafe.com/",
+      "publishedAt": "2026-08-19T02:05:43.000Z",
+      "snippet": "202 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49355659",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Thinking in Python",
+      "url": "https://thinkinginpython.com/",
+      "publishedAt": "2026-08-22T18:10:49.000Z",
+      "snippet": "170 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49402202",
+      "hnPoints": 170
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "publishedAt": "2026-08-22T13:31:34.000Z",
+      "snippet": "209 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49399591",
+      "hnPoints": 209
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "url": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+      "publishedAt": "2026-08-23T06:41:51.000Z",
+      "snippet": "100 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49406539",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NetBSD and my life (2005)",
+      "url": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
+      "publishedAt": "2026-08-22T19:07:46.000Z",
+      "snippet": "128 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49402781",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "publishedAt": "2026-08-21T13:43:33.000Z",
+      "snippet": "158 points · 67 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49387959",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A week of using Codex more than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "publishedAt": "2026-08-21T19:51:48.000Z",
+      "snippet": "193 points · 225 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49393051",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ATProto spaces: A new extension to ATProto that enables non-public data",
+      "url": "https://atproto.com/blog/atproto-spaces-alpha",
+      "publishedAt": "2026-08-20T20:22:35.000Z",
+      "snippet": "144 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49379732",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Friendly Introduction to Racket",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "publishedAt": "2026-08-22T14:08:19.000Z",
+      "snippet": "230 points · 129 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49399898",
+      "hnPoints": 230
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "url": "https://munderdiffl.in/",
+      "publishedAt": "2026-08-22T09:49:14.000Z",
+      "snippet": "279 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49398152",
+      "hnPoints": 279
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+      "url": "https://marcua.net/minitools/figmimic/",
+      "publishedAt": "2026-08-22T18:11:40.000Z",
+      "snippet": "98 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49402213",
+      "hnPoints": 98
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Z80 – The 1970s Microprocessor Still Alive (2021)",
+      "url": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+      "publishedAt": "2026-08-22T09:49:57.000Z",
+      "snippet": "138 points · 69 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49398158",
+      "hnPoints": 138
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What's in a PowerPoint File?",
+      "url": "https://editide.com/blog/what-is-a-pptx-file/",
+      "publishedAt": "2026-08-19T12:28:44.000Z",
+      "snippet": "87 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49360643",
+      "hnPoints": 87
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "s1dashu/ip-as-logo-skill — A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "publishedAt": "2026-08-18T13:59:23Z",
+      "snippet": "3837 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yetone/cumora — Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "publishedAt": "2026-08-17T09:13:52Z",
+      "snippet": "2912 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "publishedAt": "2026-08-17T00:44:59Z",
+      "snippet": "2396 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MengTo/threeui — Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "publishedAt": "2026-08-21T11:56:39Z",
+      "snippet": "2313 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wang2122/sprix-sage-router — Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "publishedAt": "2026-08-18T04:08:11Z",
+      "snippet": "1359 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cinderline/northcinder — Open-source MCP server for comparing products and asking the buyer before purchase.",
+      "url": "https://github.com/cinderline/northcinder",
+      "publishedAt": "2026-08-17T11:42:31Z",
+      "snippet": "1206 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vvxw/deploy-vercel — Install Command：npm install",
+      "url": "https://github.com/vvxw/deploy-vercel",
+      "publishedAt": "2026-08-18T13:25:45Z",
+      "snippet": "1173 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leutenegger/watermarks-remover — Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD f",
+      "url": "https://github.com/Leutenegger/watermarks-remover",
+      "publishedAt": "2026-08-19T15:20:24Z",
+      "snippet": "936 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leutenegger/vanity-eth — Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWit, Native SegWit, Taproot, and ETH ",
+      "url": "https://github.com/Leutenegger/vanity-eth",
+      "publishedAt": "2026-08-21T00:42:33Z",
+      "snippet": "803 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Spielewoy/autoprompt-skill — Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.",
+      "url": "https://github.com/Spielewoy/autoprompt-skill",
+      "publishedAt": "2026-08-17T22:40:47Z",
+      "snippet": "727 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "publishedAt": "2026-08-22T21:04:26.000Z",
+      "snippet": " <blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.33",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "publishedAt": "2026-08-22T17:01:16.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p> <p>My highlights from this release:</p> <blockquote> <ul> <li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/1608\">#1608</a>, <a href=\"https://github.com/simonw/llm/pull/1631\">#1631</a></li> </ul> </blockquote> <p>I shipped a quick <a href=\"https://simonwillison.net",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "More than just code review",
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "publishedAt": "2026-08-22T15:56:54.000Z",
+      "snippet": " <p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p> <p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.</p> <p>Tags: <a href=\"https://simonwillison",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys",
+      "publishedAt": "2026-08-22T19:23:07.000Z",
+      "snippet": "Community Wisdom 198",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "publishedAt": "2026-08-22T07:36:00.000Z",
+      "snippet": "Did you think RSI stopped at model training?",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Evolution of the Agent Harness",
+      "url": "https://www.latent.space/p/attention-interface",
+      "publishedAt": "2026-08-22T07:30:52.000Z",
+      "snippet": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png"
+    }
+  ]
+}
