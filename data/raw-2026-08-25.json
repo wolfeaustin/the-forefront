@@ -1,0 +1,424 @@
+{
+  "date": "2026-08-25",
+  "fetchedAt": "2026-08-25T10:10:47.209Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "publishedAt": "2026-08-24T22:13:40.000Z",
+      "snippet": "467 points · 135 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49426564",
+      "hnPoints": 467
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "publishedAt": "2026-08-24T15:08:17.000Z",
+      "snippet": "873 points · 621 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49420873",
+      "hnPoints": 873
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "publishedAt": "2026-08-24T15:28:04.000Z",
+      "snippet": "718 points · 315 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49421158",
+      "hnPoints": 718
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Universities Should Prepare Founders",
+      "url": "https://paulgraham.com/prepare.html",
+      "publishedAt": "2026-08-25T01:40:39.000Z",
+      "snippet": "128 points · 158 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49428121",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Europe is killing makers and micro-entrepreneurs",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "publishedAt": "2026-08-24T13:05:25.000Z",
+      "snippet": "1374 points · 854 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49419237",
+      "hnPoints": 1374
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Moon (2024)",
+      "url": "https://ciechanow.ski/moon/",
+      "publishedAt": "2026-08-24T22:06:02.000Z",
+      "snippet": "193 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49426466",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The entire city of San Francisco as a video game",
+      "url": "https://sf.thijs.gg/",
+      "publishedAt": "2026-08-24T17:05:38.000Z",
+      "snippet": "471 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49422784",
+      "hnPoints": 471
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What's new in Emacs 31.1",
+      "url": "https://www.masteringemacs.org/article/whats-new-in-emacs-311",
+      "publishedAt": "2026-08-24T13:07:22.000Z",
+      "snippet": "144 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49419252",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "publishedAt": "2026-08-24T23:00:37.000Z",
+      "snippet": "100 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49427001",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Where did all the public bathrooms go?",
+      "url": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
+      "publishedAt": "2026-08-24T17:07:01.000Z",
+      "snippet": "244 points · 551 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49422800",
+      "hnPoints": 244
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nostr is an inclusive communication commons",
+      "url": "https://nostr.org/",
+      "publishedAt": "2026-08-22T13:49:01.000Z",
+      "snippet": "141 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49399722",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vintage Artificial Intelligence: Before It Got Awkward",
+      "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
+      "publishedAt": "2026-08-24T21:01:38.000Z",
+      "snippet": "100 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49425800",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Crafting QR Codes: A deep dive into QR code art (2024)",
+      "url": "https://kylezhe.ng/writes/crafting-qr-codes",
+      "publishedAt": "2026-08-24T14:15:38.000Z",
+      "snippet": "82 points · 5 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49420116",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Peppermint oil reduces blood pressure by 8.48 mmHg in small study",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344538",
+      "publishedAt": "2026-08-24T14:44:55.000Z",
+      "snippet": "162 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49420530",
+      "hnPoints": 162
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jabber/XMPP: 25 Years of Digital Independence",
+      "url": "https://gultsch.de/posts/25-years-of-digital-independence/",
+      "publishedAt": "2026-08-24T15:51:31.000Z",
+      "snippet": "232 points · 131 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49421536",
+      "hnPoints": 232
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Training AI to Paint with Code",
+      "url": "https://surya.website/rling-qwen-to-paint-with-code",
+      "publishedAt": "2026-08-23T19:39:29.000Z",
+      "snippet": "94 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49411800",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Walgit – a Git server that is one binary in front of an object store",
+      "url": "https://github.com/tobi/walgit",
+      "publishedAt": "2026-08-24T14:49:49.000Z",
+      "snippet": "89 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49420598",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "publishedAt": "2026-08-24T19:03:06.000Z",
+      "snippet": "145 points · 66 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49424387",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Was modern art a CIA psy-op? (2020)",
+      "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+      "publishedAt": "2026-08-25T01:35:00.000Z",
+      "snippet": "81 points · 129 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49428080",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SeL4 security proofs now complete on AArch64",
+      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
+      "publishedAt": "2026-08-24T11:32:51.000Z",
+      "snippet": "190 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49418255",
+      "hnPoints": 190
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I were 17, I'd learn how to build LLMs from scratch",
+      "url": "https://twitter.com/paulg/status/2091544343589060625",
+      "publishedAt": "2026-08-23T20:38:09.000Z",
+      "snippet": "552 points · 631 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49412396",
+      "hnPoints": 552
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Octopus intelligence may be related to never-before-seen mutation",
+      "url": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+      "publishedAt": "2026-08-24T17:57:13.000Z",
+      "snippet": "163 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49423539",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "url": "https://picomq.com/",
+      "publishedAt": "2026-08-24T16:08:17.000Z",
+      "snippet": "121 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49421806",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Oceans hit highest temperature on record",
+      "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+      "publishedAt": "2026-08-24T19:19:08.000Z",
+      "snippet": "567 points · 441 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49424606",
+      "hnPoints": 567
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MengTo/threeui — Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "publishedAt": "2026-08-21T11:56:39Z",
+      "snippet": "3735 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "b-nnett/grok-bot-0.18-reconstructed — Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS",
+      "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+      "publishedAt": "2026-08-23T20:53:01Z",
+      "snippet": "2267 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistan",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "publishedAt": "2026-08-22T14:28:41Z",
+      "snippet": "1306 stars · Zig"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/walgit — no description",
+      "url": "https://github.com/tobi/walgit",
+      "publishedAt": "2026-08-23T22:28:01Z",
+      "snippet": "1297 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cclank/lanshu-create-ai-presenter-video — Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+      "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+      "publishedAt": "2026-08-20T13:40:06Z",
+      "snippet": "883 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ShadowAqueduct/watermark-remover — Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+      "url": "https://github.com/ShadowAqueduct/watermark-remover",
+      "publishedAt": "2026-08-23T21:14:28Z",
+      "snippet": "785 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nateherkai/scroll-craft — Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "publishedAt": "2026-08-22T15:25:08Z",
+      "snippet": "729 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "missuo/herdrm — Native macOS console for herdr — all your coding agents and their live terminals, across devices",
+      "url": "https://github.com/missuo/herdrm",
+      "publishedAt": "2026-08-19T06:55:39Z",
+      "snippet": "627 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "lanicer/cve-2026-41940-PoC — A cPanel and WHM authentication bypassing tool",
+      "url": "https://github.com/lanicer/cve-2026-41940-PoC",
+      "publishedAt": "2026-08-19T12:46:46Z",
+      "snippet": "528 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Forsy-AI/biosecurity-agent — AI agent that builds a live biosecurity world around any target.",
+      "url": "https://github.com/Forsy-AI/biosecurity-agent",
+      "publishedAt": "2026-08-22T23:06:26Z",
+      "snippet": "513 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-anthropic 0.27",
+      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+      "publishedAt": "2026-08-24T16:27:04.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made t",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Your executable is a SQLite database",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+      "publishedAt": "2026-08-24T11:38:15.000Z",
+      "snippet": " <p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then a",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Netflix to Sell Streaming Services?, Streamers as Aggregators, Revisiting Roku",
+      "url": "https://stratechery.com/2026/netflix-to-sell-streaming-services-streamers-as-aggregators-revisiting-roku/",
+      "publishedAt": "2026-08-25T10:00:00.000Z",
+      "snippet": "Netflix is considering selling other streaming services, and I think it's a good idea; it's also a let-down for Netflix's original goals and potential pivots.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Autonomy and Innovation",
+      "url": "https://stratechery.com/2026/autonomy-and-innovation/",
+      "publishedAt": "2026-08-24T10:00:00.000Z",
+      "snippet": "Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups in the long run.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
+      "publishedAt": "2026-08-24T15:02:23.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/7296b676-dd90-4432-83e2-b0c0db7fe86e_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+      "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
+      "publishedAt": "2026-08-24T12:04:02.000Z",
+      "snippet": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
+      "enclosure": "https://api.substack.com/feed/podcast/211609191/4ad86218bbaf6202e0f5c6ee68214f7f.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Andrew Ng gets into AI Engineering",
+      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+      "publishedAt": "2026-08-25T02:50:57.000Z",
+      "snippet": "An industry legend starts covering the inevitable!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!2Hw4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3107842a-995c-42c3-a41a-592339e041f8_1002x1182.png"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+      "url": "https://colossus.com/episode/from-transistor-to-token/",
+      "publishedAt": "2026-08-25T08:00:00.000Z",
+      "snippet": "My guest today is Neil Movva, founder of Sail. Sail is building what Neil calls a token factory, an inference company designed for a specific kind of future, one where AI agents run in the background for hours or days at a time rather than answering a human in real time. In that world, latency matters less and cost matters more, and Neil has built the whole company around driving the cost of a token as low as it can possibly go. What makes this conversation special is that it is one of the most ",
+      "enclosure": "https://traffic.megaphone.fm/CLS1341199916.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "I built a $2,000,000,000 business on vibes",
+      "publishedAt": "2026-08-24T11:11:00.000Z",
+      "snippet": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/elkv Episode 855: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Allison Ellsworth, the founder of Poppi. — Links: • Poppi - https://drinkpoppi.com/ • Josie Rushing - https://josiesrushing.com/ • Orion - https://orionsleep.com/ • Nello - https://drinknello.com/ • Preston Lane - https://www.onprestonlane.com/ • Blue Land - https://www.blueland.com/ — Check Out Sam's Stuff:",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS1910724210.mp3"
+    }
+  ]
+}
