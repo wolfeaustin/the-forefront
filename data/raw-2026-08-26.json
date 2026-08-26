@@ -1,0 +1,377 @@
+{
+  "date": "2026-08-26",
+  "fetchedAt": "2026-08-26T10:14:24.250Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple introduces M6 and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "publishedAt": "2026-08-25T13:01:22.000Z",
+      "snippet": "1145 points · 1114 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49433292",
+      "hnPoints": 1145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+      "url": "https://www.youtube.com/watch?v=656058JxTM0",
+      "publishedAt": "2026-08-22T01:52:24.000Z",
+      "snippet": "105 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49395802",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "publishedAt": "2026-08-25T19:07:01.000Z",
+      "snippet": "398 points · 197 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49439017",
+      "hnPoints": 398
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Queryable Executables",
+      "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "publishedAt": "2026-08-26T00:20:49.000Z",
+      "snippet": "193 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49442589",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "publishedAt": "2026-08-25T14:06:02.000Z",
+      "snippet": "489 points · 310 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49434378",
+      "hnPoints": 489
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "publishedAt": "2026-08-25T13:03:17.000Z",
+      "snippet": "769 points · 509 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49433316",
+      "hnPoints": 769
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Black hole singularity is a surface not a point",
+      "url": "https://arxiv.org/abs/2608.21590",
+      "publishedAt": "2026-08-25T17:02:49.000Z",
+      "snippet": "253 points · 183 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49437210",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+      "url": "https://github.com/runetes/maiao",
+      "publishedAt": "2026-08-25T22:40:07.000Z",
+      "snippet": "82 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49441666",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New Mac mini, featuring M6 and M5 Pro",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "publishedAt": "2026-08-25T13:13:00.000Z",
+      "snippet": "498 points · 315 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49433450",
+      "hnPoints": 498
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "When str.lower() is a security vulnerability in Python",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "publishedAt": "2026-08-25T20:49:03.000Z",
+      "snippet": "128 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49440410",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nitter and XCancel receive cease and desist notices",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "publishedAt": "2026-08-25T17:08:21.000Z",
+      "snippet": "959 points · 792 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49437283",
+      "hnPoints": 959
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Building a backyard office, the build and cost breakdown",
+      "url": "https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown",
+      "publishedAt": "2026-08-25T14:20:36.000Z",
+      "snippet": "348 points · 216 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49434645",
+      "hnPoints": 348
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+      "url": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+      "publishedAt": "2026-08-26T05:49:20.000Z",
+      "snippet": "99 points · 135 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49444514",
+      "hnPoints": 99
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tooltips need a delay, and then they need to skip it",
+      "url": "https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/",
+      "publishedAt": "2026-08-25T16:35:36.000Z",
+      "snippet": "181 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49436786",
+      "hnPoints": 181
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "C2PA Cameras Do Not Survive Contact with Reality",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "publishedAt": "2026-08-25T19:38:24.000Z",
+      "snippet": "154 points · 98 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49439499",
+      "hnPoints": 154
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bomb fishing is wreaking havoc on Indonesia's coral reefs",
+      "url": "https://e360.yale.edu/digest/bomb-fishing-coral-reefs",
+      "publishedAt": "2026-08-25T14:29:32.000Z",
+      "snippet": "319 points · 168 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49434820",
+      "hnPoints": 319
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Run OpenBSD on DigitalOcean for $4/month",
+      "url": "https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/",
+      "publishedAt": "2026-08-25T17:23:07.000Z",
+      "snippet": "166 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49437483",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Don't Wordle",
+      "url": "https://dontwordle.com/",
+      "publishedAt": "2026-08-25T11:49:48.000Z",
+      "snippet": "353 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49432319",
+      "hnPoints": 353
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "url": "https://github.com/jeffhajewski/latticedb",
+      "publishedAt": "2026-08-25T16:52:05.000Z",
+      "snippet": "156 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49437049",
+      "hnPoints": 156
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How credit card rewards became a $9.2B wealth transfer",
+      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "publishedAt": "2026-08-25T11:37:24.000Z",
+      "snippet": "180 points · 326 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49432201",
+      "hnPoints": 180
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "publishedAt": "2026-08-25T22:08:50.000Z",
+      "snippet": "98 points · 21 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49441375",
+      "hnPoints": 98
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MengTo/threeui — Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "publishedAt": "2026-08-21T11:56:39Z",
+      "snippet": "4073 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "b-nnett/grok-bot-0.18-reconstructed — Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS",
+      "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+      "publishedAt": "2026-08-23T20:53:01Z",
+      "snippet": "2664 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/walgit — no description",
+      "url": "https://github.com/tobi/walgit",
+      "publishedAt": "2026-08-23T22:28:01Z",
+      "snippet": "1687 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistan",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "publishedAt": "2026-08-22T14:28:41Z",
+      "snippet": "1431 stars · Zig"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nateherkai/scroll-craft — Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "publishedAt": "2026-08-22T15:25:08Z",
+      "snippet": "942 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cclank/lanshu-create-ai-presenter-video — Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+      "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+      "publishedAt": "2026-08-20T13:40:06Z",
+      "snippet": "934 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ShadowAqueduct/watermark-remover — Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+      "url": "https://github.com/ShadowAqueduct/watermark-remover",
+      "publishedAt": "2026-08-23T21:14:28Z",
+      "snippet": "795 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ApodexAI/FrontierAgent — 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard ",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "publishedAt": "2026-08-22T05:07:35Z",
+      "snippet": "794 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bryllim/workout-guide — 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
+      "url": "https://github.com/bryllim/workout-guide",
+      "publishedAt": "2026-08-24T02:14:20Z",
+      "snippet": "644 stars · Astro"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Forsy-AI/biosecurity-agent — AI agent that builds a live biosecurity world around any target.",
+      "url": "https://github.com/Forsy-AI/biosecurity-agent",
+      "publishedAt": "2026-08-22T23:06:26Z",
+      "snippet": "514 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "publishedAt": "2026-08-26T08:07:55.000Z",
+      "snippet": " <blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "publishedAt": "2026-08-25T22:59:30.000Z",
+      "snippet": " <p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p> EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p> <p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple Updates Mini and Studio, AI Computers, OpenAI Jalapeño",
+      "url": "https://stratechery.com/2026/apple-updates-mini-and-studio-ai-computers-openai-jalapeno/",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "snippet": "Apple and OpenAI have two completely different hardware announcements; both represent pressure on Nvidia.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Netflix to Sell Streaming Services?, Streamers as Aggregators, Revisiting Roku",
+      "url": "https://stratechery.com/2026/netflix-to-sell-streaming-services-streamers-as-aggregators-revisiting-roku/",
+      "publishedAt": "2026-08-25T10:00:00.000Z",
+      "snippet": "Netflix is considering selling other streaming services, and I think it's a good idea; it's also a let-down for Netflix's original goals and potential pivots.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How to figure out your next career move",
+      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+      "publishedAt": "2026-08-25T13:04:15.000Z",
+      "snippet": "Six essential questions to help you navigate change",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/1a88a225-3e0f-4c00-b34f-3bdcabd91bb3_1456x970.png"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+      "url": "https://colossus.com/episode/from-transistor-to-token/",
+      "publishedAt": "2026-08-25T08:00:00.000Z",
+      "snippet": "My guest today is Neil Movva, founder of Sail. Sail is building what Neil calls a token factory, an inference company designed for a specific kind of future, one where AI agents run in the background for hours or days at a time rather than answering a human in real time. In that world, latency matters less and cost matters more, and Neil has built the whole company around driving the cost of a token as low as it can possibly go. What makes this conversation special is that it is one of the most ",
+      "enclosure": "https://traffic.megaphone.fm/CLS1341199916.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else",
+      "url": "https://www.youtube.com/watch?v=o0ORPbSEgd8",
+      "publishedAt": "2026-08-25T14:00:29.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
