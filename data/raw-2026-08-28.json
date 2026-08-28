@@ -1,0 +1,260 @@
+{
+  "date": "2026-08-28",
+  "fetchedAt": "2026-08-28T14:03:13.739Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "\"IT WoRKs BeTter in the App \"",
+      "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
+      "publishedAt": "2026-08-28T12:32:16.000Z",
+      "snippet": "94 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477600",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hilariously Fast Volume Computation with the Divergence Theorem",
+      "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "publishedAt": "2026-08-28T09:00:46.000Z",
+      "snippet": "150 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49476143",
+      "hnPoints": 150
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "publishedAt": "2026-08-28T11:25:30.000Z",
+      "snippet": "179 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477055",
+      "hnPoints": 179
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "publishedAt": "2026-08-28T06:33:57.000Z",
+      "snippet": "142 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49475079",
+      "hnPoints": 142
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "publishedAt": "2026-08-27T17:17:57.000Z",
+      "snippet": "836 points · 246 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468083",
+      "hnPoints": 836
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "publishedAt": "2026-08-27T15:56:58.000Z",
+      "snippet": "713 points · 312 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466917",
+      "hnPoints": 713
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sovereign Tech Agency invests €500k in Flatpak",
+      "url": "https://modal.cx/blog/announcing-flatpak-sta/",
+      "publishedAt": "2026-08-28T05:42:47.000Z",
+      "snippet": "211 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49474786",
+      "hnPoints": 211
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "507 Mechanical Movements",
+      "url": "https://507movements.com/",
+      "publishedAt": "2026-08-27T14:08:18.000Z",
+      "snippet": "628 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49465169",
+      "hnPoints": 628
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Doctors are finally learning to manage antidepressant withdrawal",
+      "url": "https://www.newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression/",
+      "publishedAt": "2026-08-27T22:26:04.000Z",
+      "snippet": "206 points · 227 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49472090",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+      "url": "https://github.com/elyosh/OpenTIE/",
+      "publishedAt": "2026-08-27T22:10:47.000Z",
+      "snippet": "196 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49471965",
+      "hnPoints": 196
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "publishedAt": "2026-08-27T18:03:42.000Z",
+      "snippet": "323 points · 109 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468818",
+      "hnPoints": 323
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "publishedAt": "2026-08-27T17:53:40.000Z",
+      "snippet": "271 points · 236 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468642",
+      "hnPoints": 271
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HEJustinSun/my-girlfriend-jingtian-latex — no description",
+      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+      "publishedAt": "2026-08-27T11:28:44Z",
+      "snippet": "3475 stars · TeX"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "b-nnett/grok-bot-0.18-reconstructed — Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS",
+      "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+      "publishedAt": "2026-08-23T20:53:01Z",
+      "snippet": "3399 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/walgit — no description",
+      "url": "https://github.com/tobi/walgit",
+      "publishedAt": "2026-08-23T22:28:01Z",
+      "snippet": "2280 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistan",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "publishedAt": "2026-08-22T14:28:41Z",
+      "snippet": "1635 stars · Zig"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "publishedAt": "2026-08-27T14:20:58Z",
+      "snippet": "1407 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ApodexAI/FrontierAgent — 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard ",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "publishedAt": "2026-08-22T05:07:35Z",
+      "snippet": "1197 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nateherkai/scroll-craft — Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "publishedAt": "2026-08-22T15:25:08Z",
+      "snippet": "1128 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bryllim/workout-guide — 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
+      "url": "https://github.com/bryllim/workout-guide",
+      "publishedAt": "2026-08-24T02:14:20Z",
+      "snippet": "953 stars · Astro"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wide-trace/open-higgsfield — A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "publishedAt": "2026-08-26T06:09:58Z",
+      "snippet": "929 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ShadowAqueduct/watermark-remover — Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+      "url": "https://github.com/ShadowAqueduct/watermark-remover",
+      "publishedAt": "2026-08-23T21:14:28Z",
+      "snippet": "823 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "publishedAt": "2026-08-27T22:50:25.000Z",
+      "snippet": " <p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: We need to talk about migrations with AI",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/",
+      "publishedAt": "2026-08-27T18:04:54.000Z",
+      "snippet": "Asana migrated off testing framework Enzyme in two weeks: without AI, this work would surely have been kicked down the road. Airbnb and Uber share similar stories and AI seems excellent at migrations.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "Why you're not getting a response to your podcast pitch from me (or others)",
+      "url": "https://blog.pragmaticengineer.com/why-youre-not-getting-a-response-to-your-podcast-pitch-from-me-or-others/",
+      "publishedAt": "2026-08-27T09:59:13.000Z",
+      "snippet": "This email is a response to the 50+ podcast pitches that arrived in my inbox just last month, and keep arriving in growing numbers, from PR agencies and marketing teams at various companies. It's also a message to tech founders building stuff for developers: focus on building something",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "publishedAt": "2026-08-28T07:12:10.000Z",
+      "snippet": "It’s Time. We’re in the Endgame now.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    }
+  ]
+}
