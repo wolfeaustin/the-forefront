@@ -1,0 +1,301 @@
+{
+  "date": "2026-08-30",
+  "fetchedAt": "2026-08-30T10:11:50.006Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RISC-V is now officially supported by CPython",
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "publishedAt": "2026-08-24T20:12:22.000Z",
+      "snippet": "169 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49425252",
+      "hnPoints": 169
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hy4 preview",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "publishedAt": "2026-08-29T19:33:23.000Z",
+      "snippet": "302 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49492632",
+      "hnPoints": 302
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bug Blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "publishedAt": "2026-08-30T00:21:40.000Z",
+      "snippet": "257 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49494520",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "url": "https://freecore.org/",
+      "publishedAt": "2026-08-30T01:31:32.000Z",
+      "snippet": "101 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49494856",
+      "hnPoints": 101
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "publishedAt": "2026-08-30T03:15:36.000Z",
+      "snippet": "296 points · 122 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49495372",
+      "hnPoints": 296
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "url": "https://zackbartel.com/blog/2026/08/tether/",
+      "publishedAt": "2026-08-24T05:09:23.000Z",
+      "snippet": "462 points · 181 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49415386",
+      "hnPoints": 462
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nancy Grace Roman Space Telescope",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "publishedAt": "2026-08-29T15:48:02.000Z",
+      "snippet": "199 points · 80 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49490870",
+      "hnPoints": 199
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+      "publishedAt": "2026-08-29T23:17:17.000Z",
+      "snippet": "305 points · 171 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49494182",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SQLite as a Document Database (2020)",
+      "url": "https://dgl.cx/2020/06/sqlite-json-support",
+      "publishedAt": "2026-08-24T23:00:10.000Z",
+      "snippet": "213 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49426995",
+      "hnPoints": 213
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "EVE Online moves to Python 3",
+      "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "publishedAt": "2026-08-25T13:04:55.000Z",
+      "snippet": "359 points · 196 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49433328",
+      "hnPoints": 359
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Functional State Machines in Rust: Typestate and Newtype Patterns",
+      "url": "https://dl.acm.org/doi/10.1145/3830438.3830958",
+      "publishedAt": "2026-08-29T19:01:09.000Z",
+      "snippet": "90 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49492368",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Calibrate Before You Accelerate: Bias Toward Action in a New Role",
+      "url": "https://tucker.wales/writing/bias-towards-action/",
+      "publishedAt": "2026-08-29T17:39:18.000Z",
+      "snippet": "161 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49491714",
+      "hnPoints": 161
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Glacier Mice",
+      "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+      "publishedAt": "2026-08-24T18:58:13.000Z",
+      "snippet": "301 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49424320",
+      "hnPoints": 301
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Rise and Fall of Agent Civilizations",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "publishedAt": "2026-08-29T23:43:24.000Z",
+      "snippet": "118 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49494301",
+      "hnPoints": 118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "publishedAt": "2026-08-29T06:06:51.000Z",
+      "snippet": "264 points · 103 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49487341",
+      "hnPoints": 264
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "publishedAt": "2026-08-28T23:02:21.000Z",
+      "snippet": "402 points · 108 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49485267",
+      "hnPoints": 402
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Algorithmic rent-pricing litigation expands under new state and local laws",
+      "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "publishedAt": "2026-08-30T02:25:32.000Z",
+      "snippet": "81 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49495127",
+      "hnPoints": 81
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HEJustinSun/my-girlfriend-jingtian-latex — no description",
+      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+      "publishedAt": "2026-08-27T11:28:44Z",
+      "snippet": "4090 stars · TeX"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "publishedAt": "2026-08-27T14:20:58Z",
+      "snippet": "3230 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "XiaoDuoYa/codex-with-chatgpt — ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "publishedAt": "2026-08-28T12:57:24Z",
+      "snippet": "1155 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wide-trace/open-higgsfield — A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "publishedAt": "2026-08-26T06:09:58Z",
+      "snippet": "1036 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bryllim/workout-guide — 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
+      "url": "https://github.com/bryllim/workout-guide",
+      "publishedAt": "2026-08-24T02:14:20Z",
+      "snippet": "1013 stars · Astro"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Tencent/WeMM-Embedding — WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
+      "url": "https://github.com/Tencent/WeMM-Embedding",
+      "publishedAt": "2026-08-25T02:46:10Z",
+      "snippet": "917 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MetaMask-AI/metamask-desktop — 🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
+      "url": "https://github.com/MetaMask-AI/metamask-desktop",
+      "publishedAt": "2026-08-28T08:07:10Z",
+      "snippet": "902 stars · CSS"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "amosblomqvist/learn — My AI learning system.",
+      "url": "https://github.com/amosblomqvist/learn",
+      "publishedAt": "2026-08-24T16:45:07Z",
+      "snippet": "819 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Nanako0129/sepia — De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope ",
+      "url": "https://github.com/Nanako0129/sepia",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "snippet": "799 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tradecatlabs/shulihuazixuecongshu — no description",
+      "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+      "publishedAt": "2026-08-27T18:02:35Z",
+      "snippet": "721 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing Hy4 Preview",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "publishedAt": "2026-08-29T23:53:13.000Z",
+      "snippet": " <p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p> New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p> <p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 5",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+      "publishedAt": "2026-08-29T18:59:48.000Z",
+      "snippet": "Community Wisdom 199",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "publishedAt": "2026-08-29T05:11:52.000Z",
+      "snippet": "Elon v Altman has a real consequence.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    }
+  ]
+}
