@@ -1,0 +1,366 @@
+{
+  "date": "2026-09-01",
+  "fetchedAt": "2026-09-01T10:15:16.074Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPU World",
+      "url": "https://www.gpuworld.org/",
+      "publishedAt": "2026-09-01T03:16:36.000Z",
+      "snippet": "241 points · 122 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49517584",
+      "hnPoints": 241
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fastpotify",
+      "url": "https://fastpotify.rocks/",
+      "publishedAt": "2026-09-01T02:52:14.000Z",
+      "snippet": "404 points · 212 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49517448",
+      "hnPoints": 404
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Restroom Archive",
+      "url": "https://restroomarchive.com",
+      "publishedAt": "2026-09-01T03:23:48.000Z",
+      "snippet": "130 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49517624",
+      "hnPoints": 130
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Playa Phone",
+      "url": "https://playaphone.com/",
+      "publishedAt": "2026-08-31T14:52:26.000Z",
+      "snippet": "637 points · 211 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49510514",
+      "hnPoints": 637
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "publishedAt": "2026-08-31T16:47:11.000Z",
+      "snippet": "504 points · 121 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49511856",
+      "hnPoints": 504
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Terence Tao explains 6 essential mathematical concepts [video]",
+      "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+      "publishedAt": "2026-08-30T22:37:01.000Z",
+      "snippet": "433 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49503521",
+      "hnPoints": 433
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "publishedAt": "2026-08-31T18:21:33.000Z",
+      "snippet": "331 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49512975",
+      "hnPoints": 331
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dwarf Fortress is getting the mother of all magic updates",
+      "url": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+      "publishedAt": "2026-08-27T16:45:22.000Z",
+      "snippet": "421 points · 172 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49467636",
+      "hnPoints": 421
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "publishedAt": "2026-08-31T12:41:22.000Z",
+      "snippet": "416 points · 457 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49508982",
+      "hnPoints": 416
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Evidence of Fraud in an Influential Study About Procrastination",
+      "url": "https://datacolada.org/138",
+      "publishedAt": "2026-08-31T23:45:56.000Z",
+      "snippet": "245 points · 166 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49516199",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Laser Graffiti",
+      "url": "https://laser.consti.de",
+      "publishedAt": "2026-08-29T12:28:11.000Z",
+      "snippet": "195 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49489376",
+      "hnPoints": 195
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+      "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+      "publishedAt": "2026-09-01T01:01:08.000Z",
+      "snippet": "113 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49516699",
+      "hnPoints": 113
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I think the military commissary's freezers were hacked",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "publishedAt": "2026-08-31T11:45:48.000Z",
+      "snippet": "346 points · 196 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49508506",
+      "hnPoints": 346
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cheap GPS jammers are filling the world with navigation dead zones",
+      "url": "https://www.wsj.com/tech/gps-jammers-dead-zones-e76f3261",
+      "publishedAt": "2026-08-30T17:05:32.000Z",
+      "snippet": "141 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49500504",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Smartphone LED detects hidden cameras with AI",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+      "publishedAt": "2026-08-30T06:52:04.000Z",
+      "snippet": "218 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49496292",
+      "hnPoints": 218
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lion-man",
+      "url": "https://en.wikipedia.org/wiki/Lion-man",
+      "publishedAt": "2026-08-29T23:17:15.000Z",
+      "snippet": "114 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49494181",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Reverse engineering my ADHD test",
+      "url": "https://nullpt.rs/reverse-engineering-adhd-test",
+      "publishedAt": "2026-08-27T16:49:40.000Z",
+      "snippet": "225 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49467700",
+      "hnPoints": 225
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "url": "https://ravynos.com/",
+      "publishedAt": "2026-08-31T16:19:36.000Z",
+      "snippet": "201 points · 115 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49511534",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+      "publishedAt": "2026-08-31T14:07:15.000Z",
+      "snippet": "220 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49510000",
+      "hnPoints": 220
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "publishedAt": "2026-08-27T14:20:58Z",
+      "snippet": "5698 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HEJustinSun/my-girlfriend-jingtian-latex — no description",
+      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+      "publishedAt": "2026-08-27T11:28:44Z",
+      "snippet": "4210 stars · TeX"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "XiaoDuoYa/codex-with-chatgpt — ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "publishedAt": "2026-08-28T12:57:24Z",
+      "snippet": "2039 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture r",
+      "url": "https://github.com/Nanako0129/sepia",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "snippet": "1307 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MetaMask-AI/metamask-desktop — 🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
+      "url": "https://github.com/MetaMask-AI/metamask-desktop",
+      "publishedAt": "2026-08-28T08:07:10Z",
+      "snippet": "1229 stars · CSS"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wide-trace/open-higgsfield — A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "publishedAt": "2026-08-26T06:09:58Z",
+      "snippet": "1176 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "crmne/fastpotify — Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "url": "https://github.com/crmne/fastpotify",
+      "publishedAt": "2026-08-27T12:46:32Z",
+      "snippet": "1082 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cbrock84/headcount — An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
+      "url": "https://github.com/cbrock84/headcount",
+      "publishedAt": "2026-08-28T18:03:04Z",
+      "snippet": "893 stars · Markdown"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "damejan80/tokentab — A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+      "url": "https://github.com/damejan80/tokentab",
+      "publishedAt": "2026-08-27T14:16:09Z",
+      "snippet": "839 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tradecatlabs/shulihuazixuecongshu — no description",
+      "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+      "publishedAt": "2026-08-27T18:02:35Z",
+      "snippet": "836 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing wrapture",
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "publishedAt": "2026-08-31T23:59:36.000Z",
+      "snippet": " <p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p> New from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p> <p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Andrew Digby",
+      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+      "publishedAt": "2026-08-31T22:25:02.000Z",
+      "snippet": " <blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year<",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face",
+      "url": "https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/",
+      "publishedAt": "2026-09-01T10:00:00.000Z",
+      "snippet": "Nvidia's earnings were remarking and boring — two sides of the same coin. Everything the company does is about avoiding a consolidated world.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Meta Settles, A Framework For Regulating Content, The Rest of Big Tech",
+      "url": "https://stratechery.com/2026/meta-settles-a-framework-for-regulating-content-the-rest-of-big-tech/",
+      "publishedAt": "2026-08-31T10:00:00.000Z",
+      "snippet": "Meta's settlement makes sense for all parties, but the entire sage highlights why any solution to regulating technology feels off.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+      "publishedAt": "2026-08-31T15:01:58.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/6da99a8a-d772-41fb-aff3-67bb08cc786b_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+      "publishedAt": "2026-08-31T12:04:18.000Z",
+      "snippet": "Listen now | 🎙️ PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger",
+      "enclosure": "https://api.substack.com/feed/podcast/212924577/37a4efe4f921303b5ec4f6e7b7bf82e6.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "publishedAt": "2026-09-01T04:36:54.000Z",
+      "snippet": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!hV5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Sarah Guo - What the 250 People Building AI Believe - [Invest Like the Best, EP.489]",
+      "url": "https://colossus.com/episode/no-priors-just-conviction/",
+      "publishedAt": "2026-09-01T08:00:00.000Z",
+      "snippet": "My guest today is Sarah Guo, founder and managing partner of Conviction, the venture firm she built to back AI-native companies from their earliest days. Sarah has become one of the most sought-after early-stage investors in AI, often the first check into the companies defining the frontier. In this conversation, we go inside that frontier: what the small group of people actually building AI believe right now, why some of the field's best researchers are wrestling with their own sense of purpose",
+      "enclosure": "https://traffic.megaphone.fm/CLS7890997457.mp3"
+    }
+  ]
+}
