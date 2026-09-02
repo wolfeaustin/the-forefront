@@ -1,0 +1,466 @@
+{
+  "date": "2026-09-02",
+  "fetchedAt": "2026-09-02T10:15:59.277Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "publishedAt": "2026-09-01T17:53:53.000Z",
+      "snippet": "1255 points · 1172 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49525378",
+      "hnPoints": 1255
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "publishedAt": "2026-09-02T04:15:56.000Z",
+      "snippet": "150 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49531651",
+      "hnPoints": 150
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "publishedAt": "2026-09-01T18:35:15.000Z",
+      "snippet": "714 points · 782 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49526069",
+      "hnPoints": 714
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fine, I'll build my own text editor",
+      "url": "https://dbushell.com/2026/09/01/text-editor/",
+      "publishedAt": "2026-09-01T17:12:15.000Z",
+      "snippet": "128 points · 115 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49524863",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "publishedAt": "2026-09-01T23:17:43.000Z",
+      "snippet": "224 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49529621",
+      "hnPoints": 224
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Introducing Ad Blocker for Firefox on iOS",
+      "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+      "publishedAt": "2026-09-01T13:46:49.000Z",
+      "snippet": "478 points · 161 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49521973",
+      "hnPoints": 478
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sonic Pi",
+      "url": "https://sonic-pi.net/",
+      "publishedAt": "2026-08-28T17:51:19.000Z",
+      "snippet": "166 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49482099",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "url": "https://masteranza.github.io/weedout/",
+      "publishedAt": "2026-09-01T22:06:57.000Z",
+      "snippet": "144 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49528895",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "publishedAt": "2026-09-01T22:30:52.000Z",
+      "snippet": "209 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49529132",
+      "hnPoints": 209
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The efficient frontier of LLM inference",
+      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "publishedAt": "2026-09-01T23:48:05.000Z",
+      "snippet": "124 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49529898",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+      "url": "https://www.norirobotics.com/",
+      "publishedAt": "2026-09-01T17:35:10.000Z",
+      "snippet": "173 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49525153",
+      "hnPoints": 173
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ambient CSS v3 – Blender meets CSS",
+      "url": "https://ambientcss.vercel.app/",
+      "publishedAt": "2026-09-01T15:35:11.000Z",
+      "snippet": "274 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49523387",
+      "hnPoints": 274
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Movie Scene Map – 13,312 films, series, games, anime and manga",
+      "url": "https://moviescenemap.com/",
+      "publishedAt": "2026-09-01T16:34:45.000Z",
+      "snippet": "258 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49524320",
+      "hnPoints": 258
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra/",
+      "publishedAt": "2026-09-01T20:20:41.000Z",
+      "snippet": "159 points · 69 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49527595",
+      "hnPoints": 159
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "publishedAt": "2026-09-01T20:07:57.000Z",
+      "snippet": "413 points · 190 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49527396",
+      "hnPoints": 413
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "True Rate of Unemployment",
+      "url": "https://www.lisep.org/tru",
+      "publishedAt": "2026-09-02T02:21:10.000Z",
+      "snippet": "235 points · 196 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49530989",
+      "hnPoints": 235
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The creator of Jujutsu has joined ERSC",
+      "url": "https://ersc.io/blog/martin-joins-ersc",
+      "publishedAt": "2026-09-01T17:46:21.000Z",
+      "snippet": "238 points · 176 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49525297",
+      "hnPoints": 238
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
+      "url": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+      "publishedAt": "2026-09-01T19:55:47.000Z",
+      "snippet": "127 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49527232",
+      "hnPoints": 127
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+      "url": "https://hnmatchmaker.com/",
+      "publishedAt": "2026-09-01T20:53:35.000Z",
+      "snippet": "91 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49528057",
+      "hnPoints": 91
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Who is hiring? (September 2026)",
+      "url": "https://news.ycombinator.com/item?id=49522897",
+      "publishedAt": "2026-09-01T15:01:17.000Z",
+      "snippet": "217 points · 243 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49522897",
+      "hnPoints": 217
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "url": "https://github.com/carloslfu/slotstream",
+      "publishedAt": "2026-09-01T16:42:46.000Z",
+      "snippet": "213 points · 97 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49524447",
+      "hnPoints": 213
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "publishedAt": "2026-08-27T14:20:58Z",
+      "snippet": "6723 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "XiaoDuoYa/codex-with-chatgpt — ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "publishedAt": "2026-08-28T12:57:24Z",
+      "snippet": "2221 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "crmne/fastpotify — Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "url": "https://github.com/crmne/fastpotify",
+      "publishedAt": "2026-08-27T12:46:32Z",
+      "snippet": "1672 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Nanako0129/sepia — De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture r",
+      "url": "https://github.com/Nanako0129/sepia",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "snippet": "1416 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MetaMask-AI/metamask-desktop — 🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
+      "url": "https://github.com/MetaMask-AI/metamask-desktop",
+      "publishedAt": "2026-08-28T08:07:10Z",
+      "snippet": "1229 stars · CSS"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "damejan80/tokentab — A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+      "url": "https://github.com/damejan80/tokentab",
+      "publishedAt": "2026-08-27T14:16:09Z",
+      "snippet": "1142 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "cbrock84/headcount — An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
+      "url": "https://github.com/cbrock84/headcount",
+      "publishedAt": "2026-08-28T18:03:04Z",
+      "snippet": "1002 stars · Markdown"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jprx/darwin-vm — Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
+      "url": "https://github.com/jprx/darwin-vm",
+      "publishedAt": "2026-08-27T22:24:31Z",
+      "snippet": "909 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "GangTailorUpgrade/CoomeRtool — Coomer Tool",
+      "url": "https://github.com/GangTailorUpgrade/CoomeRtool",
+      "publishedAt": "2026-08-31T00:12:45Z",
+      "snippet": "875 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tradecatlabs/shulihuazixuecongshu — no description",
+      "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+      "publishedAt": "2026-08-27T18:02:35Z",
+      "snippet": "852 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "publishedAt": "2026-09-02T05:50:57.000Z",
+      "snippet": " <blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</stro",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "publishedAt": "2026-09-01T23:57:28.000Z",
+      "snippet": " <p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href=\"https://www.terminal-bench-science.ai\">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href=\"https://www.tbench.ai/news/termi",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "publishedAt": "2026-09-01T19:03:01.000Z",
+      "snippet": " <p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app\">rebranded</a> to just ChatGPT) has 1.7GB of stuff in there in a folder called <code>codex-primary-runtime</code>, including a full Python installation, a full Node.js installation, and native binaries for <",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "GeoJSON Map Viewer",
+      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "publishedAt": "2026-09-01T18:05:45.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a>) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Tarn Adams",
+      "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "publishedAt": "2026-09-01T17:01:11.000Z",
+      "snippet": " <blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortre",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-mcp 0.2",
+      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+      "publishedAt": "2026-09-01T15:30:12.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p> <blockquote> <ul> <li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li> <li>Now depends on <code>mcp&gt;=2.1.1</code>.</li> </ul",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "publishedAt": "2026-09-01T14:59:18.000Z",
+      "snippet": " <p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p> Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p> <blockquote> <p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p> <p>We <strong>stron",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Fable 5.1, Enterprise Frontier Safeguards",
+      "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/",
+      "publishedAt": "2026-09-02T10:00:00.000Z",
+      "snippet": "Fable 5.1 is out, and the hated Fable data retention policy is not just being altered, but entirely removed in the meantime. Plus, why increased caching is a win-win.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Nvidia Earnings, Dollars Per Gigawatt, Open and Hugging Face",
+      "url": "https://stratechery.com/2026/nvidia-earnings-dollars-per-gigawatt-open-and-hugging-face/",
+      "publishedAt": "2026-09-01T10:00:00.000Z",
+      "snippet": "Nvidia's earnings were remarking and boring — two sides of the same coin. Everything the company does is about avoiding a consolidated world.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How to turn your AI into a world-class designer",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "publishedAt": "2026-09-01T12:45:59.000Z",
+      "snippet": "An end-to-end process for tapping into AI’s hidden creativity",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/df93abba-682d-446b-a21a-5ad935867a1f_1456x970.png"
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "How software engineering is changing: an essay challenge",
+      "url": "https://blog.pragmaticengineer.com/how-software-engineering-is-changing-an-essay-challenge/",
+      "publishedAt": "2026-09-01T16:06:50.000Z",
+      "snippet": "The pace of change in software engineering is only accelerating, especially since January of this year. This is all to do with the industry-wide adoption of LLMs, AI tooling, and AI infrastructure. At The Pragmatic Engineer, we always want to capture as much of what’s going on",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "publishedAt": "2026-09-02T07:46:08.000Z",
+      "snippet": "Queue the usual rush of model launches...",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!-NFa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2094843261470793728.jpg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "publishedAt": "2026-09-01T16:17:15.000Z",
+      "snippet": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!s9oN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ec85997-40a7-4337-b20d-a3574ba4707e_1280x720.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "publishedAt": "2026-09-01T04:36:54.000Z",
+      "snippet": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!hV5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHQ7UHClW4AA2I6L.jpg"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
+      "url": "https://colossus.com/episode/no-priors-just-conviction/",
+      "publishedAt": "2026-09-01T08:00:00.000Z",
+      "snippet": "My guest today is Sarah Guo, founder and managing partner of Conviction, the venture firm she built to back AI-native companies from their earliest days. Sarah has become one of the most sought-after early-stage investors in AI, often the first check into the companies defining the frontier. In this conversation, we go inside that frontier: what the small group of people actually building AI believe right now, why some of the field's best researchers are wrestling with their own sense of purpose",
+      "enclosure": "https://traffic.megaphone.fm/CLS7890997457.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "7 things MrBeast, Bezos & Thiel do that you don’t",
+      "publishedAt": "2026-09-02T09:00:00.000Z",
+      "snippet": "Get Sam and Shaan's CEO lessons in one guide: https://clickhubspot.com/epmw Episode 857: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about the extreme behaviors of the most legendary CEOs. — Show Notes: (0:00) CEO Moves (2:49) Move 1: Option Drop (10:39) Move 2: Friction Removal Service (12:55) Move 3: 1-bit communication (19:35) Move 4: Single-tasking (23:18) Move 5: Continuous culling (26:05) Move 6: Reward failure (27:06) Move 7: Clone yourself (30:18) ",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5413970918.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "The World’s Largest Electric Aircraft Just Flew",
+      "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
+      "publishedAt": "2026-09-01T15:30:23.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
