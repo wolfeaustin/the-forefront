@@ -1,0 +1,309 @@
+{
+  "date": "2026-09-03",
+  "fetchedAt": "2026-09-03T10:15:29.811Z",
+  "errors": [
+    {
+      "source": "GitHub Trending",
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pre-Release of Polars 2.0",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "publishedAt": "2026-09-03T06:59:08.000Z",
+      "snippet": "149 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49546753",
+      "hnPoints": 149
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse Spark 1.3",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "publishedAt": "2026-09-02T19:35:04.000Z",
+      "snippet": "586 points · 389 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49541256",
+      "hnPoints": 586
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "publishedAt": "2026-09-02T15:12:40.000Z",
+      "snippet": "1029 points · 576 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49537553",
+      "hnPoints": 1029
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google avoids a breakup of its ad tech business",
+      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "publishedAt": "2026-09-02T14:46:16.000Z",
+      "snippet": "390 points · 281 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49537131",
+      "hnPoints": 390
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "publishedAt": "2026-09-02T13:59:59.000Z",
+      "snippet": "419 points · 207 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49536375",
+      "hnPoints": 419
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Holden's Lightning Flight",
+      "url": "https://en.wikipedia.org/wiki/Holden%27s_Lightning_flight",
+      "publishedAt": "2026-08-31T11:29:44.000Z",
+      "snippet": "160 points · 35 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49508405",
+      "hnPoints": 160
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Can I opt out of my input or output data being used for training?",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "publishedAt": "2026-09-02T12:30:39.000Z",
+      "snippet": "444 points · 204 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49535284",
+      "hnPoints": 444
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Reverse Engineering Unknown File Formats with ImHex",
+      "url": "https://werwolv.net/posts/file_format_reverse_engineering/",
+      "publishedAt": "2026-08-31T12:01:05.000Z",
+      "snippet": "206 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49508608",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fable 5.1 World Modeling",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "publishedAt": "2026-09-02T19:49:01.000Z",
+      "snippet": "250 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49541458",
+      "hnPoints": 250
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Biggest dark matter detector spots a single weird particle",
+      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "publishedAt": "2026-09-02T13:40:29.000Z",
+      "snippet": "298 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49536079",
+      "hnPoints": 298
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Aging brains blend memories together instead of just forgetting them",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "publishedAt": "2026-09-02T12:59:09.000Z",
+      "snippet": "287 points · 118 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49535548",
+      "hnPoints": 287
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Wendell Berry has died",
+      "url": "https://www.nytimes.com/2026/08/31/us/wendell-berry-dead.html",
+      "publishedAt": "2026-09-01T01:49:58.000Z",
+      "snippet": "188 points · 98 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49517018",
+      "hnPoints": 188
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qantas Airbus A380 engine failure in 2010 (2023)",
+      "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
+      "publishedAt": "2026-09-02T18:42:41.000Z",
+      "snippet": "139 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49540565",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Engineering of the fastest WebAssembly interpreters",
+      "url": "https://wasmi-labs.github.io/blog/posts/wasmi-v2.0/",
+      "publishedAt": "2026-09-01T12:25:13.000Z",
+      "snippet": "98 points · 8 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49521031",
+      "hnPoints": 98
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Async Rust vs RTOS showdown (2022)",
+      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
+      "publishedAt": "2026-09-02T18:32:24.000Z",
+      "snippet": "97 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49540415",
+      "hnPoints": 97
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Exit the Cave",
+      "url": "https://turtlespace.blog/p/exit-the-cave",
+      "publishedAt": "2026-09-02T14:16:45.000Z",
+      "snippet": "269 points · 92 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49536606",
+      "hnPoints": 269
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Selection of Los Alamos Rolodex Business Cards",
+      "url": "https://clui.org/collections/los-alamos-business-cards/selection-cards",
+      "publishedAt": "2026-08-31T19:25:44.000Z",
+      "snippet": "171 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49513856",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We could save petabytes of cache storage with Zstandard and Pingora",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "publishedAt": "2026-09-01T13:41:11.000Z",
+      "snippet": "114 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49521909",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Poisson Disk Sampling",
+      "url": "https://stripeacross.com/posts/poisson-disk-sampling/",
+      "publishedAt": "2026-09-02T13:47:49.000Z",
+      "snippet": "166 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49536177",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Reasons robotics is hard",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "publishedAt": "2026-09-02T22:02:30.000Z",
+      "snippet": "96 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49543191",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "publishedAt": "2026-09-02T14:02:35.000Z",
+      "snippet": "119 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49536411",
+      "hnPoints": 119
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "publishedAt": "2026-09-02T16:39:38.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li> <li>Fixed async responses failing to record the resolved model ve",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "publishedAt": "2026-09-02T14:16:42.000Z",
+      "snippet": " <p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p> <p>They used to keep all of the prompts on a single page, but when I checked to",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "publishedAt": "2026-09-02T05:50:57.000Z",
+      "snippet": " <blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</stro",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Fable 5.1, Enterprise Frontier Safeguards",
+      "url": "https://stratechery.com/2026/fable-5-1-enterprise-frontier-safeguards/",
+      "publishedAt": "2026-09-02T10:00:00.000Z",
+      "snippet": "Fable 5.1 is out, and the hated Fable data retention policy is not just being altered, but entirely removed in the meantime. Plus, why increased caching is a win-win.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "publishedAt": "2026-09-02T12:03:39.000Z",
+      "snippet": "Watch now | 🎙️ I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardrobe",
+      "enclosure": "https://api.substack.com/feed/podcast/213644454/8861b59cd21a6007b0237aaf5f590ad2.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "publishedAt": "2026-09-03T04:38:33.000Z",
+      "snippet": "an epic comeback story for Meta",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!vyuW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff20254a9-6670-4842-b0c9-89101011f15c_2342x984.jpeg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "publishedAt": "2026-09-02T07:46:08.000Z",
+      "snippet": "Queue the usual rush of model launches...",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!-NFa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2094843261470793728.jpg"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "7 things MrBeast, Bezos & Thiel do that you don’t",
+      "publishedAt": "2026-09-02T09:00:00.000Z",
+      "snippet": "Get Sam and Shaan's CEO lessons in one guide: https://clickhubspot.com/epmw Episode 857: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about the extreme behaviors of the most legendary CEOs. — Show Notes: (0:00) CEO Moves (2:49) Move 1: Option Drop (10:39) Move 2: Friction Removal Service (12:55) Move 3: 1-bit communication (19:35) Move 4: Single-tasking (23:18) Move 5: Continuous culling (26:05) Move 6: Reward failure (27:06) Move 7: Clone yourself (30:18) ",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5413970918.mp3"
+    }
+  ]
+}
