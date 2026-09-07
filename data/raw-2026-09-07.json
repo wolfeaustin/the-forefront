@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-07",
+  "fetchedAt": "2026-09-07T10:15:19.352Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Keep Our Servers Running",
+      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "publishedAt": "2026-09-07T03:29:51.000Z",
+      "snippet": "470 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49593563",
+      "hnPoints": 470
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Making a Python interpreter in 1024 bytes",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "publishedAt": "2026-09-06T23:14:08.000Z",
+      "snippet": "236 points · 84 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49591876",
+      "hnPoints": 236
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "publishedAt": "2026-09-07T07:03:20.000Z",
+      "snippet": "120 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49594878",
+      "hnPoints": 120
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: How do you manage skills files?",
+      "url": "https://news.ycombinator.com/item?id=49589914",
+      "publishedAt": "2026-09-06T19:27:10.000Z",
+      "snippet": "137 points · 116 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49589914",
+      "hnPoints": 137
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "It took a year to ship WebAssembly in Anubis",
+      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+      "publishedAt": "2026-09-06T20:32:38.000Z",
+      "snippet": "275 points · 135 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49590611",
+      "hnPoints": 275
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers",
+      "url": "https://itsfoss.com/news/switzerland-replace-microssoft-pilot/",
+      "publishedAt": "2026-09-07T05:33:25.000Z",
+      "snippet": "145 points · 103 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49594251",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Fable hacked my piano, can I release the results?",
+      "url": "https://news.ycombinator.com/item?id=49577129",
+      "publishedAt": "2026-09-05T14:54:44.000Z",
+      "snippet": "164 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49577129",
+      "hnPoints": 164
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nitter and XCancel resume service after legal advice",
+      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "publishedAt": "2026-09-06T17:49:47.000Z",
+      "snippet": "749 points · 328 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49588988",
+      "hnPoints": 749
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+      "publishedAt": "2026-09-06T20:24:00.000Z",
+      "snippet": "294 points · 211 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49590512",
+      "hnPoints": 294
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
+      "publishedAt": "2026-09-06T20:31:20.000Z",
+      "snippet": "81 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49590595",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "publishedAt": "2026-09-06T15:08:44.000Z",
+      "snippet": "179 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49587217",
+      "hnPoints": 179
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Asahi Linux on M3",
+      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+      "publishedAt": "2026-09-06T14:08:59.000Z",
+      "snippet": "477 points · 297 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49586698",
+      "hnPoints": 477
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
+      "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
+      "publishedAt": "2026-09-03T18:40:07.000Z",
+      "snippet": "145 points · 114 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49554622",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "publishedAt": "2026-09-06T16:27:05.000Z",
+      "snippet": "413 points · 362 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49588080",
+      "hnPoints": 413
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NetBSD 9.5 released and EOL for NetBSD-9",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and",
+      "publishedAt": "2026-09-06T15:44:24.000Z",
+      "snippet": "134 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49587636",
+      "hnPoints": 134
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+      "url": "https://github.com/marsbos/mador",
+      "publishedAt": "2026-09-06T20:45:13.000Z",
+      "snippet": "89 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49590738",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Please don't rearrange our shoes when we turn up, paramedics in Japan urge",
+      "url": "https://www.theguardian.com/world/2026/aug/28/never-tidy-paramedics-shoes-japan-custom-etiquette",
+      "publishedAt": "2026-09-03T10:23:19.000Z",
+      "snippet": "116 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49548196",
+      "hnPoints": 116
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "lnkiai/m3e-canvas — Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "publishedAt": "2026-09-02T04:36:34Z",
+      "snippet": "4481 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anthropics/commerce-agents — Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "publishedAt": "2026-09-01T12:30:12Z",
+      "snippet": "2319 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "publishedAt": "2026-09-05T00:24:43Z",
+      "snippet": "1684 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "publishedAt": "2026-09-04T15:00:53Z",
+      "snippet": "1552 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pierrenade/short-video-generator-AI — Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your ",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "publishedAt": "2026-09-05T11:55:18Z",
+      "snippet": "1139 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anthropics/fermats-last-theorem — no description",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "publishedAt": "2026-09-04T14:21:04Z",
+      "snippet": "888 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yczz/oc-english — 养成类游戏英语学习",
+      "url": "https://github.com/yczz/oc-english",
+      "publishedAt": "2026-09-01T23:45:27Z",
+      "snippet": "844 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "danielblnc/DLSS-NR-on-AMD — Run DLSS 5 Neural Rendering on your AMD GPU. Magic!",
+      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
+      "publishedAt": "2026-09-03T00:42:03Z",
+      "snippet": "809 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "url": "https://github.com/vinzdg/codenotch",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "snippet": "788 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Albert-Weasker/niubigeo — Open-source AI brand visibility and competitor reports",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "publishedAt": "2026-09-03T15:55:54Z",
+      "snippet": "634 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "publishedAt": "2026-09-06T23:57:40.000Z",
+      "snippet": " <p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p> Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</a> (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.</p> <p>Included are details on how Open",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "The purpose of DNS is to spread scams",
+      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "publishedAt": "2026-09-06T14:40:07.000Z",
+      "snippet": " <p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p> Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\".</p> <p>On <a href=\"https://interisle.net/insights/cybercriminaldomaindemand\">this Interisle report</a> (<a href=\"https://labs.ripe.net/author/andrew_camplin",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "publishedAt": "2026-09-06T09:08:06.000Z",
+      "snippet": " <p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There&#x27;s No Limit to How Bad Code Can Get</a> &mdash; Lobste.rs.</p><p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p> <p>In my experience it's <em>so rare</em> for that to work.</p> <p>You announce the old thing is irrecoverably drowning in",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Zach Kehs",
+      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "publishedAt": "2026-09-06T08:42:49.000Z",
+      "snippet": " <blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can <em>always</em> get worse. There can <em>always</em> be a new layer of indirection or a reduction in performance.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\">Zach Kehs</a>, There's No Limit to Ho",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
+      "publishedAt": "2026-09-06T12:32:00.000Z",
+      "snippet": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
+      "enclosure": "https://api.substack.com/feed/podcast/213044770/4eea366175d335a312e305ba284a8e6c.mp3"
+    }
+  ]
+}
