@@ -1,0 +1,401 @@
+{
+  "date": "2026-09-08",
+  "fetchedAt": "2026-09-08T10:15:15.407Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We built our house for LAN parties",
+      "url": "https://lanparty.house/",
+      "publishedAt": "2026-09-05T18:44:40.000Z",
+      "snippet": "94 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49579443",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "publishedAt": "2026-09-08T01:16:59.000Z",
+      "snippet": "337 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49604637",
+      "hnPoints": 337
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "There's a new \"Google Jail\" for independent wikis",
+      "url": "https://weirdgloop.org/blog/google-jail",
+      "publishedAt": "2026-09-08T01:57:23.000Z",
+      "snippet": "156 points · 54 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49604870",
+      "hnPoints": 156
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mistral raises €3B",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "publishedAt": "2026-09-08T05:06:23.000Z",
+      "snippet": "469 points · 329 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605767",
+      "hnPoints": 469
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "TALA Is Open-Source",
+      "url": "https://d2lang.com/blog/tala-is-open-source/",
+      "publishedAt": "2026-09-07T23:37:42.000Z",
+      "snippet": "227 points · 15 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49604150",
+      "hnPoints": 227
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How well do agents use test/verification techniques?",
+      "url": "https://danluu.com/agentic-testing/",
+      "publishedAt": "2026-09-08T02:58:16.000Z",
+      "snippet": "87 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605246",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "publishedAt": "2026-09-08T04:48:10.000Z",
+      "snippet": "230 points · 193 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605691",
+      "hnPoints": 230
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "publishedAt": "2026-09-07T18:52:06.000Z",
+      "snippet": "294 points · 144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49601655",
+      "hnPoints": 294
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+      "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+      "publishedAt": "2026-09-07T20:32:55.000Z",
+      "snippet": "201 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49602699",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jellyfin 12.0",
+      "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+      "publishedAt": "2026-09-08T01:56:35.000Z",
+      "snippet": "374 points · 155 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49604861",
+      "hnPoints": 374
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My Feed, My Way",
+      "url": "https://www.pm.gov.au/media/my-feed-my-way",
+      "publishedAt": "2026-09-08T05:10:36.000Z",
+      "snippet": "122 points · 94 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605782",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WeatherNext 3",
+      "url": "https://deepmind.google/science/weathernext/",
+      "publishedAt": "2026-09-03T16:06:08.000Z",
+      "snippet": "326 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49552299",
+      "hnPoints": 326
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scientists observe Einstein's gravity in the quantum world",
+      "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+      "publishedAt": "2026-09-04T20:28:52.000Z",
+      "snippet": "222 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49569838",
+      "hnPoints": 222
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "John Margolies' photographs of roadside America",
+      "url": "https://publicdomainreview.org/collection/john-margolies-photographs-of-roadside-america/",
+      "publishedAt": "2026-09-04T04:57:22.000Z",
+      "snippet": "84 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49560682",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "url": "https://arxiv.org/abs/2607.24888",
+      "publishedAt": "2026-09-05T11:25:18.000Z",
+      "snippet": "210 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49575515",
+      "hnPoints": 210
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "publishedAt": "2026-09-08T05:42:28.000Z",
+      "snippet": "257 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605915",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Emacs Bedrock 2.0",
+      "url": "https://lambdaland.org/posts/2026-09-06-bedrock-v2/",
+      "publishedAt": "2026-09-07T20:12:12.000Z",
+      "snippet": "121 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49602490",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I tested 10 model/harness combinations on the same Three.js task",
+      "url": "https://alvins82.github.io/hangar-harness-model-tests/",
+      "publishedAt": "2026-09-08T03:42:25.000Z",
+      "snippet": "81 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605433",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Icy Moons Are Ocean Worlds",
+      "url": "https://mceglowski.substack.com/p/icy-moons-are-ocean-worlds",
+      "publishedAt": "2026-09-06T13:07:52.000Z",
+      "snippet": "182 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49586207",
+      "hnPoints": 182
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "lnkiai/m3e-canvas — Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "publishedAt": "2026-09-02T04:36:34Z",
+      "snippet": "4865 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "publishedAt": "2026-09-05T00:24:43Z",
+      "snippet": "2256 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "publishedAt": "2026-09-04T15:00:53Z",
+      "snippet": "1899 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pierrenade/short-video-generator-AI — Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your ",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "publishedAt": "2026-09-05T11:55:18Z",
+      "snippet": "1210 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typogra",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "publishedAt": "2026-09-07T00:41:18Z",
+      "snippet": "1013 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "url": "https://github.com/vinzdg/codenotch",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "snippet": "984 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anthropics/fermats-last-theorem — no description",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "publishedAt": "2026-09-04T14:21:04Z",
+      "snippet": "955 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "danielblnc/DLSS-NR-on-AMD — Run DLSS 5 Neural Rendering on your AMD GPU. Magic!",
+      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
+      "publishedAt": "2026-09-03T00:42:03Z",
+      "snippet": "888 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ahujasid/camera-to-blender — Take a photo of real objects, and paste them in Blender",
+      "url": "https://github.com/ahujasid/camera-to-blender",
+      "publishedAt": "2026-09-03T10:34:30Z",
+      "snippet": "756 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Albert-Weasker/niubigeo — Open-source AI brand visibility and competitor reports",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "publishedAt": "2026-09-03T15:55:54Z",
+      "snippet": "723 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.35",
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "publishedAt": "2026-09-07T23:54:54.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li> </ul> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Creepy crawlies",
+      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "publishedAt": "2026-09-07T23:08:58.000Z",
+      "snippet": " <p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p> Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of <a href=\"https://git.kernel.org/\">git.kernel.org</a>, the official Git repository for the Linux kernel:</p> <blockquote> <p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At an",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Jakub Pachocki",
+      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "publishedAt": "2026-09-07T22:26:25.000Z",
+      "snippet": " <blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p> <p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.</p> <p>At the same t",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Video compressor",
+      "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "publishedAt": "2026-09-07T18:29:07.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/video-compressor\">Video compressor</a></p> <p>I recorded a short demo video of <a href=\"https://simonwillison.net/2026/Sep/7/equal-earth/\">my Equal Earth</a> animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web <a href=\"https://claude.ai/code/session_01QHTdJZ4xg6TZfDXCmuvAE9\">build me this tool</a> using the WebAssembly build of",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Mercator ↔ Equal Earth",
+      "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "publishedAt": "2026-09-07T16:24:16.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p> <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa\">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href=\"https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638\">build me</a> this animated transition between Mercator and Equal Earth u",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Write Things Down",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "snippet": "Writing things down is powerful, for humans and for AI; what comes first, however, is what to write, why to do it, and actually getting things done.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "publishedAt": "2026-09-07T15:02:41.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/0efca35d-b22d-4ad2-bce1-4ca72972d416_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+      "publishedAt": "2026-09-07T12:04:19.000Z",
+      "snippet": "Watch now | 🎙️ Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
+      "enclosure": "https://api.substack.com/feed/podcast/214090220/4cccdb9b806152e3e331d85f76bfe4ca.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "url": "https://www.latent.space/p/aeo",
+      "publishedAt": "2026-09-07T21:32:37.000Z",
+      "snippet": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!iyRI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8e4ec6-5470-4b1e-831c-cbdd0b864f2b_2910x1598.png"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]",
+      "url": "https://colossus.com/episode/god-gold-silicon/",
+      "publishedAt": "2026-09-08T08:00:00.000Z",
+      "snippet": "My guest today is Walter Russell Mead. Walter is a columnist at the Wall Street Journal and the author of Special Providence and God and Gold, two of the best books written on American power. He has spent decades studying how the United States came to dominate the world, and our conversation is about whether it can keep doing so. Walter lays out the five step playbook that carried the Dutch, then the British, then America to global leadership, and why the same pattern keeps beating centralized c",
+      "enclosure": "https://traffic.megaphone.fm/CLS4316656997.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "How we scaled to $100M in under a year (ft. IM8 co-founder Danny Yeung)",
+      "publishedAt": "2026-09-07T10:28:00.000Z",
+      "snippet": "$1M+ problems worth solving (90+ business ideas): https://clickhubspot.com/phfl Episode 859: Shaan Puri ( https://x.com/ShaanVP ) talks to Danny Yeung ( https://x.com/DannyYeung_ ) about how he built a $200M business in 18 months. — Links: • IM8 - https://im8health.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS8422918079.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Why The Harness Matters More Than The Model | YC Paper Club",
+      "url": "https://www.youtube.com/watch?v=n9xKblqyQ28",
+      "publishedAt": "2026-09-07T14:00:03.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
