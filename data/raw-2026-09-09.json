@@ -1,0 +1,374 @@
+{
+  "date": "2026-09-09",
+  "fetchedAt": "2026-09-09T10:14:17.904Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "publishedAt": "2026-09-08T19:25:00.000Z",
+      "snippet": "512 points · 553 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49615537",
+      "hnPoints": 512
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "publishedAt": "2026-09-08T05:42:28.000Z",
+      "snippet": "1697 points · 709 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49605915",
+      "hnPoints": 1697
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
+      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
+      "publishedAt": "2026-09-03T07:29:40.000Z",
+      "snippet": "120 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49546964",
+      "hnPoints": 120
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to build a printer",
+      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "publishedAt": "2026-09-08T21:22:11.000Z",
+      "snippet": "336 points · 67 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49617255",
+      "hnPoints": 336
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "publishedAt": "2026-09-08T14:55:45.000Z",
+      "snippet": "563 points · 121 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49611251",
+      "hnPoints": 563
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mercury 2.5",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "publishedAt": "2026-09-08T20:14:52.000Z",
+      "snippet": "201 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49616354",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Large language models develop novel social biases through adaptive exploration",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "publishedAt": "2026-09-08T21:47:38.000Z",
+      "snippet": "166 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49617581",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "“Tweet” and the bird logo apparently enter the public domain",
+      "url": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
+      "publishedAt": "2026-09-09T06:02:07.000Z",
+      "snippet": "93 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49621751",
+      "hnPoints": 93
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DaVinci Resolve 21.1",
+      "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+      "publishedAt": "2026-09-08T13:36:53.000Z",
+      "snippet": "406 points · 180 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49610181",
+      "hnPoints": 406
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "publishedAt": "2026-09-08T14:13:26.000Z",
+      "snippet": "454 points · 310 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49610631",
+      "hnPoints": 454
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "27.5KB language-agnostic WebGPU syntax highlighter",
+      "url": "https://gpu-lexer.vercel.app/",
+      "publishedAt": "2026-09-09T01:14:50.000Z",
+      "snippet": "86 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49619464",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "publishedAt": "2026-09-08T21:00:52.000Z",
+      "snippet": "371 points · 324 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49616968",
+      "hnPoints": 371
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "publishedAt": "2026-09-08T17:13:21.000Z",
+      "snippet": "1263 points · 1013 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49613262",
+      "hnPoints": 1263
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "publishedAt": "2026-09-08T14:49:19.000Z",
+      "snippet": "253 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49611128",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We built our house for LAN parties (2024)",
+      "url": "https://lanparty.house/",
+      "publishedAt": "2026-09-05T18:44:40.000Z",
+      "snippet": "519 points · 338 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49579443",
+      "hnPoints": 519
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Topological Picture Book, Rendered",
+      "url": "https://e-infinity.space/picture-book/",
+      "publishedAt": "2026-09-08T22:28:14.000Z",
+      "snippet": "106 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49618050",
+      "hnPoints": 106
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Copyright does more harm than good and should be abolished",
+      "url": "https://grapheneos.social/@GrapheneOS/117231186011306184",
+      "publishedAt": "2026-09-09T06:31:28.000Z",
+      "snippet": "237 points · 201 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49622042",
+      "hnPoints": 237
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Replacing a Rust Enum with a 64-Bit Word Made My Interpreter 17% Faster",
+      "url": "https://pointersgonewild.com/2026-08-25-replacing-a-rust-enum-with-a-64-bit-word/",
+      "publishedAt": "2026-09-05T12:32:06.000Z",
+      "snippet": "129 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49575914",
+      "hnPoints": 129
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "publishedAt": "2026-09-05T00:24:43Z",
+      "snippet": "2630 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Albert-Weasker/niubigeo — Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "publishedAt": "2026-09-03T15:55:54Z",
+      "snippet": "2197 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "publishedAt": "2026-09-04T15:00:53Z",
+      "snippet": "1994 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/NavierStokesAndEuler — Lean certificates accompanying Navier-Stokes and Euler results",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "publishedAt": "2026-09-08T10:53:38Z",
+      "snippet": "1294 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typogra",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "publishedAt": "2026-09-07T00:41:18Z",
+      "snippet": "1198 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "url": "https://github.com/vinzdg/codenotch",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "snippet": "1179 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anthropics/fermats-last-theorem — no description",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "publishedAt": "2026-09-04T14:21:04Z",
+      "snippet": "988 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "danielblnc/DLSS-NR-on-AMD — Run DLSS 5 Neural Rendering on your AMD GPU. Magic!",
+      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
+      "publishedAt": "2026-09-03T00:42:03Z",
+      "snippet": "950 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kajisho5/ffmpeg-skill — no description",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "publishedAt": "2026-09-03T14:33:38Z",
+      "snippet": "816 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ahujasid/camera-to-blender — Take a photo of real objects, and paste them in Blender",
+      "url": "https://github.com/ahujasid/camera-to-blender",
+      "publishedAt": "2026-09-03T10:34:30Z",
+      "snippet": "779 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Terence Tao",
+      "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "publishedAt": "2026-09-09T00:20:17.000Z",
+      "snippet": " <blockquote cite=\"https://mathstodon.xyz/@tao/117237320796901560\"><p>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]</p> <p>We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "publishedAt": "2026-09-08T23:55:12.000Z",
+      "snippet": " <p><strong><a href=\"https://openai.com/index/navier-stokes-solution/\">On the Navier–Stokes Millennium Prize Problem</a></strong></p> Impressive result from OpenAI, who used an unreleased model to produce a resolution to <a href=\"https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness\">the Navier–Stokes existence and smoothness problem</a>, one of the seven <a href=\"https://en.wikipedia.org/wiki/Millennium_Prize_Problems\">Millennium Prize Problems</a> that have been subject to a $1,",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "publishedAt": "2026-09-08T22:46:33.000Z",
+      "snippet": " <p><strong><a href=\"https://openai.com/index/introducing-chatgpt-images-2-5/\">Introducing ChatGPT Images 2.5</a></strong></p> OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\".</p> <p>There are two new model IDs in the API: <code>gpt-i",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent",
+      "url": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
+      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "snippet": "OpenAI solving one of the most famous math problems is extremely impressive, and of little impact to most people's lives; Meta's Muse agent launch has the potential to be the exact opposite.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Write Things Down",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "snippet": "Writing things down is powerful, for humans and for AI; what comes first, however, is what to write, why to do it, and actually getting things done.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "publishedAt": "2026-09-08T12:31:49.000Z",
+      "snippet": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
+      "enclosure": "https://api.substack.com/feed/podcast/214070217/74500da2d21a92872afb94e2f2b9094d.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "publishedAt": "2026-09-09T05:04:51.000Z",
+      "snippet": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!zHsu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHRtS_iLboAUUlYv.jpg"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]",
+      "url": "https://colossus.com/episode/god-gold-silicon/",
+      "publishedAt": "2026-09-08T08:00:00.000Z",
+      "snippet": "My guest today is Walter Russell Mead. Walter is a columnist at the Wall Street Journal and the author of Special Providence and God and Gold, two of the best books written on American power. He has spent decades studying how the United States came to dominate the world, and our conversation is about whether it can keep doing so. Walter lays out the five step playbook that carried the Dutch, then the British, then America to global leadership, and why the same pattern keeps beating centralized c",
+      "enclosure": "https://traffic.megaphone.fm/CLS4316656997.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Happy Alumni Demo Day!",
+      "url": "https://www.youtube.com/shorts/GFWRBvSe8c8",
+      "publishedAt": "2026-09-08T22:28:55.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Introducing Early Access: An Invite only program for the Enterprise",
+      "url": "https://www.youtube.com/shorts/2JiUeYzcRKE",
+      "publishedAt": "2026-09-08T16:13:54.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
