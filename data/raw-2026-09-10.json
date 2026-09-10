@@ -1,0 +1,386 @@
+{
+  "date": "2026-09-10",
+  "fetchedAt": "2026-09-10T10:14:04.701Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DeepSeek v4.1 Flash",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "publishedAt": "2026-09-10T06:11:05.000Z",
+      "snippet": "374 points · 160 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49639090",
+      "hnPoints": 374
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "iPhone Duo",
+      "url": "https://www.apple.com/iphone-duo/",
+      "publishedAt": "2026-09-09T18:15:43.000Z",
+      "snippet": "1217 points · 2128 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49630931",
+      "hnPoints": 1217
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "publishedAt": "2026-09-10T01:58:00.000Z",
+      "snippet": "337 points · 146 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49637385",
+      "hnPoints": 337
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "publishedAt": "2026-09-09T13:27:11.000Z",
+      "snippet": "1040 points · 395 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49626190",
+      "hnPoints": 1040
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What do Visa and Mastercard do? An intro to card networks",
+      "url": "https://tautology.town/2026/06/01/card-networks.html",
+      "publishedAt": "2026-09-08T18:11:05.000Z",
+      "snippet": "537 points · 313 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49614280",
+      "hnPoints": 537
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Growing proof that autonomous cars save lives",
+      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "publishedAt": "2026-09-09T17:14:59.000Z",
+      "snippet": "349 points · 606 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49629886",
+      "hnPoints": 349
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "No Man's Sky Cosmos",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "publishedAt": "2026-09-09T15:47:42.000Z",
+      "snippet": "390 points · 400 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49628493",
+      "hnPoints": 390
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "publishedAt": "2026-09-09T14:37:47.000Z",
+      "snippet": "434 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49627370",
+      "hnPoints": 434
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AirPods 5",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "publishedAt": "2026-09-09T17:39:24.000Z",
+      "snippet": "457 points · 386 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49630253",
+      "hnPoints": 457
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "iPhone 18 Pro and iPhone 18 Pro Max",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "publishedAt": "2026-09-09T17:33:20.000Z",
+      "snippet": "365 points · 399 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49630151",
+      "hnPoints": 365
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Compute polynomials twice as fast",
+      "url": "https://thomasahle.com/fast-polynomials/",
+      "publishedAt": "2026-09-09T08:53:58.000Z",
+      "snippet": "92 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49623398",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
+      "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
+      "publishedAt": "2026-09-09T23:49:29.000Z",
+      "snippet": "273 points · 191 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49636283",
+      "hnPoints": 273
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "All grown-ups were once children, but only few of them remember it",
+      "url": "https://mathstodon.xyz/@tao/117244102901892965",
+      "publishedAt": "2026-09-10T04:04:38.000Z",
+      "snippet": "169 points · 128 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49638280",
+      "hnPoints": 169
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Desert Ant Labs: local, fast models that run on device",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "publishedAt": "2026-09-09T11:39:46.000Z",
+      "snippet": "449 points · 96 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49624823",
+      "hnPoints": 449
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "publishedAt": "2026-09-09T17:24:28.000Z",
+      "snippet": "215 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49630026",
+      "hnPoints": 215
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Factoring RSA 260",
+      "url": "https://cognition.com/blog/factoring-rsa-260",
+      "publishedAt": "2026-09-09T20:16:08.000Z",
+      "snippet": "98 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49633534",
+      "hnPoints": 98
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Version control second coming",
+      "url": "https://psantosl.github.io/posts/version-control-second-coming/",
+      "publishedAt": "2026-09-07T21:42:11.000Z",
+      "snippet": "89 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49603265",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple Watch Series 12",
+      "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+      "publishedAt": "2026-09-09T17:56:17.000Z",
+      "snippet": "258 points · 320 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49630566",
+      "hnPoints": 258
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How I advertise malicious software on Google Ads",
+      "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
+      "publishedAt": "2026-09-09T11:43:21.000Z",
+      "snippet": "408 points · 246 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49624856",
+      "hnPoints": 408
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The UN challenges five centuries of cartography",
+      "url": "https://www.not-ship.com/united-nations-map/",
+      "publishedAt": "2026-09-09T16:33:44.000Z",
+      "snippet": "95 points · 197 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49629209",
+      "hnPoints": 95
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ESP32 Bit Pirate Hardware Hacking Kit with Web Tools That Speaks Every Protocol",
+      "url": "https://geo-tp.github.io/ESP32-Bit-Pirate/",
+      "publishedAt": "2026-09-06T15:28:59.000Z",
+      "snippet": "96 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49587465",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rivian's gambit for full autonomy",
+      "url": "https://spectrum.ieee.org/rivian-self-driving",
+      "publishedAt": "2026-09-08T19:09:50.000Z",
+      "snippet": "82 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49615245",
+      "hnPoints": 82
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "publishedAt": "2026-09-05T00:24:43Z",
+      "snippet": "2978 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "publishedAt": "2026-09-04T15:00:53Z",
+      "snippet": "2048 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/NavierStokesAndEuler — Lean certificates accompanying Navier-Stokes and Euler results",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "publishedAt": "2026-09-08T10:53:38Z",
+      "snippet": "1630 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "url": "https://github.com/vinzdg/codenotch",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "snippet": "1328 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typogra",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "publishedAt": "2026-09-07T00:41:18Z",
+      "snippet": "1288 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anthropics/fermats-last-theorem — no description",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "publishedAt": "2026-09-04T14:21:04Z",
+      "snippet": "1005 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sdli1995/dlssg_for_sm86 — Here is a dlssg for RTX30 Series GPU ",
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "publishedAt": "2026-09-07T16:16:48Z",
+      "snippet": "998 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "donvito/codex-astra-luna-orchestrator — Use Astra as orchestrator and Luna for subagents in Codex",
+      "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+      "publishedAt": "2026-09-05T16:03:06Z",
+      "snippet": "858 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yang0/handraw-style — 手绘风格编号画廊与双语提示词 Skill",
+      "url": "https://github.com/yang0/handraw-style",
+      "publishedAt": "2026-09-05T21:57:22Z",
+      "snippet": "753 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KJGX66F/usque-custom-pro — 基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。",
+      "url": "https://github.com/KJGX66F/usque-custom-pro",
+      "publishedAt": "2026-09-04T01:15:28Z",
+      "snippet": "734 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "publishedAt": "2026-09-10T00:56:41.000Z",
+      "snippet": " <blockquote cite=\"https://calif.io/research/weworm\"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p> <p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p> <p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took o",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": ".blend URL Viewer",
+      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "publishedAt": "2026-09-09T23:58:32.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p> <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p> <p>As a big fan of the <a href=\"https://en.wikipedia.org/wiki/Faberg%C3%A9_egg\">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p> <p>Yesterday I deci",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence",
+      "url": "https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/",
+      "publishedAt": "2026-09-10T10:00:00.000Z",
+      "snippet": "Apple once again demonstrated the power of integrating hardware and software, but it's biggest AI blindspot might be its belief in the primacy of apps.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "OpenAI Does Math, Reward-Hacking, Meta Launches Personal Agent",
+      "url": "https://stratechery.com/2026/openai-does-math-reward-hacking-meta-launches-personal-agent/",
+      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "snippet": "OpenAI solving one of the most famous math problems is extremely impressive, and of little impact to most people's lives; Meta's Muse agent launch has the potential to be the exact opposite.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "publishedAt": "2026-09-10T03:33:12.000Z",
+      "snippet": "a quiet day",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "publishedAt": "2026-09-09T05:04:51.000Z",
+      "snippet": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!zHsu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHRtS_iLboAUUlYv.jpg"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "Decoding Tony Hawk’s mindset in 72 minutes",
+      "publishedAt": "2026-09-09T11:29:00.000Z",
+      "snippet": "30+ unsexy business ideas: https://clickhubspot.com/pdnb Episode 860: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) chop it up with skateboarding legend Tony Hawk. — Show Notes: (0:00) Intro (1:20) Meeting Tony in Ethiopia (3:42) Economics of skate parks (12:38) The price of greatness (17:54) Scraping by (26:33) The 900 (35:16) Tony Hawk’s Pro Skater (52:20) Investing (58:53) Influencing on internet culture (1:03:47) Aging skaters (1:08:07) Tickets — Check Out Sa",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS1757974220.mp3"
+    }
+  ]
+}
