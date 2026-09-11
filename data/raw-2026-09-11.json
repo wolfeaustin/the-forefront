@@ -1,0 +1,349 @@
+{
+  "date": "2026-09-11",
+  "fetchedAt": "2026-09-11T10:14:26.309Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
+      "publishedAt": "2026-09-10T14:09:31.000Z",
+      "snippet": "1076 points · 750 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49643982",
+      "hnPoints": 1076
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Don't let anyone take away your big box of cables",
+      "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "publishedAt": "2026-09-10T15:27:22.000Z",
+      "snippet": "536 points · 348 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645393",
+      "hnPoints": 536
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "publishedAt": "2026-09-10T19:43:22.000Z",
+      "snippet": "268 points · 146 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49649213",
+      "hnPoints": 268
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Deathray: A simple way for an untrusted site to freeze a Mac",
+      "url": "https://auberon.xyz/blog/posts/deathray/",
+      "publishedAt": "2026-09-10T19:34:20.000Z",
+      "snippet": "197 points · 122 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49649124",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+      "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+      "publishedAt": "2026-09-10T15:29:30.000Z",
+      "snippet": "339 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645437",
+      "hnPoints": 339
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
+      "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/",
+      "publishedAt": "2026-09-11T01:00:56.000Z",
+      "snippet": "215 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49652237",
+      "hnPoints": 215
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nine coding harnesses vs. your laptop",
+      "url": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
+      "publishedAt": "2026-09-10T22:54:01.000Z",
+      "snippet": "100 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49651221",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NTSB issues investigative update on B-767 runway excursion accident in Miami",
+      "url": "https://www.ntsb.gov:443/news/press-releases/Pages/NR20260909.aspx",
+      "publishedAt": "2026-09-10T21:30:55.000Z",
+      "snippet": "104 points · 182 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49650418",
+      "hnPoints": 104
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "So you want to use OpenRouter?",
+      "url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "publishedAt": "2026-09-09T05:37:21.000Z",
+      "snippet": "82 points · 9 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49621546",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "publishedAt": "2026-09-10T06:49:43.000Z",
+      "snippet": "812 points · 743 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49639408",
+      "hnPoints": 812
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Music Theory for the 21st-Century Classroom",
+      "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+      "publishedAt": "2026-09-10T17:14:12.000Z",
+      "snippet": "228 points · 98 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49647134",
+      "hnPoints": 228
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "publishedAt": "2026-09-10T15:29:47.000Z",
+      "snippet": "419 points · 174 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645443",
+      "hnPoints": 419
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "publishedAt": "2026-09-10T15:57:40.000Z",
+      "snippet": "187 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645907",
+      "hnPoints": 187
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Neki – Sharded Postgres",
+      "url": "https://planetscale.com/blog/introducing-neki",
+      "publishedAt": "2026-09-10T15:43:49.000Z",
+      "snippet": "245 points · 131 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645686",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "url": "https://merybenavente.me/blog/proof-of-capture",
+      "publishedAt": "2026-09-10T19:44:15.000Z",
+      "snippet": "110 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49649222",
+      "hnPoints": 110
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rust is tier-1 language at Microsoft",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "publishedAt": "2026-09-10T13:39:16.000Z",
+      "snippet": "678 points · 428 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49643546",
+      "hnPoints": 678
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+      "url": "https://system76.com/workstations/thelio-mira-ai",
+      "publishedAt": "2026-09-10T23:10:06.000Z",
+      "snippet": "105 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49651372",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "publishedAt": "2026-09-10T17:23:42.000Z",
+      "snippet": "135 points · 200 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49647300",
+      "hnPoints": 135
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Douglas Hofstadter: Analogy as the Core of Cognition [video]",
+      "url": "https://www.youtube.com/watch?v=n8m7lFQ3njk",
+      "publishedAt": "2026-09-06T14:59:33.000Z",
+      "snippet": "184 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49587121",
+      "hnPoints": 184
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "publishedAt": "2026-09-11T06:23:06.000Z",
+      "snippet": "331 points · 242 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49654229",
+      "hnPoints": 331
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "publishedAt": "2026-09-05T00:24:43Z",
+      "snippet": "3166 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/NavierStokesAndEuler — Lean certificates accompanying Navier-Stokes and Euler results",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "publishedAt": "2026-09-08T10:53:38Z",
+      "snippet": "1751 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sdli1995/dlssg_for_sm86 — Here is a dlssg for RTX30 Series GPU ",
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "publishedAt": "2026-09-07T16:16:48Z",
+      "snippet": "1611 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "url": "https://github.com/vinzdg/codenotch",
+      "publishedAt": "2026-09-05T14:55:35Z",
+      "snippet": "1417 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typogra",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "publishedAt": "2026-09-07T00:41:18Z",
+      "snippet": "1398 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yang0/handraw-style — 手绘风格编号画廊与双语提示词 Skill",
+      "url": "https://github.com/yang0/handraw-style",
+      "publishedAt": "2026-09-05T21:57:22Z",
+      "snippet": "1286 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Edge0-AI/Edge0 — no description",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "publishedAt": "2026-09-08T13:41:47Z",
+      "snippet": "1170 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "donvito/codex-astra-luna-orchestrator — Use Astra as orchestrator and Luna for subagents in Codex",
+      "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+      "publishedAt": "2026-09-05T16:03:06Z",
+      "snippet": "953 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Faizpi/bank-sampah — no description",
+      "url": "https://github.com/Faizpi/bank-sampah",
+      "publishedAt": "2026-09-11T02:13:29Z",
+      "snippet": "918 stars · PHP"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "iamzulx/crypto-rag — Asisten crypto berbahasa Indonesia: RAG pengetahuan 267 topik + data pasar realtime (6 bursa, WebSocket, derivatif, on-chain, TVL, DeFi) + tool-calling agent + LLM synthesis",
+      "url": "https://github.com/iamzulx/crypto-rag",
+      "publishedAt": "2026-09-05T06:20:08Z",
+      "snippet": "900 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "publishedAt": "2026-09-11T03:27:16.000Z",
+      "snippet": " <p><strong><a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette 1.0a39 and 0.65.4 security releases</a></strong></p> Today we're releasing two new security patch versions of Datasette: <a href=\"https://docs.datasette.io/en/latest/changelog.html#v1-0-a39\">1.0a39</a> and <a href=\"https://docs.datasette.io/en/stable/changelog.html#v0-65-4\">0.65.4</a> - one for the current alpha series and one for the stable 0.65.x family.</p> <p>These are security fixes which you should ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Any Nix package, live in your browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "publishedAt": "2026-09-10T23:44:15.000Z",
+      "snippet": " <p><strong><a href=\"https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser\">Any Nix package, live in your browser</a></strong></p> Farid Zakaria calls this his \"<em>magnum opus</em> of Nix work\", and I can see why.</p> <p><a href=\"https://trynix.dev\">trynix.dev</a> provides a <a href=\"https://github.com/ktock/qemu-wasm\">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> f",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "publishedAt": "2026-09-10T21:11:15.000Z",
+      "snippet": " <p><strong><a href=\"https://shopify.engineering/back-to-native\">Native is now the future of mobile at Shopify</a></strong></p> Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:</p> <blockquote> <p>We decided to switch from native to React Native in 2020 for three reasons:</p> <ul> <li>Stop building the same features twice</li> <li>Allow developers to work across the stack</li> <li>Spend less time chasin",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence",
+      "url": "https://stratechery.com/2026/the-iphone-duo-the-intelligent-personal-hub-apple-watch-audio-intelligence/",
+      "publishedAt": "2026-09-10T10:00:00.000Z",
+      "snippet": "Apple once again demonstrated the power of integrating hardware and software, but it's biggest AI blindspot might be its belief in the primacy of apps.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: tech companies move to open AI models",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/",
+      "publishedAt": "2026-09-10T17:22:31.000Z",
+      "snippet": "Uber, Pinterest, Stripe, Coinbase, Ramp, and AT&T are making large savings on their AI bills by dropping proprietary models and using smart model routing.",
+      "enclosure": null
+    }
+  ]
+}
