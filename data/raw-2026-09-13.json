@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-13",
+  "fetchedAt": "2026-09-13T10:18:36.794Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "JetKVM Mini",
+      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+      "publishedAt": "2026-09-13T07:49:46.000Z",
+      "snippet": "105 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49681152",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why are AI agents lying, cheating and coordinating?",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "publishedAt": "2026-09-13T01:22:31.000Z",
+      "snippet": "223 points · 289 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49678969",
+      "hnPoints": 223
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Interim Computer Museum",
+      "url": "https://icm.museum/",
+      "publishedAt": "2026-09-13T02:43:57.000Z",
+      "snippet": "113 points · 13 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49679459",
+      "hnPoints": 113
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Make your first edit to OpenStreetMap",
+      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "publishedAt": "2026-09-12T16:25:08.000Z",
+      "snippet": "464 points · 118 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49674050",
+      "hnPoints": 464
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "publishedAt": "2026-09-12T15:08:27.000Z",
+      "snippet": "487 points · 340 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49673098",
+      "hnPoints": 487
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple iPod Engraver (2019)",
+      "url": "https://dunstanorchard.com/apple-ipod-engraver/",
+      "publishedAt": "2026-09-09T01:57:37.000Z",
+      "snippet": "219 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49619848",
+      "hnPoints": 219
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stabilizing Rust's Never Type",
+      "url": "https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/",
+      "publishedAt": "2026-09-09T11:57:45.000Z",
+      "snippet": "194 points · 54 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49625056",
+      "hnPoints": 194
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Everyone should slow down AI development except for me",
+      "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+      "publishedAt": "2026-09-13T00:30:44.000Z",
+      "snippet": "486 points · 292 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49678683",
+      "hnPoints": 486
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Don't be the out of touch Kung Fu master",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095",
+      "publishedAt": "2026-09-12T21:51:43.000Z",
+      "snippet": "126 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49677577",
+      "hnPoints": 126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "publishedAt": "2026-09-10T15:31:37.000Z",
+      "snippet": "534 points · 416 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49645480",
+      "hnPoints": 534
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "url": "https://eiln.github.io/posts/ane-dma.html",
+      "publishedAt": "2026-09-10T00:16:10.000Z",
+      "snippet": "147 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49636479",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "P(doom)",
+      "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "publishedAt": "2026-09-12T21:35:38.000Z",
+      "snippet": "92 points · 66 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49677450",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "publishedAt": "2026-09-12T14:10:49.000Z",
+      "snippet": "652 points · 914 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49672510",
+      "hnPoints": 652
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Will there be a 7G?",
+      "url": "https://arxiv.org/abs/2609.01877",
+      "publishedAt": "2026-09-12T17:05:31.000Z",
+      "snippet": "105 points · 161 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49674498",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I made a build visualizer to understand Bun's compile times",
+      "url": "https://lalitm.com/post/buildprof/",
+      "publishedAt": "2026-09-12T14:45:28.000Z",
+      "snippet": "134 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49672842",
+      "hnPoints": 134
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+      "url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+      "publishedAt": "2026-09-12T15:49:52.000Z",
+      "snippet": "112 points · 35 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49673580",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "publishedAt": "2026-09-12T20:25:48.000Z",
+      "snippet": "244 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49676820",
+      "hnPoints": 244
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "publishedAt": "2026-09-12T18:58:57.000Z",
+      "snippet": "329 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49675902",
+      "hnPoints": 329
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sdli1995/dlssg_for_sm86 — Here is a dlssg for RTX30 Series GPU ",
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "publishedAt": "2026-09-07T16:16:48Z",
+      "snippet": "2283 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/NavierStokesAndEuler — Lean certificates accompanying Navier-Stokes and Euler results",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "publishedAt": "2026-09-08T10:53:38Z",
+      "snippet": "1844 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Edge0-AI/Edge0 — no description",
+      "url": "https://github.com/Edge0-AI/Edge0",
+      "publishedAt": "2026-09-08T13:41:47Z",
+      "snippet": "1508 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typogra",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "publishedAt": "2026-09-07T00:41:18Z",
+      "snippet": "1484 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Vincentwei1021/anything2explainer — Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, sub",
+      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "publishedAt": "2026-09-08T17:19:54Z",
+      "snippet": "1121 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "achimala/dream-loop — Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
+      "url": "https://github.com/achimala/dream-loop",
+      "publishedAt": "2026-09-07T14:19:20Z",
+      "snippet": "935 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "gazijarin/itsgiving — Express yourself in meetings (with memes, of course).",
+      "url": "https://github.com/gazijarin/itsgiving",
+      "publishedAt": "2026-09-08T05:02:01Z",
+      "snippet": "799 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sumimakito/Mac-Duo — Wish you could bring the iPhone Duo effect to your MacBook?",
+      "url": "https://github.com/sumimakito/Mac-Duo",
+      "publishedAt": "2026-09-10T18:55:39Z",
+      "snippet": "739 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "SpaceDudem/text-humanizer — text-humanizer is an open-source project designed to convert text generated by AI to its \"humanized\" version. Bypasses the most of AI detectors such as Turnitin or GPTZero",
+      "url": "https://github.com/SpaceDudem/text-humanizer",
+      "publishedAt": "2026-09-08T15:28:28Z",
+      "snippet": "722 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Colafornia/short-video-generator-AI — Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your ",
+      "url": "https://github.com/Colafornia/short-video-generator-AI",
+      "publishedAt": "2026-09-08T14:55:47Z",
+      "snippet": "712 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "publishedAt": "2026-09-12T23:56:42.000Z",
+      "snippet": " <p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "California Brown Pelican",
+      "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+      "publishedAt": "2026-09-12T21:16:09.000Z",
+      "snippet": " <p><img src=\"https://static.inaturalist.org/photos/733368932/large.jpg\" alt=\"California Brown Pelican\"></p><p><img src=\"https://static.inaturalist.org/photos/733368989/large.jpg\" alt=\"California Brown Pelican\"></p><p>California Brown Pelican, in San Mateo County, CA, US</p><p>The <a href=\"https://en.wikipedia.org/wiki/Pacifica_Pier\">Pacifica Pier</a> shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe.</p> <p>It has since been entirely taken over ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+      "publishedAt": "2026-09-12T18:00:21.000Z",
+      "snippet": " <blockquote cite=\"https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html\"><p>For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do some",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+      "publishedAt": "2026-09-12T17:45:34.000Z",
+      "snippet": "Community Wisdom 298",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "publishedAt": "2026-09-12T15:01:19.000Z",
+      "snippet": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!5LAd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9ad2af0-b40a-433d-bd78-0514683c9eb4_2560x1440.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "publishedAt": "2026-09-12T05:56:05.000Z",
+      "snippet": "We agree with Sebastian: this should have been DeepSeek v5",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!dYdZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F149285a5-df59-4df7-8ba9-4653b68c5f0b_2316x1122.png"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "How To Get Better At Outbound Sales",
+      "url": "https://www.youtube.com/watch?v=wr6PMD06hP0",
+      "publishedAt": "2026-09-12T14:00:16.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
