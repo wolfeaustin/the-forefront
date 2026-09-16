@@ -1,0 +1,366 @@
+{
+  "date": "2026-09-16",
+  "fetchedAt": "2026-09-16T10:14:48.894Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "publishedAt": "2026-09-15T19:25:03.000Z",
+      "snippet": "1403 points · 401 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49717558",
+      "hnPoints": 1403
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "publishedAt": "2026-09-15T12:31:10.000Z",
+      "snippet": "1650 points · 206 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49711544",
+      "hnPoints": 1650
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "publishedAt": "2026-09-16T02:07:31.000Z",
+      "snippet": "260 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49721322",
+      "hnPoints": 260
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: I made a flight simulator, except you're just a passenger",
+      "url": "https://inflightsimulator.com",
+      "publishedAt": "2026-09-14T09:08:56.000Z",
+      "snippet": "203 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49693971",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An update on Wayback Machine access",
+      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "publishedAt": "2026-09-15T17:52:18.000Z",
+      "snippet": "540 points · 272 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49716176",
+      "hnPoints": 540
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "publishedAt": "2026-09-15T17:38:18.000Z",
+      "snippet": "417 points · 272 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49715947",
+      "hnPoints": 417
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Negativland, Culture Jamming, and the Art of Making Something New",
+      "url": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
+      "publishedAt": "2026-09-16T02:46:06.000Z",
+      "snippet": "83 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49721548",
+      "hnPoints": 83
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "url": "https://codyho.dev/blog/gpu-driver/",
+      "publishedAt": "2026-09-15T19:30:03.000Z",
+      "snippet": "324 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49717638",
+      "hnPoints": 324
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "publishedAt": "2026-09-15T21:07:47.000Z",
+      "snippet": "222 points · 77 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49718928",
+      "hnPoints": 222
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "publishedAt": "2026-09-15T22:50:55.000Z",
+      "snippet": "128 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49719938",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "publishedAt": "2026-09-15T17:37:12.000Z",
+      "snippet": "232 points · 258 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49715927",
+      "hnPoints": 232
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We got admin access to Baseten's production GitHub",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "publishedAt": "2026-09-15T18:11:24.000Z",
+      "snippet": "280 points · 155 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49716476",
+      "hnPoints": 280
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Saving Jet Fuel",
+      "url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+      "publishedAt": "2026-09-15T23:17:20.000Z",
+      "snippet": "95 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49720164",
+      "hnPoints": 95
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "url": "https://withcapsule.app/",
+      "publishedAt": "2026-09-15T13:31:40.000Z",
+      "snippet": "331 points · 139 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49712278",
+      "hnPoints": 331
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Let's make quality the norm again",
+      "url": "https://www.forbrukerradet.no/short-life/",
+      "publishedAt": "2026-09-15T10:00:16.000Z",
+      "snippet": "393 points · 395 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49710109",
+      "hnPoints": 393
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "url": "https://mnoukhov.github.io/posts/ngu/",
+      "publishedAt": "2026-09-15T19:07:38.000Z",
+      "snippet": "95 points · 4 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49717280",
+      "hnPoints": 95
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Chopping up books when they're physically too big",
+      "url": "https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html",
+      "publishedAt": "2026-09-15T18:45:31.000Z",
+      "snippet": "177 points · 166 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49716953",
+      "hnPoints": 177
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+      "publishedAt": "2026-09-15T10:22:46.000Z",
+      "snippet": "492 points · 431 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49710253",
+      "hnPoints": 492
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jean-Pierre Serre turns 100",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "publishedAt": "2026-09-15T20:57:18.000Z",
+      "snippet": "134 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49718822",
+      "hnPoints": 134
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
+      "url": "https://github.com/GraafHenk/numberwang",
+      "publishedAt": "2026-09-15T19:27:35.000Z",
+      "snippet": "162 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49717605",
+      "hnPoints": 162
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Chuloo/mural — The language app you eventually delete. A native iPhone companion for learning through conversation.",
+      "url": "https://github.com/Chuloo/mural",
+      "publishedAt": "2026-09-12T11:51:08Z",
+      "snippet": "1140 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ai-sucks-butt/ai-sucks-butt — If you think AI sucks, star the repo.",
+      "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
+      "publishedAt": "2026-09-14T04:02:58Z",
+      "snippet": "1033 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sumimakito/Mac-Duo — Wish you could bring the iPhone Duo effect to your MacBook?",
+      "url": "https://github.com/sumimakito/Mac-Duo",
+      "publishedAt": "2026-09-10T18:55:39Z",
+      "snippet": "929 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yifanzhang-pro/recurrent-looped-tranformer — Official Project Page for Recurrent Looped Transformer (RLT)",
+      "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+      "publishedAt": "2026-09-12T19:02:46Z",
+      "snippet": "843 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kruzovic7/ai-data-extractor — Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "publishedAt": "2026-09-11T18:12:58Z",
+      "snippet": "824 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zjwzcx/Awesome-Astra-Embodied-AI — GPT-6 Astra for embodied AI and robotics.",
+      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+      "publishedAt": "2026-09-12T12:20:24Z",
+      "snippet": "738 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "angusdevgo/IDM_Pro_Tool — IDM激活与状态维护工具",
+      "url": "https://github.com/angusdevgo/IDM_Pro_Tool",
+      "publishedAt": "2026-09-10T09:39:06Z",
+      "snippet": "717 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "eternityspring/reelbench-skills — Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+      "url": "https://github.com/eternityspring/reelbench-skills",
+      "publishedAt": "2026-09-11T04:55:49Z",
+      "snippet": "703 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nftechie/stonkfly — A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.",
+      "url": "https://github.com/nftechie/stonkfly",
+      "publishedAt": "2026-09-10T02:40:30Z",
+      "snippet": "702 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unstablebuild/rune — the development environment for pros",
+      "url": "https://github.com/unstablebuild/rune",
+      "publishedAt": "2026-09-10T10:50:03Z",
+      "snippet": "683 stars · Go"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Gemini Live audio",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "publishedAt": "2026-09-15T22:47:07.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p> <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p> <p>I pointed GPT-6 Astra Extra ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay",
+      "url": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
+      "publishedAt": "2026-09-15T10:00:00.000Z",
+      "snippet": "ChatGPT ads are working, and solve Amazon's biggest problem with chatbots. Then, Walmart finally gives in to Apple Pay, because fighting the status quo is hard.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "60+ new creative growth ideas",
+      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "publishedAt": "2026-09-15T12:45:28.000Z",
+      "snippet": "How to stand out when everyone is running the same playbook",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!NVVg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20cbbe62-5c82-4d4f-a316-de9b885e56f2_1456x970.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+      "url": "https://www.latent.space/p/good-start-labs",
+      "publishedAt": "2026-09-15T20:11:54.000Z",
+      "snippet": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!hNAj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb32a5826-6fd5-4608-bc04-4240a5e538df_2560x1440.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "publishedAt": "2026-09-15T04:50:36.000Z",
+      "snippet": "Pacing gathers pace.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!iik6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c4317a9-8fa4-4cf0-8705-b6746229cb83_1820x2052.png"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]",
+      "url": "https://colossus.com/episode/the-outsider/",
+      "publishedAt": "2026-09-16T08:00:00.000Z",
+      "snippet": "Michael Moritz led Sequoia Capital for nearly two decades and backed some of the defining companies of the internet era. In his new memoir, Ausländer, he turns his attention to his own family, Jewish refugees who fled Nazi Germany and rebuilt their lives in Wales. We discuss the imprint his parents left on him, the method he used for decades of asking founders about their childhoods and the Time profile that ended his relationship with Steve Jobs. We also also cover Lee Iacocca, why Don Valentin",
+      "enclosure": "https://traffic.megaphone.fm/CLS6587705018.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "i got internet famous... if i started again from scratch, here's what I'd do this time",
+      "publishedAt": "2026-09-16T09:48:00.000Z",
+      "snippet": "Shaan's guide on how to build an audience: https://clickhubspot.com/tjsv Episode 862: Shaan Puri ( https://x.com/ShaanVP ) teaches what it takes to build an audience in 18 minutes. — Show Notes: (0:00) Intro (1:00) Lesson 1: Who, not how many (2:28) Lesson 2: What should I talk about? (5:03) Lesson 3: Learn the 5 Ds (7:12) Lesson 4: OK this is getting long. But you’re still here. Weird, right (7:55) Lesson 5: Don't worry about writing style or production quality (9:08) Lesson 6: Create a binge b",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS3864326015.mp3"
+    }
+  ]
+}
