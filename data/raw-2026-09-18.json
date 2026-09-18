@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-18",
+  "fetchedAt": "2026-09-18T10:14:07.915Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jemalloc 5.4.0",
+      "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "publishedAt": "2026-09-18T04:20:24.000Z",
+      "snippet": "148 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49750152",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The scourge of x86 emulation",
+      "url": "https://fex-emu.com/Scourge-of-emulation/",
+      "publishedAt": "2026-09-18T04:09:48.000Z",
+      "snippet": "146 points · 25 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49750094",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "publishedAt": "2026-09-17T20:17:48.000Z",
+      "snippet": "495 points · 554 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49745940",
+      "hnPoints": 495
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "publishedAt": "2026-09-17T21:13:31.000Z",
+      "snippet": "458 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49746618",
+      "hnPoints": 458
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "publishedAt": "2026-09-17T20:36:13.000Z",
+      "snippet": "471 points · 221 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49746163",
+      "hnPoints": 471
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qwen 3.8 Omni Flash",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "publishedAt": "2026-09-17T23:05:48.000Z",
+      "snippet": "222 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49747925",
+      "hnPoints": 222
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "url": "https://github.com/asciimoo/hister",
+      "publishedAt": "2026-09-17T16:25:37.000Z",
+      "snippet": "613 points · 169 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49743097",
+      "hnPoints": 613
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pre-Greek: The lost language hidden within Ancient Greek",
+      "url": "https://linguisticdiscovery.com/posts/pre-greek/",
+      "publishedAt": "2026-09-18T03:04:38.000Z",
+      "snippet": "83 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49749771",
+      "hnPoints": 83
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Wax motor",
+      "url": "https://en.wikipedia.org/wiki/Wax_motor",
+      "publishedAt": "2026-09-16T12:35:14.000Z",
+      "snippet": "412 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49726007",
+      "hnPoints": 412
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "publishedAt": "2026-09-15T17:28:38.000Z",
+      "snippet": "595 points · 231 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49715813",
+      "hnPoints": 595
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "publishedAt": "2026-09-18T02:47:24.000Z",
+      "snippet": "360 points · 155 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49749656",
+      "hnPoints": 360
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "publishedAt": "2026-09-17T21:48:38.000Z",
+      "snippet": "172 points · 98 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49747070",
+      "hnPoints": 172
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Flet 1.0 – Build cross-platform apps in Python",
+      "url": "https://flet.dev/",
+      "publishedAt": "2026-09-17T20:44:28.000Z",
+      "snippet": "122 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49746290",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why I didn’t sign the Fields medallists’ letter",
+      "url": "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+      "publishedAt": "2026-09-17T08:51:51.000Z",
+      "snippet": "257 points · 367 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49738091",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How do we prevent mathemathics from devolving into the Medieval Era of secrecy?",
+      "url": "https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy",
+      "publishedAt": "2026-09-15T17:37:41.000Z",
+      "snippet": "124 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49715936",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CrowdSec Source Code Leak",
+      "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+      "publishedAt": "2026-09-17T15:34:01.000Z",
+      "snippet": "151 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49742355",
+      "hnPoints": 151
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The most important product decision is what you don't build",
+      "url": "https://liamnugent.me/posts/what-you-dont-build/",
+      "publishedAt": "2026-09-17T20:52:36.000Z",
+      "snippet": "107 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49746407",
+      "hnPoints": 107
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Uber Protects Against Retry Storms",
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "publishedAt": "2026-09-17T21:14:32.000Z",
+      "snippet": "101 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49746628",
+      "hnPoints": 101
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "browser-use/jev-ultrafast — i. am. speed.",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "publishedAt": "2026-09-16T21:30:12Z",
+      "snippet": "3743 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tamaratran/fast-jev-compaction — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncat",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "publishedAt": "2026-09-17T05:57:20Z",
+      "snippet": "2015 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Chuloo/mural — The language app you eventually delete. A native iPhone companion for learning through conversation.",
+      "url": "https://github.com/Chuloo/mural",
+      "publishedAt": "2026-09-12T11:51:08Z",
+      "snippet": "1334 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "TheoLeeCJ/openjev — Can we run something like Jev on a 3090 at home?",
+      "url": "https://github.com/TheoLeeCJ/openjev",
+      "publishedAt": "2026-09-16T03:51:21Z",
+      "snippet": "1202 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yifanzhang-pro/recurrent-looped-tranformer — Official Project Page for Recurrent Looped Transformer (RLT)",
+      "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+      "publishedAt": "2026-09-12T19:02:46Z",
+      "snippet": "876 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zjwzcx/Awesome-Astra-Embodied-AI — GPT-6 Astra for embodied AI and robotics.",
+      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+      "publishedAt": "2026-09-12T12:20:24Z",
+      "snippet": "845 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "vinnylarouge/jevlike — no description",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "publishedAt": "2026-09-16T10:26:01Z",
+      "snippet": "785 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "agentverse-os/AgentVerse-OS — Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated work",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
+      "publishedAt": "2026-09-12T18:20:00Z",
+      "snippet": "769 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "youngyangyang04/llm-master — 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "url": "https://github.com/youngyangyang04/llm-master",
+      "publishedAt": "2026-09-12T07:33:31Z",
+      "snippet": "750 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nilbuild/page-mascot — A mascot that watches the cursor and blinks when you poke it",
+      "url": "https://github.com/nilbuild/page-mascot",
+      "publishedAt": "2026-09-14T06:55:59Z",
+      "snippet": "696 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+      "publishedAt": "2026-09-17T23:59:19.000Z",
+      "snippet": " <p><strong><a href=\"https://blog.rust-lang.org/2026/09/17/targeted-attacks/\">Be alert: targeted attacks on prominent Rustaceans</a></strong></p> Important warning from Adam Harvey and the crates security team:</p> <blockquote> <p>We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware.</p> <p>A video call is set up for something positive — maybe for a job, ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "How To Write With An LLM",
+      "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "publishedAt": "2026-09-17T23:37:27.000Z",
+      "snippet": " <p><strong><a href=\"https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\">How To Write With An LLM</a></strong></p> Thomas Ptacek on using LLMs as copyeditors, not as writing assistants:</p> <blockquote> <p><strong>Rule Number One: You may not use a single word an LLM suggests to you.</strong></p> <p>[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "publishedAt": "2026-09-17T20:57:55.000Z",
+      "snippet": " <p><strong><a href=\"https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/\">Self-generated prompt injections in compaction summaries</a></strong></p> In <a href=\"https://openai.com/index/model-misalignment-reporting-framework/\">Our framework for reporting model misalignment</a> OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
+      "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/",
+      "publishedAt": "2026-09-17T10:00:00.000Z",
+      "snippet": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "publishedAt": "2026-09-18T06:28:43.000Z",
+      "snippet": "a quiet day",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "publishedAt": "2026-09-17T07:28:25.000Z",
+      "snippet": "A dash of cold water keeps the foomers away.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!7Cec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHSP7dfeaEAAQZs_.png"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "The State of Startups in 2026",
+      "url": "https://www.youtube.com/watch?v=yslXlV2BP_Y",
+      "publishedAt": "2026-09-17T17:58:14.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
