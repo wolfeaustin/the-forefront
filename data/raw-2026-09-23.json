@@ -1,0 +1,477 @@
+{
+  "date": "2026-09-23",
+  "fetchedAt": "2026-09-23T10:14:42.457Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "publishedAt": "2026-09-23T07:26:23.000Z",
+      "snippet": "154 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49812769",
+      "hnPoints": 154
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "snippet": "1541 points · 741 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49805509",
+      "hnPoints": 1541
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "publishedAt": "2026-09-22T16:29:05.000Z",
+      "snippet": "1558 points · 962 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49803892",
+      "hnPoints": 1558
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Transit rewards",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "publishedAt": "2026-09-23T02:52:29.000Z",
+      "snippet": "141 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49811065",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "publishedAt": "2026-09-22T13:52:15.000Z",
+      "snippet": "661 points · 387 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49801324",
+      "hnPoints": 661
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "publishedAt": "2026-09-22T21:00:30.000Z",
+      "snippet": "325 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49808023",
+      "hnPoints": 325
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "publishedAt": "2026-09-22T17:46:02.000Z",
+      "snippet": "612 points · 445 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49805278",
+      "hnPoints": 612
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "url": "https://github.com/xCuri0/ReBarUEFI",
+      "publishedAt": "2026-09-21T01:07:46.000Z",
+      "snippet": "156 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49781862",
+      "hnPoints": 156
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How did AMD Ryzen get 50% faster in two years?",
+      "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+      "publishedAt": "2026-09-18T19:01:03.000Z",
+      "snippet": "337 points · 131 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49758709",
+      "hnPoints": 337
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What California is learning from solar panels built over irrigation canals",
+      "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+      "publishedAt": "2026-09-22T03:10:05.000Z",
+      "snippet": "216 points · 390 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49796379",
+      "hnPoints": 216
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SAML: A fractal of bad design",
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "publishedAt": "2026-09-22T18:57:17.000Z",
+      "snippet": "245 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49806335",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "publishedAt": "2026-09-22T16:51:31.000Z",
+      "snippet": "292 points · 91 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49804316",
+      "hnPoints": 292
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WordPress: Unauthenticated path traversal leading to conditional RCE",
+      "url": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+      "publishedAt": "2026-09-22T16:33:45.000Z",
+      "snippet": "193 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49803959",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "publishedAt": "2026-09-22T19:03:38.000Z",
+      "snippet": "660 points · 339 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49806430",
+      "hnPoints": 660
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "publishedAt": "2026-09-22T18:15:53.000Z",
+      "snippet": "185 points · 107 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49805748",
+      "hnPoints": 185
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "People hooked on vapes try a new way to quit: cigarettes",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
+      "publishedAt": "2026-09-22T01:21:20.000Z",
+      "snippet": "188 points · 207 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49795686",
+      "hnPoints": 188
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "publishedAt": "2026-09-22T22:03:46.000Z",
+      "snippet": "89 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49808816",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Obscura: VPN that can't log your activity",
+      "url": "https://obscura.com/#faq-technical",
+      "publishedAt": "2026-09-22T19:40:28.000Z",
+      "snippet": "139 points · 110 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49807003",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "publishedAt": "2026-09-23T04:00:43.000Z",
+      "snippet": "158 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49811484",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "publishedAt": "2026-09-22T14:42:59.000Z",
+      "snippet": "294 points · 208 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49802161",
+      "hnPoints": 294
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "publishedAt": "2026-09-22T13:01:03.000Z",
+      "snippet": "108 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49800574",
+      "hnPoints": 108
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Side-stepping the Secretary Problem, unwittingly",
+      "url": "https://www.evalapply.org/posts/side-step-secretary-problem-hiring/index.html",
+      "publishedAt": "2026-09-22T02:47:52.000Z",
+      "snippet": "82 points · 13 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49796260",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Markdown in /src",
+      "url": "https://htmx.org/essays/markdown-in-src/",
+      "publishedAt": "2026-09-21T22:47:54.000Z",
+      "snippet": "138 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49794478",
+      "hnPoints": 138
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NandhaKishorM/laya — Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "publishedAt": "2026-09-18T04:46:33Z",
+      "snippet": "18622 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zai-org/ZCode — Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "snippet": "6458 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tamaratran/fast-jev-compaction — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncat",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "publishedAt": "2026-09-17T05:57:20Z",
+      "snippet": "6446 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "publishedAt": "2026-09-19T13:50:26Z",
+      "snippet": "5719 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jaredpalmer/kev — tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+      "url": "https://github.com/jaredpalmer/kev",
+      "publishedAt": "2026-09-17T20:49:39Z",
+      "snippet": "5067 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "publishedAt": "2026-09-21T11:12:53Z",
+      "snippet": "4885 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "TianyuCodings/NanoJev — A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "publishedAt": "2026-09-17T16:08:30Z",
+      "snippet": "2062 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bespokelabsai/nimble — Local typed decisions, contrastive data curation, and model evaluation.",
+      "url": "https://github.com/bespokelabsai/nimble",
+      "publishedAt": "2026-09-18T09:07:48Z",
+      "snippet": "1662 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yibie/awesome-jev — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+      "url": "https://github.com/yibie/awesome-jev",
+      "publishedAt": "2026-09-17T14:23:21Z",
+      "snippet": "1395 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unreallabsai/unreal-agent — Async-first agent harness",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "publishedAt": "2026-09-21T23:14:02Z",
+      "snippet": "1385 stars · Go"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "publishedAt": "2026-09-23T02:53:19.000Z",
+      "snippet": " <p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p> I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p> <p>Think of it as an agentic show-and-tell:</p> <blockquote> <p>​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you hav",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "publishedAt": "2026-09-22T23:46:41.000Z",
+      "snippet": " <p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "publishedAt": "2026-09-22T18:48:37.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p> <blockquote> <ul> <li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-luna\">GPT-6 Luna</a>. <a href=\"https://github.com/simonw/llm/issues/1702\">#1702</a></li> <li>Model plugins can now declare <code>supports_conversation = F",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting @therealcornpop",
+      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "publishedAt": "2026-09-22T18:03:21.000Z",
+      "snippet": " <blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "publishedAt": "2026-09-22T17:14:55.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p> <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p> <pre><code>llm -m claude-opus-5.5 \"prompt goes here\" </code></pre> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-typesafe 0.1a0",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "publishedAt": "2026-09-22T15:54:16.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p> <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p> <pre><code>llm install llm-typesafe </code></pre> <p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
+      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "snippet": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator",
+      "url": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
+      "publishedAt": "2026-09-22T10:00:00.000Z",
+      "snippet": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "publishedAt": "2026-09-22T23:12:49.000Z",
+      "snippet": "Watch now (39 mins) | 🎙️ I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
+      "enclosure": "https://api.substack.com/feed/podcast/216986081/4e28f684cb755ce703f7e39c9b492e85.mp3"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "I left Claude for months. Opus 5.5 is why I'm back",
+      "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+      "publishedAt": "2026-09-22T19:06:40.000Z",
+      "snippet": "Watch now (25 mins) | 🎙️ I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
+      "enclosure": "https://api.substack.com/feed/podcast/216949144/18479e36b6288c9b1639e0f61d72a7ab.mp3"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+      "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+      "publishedAt": "2026-09-22T12:45:14.000Z",
+      "snippet": "Why you should never skip error discovery",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!0_d7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f6018cf-fa53-4f40-99d9-b1c9980dd031_1456x970.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "publishedAt": "2026-09-23T06:41:41.000Z",
+      "snippet": "overshadowing more efficient GPT6 models from OpenAI",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!tLrK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2102432417352929280.jpg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "publishedAt": "2026-09-22T21:07:39.000Z",
+      "snippet": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "enclosure": "https://api.substack.com/feed/podcast/216845528/5d04ab99938b8bf3aee2b0e2099bfa53.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "publishedAt": "2026-09-22T06:30:56.000Z",
+      "snippet": "crowning a new Chinese frontier lab",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!qfA0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHSxCs7wa0AANR91.jpg"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+      "publishedAt": "2026-09-22T08:00:00.000Z",
+      "snippet": "Gabe Stengel is the co-founder and CEO of Rogo, the AI platform for finance. He believes the best investors will spend the next several years reinventing their firms around AI, and Rogo is trying to build the infrastructure that allows them to do it. We discuss how Rogo evolved alongside the frontier models, why the last mile and the harness around the models matter so much, what happens when every portfolio manager can deploy thousands of agents against a problem, and how AI could transform the",
+      "enclosure": "https://traffic.megaphone.fm/CLS7922860814.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Drone swarm defense",
+      "url": "https://www.youtube.com/shorts/5_ZkERt5siI",
+      "publishedAt": "2026-09-22T23:17:02.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
