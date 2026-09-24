@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-24",
+  "fetchedAt": "2026-09-24T10:14:55.779Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "publishedAt": "2026-09-23T22:38:16.000Z",
+      "snippet": "418 points · 175 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49823582",
+      "hnPoints": 418
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "url": "https://transluce.org/agent-activity",
+      "publishedAt": "2026-09-24T05:21:10.000Z",
+      "snippet": "133 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49826565",
+      "hnPoints": 133
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": "2026-09-23T18:06:47.000Z",
+      "snippet": "656 points · 673 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49820134",
+      "hnPoints": 656
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ideas on modernizing the open-source desktop",
+      "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
+      "publishedAt": "2026-09-24T02:52:09.000Z",
+      "snippet": "137 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49825642",
+      "hnPoints": 137
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+      "publishedAt": "2026-09-23T22:45:49.000Z",
+      "snippet": "185 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49823664",
+      "hnPoints": 185
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "publishedAt": "2026-09-23T21:01:48.000Z",
+      "snippet": "235 points · 145 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49822555",
+      "hnPoints": 235
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "publishedAt": "2026-09-24T08:23:03.000Z",
+      "snippet": "114 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49827794",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+      "url": "https://github.com/nestrilabs/virtio-nvgpu",
+      "publishedAt": "2026-09-24T01:02:23.000Z",
+      "snippet": "100 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49824864",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The \"Windows XP Box\" (2003)",
+      "url": "https://www.mini-itx.com/projects/windowsxpbox/",
+      "publishedAt": "2026-09-22T03:09:04.000Z",
+      "snippet": "158 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49796372",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fixing the Portobello Police Station Clock",
+      "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+      "publishedAt": "2026-09-23T15:18:53.000Z",
+      "snippet": "445 points · 102 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49817469",
+      "hnPoints": 445
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Meta VR Glasses",
+      "url": "https://www.meta.com/vr-glasses/",
+      "publishedAt": "2026-09-23T23:47:56.000Z",
+      "snippet": "402 points · 356 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49824268",
+      "hnPoints": 402
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "publishedAt": "2026-09-23T22:16:19.000Z",
+      "snippet": "107 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49823348",
+      "hnPoints": 107
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Making Tailscale Faster",
+      "url": "https://tailscale.com/blog/making-tailscale-faster",
+      "publishedAt": "2026-09-23T17:49:07.000Z",
+      "snippet": "168 points · 67 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49819880",
+      "hnPoints": 168
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The mystery animal on an ancient god's head",
+      "url": "https://signoregalilei.com/2026/09/13/the-mystery-animal-on-an-ancient-gods-head/",
+      "publishedAt": "2026-09-22T12:00:11.000Z",
+      "snippet": "111 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49799855",
+      "hnPoints": 111
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Italian parliament votes for return to nuclear energy",
+      "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+      "publishedAt": "2026-09-23T17:06:16.000Z",
+      "snippet": "796 points · 606 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49819221",
+      "hnPoints": 796
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A brief history of Windows scroll bar shortcuts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719/",
+      "publishedAt": "2026-09-23T18:02:08.000Z",
+      "snippet": "143 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49820065",
+      "hnPoints": 143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tokens too cheap to meter",
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "publishedAt": "2026-09-23T09:21:17.000Z",
+      "snippet": "298 points · 204 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49813482",
+      "hnPoints": 298
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "publishedAt": "2026-09-23T15:29:23.000Z",
+      "snippet": "307 points · 137 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49817615",
+      "hnPoints": 307
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NandhaKishorM/laya — Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "publishedAt": "2026-09-18T04:46:33Z",
+      "snippet": "21803 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zai-org/ZCode — Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "snippet": "6649 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "publishedAt": "2026-09-19T13:50:26Z",
+      "snippet": "6114 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "publishedAt": "2026-09-21T11:12:53Z",
+      "snippet": "5566 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unreallabsai/unreal-agent — Async-first agent harness",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "publishedAt": "2026-09-21T23:14:02Z",
+      "snippet": "1825 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bespokelabsai/nimble — Local typed decisions, contrastive data curation, and model evaluation.",
+      "url": "https://github.com/bespokelabsai/nimble",
+      "publishedAt": "2026-09-18T09:07:48Z",
+      "snippet": "1712 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-coreml — Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "publishedAt": "2026-09-19T23:14:13Z",
+      "snippet": "1404 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "newliver666/apk-reverse — Suitable for Android APK reverse engineering analysis",
+      "url": "https://github.com/newliver666/apk-reverse",
+      "publishedAt": "2026-09-19T13:12:54Z",
+      "snippet": "1386 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "driceroland/Search — A small, fast WebKit browser for macOS, by Office Commun.",
+      "url": "https://github.com/driceroland/Search",
+      "publishedAt": "2026-09-20T10:29:47Z",
+      "snippet": "946 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Lumid-Off/AirCard-Windows — no description",
+      "url": "https://github.com/Lumid-Off/AirCard-Windows",
+      "publishedAt": "2026-09-18T14:27:48Z",
+      "snippet": "824 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "publishedAt": "2026-09-23T17:12:27.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Shadow roots, explained with live examples",
+      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "publishedAt": "2026-09-23T16:37:18.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p> <p>Prompt to Fable 5.1 Medium:</p> <blockquote> <p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
+      "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "snippet": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
+      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "snippet": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "publishedAt": "2026-09-24T08:12:59.000Z",
+      "snippet": "Team Zuck is absolutely on fire.",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/JvyVwlP_nlw"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "publishedAt": "2026-09-23T13:27:18.000Z",
+      "snippet": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "enclosure": "https://api.substack.com/feed/podcast/216723291/8511fc2825689ad610a1ca70864be49f.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "publishedAt": "2026-09-23T06:41:41.000Z",
+      "snippet": "overshadowing more efficient GPT6 models from OpenAI",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!tLrK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2102432417352929280.jpg"
+    }
+  ]
+}
