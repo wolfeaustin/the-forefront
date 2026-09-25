@@ -1,0 +1,385 @@
+{
+  "date": "2026-09-25",
+  "fetchedAt": "2026-09-25T10:14:51.054Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "url": "https://www.dawo.community/en/",
+      "publishedAt": "2026-09-25T08:06:49.000Z",
+      "snippet": "152 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49841563",
+      "hnPoints": 152
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "F-Droid 2.0",
+      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "publishedAt": "2026-09-24T15:26:12.000Z",
+      "snippet": "1253 points · 357 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49831968",
+      "hnPoints": 1253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "url": "https://bastardica.mitpit.com",
+      "publishedAt": "2026-09-23T22:53:28.000Z",
+      "snippet": "702 points · 94 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49823738",
+      "hnPoints": 702
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "url": "https://github.com/devdotfast/whiteboard",
+      "publishedAt": "2026-09-24T17:21:36.000Z",
+      "snippet": "313 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49833867",
+      "hnPoints": 313
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why is the liver so weirdly regenerative?",
+      "url": "https://dynomight.substack.com/p/liver",
+      "publishedAt": "2026-09-24T16:23:00.000Z",
+      "snippet": "411 points · 209 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49832938",
+      "hnPoints": 411
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "2DWillNeverDie",
+      "url": "https://2dwillneverdie.com/",
+      "publishedAt": "2026-09-22T14:00:08.000Z",
+      "snippet": "238 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49801436",
+      "hnPoints": 238
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fearless SIMD v1.0",
+      "url": "https://linebender.org/blog/fearless-simd-1-0/",
+      "publishedAt": "2026-09-22T12:23:37.000Z",
+      "snippet": "262 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49800085",
+      "hnPoints": 262
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rails World 2026 Opening Keynote [video]",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "publishedAt": "2026-09-23T15:33:33.000Z",
+      "snippet": "338 points · 368 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49817680",
+      "hnPoints": 338
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Toyota is taking the Corolla electric",
+      "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+      "publishedAt": "2026-09-23T22:37:28.000Z",
+      "snippet": "329 points · 600 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49823568",
+      "hnPoints": 329
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+      "url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+      "publishedAt": "2026-09-22T17:49:46.000Z",
+      "snippet": "338 points · 153 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49805344",
+      "hnPoints": 338
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "publishedAt": "2026-09-24T19:14:27.000Z",
+      "snippet": "134 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49835531",
+      "hnPoints": 134
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Opus 5.5 is good at explainer videos",
+      "url": "https://launchvideo.io",
+      "publishedAt": "2026-09-24T20:28:47.000Z",
+      "snippet": "266 points · 134 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49836374",
+      "hnPoints": 266
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "publishedAt": "2026-09-24T13:53:29.000Z",
+      "snippet": "184 points · 377 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49830606",
+      "hnPoints": 184
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Two-tier encryption in the UK",
+      "url": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+      "publishedAt": "2026-09-24T10:39:19.000Z",
+      "snippet": "455 points · 406 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49828731",
+      "hnPoints": 455
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Book review: Is parallel programming hard, and, if so, what can you do about it?",
+      "url": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
+      "publishedAt": "2026-09-21T14:30:00.000Z",
+      "snippet": "124 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49787759",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Board Game of the Alpha Nerds (2014)",
+      "url": "https://grantland.com/features/diplomacy-the-board-game-of-the-alpha-nerds/",
+      "publishedAt": "2026-09-24T20:53:39.000Z",
+      "snippet": "89 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49836590",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sourcehut account takeover via build logs (XSS in ansi2html)",
+      "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
+      "publishedAt": "2026-09-24T19:54:21.000Z",
+      "snippet": "117 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49835996",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nokia Design Archive (2025)",
+      "url": "https://repo.aalto.fi/index.php?name=SO_b66a9391-dcf8-4399-8e87-611f84c3fc4c",
+      "publishedAt": "2026-09-24T09:49:33.000Z",
+      "snippet": "236 points · 127 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49828385",
+      "hnPoints": 236
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "California is chasing wealth that has feet",
+      "url": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
+      "publishedAt": "2026-09-24T20:34:32.000Z",
+      "snippet": "239 points · 655 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49836419",
+      "hnPoints": 239
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WaveDigger: Dig into wireless signals to discover their physical locations",
+      "url": "https://github.com/christianrowlands/wavedigger",
+      "publishedAt": "2026-09-23T12:57:07.000Z",
+      "snippet": "114 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49815370",
+      "hnPoints": 114
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zai-org/ZCode — Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "snippet": "6742 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "publishedAt": "2026-09-21T11:12:53Z",
+      "snippet": "6418 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "publishedAt": "2026-09-19T13:50:26Z",
+      "snippet": "6280 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unreallabsai/unreal-agent — Async-first agent harness",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "publishedAt": "2026-09-21T23:14:02Z",
+      "snippet": "1896 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/laya-coreml — Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "publishedAt": "2026-09-19T23:14:13Z",
+      "snippet": "1444 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "newliver666/apk-reverse — Suitable for Android APK reverse engineering analysis",
+      "url": "https://github.com/newliver666/apk-reverse",
+      "publishedAt": "2026-09-19T13:12:54Z",
+      "snippet": "1441 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "driceroland/Search — A small, fast WebKit browser for macOS, by Office Commun.",
+      "url": "https://github.com/driceroland/Search",
+      "publishedAt": "2026-09-20T10:29:47Z",
+      "snippet": "1327 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepopen-com/deepopen — 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+      "url": "https://github.com/deepopen-com/deepopen",
+      "publishedAt": "2026-09-21T02:12:24Z",
+      "snippet": "1014 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Contrastive-LM/CLM — no description",
+      "url": "https://github.com/Contrastive-LM/CLM",
+      "publishedAt": "2026-09-23T19:29:56Z",
+      "snippet": "1014 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mikehasa/golive-skill — Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → appro",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "snippet": "919 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "commit-rewriter 0.2",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "publishedAt": "2026-09-24T20:06:53.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p> <blockquote> <p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette 1.0a41",
+      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "publishedAt": "2026-09-24T19:15:23.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
+      "url": "https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "snippet": "An interview with Colossus EIC Jeremy Stern about profiling Mark Zuckerberg and other prominent tech figures.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: a new trend of CPU shortages",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-of-cpu-shortages/",
+      "publishedAt": "2026-09-24T16:45:01.000Z",
+      "snippet": "After a GPU shortage and memory shortage driven by AI companies, we’re now experiencing a CPU shortage, thanks to AI agents using a lot more CPU with tool usage.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00.000Z",
+      "snippet": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Ndvv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eb94ca5-a315-4307-9f69-724a59c08af1_2132x1120.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "publishedAt": "2026-09-25T01:30:57.000Z",
+      "snippet": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "enclosure": "https://api.substack.com/feed/podcast/217289983/80ecbf8ba268d83a6cde12d5f719e123.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "publishedAt": "2026-09-24T15:03:16.000Z",
+      "snippet": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!-Em5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4f2dad0-1897-4b86-aa39-f4772f76e474_1591x828.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "publishedAt": "2026-09-24T08:12:59.000Z",
+      "snippet": "Team Zuck is absolutely on fire.",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/JvyVwlP_nlw"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Autonomous construction on Earth and beyond",
+      "url": "https://www.youtube.com/shorts/iGY7httJjQA",
+      "publishedAt": "2026-09-24T21:00:29.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
