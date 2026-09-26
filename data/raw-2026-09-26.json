@@ -1,0 +1,307 @@
+{
+  "date": "2026-09-26",
+  "fetchedAt": "2026-09-26T10:12:41.012Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "publishedAt": "2026-09-25T21:09:27.000Z",
+      "snippet": "492 points · 301 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49849985",
+      "hnPoints": 492
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We're gonna need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "publishedAt": "2026-09-26T02:46:54.000Z",
+      "snippet": "138 points · 168 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49852717",
+      "hnPoints": 138
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Plan mode is dead",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "publishedAt": "2026-09-25T03:59:11.000Z",
+      "snippet": "331 points · 305 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49840054",
+      "hnPoints": 331
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "publishedAt": "2026-09-25T18:33:50.000Z",
+      "snippet": "462 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49848269",
+      "hnPoints": 462
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "url": "https://jev-pokemon.vercel.app/",
+      "publishedAt": "2026-09-25T14:28:07.000Z",
+      "snippet": "202 points · 84 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49845172",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "publishedAt": "2026-09-25T21:36:56.000Z",
+      "snippet": "202 points · 283 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49850305",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "publishedAt": "2026-09-26T01:36:50.000Z",
+      "snippet": "227 points · 50 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49852302",
+      "hnPoints": 227
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gravity seems holographic. What does that mean for reality?",
+      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+      "publishedAt": "2026-09-25T15:31:02.000Z",
+      "snippet": "200 points · 171 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49845998",
+      "hnPoints": 200
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "url": "https://news.ycombinator.com/item?id=49848955",
+      "publishedAt": "2026-09-25T19:37:55.000Z",
+      "snippet": "124 points · 112 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49848955",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Excel now supports multiple values in a single cell",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "publishedAt": "2026-09-25T20:55:00.000Z",
+      "snippet": "188 points · 138 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49849832",
+      "hnPoints": 188
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "First Principles Thinking",
+      "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+      "publishedAt": "2026-09-25T13:55:37.000Z",
+      "snippet": "264 points · 112 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49844736",
+      "hnPoints": 264
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+      "publishedAt": "2026-09-26T00:59:02.000Z",
+      "snippet": "176 points · 77 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49852065",
+      "hnPoints": 176
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Remembering Johannes Doerfert",
+      "url": "https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/",
+      "publishedAt": "2026-09-24T23:36:50.000Z",
+      "snippet": "95 points · 3 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49838247",
+      "hnPoints": 95
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "publishedAt": "2026-09-25T15:29:25.000Z",
+      "snippet": "446 points · 773 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49845977",
+      "hnPoints": 446
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Postgres SELECT DISTINCT Does Not Scale",
+      "url": "https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale",
+      "publishedAt": "2026-09-24T18:43:52.000Z",
+      "snippet": "83 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49835096",
+      "hnPoints": 83
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zai-org/ZCode — Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "publishedAt": "2026-09-20T12:01:16Z",
+      "snippet": "6805 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "publishedAt": "2026-09-21T11:12:53Z",
+      "snippet": "6594 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "driceroland/Search — A small, fast WebKit browser for macOS, by Office Commun.",
+      "url": "https://github.com/driceroland/Search",
+      "publishedAt": "2026-09-20T10:29:47Z",
+      "snippet": "2017 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unreallabsai/unreal-agent — Async-first agent harness",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "publishedAt": "2026-09-21T23:14:02Z",
+      "snippet": "1951 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Contrastive-LM/CLM — no description",
+      "url": "https://github.com/Contrastive-LM/CLM",
+      "publishedAt": "2026-09-23T19:29:56Z",
+      "snippet": "1373 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "url": "https://github.com/tobi/disktree",
+      "publishedAt": "2026-09-24T20:56:29Z",
+      "snippet": "1084 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepopen-com/deepopen — 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+      "url": "https://github.com/deepopen-com/deepopen",
+      "publishedAt": "2026-09-21T02:12:24Z",
+      "snippet": "1027 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mikehasa/golive-skill — Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → appro",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "snippet": "961 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JohnHeibel/PDoomVideo — Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)",
+      "url": "https://github.com/JohnHeibel/PDoomVideo",
+      "publishedAt": "2026-09-22T23:32:19Z",
+      "snippet": "952 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kryvora-network/kryvora-node — Reference client daemon and verification worker for Kryvora Network nodes.",
+      "url": "https://github.com/kryvora-network/kryvora-node",
+      "publishedAt": "2026-09-22T16:10:23Z",
+      "snippet": "844 stars · Go"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+      "publishedAt": "2026-09-25T17:22:01.000Z",
+      "snippet": " <blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI sys",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.39: Begun, the Aggregator Wars Have",
+      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "publishedAt": "2026-09-25T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "publishedAt": "2026-09-25T23:14:41.000Z",
+      "snippet": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "enclosure": "https://api.substack.com/feed/podcast/217456046/69e6d188059a812b68e47c97b6495374.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00.000Z",
+      "snippet": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!Ndvv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eb94ca5-a315-4307-9f69-724a59c08af1_2132x1120.png"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "There’s 98 days until 2027...Do this and you’ll thank yourself on Jan 1st",
+      "publishedAt": "2026-09-25T10:43:00.000Z",
+      "snippet": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/brgh Episode 865: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk to about how to win 2027. — Show Notes: (0:00) There are 99 days left in the year (1:40) Parkinson’s Law (3:35) The toxic love of events (9:25) Joel Greenblatt’s Jelly Bean experiment (12:25) The aftershocks of Joe Hudson (15:30) Shaan’s “5 voices in the head” theory (18:05) Six Thinking Hats (20:00) The two mi",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS2309263677.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Rocket cargo delivery anywhere on Earth in minutes",
+      "url": "https://www.youtube.com/shorts/j7Ee8hMme3c",
+      "publishedAt": "2026-09-25T18:36:54.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
