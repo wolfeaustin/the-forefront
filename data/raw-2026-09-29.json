@@ -1,0 +1,401 @@
+{
+  "date": "2026-09-29",
+  "fetchedAt": "2026-09-29T10:15:18.103Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Phyllotaxis: An audio-reactive LED display",
+      "url": "https://jagi.studio/posts/phyllotaxis/",
+      "publishedAt": "2026-09-28T16:18:57.000Z",
+      "snippet": "148 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49880411",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pirating the Pirates",
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "publishedAt": "2026-09-28T15:54:15.000Z",
+      "snippet": "588 points · 288 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49880036",
+      "hnPoints": 588
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "California farmers are struggling to sell grapes as demand for wine drops",
+      "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops",
+      "publishedAt": "2026-09-28T20:00:06.000Z",
+      "snippet": "220 points · 522 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49883539",
+      "hnPoints": 220
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tank Body Problem",
+      "url": "http://www.jimsitu.com",
+      "publishedAt": "2026-09-29T00:41:45.000Z",
+      "snippet": "116 points · 25 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49886482",
+      "hnPoints": 116
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "publishedAt": "2026-09-28T18:58:53.000Z",
+      "snippet": "246 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49882781",
+      "hnPoints": 246
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+      "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+      "publishedAt": "2026-09-28T21:26:41.000Z",
+      "snippet": "101 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49884625",
+      "hnPoints": 101
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T20:23:36.000Z",
+      "snippet": "498 points · 190 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49883844",
+      "hnPoints": 498
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
+      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
+      "publishedAt": "2026-09-26T10:16:26.000Z",
+      "snippet": "136 points · 35 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49855059",
+      "hnPoints": 136
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "publishedAt": "2026-09-28T17:58:11.000Z",
+      "snippet": "789 points · 530 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49881850",
+      "hnPoints": 789
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hijacking the PS5's RTMP stream",
+      "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+      "publishedAt": "2026-09-28T15:35:23.000Z",
+      "snippet": "256 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49879702",
+      "hnPoints": 256
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "publishedAt": "2026-09-28T15:46:36.000Z",
+      "snippet": "177 points · 221 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49879883",
+      "hnPoints": 177
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scientists solve 1840s space weather mystery",
+      "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+      "publishedAt": "2026-09-28T20:00:03.000Z",
+      "snippet": "109 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49883536",
+      "hnPoints": 109
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Updated Google Maps shows destruction of the city of Rafah",
+      "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+      "publishedAt": "2026-09-28T15:32:18.000Z",
+      "snippet": "564 points · 381 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49879645",
+      "hnPoints": 564
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+      "url": "https://www.thisamericanlife.org/897/transcript",
+      "publishedAt": "2026-09-28T15:35:09.000Z",
+      "snippet": "405 points · 221 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49879697",
+      "hnPoints": 405
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "World Labs is Joining AMD",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "publishedAt": "2026-09-28T20:18:05.000Z",
+      "snippet": "279 points · 111 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49883760",
+      "hnPoints": 279
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "1996 chat room simulator connected to Win95 and System 7 web desktops",
+      "url": "https://lolchat.rip/",
+      "publishedAt": "2026-09-29T00:06:48.000Z",
+      "snippet": "112 points · 45 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49886195",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Does Reddit have an astroturfing problem? What the data suggests",
+      "url": "https://www.petervijeh.com/projects/reddit-astroturf",
+      "publishedAt": "2026-09-28T13:30:54.000Z",
+      "snippet": "223 points · 280 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49877678",
+      "hnPoints": 223
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "It's Time to Investigate the AI Labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "publishedAt": "2026-09-28T19:53:35.000Z",
+      "snippet": "503 points · 206 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49883471",
+      "hnPoints": 503
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "url": "https://hn.watch/",
+      "publishedAt": "2026-09-28T15:16:13.000Z",
+      "snippet": "178 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49879401",
+      "hnPoints": 178
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Contrastive-LM/CLM — no description",
+      "url": "https://github.com/Contrastive-LM/CLM",
+      "publishedAt": "2026-09-23T19:29:56Z",
+      "snippet": "2383 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "2274 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mexicat/pdoom-video — Code-rendered music video for \"I'm Upping My P(doom)\"",
+      "url": "https://github.com/mexicat/pdoom-video",
+      "publishedAt": "2026-09-24T21:33:53Z",
+      "snippet": "1865 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "url": "https://github.com/tobi/disktree",
+      "publishedAt": "2026-09-24T20:56:29Z",
+      "snippet": "1858 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yetone/magpie — Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie",
+      "publishedAt": "2026-09-23T16:22:35Z",
+      "snippet": "1828 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "url": "https://github.com/dzhng/jevgrep",
+      "publishedAt": "2026-09-26T04:06:56Z",
+      "snippet": "1584 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Niko1221/Strata — Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "url": "https://github.com/Niko1221/Strata",
+      "publishedAt": "2026-09-24T16:40:20Z",
+      "snippet": "1295 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mikehasa/golive-skill — Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → appro",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "publishedAt": "2026-09-23T13:37:26Z",
+      "snippet": "1081 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "852wa/JIZURA — 歌詞から文字PVを自動で組み立てるブラウザアプリ",
+      "url": "https://github.com/852wa/JIZURA",
+      "publishedAt": "2026-09-23T04:04:13Z",
+      "snippet": "1035 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dgreenheck/tidewater — Coastal town built with Opus 5.5",
+      "url": "https://github.com/dgreenheck/tidewater",
+      "publishedAt": "2026-09-23T21:40:29Z",
+      "snippet": "946 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "publishedAt": "2026-09-28T22:07:38.000Z",
+      "snippet": " <p><strong><a href=\"https://www.anthropic.com/claude-sonnet-5-5\">Claude Sonnet 5.5</a></strong></p> New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p> <p><a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01\">Here are some pelicans r",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting @joedaroo",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "publishedAt": "2026-09-28T19:11:42.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/joedaroo/status/2104335929293127851\"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to chan",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
+      "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "snippet": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apps, Agents, and Aggregation",
+      "url": "https://stratechery.com/2026/apps-agents-and-aggregation/",
+      "publishedAt": "2026-09-28T10:25:37.000Z",
+      "snippet": "Agents are the ultimate Aggregators; they reveal apps as a means, not an ends, and providing them is tech's biggest prize.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
+      "publishedAt": "2026-09-28T15:03:13.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/ce9775f1-a48e-4a11-9177-4230d3be80a8_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Jev for beginners: how to use it and what to build",
+      "url": "https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and",
+      "publishedAt": "2026-09-28T12:03:04.000Z",
+      "snippet": "Watch now (26 mins) | 🎙️ Jev returns type-safe structured values instead of text, which makes it the fastest, cheapest classification layer I’ve ever put in a pipeline—and this week I shipped three real projects with it",
+      "enclosure": "https://api.substack.com/feed/podcast/217276787/bbbdb644d146a9502f51a217a7dcb87a.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "publishedAt": "2026-09-29T02:55:27.000Z",
+      "snippet": "Congrats team!",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/60iW8FZ7MJU"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "publishedAt": "2026-09-29T02:44:29.000Z",
+      "snippet": "a rare feature of a capability",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!aAiz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHTVRIbeagAAvWK1.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "url": "https://www.latent.space/p/thariq",
+      "publishedAt": "2026-09-29T01:48:18.000Z",
+      "snippet": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "enclosure": "https://api.substack.com/feed/podcast/217893105/b910afe71a4c96e14fd7271715a2cd15.mp3"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Noah Shinn - Building Instinct: The Personal Agent - [Invest Like the Best, EP.493]",
+      "url": "https://colossus.com/episode/instinct-the-personal-agent/",
+      "publishedAt": "2026-09-28T12:05:00.000Z",
+      "snippet": "My guest today is Noah Shinn. Noah is the founder of Instinct, a personal assistant that you text, call, or email the same way you would a person. It has its own phone and its own computer, and it can do almost anything on your behalf that you would do yourself online. Instinct is about a year old, still invite-only, and growing roughly 10% day over day without any marketing spend. We discuss the surprising ways people are already using Instinct, the trusted network that lets two people's agents",
+      "enclosure": "https://traffic.megaphone.fm/CLS4620503535.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "MIT scientist: Elon Musk was right, we are almost certainly in a simulation",
+      "publishedAt": "2026-09-28T10:00:00.000Z",
+      "snippet": "(Free) MFM's pro-level business resources shared by the best in the biz: https://clickhubspot.com/pvks Episode 866: Shaan Puri ( https://x.com/ShaanVP ) talks to MIT Scientist about whether or not we’re living in a simulation. — Show Notes: (0:00) Are We Living in a Simulation? (8:30) Ancient Religions Already Believed This (14:40) AI Agents Are Getting Weird (28:40) Quantum Physics & the Simulation Theory (40:50) Aliens, UFOs & Glitches in the Matrix (51:30) Dreams, Past Lives & DMT (55:00) How",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS8336995868.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Robotic factories that build robots",
+      "url": "https://www.youtube.com/shorts/aNWKngrCrw4",
+      "publishedAt": "2026-09-28T20:56:45.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
