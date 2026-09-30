@@ -1,0 +1,381 @@
+{
+  "date": "2026-09-30",
+  "fetchedAt": "2026-09-30T10:15:44.109Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "getaddrinfo ENOTFOUND www.aaronsw.com"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "publishedAt": "2026-09-29T22:36:14.000Z",
+      "snippet": "631 points · 254 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49901736",
+      "hnPoints": 631
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "September 2026: The world today, as seen by one Polish guy",
+      "url": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
+      "publishedAt": "2026-09-30T07:12:31.000Z",
+      "snippet": "226 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49905487",
+      "hnPoints": 226
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dots: Always-on agents",
+      "url": "https://openai.com/index/introducing-dots/",
+      "publishedAt": "2026-09-29T17:07:57.000Z",
+      "snippet": "626 points · 487 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49896604",
+      "hnPoints": 626
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vermont replacing power plants with home batteries",
+      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+      "publishedAt": "2026-09-29T18:19:02.000Z",
+      "snippet": "203 points · 160 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49897993",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+      "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+      "publishedAt": "2026-09-29T19:30:17.000Z",
+      "snippet": "232 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49899090",
+      "hnPoints": 232
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "America.gov",
+      "url": "https://america.gov/",
+      "publishedAt": "2026-09-29T14:04:57.000Z",
+      "snippet": "567 points · 475 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49893509",
+      "hnPoints": 567
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NASA asked several former SR-71A staffers to help secret restart",
+      "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+      "publishedAt": "2026-09-29T10:10:20.000Z",
+      "snippet": "172 points · 173 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49890733",
+      "hnPoints": 172
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "url": "https://space.bl2.net/",
+      "publishedAt": "2026-09-29T19:08:01.000Z",
+      "snippet": "253 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49898778",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "publishedAt": "2026-09-29T12:43:29.000Z",
+      "snippet": "525 points · 294 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49892245",
+      "hnPoints": 525
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why Is Sam Altman a Free Man?",
+      "url": "https://prospect.org/2026/09/29/artificial-intelligence-agents-openai-microsoft-sam-altman-greg-brockman-ah-nice/",
+      "publishedAt": "2026-09-30T07:32:40.000Z",
+      "snippet": "100 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49905633",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Backblaze drive stats for Q2 2026",
+      "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+      "publishedAt": "2026-09-29T13:34:20.000Z",
+      "snippet": "196 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49893002",
+      "hnPoints": 196
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "publishedAt": "2026-09-29T17:06:45.000Z",
+      "snippet": "947 points · 833 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49896586",
+      "hnPoints": 947
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Phyllotaxis: An audio-reactive LED display",
+      "url": "https://jagi.studio/posts/phyllotaxis/",
+      "publishedAt": "2026-09-28T16:18:57.000Z",
+      "snippet": "295 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49880411",
+      "hnPoints": 295
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Needed 1+1, built a functional programming language",
+      "url": "https://hereticpleb.vercel.app/blog/needed-one-plus-one/",
+      "publishedAt": "2026-09-29T16:18:26.000Z",
+      "snippet": "108 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49895864",
+      "hnPoints": 108
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Language models for text classification: From bag-of-words to Jev",
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "publishedAt": "2026-09-29T11:06:25.000Z",
+      "snippet": "125 points · 5 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49891203",
+      "hnPoints": 125
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "When oil prices spike, where does the money go?",
+      "url": "https://theconversation.com/when-oil-prices-spike-where-does-the-money-go-280763",
+      "publishedAt": "2026-09-29T04:14:11.000Z",
+      "snippet": "89 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49888182",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: What are you reading?",
+      "url": "https://news.ycombinator.com/item?id=49893157",
+      "publishedAt": "2026-09-29T13:44:43.000Z",
+      "snippet": "286 points · 572 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49893157",
+      "hnPoints": 286
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PS5 Relapse Exploit",
+      "url": "https://github.com/ntfargo/Relapse-Exploit",
+      "publishedAt": "2026-09-29T15:44:41.000Z",
+      "snippet": "312 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49895304",
+      "hnPoints": 312
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NAND-16: a computer built from 277,248 NAND gates",
+      "url": "https://somethingbig.ai/computer",
+      "publishedAt": "2026-09-27T21:26:06.000Z",
+      "snippet": "145 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49871018",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Staff Engineer's Guide to Inventing Work",
+      "url": "https://sujithjay.com/inventing-work",
+      "publishedAt": "2026-09-28T14:46:07.000Z",
+      "snippet": "269 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49878857",
+      "hnPoints": 269
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: NSL – WSL for Linux",
+      "url": "https://frostyard.github.io/nsl/",
+      "publishedAt": "2026-09-29T14:51:36.000Z",
+      "snippet": "135 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49894351",
+      "hnPoints": 135
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "3806 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Niko1221/Strata — Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "url": "https://github.com/Niko1221/Strata",
+      "publishedAt": "2026-09-24T16:40:20Z",
+      "snippet": "2114 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mexicat/pdoom-video — Code-rendered music video for \"I'm Upping My P(doom)\"",
+      "url": "https://github.com/mexicat/pdoom-video",
+      "publishedAt": "2026-09-24T21:33:53Z",
+      "snippet": "2040 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "url": "https://github.com/tobi/disktree",
+      "publishedAt": "2026-09-24T20:56:29Z",
+      "snippet": "1944 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "url": "https://github.com/dzhng/jevgrep",
+      "publishedAt": "2026-09-26T04:06:56Z",
+      "snippet": "1840 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "shihabal3amri/DiPlay — Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+      "url": "https://github.com/shihabal3amri/DiPlay",
+      "publishedAt": "2026-09-24T15:36:38Z",
+      "snippet": "1231 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firelex/jeff — Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T16:18:39Z",
+      "snippet": "1129 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feitangyuan/onetake — Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product l",
+      "url": "https://github.com/feitangyuan/onetake",
+      "publishedAt": "2026-09-26T05:35:17Z",
+      "snippet": "1018 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yihui-dev/awesome-opus5-5-videos — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "publishedAt": "2026-09-27T06:19:36Z",
+      "snippet": "1002 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kaankiziltug/logo-design-skill — A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "publishedAt": "2026-09-26T08:23:34Z",
+      "snippet": "946 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "publishedAt": "2026-09-29T22:20:28.000Z",
+      "snippet": " <blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "publishedAt": "2026-09-29T18:27:48.000Z",
+      "snippet": " <p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p> <p>Here they are for GPT-6.1-Sol: <a hre",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "OpenAI DevDay 2026 live blog",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "publishedAt": "2026-09-29T15:55:13.000Z",
+      "snippet": " <p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
+      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "snippet": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
+      "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "snippet": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "All of the Lenny & Friends Summit talks are now online!",
+      "url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
+      "publishedAt": "2026-09-29T13:15:57.000Z",
+      "snippet": "Plus, some reflections and takeaways from the day",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/9fed347c-0e02-4190-a590-1236719b99de_9213x6142.jpeg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "publishedAt": "2026-09-30T05:53:10.000Z",
+      "snippet": "the most confident DevDay yet.",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/GjN3xLDuc8o"
+    }
+  ]
+}
