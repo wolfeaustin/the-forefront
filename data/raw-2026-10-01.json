@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-01",
+  "fetchedAt": "2026-10-01T10:15:25.661Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "getaddrinfo ENOTFOUND www.aaronsw.com"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "publishedAt": "2026-09-30T20:04:37.000Z",
+      "snippet": "1403 points · 902 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49913571",
+      "hnPoints": 1403
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "url": "https://www.thespacereview.com/article/4951/1",
+      "publishedAt": "2026-09-30T22:03:04.000Z",
+      "snippet": "223 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49915082",
+      "hnPoints": 223
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why the Bronze Age Collapsed",
+      "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+      "publishedAt": "2026-09-29T10:10:18.000Z",
+      "snippet": "244 points · 143 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49890732",
+      "hnPoints": 244
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Surprisingly complex waves reveal the brain's inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "publishedAt": "2026-09-30T19:04:50.000Z",
+      "snippet": "189 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49912955",
+      "hnPoints": 189
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "publishedAt": "2026-09-30T17:37:40.000Z",
+      "snippet": "163 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49911995",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Halfspace experimental IDE for solid modeling with distance fields",
+      "url": "https://www.mattkeeter.com/projects/halfspace/",
+      "publishedAt": "2026-09-30T19:44:37.000Z",
+      "snippet": "139 points · 9 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49913350",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Before pixels: Modular industrial dashboards",
+      "url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/",
+      "publishedAt": "2026-09-30T18:49:06.000Z",
+      "snippet": "146 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49912792",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A brief history of the Bloomberg terminal",
+      "url": "https://spectrum.ieee.org/bloomberg-terminal",
+      "publishedAt": "2026-09-30T14:34:07.000Z",
+      "snippet": "291 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49909583",
+      "hnPoints": 291
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "publishedAt": "2026-09-30T18:17:45.000Z",
+      "snippet": "176 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49912444",
+      "hnPoints": 176
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Ledge.sh – Runnable Markdown Notes",
+      "url": "https://ledge.sh",
+      "publishedAt": "2026-09-29T23:41:34.000Z",
+      "snippet": "143 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49902382",
+      "hnPoints": 143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+      "url": "https://www.chompiclub.com/opensource",
+      "publishedAt": "2026-09-30T17:42:13.000Z",
+      "snippet": "87 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49912048",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The last time my family was replaced by technology",
+      "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+      "publishedAt": "2026-09-30T13:06:11.000Z",
+      "snippet": "244 points · 516 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49908394",
+      "hnPoints": 244
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "EDG C++ front-end goes public",
+      "url": "https://edgcpp.org/#transition",
+      "publishedAt": "2026-09-30T19:26:37.000Z",
+      "snippet": "219 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49913192",
+      "hnPoints": 219
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
+      "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+      "publishedAt": "2026-09-30T09:27:04.000Z",
+      "snippet": "393 points · 341 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49906432",
+      "hnPoints": 393
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What TLA+ can and can't check",
+      "url": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+      "publishedAt": "2026-09-30T13:57:06.000Z",
+      "snippet": "187 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49909056",
+      "hnPoints": 187
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "56k.rip – the 1996 dial-up internet experience",
+      "url": "https://56k.rip/",
+      "publishedAt": "2026-09-30T22:08:50.000Z",
+      "snippet": "179 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49915126",
+      "hnPoints": 179
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Doing a Machine Learning PhD While Working in Japan",
+      "url": "https://www.tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
+      "publishedAt": "2026-09-30T07:33:45.000Z",
+      "snippet": "100 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49905644",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Burning Man death rates – A short lesson in statistics",
+      "url": "https://ihavenapkinthoughts.substack.com/p/burning-man-death-rates-a-short-lesson",
+      "publishedAt": "2026-09-28T18:57:16.000Z",
+      "snippet": "144 points · 188 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49882754",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Responsible Release of AI-Generated Mathematics",
+      "url": "https://agmai.org/general-sep29/",
+      "publishedAt": "2026-09-30T02:36:12.000Z",
+      "snippet": "94 points · 121 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49903713",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LinkedIn Larpmaxxing",
+      "url": "https://hereticpleb.vercel.app/blog/linkedin-larpmaxxing/",
+      "publishedAt": "2026-09-30T04:19:57.000Z",
+      "snippet": "199 points · 173 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49904314",
+      "hnPoints": 199
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+      "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+      "publishedAt": "2026-09-30T13:50:50.000Z",
+      "snippet": "155 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49908962",
+      "hnPoints": 155
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SDF Public Access Unix System ... est. 1987",
+      "url": "https://sdf.org/",
+      "publishedAt": "2026-09-30T14:36:02.000Z",
+      "snippet": "95 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49909610",
+      "hnPoints": 95
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "4271 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "url": "https://github.com/feder-cr/dots",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "snippet": "1986 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "url": "https://github.com/dzhng/jevgrep",
+      "publishedAt": "2026-09-26T04:06:56Z",
+      "snippet": "1935 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Louis-CFM/coucou — A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "publishedAt": "2026-09-27T21:54:12Z",
+      "snippet": "1931 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kaankiziltug/logo-design-skill — A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "publishedAt": "2026-09-26T08:23:34Z",
+      "snippet": "1228 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firelex/jeff — Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T16:18:39Z",
+      "snippet": "1220 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yihui-dev/awesome-opus5-5-videos — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "publishedAt": "2026-09-27T06:19:36Z",
+      "snippet": "1170 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "1135 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feitangyuan/onetake — Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product l",
+      "url": "https://github.com/feitangyuan/onetake",
+      "publishedAt": "2026-09-26T05:35:17Z",
+      "snippet": "1084 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wy51ai/floorplan-3d — no description",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "publishedAt": "2026-09-29T02:57:30Z",
+      "snippet": "1072 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "publishedAt": "2026-10-01T06:29:01.000Z",
+      "snippet": " <blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "He Built This City",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "publishedAt": "2026-09-30T21:54:19.000Z",
+      "snippet": " <p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p> <p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p> <p><img alt=\"A wide shot of the model of the island of Manhattan, plus t",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart",
+      "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+      "publishedAt": "2026-10-01T10:00:00.000Z",
+      "snippet": "An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "OpenAI Dev Day, Dot and OpenAI’s Product Transition, Sign In With ChatGPT",
+      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "snippet": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "OpenAI Dev Day 2026: The releases that actually matter",
+      "url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
+      "publishedAt": "2026-09-30T14:45:15.000Z",
+      "snippet": "Watch now (24 mins) | 🎙️ Claire tests OpenAI’s DevDay releases, from Dots, Spaces, and Sites to AI-picked thumbnails and a $97 game, and shares what’s worth trying first",
+      "enclosure": "https://api.substack.com/feed/podcast/218186983/9c2ff1653183e44db01f0a6716124cf3.mp3"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+      "publishedAt": "2026-09-30T12:04:27.000Z",
+      "snippet": "Watch now (46 mins) | 🎙️ Educator and developer John Lindquist shares eight Jev demos, from live voice classification and deduplication to agent routing, showing how low costs make once-impractical ideas worth trying",
+      "enclosure": "https://api.substack.com/feed/podcast/218050591/ad574beedfa0c67fe39e8b4b552ca024.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "publishedAt": "2026-10-01T06:45:05.000Z",
+      "snippet": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!wmoR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHTfV52SWgAIlX3W.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "publishedAt": "2026-09-30T22:23:40.000Z",
+      "snippet": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+      "enclosure": "https://api.substack.com/feed/podcast/218243619/4623bf38297ddb16dba4460b8b439140.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "publishedAt": "2026-09-30T05:53:10.000Z",
+      "snippet": "the most confident DevDay yet.",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/GjN3xLDuc8o"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "We tested Instinct, MUSE and Grokbot. They’re ridiculous.",
+      "publishedAt": "2026-09-30T11:13:00.000Z",
+      "snippet": "Get Sam's guide to turn AI into your executive coach: https://clickhubspot.com/vbrp Episode 867: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) test out the new ai personal assistants. — Show Notes: (0:00) Intro (2:42) AI is the highest ELO game in the world (5:18) Instinct (9:31) Grokbot (20:24) It’s not all about intelligence (38:35) Micro1 (44:08) Exploiting vulnerabilities (58:48) $100 billion companies everywhere — Links: • Instinct - https://instinct.com/ • ",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5916531802.mp3"
+    }
+  ]
+}
