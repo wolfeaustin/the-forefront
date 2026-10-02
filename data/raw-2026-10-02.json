@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-02",
+  "fetchedAt": "2026-10-02T10:14:51.142Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "getaddrinfo ENOTFOUND www.aaronsw.com"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "publishedAt": "2026-10-01T19:33:05.000Z",
+      "snippet": "1289 points · 412 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926069",
+      "hnPoints": 1289
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Shimano Bicycle Museum Review",
+      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "publishedAt": "2026-10-02T05:12:58.000Z",
+      "snippet": "109 points · 17 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49930047",
+      "hnPoints": 109
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Singapore's government-run dating service works",
+      "url": "https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works",
+      "publishedAt": "2026-10-02T01:56:52.000Z",
+      "snippet": "168 points · 110 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49929113",
+      "hnPoints": 168
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "publishedAt": "2026-10-01T23:10:44.000Z",
+      "snippet": "310 points · 223 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49928121",
+      "hnPoints": 310
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "publishedAt": "2026-10-01T16:18:57.000Z",
+      "snippet": "515 points · 180 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49923692",
+      "hnPoints": 515
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
+      "url": "https://www.deepseek.com/en/harness/",
+      "publishedAt": "2026-10-02T03:11:20.000Z",
+      "snippet": "239 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49929489",
+      "hnPoints": 239
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SvelteKit 3",
+      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+      "publishedAt": "2026-10-01T20:14:23.000Z",
+      "snippet": "279 points · 104 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926536",
+      "hnPoints": 279
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "publishedAt": "2026-10-01T19:24:08.000Z",
+      "snippet": "382 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49925969",
+      "hnPoints": 382
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "publishedAt": "2026-10-01T15:02:07.000Z",
+      "snippet": "205 points · 203 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49922569",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Automatic Transmission – a data-privacy study of connected vehicles",
+      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+      "publishedAt": "2026-10-01T20:23:27.000Z",
+      "snippet": "192 points · 166 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926628",
+      "hnPoints": 192
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "publishedAt": "2026-10-01T16:57:03.000Z",
+      "snippet": "381 points · 359 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49924179",
+      "hnPoints": 381
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "StreetComplete on iOS is now in public beta",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "publishedAt": "2026-10-01T10:59:57.000Z",
+      "snippet": "567 points · 149 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49920160",
+      "hnPoints": 567
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "publishedAt": "2026-10-01T20:48:37.000Z",
+      "snippet": "148 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926917",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Frog and Toad and the Increasingly Capable Machines",
+      "url": "https://www.frogandtoad.ai/",
+      "publishedAt": "2026-10-01T22:23:38.000Z",
+      "snippet": "171 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49927760",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RIP, vector database",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "publishedAt": "2026-10-01T16:01:56.000Z",
+      "snippet": "330 points · 88 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49923466",
+      "hnPoints": 330
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Turbo Haskell",
+      "url": "https://comonad.com/reader/2026/turbo-haskell/",
+      "publishedAt": "2026-10-01T13:58:25.000Z",
+      "snippet": "97 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49921798",
+      "hnPoints": 97
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "url": "https://www.cssbed.com",
+      "publishedAt": "2026-10-01T21:21:32.000Z",
+      "snippet": "112 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49927212",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "publishedAt": "2026-10-01T15:07:42.000Z",
+      "snippet": "226 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49922674",
+      "hnPoints": 226
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ArXiv's Updated Rate Limit Policy",
+      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+      "publishedAt": "2026-10-01T20:12:15.000Z",
+      "snippet": "117 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926512",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "publishedAt": "2026-10-01T17:32:43.000Z",
+      "snippet": "144 points · 167 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49924618",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cloudflare K2: serverless event streams",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "publishedAt": "2026-10-01T14:09:10.000Z",
+      "snippet": "240 points · 90 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49921923",
+      "hnPoints": 240
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Oxygen-deprived underwater zones may not be “dead zones” but clue to early life",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026AV002570",
+      "publishedAt": "2026-10-01T19:03:42.000Z",
+      "snippet": "103 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49925742",
+      "hnPoints": 103
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Context Language Models",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "publishedAt": "2026-10-01T14:51:33.000Z",
+      "snippet": "146 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49922437",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to speed up the Rust compiler in September 2026",
+      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+      "publishedAt": "2026-10-01T12:44:38.000Z",
+      "snippet": "257 points · 139 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49920896",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RacketCon Is Saturday",
+      "url": "https://con.racket-lang.org/",
+      "publishedAt": "2026-10-01T14:58:13.000Z",
+      "snippet": "144 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49922515",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "publishedAt": "2026-10-01T10:21:36.000Z",
+      "snippet": "178 points · 107 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49919910",
+      "hnPoints": 178
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "4870 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Louis-CFM/coucou — A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Gemini CLI, Antigravity and more.",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "publishedAt": "2026-09-27T21:54:12Z",
+      "snippet": "2668 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "url": "https://github.com/feder-cr/dots",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "snippet": "2415 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "url": "https://github.com/dzhng/jevgrep",
+      "publishedAt": "2026-09-26T04:06:56Z",
+      "snippet": "2028 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "1749 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kaankiziltug/logo-design-skill — A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "publishedAt": "2026-09-26T08:23:34Z",
+      "snippet": "1403 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yihui-dev/awesome-opus5-5-videos — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "publishedAt": "2026-09-27T06:19:36Z",
+      "snippet": "1338 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firelex/jeff — Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T16:18:39Z",
+      "snippet": "1293 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wy51ai/floorplan-3d — no description",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "publishedAt": "2026-09-29T02:57:30Z",
+      "snippet": "1236 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feitangyuan/onetake — Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product l",
+      "url": "https://github.com/feitangyuan/onetake",
+      "publishedAt": "2026-09-26T05:35:17Z",
+      "snippet": "1215 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "publishedAt": "2026-10-01T06:29:01.000Z",
+      "snippet": " <blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart",
+      "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+      "publishedAt": "2026-10-01T10:00:00.000Z",
+      "snippet": "An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-ror-creator-sparks-new-death-of-coding-by-hand-debate/",
+      "publishedAt": "2026-10-01T16:44:13.000Z",
+      "snippet": "In his Rails World keynote, David Heinemeier Hansson (DHH) declared the end for writing code by hand for professional work – at 37signals at least. Is this change now unstoppable?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53.000Z",
+      "snippet": "the minimalist harness goes stable... and TypeScript!",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/RjfbvDXpFls"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "publishedAt": "2026-10-02T00:28:04.000Z",
+      "snippet": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+      "enclosure": "https://api.substack.com/feed/podcast/218414422/044c92ee79bb60914986e42706d74969.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "publishedAt": "2026-10-01T06:45:05.000Z",
+      "snippet": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!wmoR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHTfV52SWgAIlX3W.png"
+    }
+  ]
+}
