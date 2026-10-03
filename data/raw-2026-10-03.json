@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-03",
+  "fetchedAt": "2026-10-03T10:12:51.846Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "url": "https://www.newgrounds.com/",
+      "publishedAt": "2026-10-03T00:55:25.000Z",
+      "snippet": "223 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49940394",
+      "hnPoints": 223
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "publishedAt": "2026-10-01T22:23:07.000Z",
+      "snippet": "636 points · 287 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49927754",
+      "hnPoints": 636
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "publishedAt": "2026-10-02T19:06:56.000Z",
+      "snippet": "426 points · 264 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49937276",
+      "hnPoints": 426
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mike Tomlin spent 12 years building a Minecraft city",
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "publishedAt": "2026-10-01T18:20:18.000Z",
+      "snippet": "461 points · 108 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49925184",
+      "hnPoints": 461
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "publishedAt": "2026-10-02T11:07:17.000Z",
+      "snippet": "284 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49932147",
+      "hnPoints": 284
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "publishedAt": "2026-10-02T14:22:12.000Z",
+      "snippet": "220 points · 145 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49933869",
+      "hnPoints": 220
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Loss of cell identity drives human aging: Two new papers",
+      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "publishedAt": "2026-10-01T20:02:57.000Z",
+      "snippet": "260 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49926411",
+      "hnPoints": 260
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Extra Big Ass Intelligence",
+      "url": "https://www.extrabigassintelligence.com/",
+      "publishedAt": "2026-10-03T03:19:10.000Z",
+      "snippet": "298 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49941114",
+      "hnPoints": 298
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "publishedAt": "2026-10-02T18:01:16.000Z",
+      "snippet": "243 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49936575",
+      "hnPoints": 243
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "publishedAt": "2026-10-02T02:51:27.000Z",
+      "snippet": "241 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49929391",
+      "hnPoints": 241
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FLUX 3 Image",
+      "url": "https://bfl.ai/models/flux-3-image",
+      "publishedAt": "2026-10-01T19:24:29.000Z",
+      "snippet": "345 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49925974",
+      "hnPoints": 345
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "publishedAt": "2026-10-02T14:11:24.000Z",
+      "snippet": "218 points · 109 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49933740",
+      "hnPoints": 218
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "publishedAt": "2026-10-02T19:26:54.000Z",
+      "snippet": "195 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49937504",
+      "hnPoints": 195
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Updates to Full Disk Access in macOS",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "publishedAt": "2026-10-02T19:37:01.000Z",
+      "snippet": "204 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49937631",
+      "hnPoints": 204
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "url": "https://stillwet.art/",
+      "publishedAt": "2026-10-02T00:27:56.000Z",
+      "snippet": "277 points · 88 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49928566",
+      "hnPoints": 277
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "One month coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "publishedAt": "2026-10-02T15:29:15.000Z",
+      "snippet": "163 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49934620",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sites in ChatGPT",
+      "url": "https://chatgpt.com/features/sites/",
+      "publishedAt": "2026-10-01T22:22:21.000Z",
+      "snippet": "272 points · 257 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49927747",
+      "hnPoints": 272
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Legend of von Neumann (1973) [pdf]",
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "publishedAt": "2026-10-02T13:18:32.000Z",
+      "snippet": "285 points · 150 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49933235",
+      "hnPoints": 285
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "publishedAt": "2026-10-02T13:17:47.000Z",
+      "snippet": "122 points · 35 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49933230",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "To grieve, or not to grieve?",
+      "url": "https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/",
+      "publishedAt": "2026-10-01T09:47:46.000Z",
+      "snippet": "141 points · 121 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49919676",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "publishedAt": "2026-10-02T20:00:15.000Z",
+      "snippet": "114 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49937916",
+      "hnPoints": 114
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "5050 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Louis-CFM/coucou — A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigrav",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "publishedAt": "2026-09-27T21:54:12Z",
+      "snippet": "3099 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "url": "https://github.com/feder-cr/dots",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "snippet": "2564 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "2319 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CopilotKit/OpenDots — Your always-on AI coworkers that move between text, calls, and Slack.",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "publishedAt": "2026-09-29T17:13:58Z",
+      "snippet": "1802 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "yihui-dev/awesome-opus5-5-videos — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "publishedAt": "2026-09-27T06:19:36Z",
+      "snippet": "1490 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wy51ai/floorplan-3d — no description",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "publishedAt": "2026-09-29T02:57:30Z",
+      "snippet": "1347 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firelex/jeff — Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T16:18:39Z",
+      "snippet": "1337 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "publishedAt": "2026-09-30T11:49:32Z",
+      "snippet": "1238 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "edenfunf/reelmimic — Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "publishedAt": "2026-09-28T19:14:59Z",
+      "snippet": "1005 stars · JavaScript"
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.40: Dots and Question Marks",
+      "url": "https://stratechery.com/2026/dots-and-question-marks/",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15.000Z",
+      "snippet": "a quiet day.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "publishedAt": "2026-10-02T14:04:49.000Z",
+      "snippet": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!-kaR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ac92b22-c007-487c-b80f-f031f36596db_2560x1440.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53.000Z",
+      "snippet": "the minimalist harness goes stable... and TypeScript!",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/RjfbvDXpFls"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "A camera that can see through walls",
+      "url": "https://www.youtube.com/shorts/Lk_0TviLhnw",
+      "publishedAt": "2026-10-02T19:20:30.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "What If We Stopped Using GPUs? | YC Paper Club",
+      "url": "https://www.youtube.com/watch?v=xc2FTBGRSJo",
+      "publishedAt": "2026-10-02T14:00:19.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
