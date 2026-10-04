@@ -1,0 +1,334 @@
+{
+  "date": "2026-10-04",
+  "fetchedAt": "2026-10-04T11:26:18.380Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "publishedAt": "2026-10-04T00:50:52.000Z",
+      "snippet": "501 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49949438",
+      "hnPoints": 501
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why don't more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "publishedAt": "2026-10-04T04:10:47.000Z",
+      "snippet": "159 points · 130 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49950554",
+      "hnPoints": 159
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "So you think you could be an electrician?",
+      "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+      "publishedAt": "2026-09-30T15:43:27.000Z",
+      "snippet": "262 points · 187 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49910462",
+      "hnPoints": 262
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "publishedAt": "2026-10-03T19:14:48.000Z",
+      "snippet": "312 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49946895",
+      "hnPoints": 312
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "publishedAt": "2026-10-03T18:01:27.000Z",
+      "snippet": "214 points · 92 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49946355",
+      "hnPoints": 214
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "publishedAt": "2026-10-03T17:03:37.000Z",
+      "snippet": "197 points · 110 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49945933",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "publishedAt": "2026-10-03T18:06:45.000Z",
+      "snippet": "300 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49946393",
+      "hnPoints": 300
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "publishedAt": "2026-10-04T00:20:16.000Z",
+      "snippet": "457 points · 224 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49949235",
+      "hnPoints": 457
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We're working on a new RuneScape MMO",
+      "url": "https://play.runescape.com/4",
+      "publishedAt": "2026-10-04T01:12:22.000Z",
+      "snippet": "80 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49949588",
+      "hnPoints": 80
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
+      "publishedAt": "2026-10-01T16:32:40.000Z",
+      "snippet": "199 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49923873",
+      "hnPoints": 199
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "In Ukraine, distributed renewables foil Russia's assaults",
+      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "publishedAt": "2026-10-04T08:39:58.000Z",
+      "snippet": "92 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49951881",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "publishedAt": "2026-10-03T20:49:15.000Z",
+      "snippet": "159 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49947631",
+      "hnPoints": 159
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "publishedAt": "2026-10-03T17:44:29.000Z",
+      "snippet": "159 points · 217 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49946228",
+      "hnPoints": 159
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "publishedAt": "2026-10-04T02:34:22.000Z",
+      "snippet": "87 points · 195 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49950052",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "publishedAt": "2026-10-03T19:33:16.000Z",
+      "snippet": "139 points · 122 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49947051",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "publishedAt": "2026-10-03T13:46:34.000Z",
+      "snippet": "255 points · 507 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49944227",
+      "hnPoints": 255
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FTL: A new operating system for clouds",
+      "url": "https://ftl-os.org/",
+      "publishedAt": "2026-10-03T15:02:36.000Z",
+      "snippet": "177 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49944912",
+      "hnPoints": 177
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Surely you have ultra-wideband radios on your bins too?",
+      "url": "https://sjg.io/writing/binrange-have-you-actually-put-the-bins-out/",
+      "publishedAt": "2026-10-03T20:27:44.000Z",
+      "snippet": "82 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49947472",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "City building games have a Soul Problem pt.2",
+      "url": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
+      "publishedAt": "2026-10-03T15:52:07.000Z",
+      "snippet": "139 points · 134 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49945323",
+      "hnPoints": 139
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "publishedAt": "2026-09-28T23:40:05Z",
+      "snippet": "5615 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CopilotKit/OpenDots — Your always-on AI coworkers that move between text, calls, and Slack.",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "publishedAt": "2026-09-29T17:13:58Z",
+      "snippet": "2893 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "2792 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "url": "https://github.com/feder-cr/dots",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "snippet": "2588 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wy51ai/floorplan-3d — no description",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "publishedAt": "2026-09-29T02:57:30Z",
+      "snippet": "1372 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "firelex/jeff — Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
+      "url": "https://github.com/firelex/jeff",
+      "publishedAt": "2026-09-28T16:18:39Z",
+      "snippet": "1354 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "publishedAt": "2026-09-30T11:49:32Z",
+      "snippet": "1354 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "edenfunf/reelmimic — Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "publishedAt": "2026-09-28T19:14:59Z",
+      "snippet": "1204 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "publishedAt": "2026-10-02T18:21:23Z",
+      "snippet": "1010 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CAPCOM-TD-OSS/REDox — High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.",
+      "url": "https://github.com/CAPCOM-TD-OSS/REDox",
+      "publishedAt": "2026-09-30T10:20:07Z",
+      "snippet": "1006 stars · C#"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "publishedAt": "2026-10-03T23:34:02.000Z",
+      "snippet": " <p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p> <p>Coding agents, and personal agents (coding agents wrapped in a less threatenin",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "publishedAt": "2026-10-03T22:00:31.000Z",
+      "snippet": " <p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>More Fable class models</li> <li>A pricing war</li> <li>3D graphics, Blender, and pixel art</li> <li>LLMs come for mathematics</li> <li>So many more accidental cyberattacks</li> <",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "publishedAt": "2026-10-03T17:00:49.000Z",
+      "snippet": "Community Wisdom 301",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15.000Z",
+      "snippet": "a quiet day.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!DbYa!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png"
+    }
+  ]
+}
