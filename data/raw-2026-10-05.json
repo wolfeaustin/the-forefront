@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-05",
+  "fetchedAt": "2026-10-05T10:18:23.121Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "publishedAt": "2026-10-05T08:09:36.000Z",
+      "snippet": "101 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962012",
+      "hnPoints": 101
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "publishedAt": "2026-10-04T12:51:53.000Z",
+      "snippet": "810 points · 356 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49953495",
+      "hnPoints": 810
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/",
+      "publishedAt": "2026-10-04T21:01:28.000Z",
+      "snippet": "141 points · 17 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957812",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We ported the original Doom to SQL",
+      "url": "https://cedardb.com/blog/sqldoom/",
+      "publishedAt": "2026-10-03T22:14:00.000Z",
+      "snippet": "119 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49948300",
+      "hnPoints": 119
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "url": "https://wieslawsoltes.github.io/VB6/",
+      "publishedAt": "2026-10-04T18:49:17.000Z",
+      "snippet": "246 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49956681",
+      "hnPoints": 246
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Tao of Backup",
+      "url": "http://www.taobackup.com/index.html",
+      "publishedAt": "2026-10-02T11:19:36.000Z",
+      "snippet": "144 points · 50 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49932236",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Infidel goes wild",
+      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "publishedAt": "2026-10-03T12:19:40.000Z",
+      "snippet": "139 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49943637",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "publishedAt": "2026-10-04T19:42:25.000Z",
+      "snippet": "577 points · 402 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957116",
+      "hnPoints": 577
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "publishedAt": "2026-10-04T00:50:52.000Z",
+      "snippet": "876 points · 189 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49949438",
+      "hnPoints": 876
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "publishedAt": "2026-10-05T01:54:08.000Z",
+      "snippet": "207 points · 174 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959869",
+      "hnPoints": 207
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "publishedAt": "2026-10-04T19:37:05.000Z",
+      "snippet": "397 points · 518 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49957068",
+      "hnPoints": 397
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What is going on with ceiling fans",
+      "url": "https://mcmansionhell.com/post/829127919552151552/what-is-going-on-with-ceiling-fans",
+      "publishedAt": "2026-10-01T03:52:10.000Z",
+      "snippet": "314 points · 268 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49917536",
+      "hnPoints": 314
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Glashütte Trash Clock – A 30-minute pendulum clock made from trash",
+      "url": "https://niklasroy.com/gtc/",
+      "publishedAt": "2026-10-02T06:33:06.000Z",
+      "snippet": "200 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49930439",
+      "hnPoints": 200
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+      "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "publishedAt": "2026-10-04T22:25:10.000Z",
+      "snippet": "143 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49958569",
+      "hnPoints": 143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bill Draper has died",
+      "url": "https://www.nytimes.com/2026/09/30/technology/william-draper-dead.html",
+      "publishedAt": "2026-10-04T12:21:35.000Z",
+      "snippet": "121 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49953288",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "publishedAt": "2026-10-04T08:41:58.000Z",
+      "snippet": "86 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49951891",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Blindsight (Watts Novel)",
+      "url": "https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)",
+      "publishedAt": "2026-10-04T16:25:17.000Z",
+      "snippet": "90 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49955297",
+      "hnPoints": 90
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "3491 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CopilotKit/OpenDots — Your always-on AI coworkers that move between text, calls, and Slack.",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "publishedAt": "2026-09-29T17:13:58Z",
+      "snippet": "3378 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "url": "https://github.com/feder-cr/dots",
+      "publishedAt": "2026-09-29T23:06:00Z",
+      "snippet": "2610 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "publishedAt": "2026-09-30T11:49:32Z",
+      "snippet": "1460 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wy51ai/floorplan-3d — no description",
+      "url": "https://github.com/wy51ai/floorplan-3d",
+      "publishedAt": "2026-09-29T02:57:30Z",
+      "snippet": "1411 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/photocraft — no description",
+      "url": "https://github.com/storytold/photocraft",
+      "publishedAt": "2026-09-30T13:37:48Z",
+      "snippet": "1328 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "publishedAt": "2026-10-02T18:21:23Z",
+      "snippet": "1311 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "publishedAt": "2026-10-02T09:57:40Z",
+      "snippet": "1260 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nykooi1/vibe-wise — A Claude Code plugin that helps you learn how to build while AI writes the code.",
+      "url": "https://github.com/nykooi1/vibe-wise",
+      "publishedAt": "2026-09-29T01:29:57Z",
+      "snippet": "1190 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kargulstudio/sales-crm — no description",
+      "url": "https://github.com/kargulstudio/sales-crm",
+      "publishedAt": "2026-10-04T10:55:58Z",
+      "snippet": "1170 stars · TypeScript"
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "snippet": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "publishedAt": "2026-10-04T12:32:47.000Z",
+      "snippet": "Listen now (37 mins) | Tibo Sottiaux on why Dots is OpenAI’s biggest bet, why agents will dominate internet traffic, and what builders are still getting wrong",
+      "enclosure": "https://api.substack.com/feed/podcast/217274136/c23e92a6cc478dbff494fdb2430bfdd5.mp3"
+    }
+  ]
+}
