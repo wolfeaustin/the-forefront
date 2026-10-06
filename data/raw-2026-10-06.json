@@ -1,0 +1,349 @@
+{
+  "date": "2026-10-06",
+  "fetchedAt": "2026-10-06T10:15:05.861Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "publishedAt": "2026-10-05T19:16:35.000Z",
+      "snippet": "460 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969183",
+      "hnPoints": 460
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Find the flattest route between any two points in SF",
+      "url": "https://flattensf.com/",
+      "publishedAt": "2026-10-05T21:40:50.000Z",
+      "snippet": "206 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971230",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "publishedAt": "2026-10-05T21:15:07.000Z",
+      "snippet": "197 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970871",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "publishedAt": "2026-10-05T22:30:02.000Z",
+      "snippet": "170 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971719",
+      "hnPoints": 170
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "publishedAt": "2026-10-05T21:00:21.000Z",
+      "snippet": "359 points · 241 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970667",
+      "hnPoints": 359
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "publishedAt": "2026-10-05T10:47:06.000Z",
+      "snippet": "550 points · 248 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49963171",
+      "hnPoints": 550
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An algorithmic failure beneath the secret ballot",
+      "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/",
+      "publishedAt": "2026-10-03T16:23:07.000Z",
+      "snippet": "84 points · 54 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49945588",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Testing 12 different Zigbee temperature/humidity sensors",
+      "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+      "publishedAt": "2026-10-04T04:30:46.000Z",
+      "snippet": "116 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49950653",
+      "hnPoints": 116
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Example.com just launched the biggest redesign in decades",
+      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "publishedAt": "2026-10-05T22:55:11.000Z",
+      "snippet": "225 points · 148 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971921",
+      "hnPoints": 225
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Competitive Programmer's Handbook (2018) [pdf]",
+      "url": "https://cses.fi/book/book.pdf",
+      "publishedAt": "2026-10-03T13:24:01.000Z",
+      "snippet": "208 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49944049",
+      "hnPoints": 208
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why Common Lisp is now the best programming language",
+      "url": "https://www.vivienhenz.com/common-lisp",
+      "publishedAt": "2026-10-06T02:51:51.000Z",
+      "snippet": "183 points · 232 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49973598",
+      "hnPoints": 183
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "publishedAt": "2026-10-05T22:46:45.000Z",
+      "snippet": "445 points · 315 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49971846",
+      "hnPoints": 445
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The lamps in my house",
+      "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+      "publishedAt": "2026-10-05T14:12:14.000Z",
+      "snippet": "211 points · 91 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49965152",
+      "hnPoints": 211
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple and a hacker's future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "publishedAt": "2026-10-05T10:05:02.000Z",
+      "snippet": "260 points · 221 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49962857",
+      "hnPoints": 260
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Making a GTK application in Haskell, part 1",
+      "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+      "publishedAt": "2026-10-05T14:23:47.000Z",
+      "snippet": "157 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49965308",
+      "hnPoints": 157
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qualcomm licenses patents on Huawei’s LogicFolding chip tech",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
+      "publishedAt": "2026-10-05T07:46:10.000Z",
+      "snippet": "192 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49961861",
+      "hnPoints": 192
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The first fully implanted cochlear implant reaches patients",
+      "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant",
+      "publishedAt": "2026-10-01T12:31:40.000Z",
+      "snippet": "93 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49920785",
+      "hnPoints": 93
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "publishedAt": "2026-09-30T05:00:35Z",
+      "snippet": "4112 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/photocraft — An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "url": "https://github.com/storytold/photocraft",
+      "publishedAt": "2026-09-30T13:37:48Z",
+      "snippet": "2382 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "publishedAt": "2026-10-02T09:57:40Z",
+      "snippet": "1585 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nanaism/yomiyasu — AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "publishedAt": "2026-09-30T11:49:32Z",
+      "snippet": "1563 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kargulstudio/sales-crm — no description",
+      "url": "https://github.com/kargulstudio/sales-crm",
+      "publishedAt": "2026-10-04T10:55:58Z",
+      "snippet": "1535 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "publishedAt": "2026-10-02T18:21:23Z",
+      "snippet": "1482 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CAPCOM-TD-OSS/REDox — High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.",
+      "url": "https://github.com/CAPCOM-TD-OSS/REDox",
+      "publishedAt": "2026-09-30T10:20:07Z",
+      "snippet": "1099 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "chasmlol/SkyCraft — Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).",
+      "url": "https://github.com/chasmlol/SkyCraft",
+      "publishedAt": "2026-09-30T16:40:20Z",
+      "snippet": "998 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deadinside28/bloodborne_pc — no description",
+      "url": "https://github.com/deadinside28/bloodborne_pc",
+      "publishedAt": "2026-10-01T05:50:31Z",
+      "snippet": "851 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+      "url": "https://github.com/Edwardxlai/easyread",
+      "publishedAt": "2026-09-30T12:52:24Z",
+      "snippet": "815 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "publishedAt": "2026-10-05T23:56:47.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people d",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Game Decompilation, Is This Legal?, A Well-Trodden Path",
+      "url": "https://stratechery.com/2026/game-decompilation-is-this-legal-a-well-trodden-path/",
+      "publishedAt": "2026-10-06T10:07:36.000Z",
+      "snippet": "Games are being decompiled, but the real risk to gaming is new games and increased personalization.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "snippet": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire’s DevDay recap",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+      "publishedAt": "2026-10-05T15:03:24.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/c5cdfeff-de11-47d2-b9eb-9686c14dff8d_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+      "publishedAt": "2026-10-05T12:04:54.000Z",
+      "snippet": "Watch now (36 mins) | 🎙️ Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
+      "enclosure": "https://api.substack.com/feed/podcast/218411890/aa07f9195211ebc3f9d97bb380bb7bbb.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "publishedAt": "2026-10-06T06:28:43.000Z",
+      "snippet": "A small win for US open source",
+      "enclosure": "https://substackcdn.com/image/youtube/w_728,c_limit/DIu7xA898go"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
+      "url": "http://colossus.com/episode/reading-and-writing-the-brain/",
+      "publishedAt": "2026-10-06T08:00:00.000Z",
+      "snippet": "Andrew Huberman is a neuroscientist and professor at Stanford, the host of the Huberman Lab podcast, and the author of Protocols. Most of our conversation is about where neuroscience goes next. For decades the field has focused on reading from the brain, and Andrew believes the next era is about writing to it with precise control over specific brain states. He explains why he thinks the leading AI companies are really building toward this, and why understanding our waking brain states is the pro",
+      "enclosure": "https://traffic.megaphone.fm/CLS1239827470.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "3 businesses we think are about to blow up",
+      "publishedAt": "2026-10-05T10:47:00.000Z",
+      "snippet": "Database of 140+ business ideas: https://clickhubspot.com/slkm Episode 868: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk about 3 business ideas. — Show Notes: (3:08) Idea: Oxytocin dosing (20:17) Idea: Loneliness solutions (27:30) Idea: Faith-based businesses (27:33) Angel Studios (34:36) What’s the reaction to the action? (42:03) The brutal business of making hit movies — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Averag",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5935314875.mp3"
+    }
+  ]
+}
