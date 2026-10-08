@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-08",
+  "fetchedAt": "2026-10-08T10:15:51.723Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "publishedAt": "2026-10-08T05:14:14.000Z",
+      "snippet": "284 points · 263 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50002008",
+      "hnPoints": 284
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "publishedAt": "2026-10-07T18:01:32.000Z",
+      "snippet": "884 points · 426 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996437",
+      "hnPoints": 884
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Living off-grid: Hundred Rabbits",
+      "url": "https://100r.ca/site/home.html",
+      "publishedAt": "2026-10-05T21:08:33.000Z",
+      "snippet": "212 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49970767",
+      "hnPoints": 212
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The 15-year search for a band that charted once and vanished",
+      "url": "https://shahidhussain.com/writing/search-for-salvage/",
+      "publishedAt": "2026-10-05T00:06:43.000Z",
+      "snippet": "110 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49959280",
+      "hnPoints": 110
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "publishedAt": "2026-10-07T21:16:18.000Z",
+      "snippet": "1539 points · 164 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49998895",
+      "hnPoints": 1539
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "publishedAt": "2026-10-07T18:00:58.000Z",
+      "snippet": "638 points · 350 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996425",
+      "hnPoints": 638
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+      "publishedAt": "2026-10-05T19:07:07.000Z",
+      "snippet": "178 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49969073",
+      "hnPoints": 178
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "'Jonathan' is the oldest land animal on Earth",
+      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+      "publishedAt": "2026-10-07T20:01:37.000Z",
+      "snippet": "158 points · 80 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49998066",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "publishedAt": "2026-10-07T19:33:40.000Z",
+      "snippet": "243 points · 270 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997718",
+      "hnPoints": 243
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cleo (Mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
+      "publishedAt": "2026-10-06T18:49:45.000Z",
+      "snippet": "157 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49982445",
+      "hnPoints": 157
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "publishedAt": "2026-10-07T15:44:21.000Z",
+      "snippet": "508 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994443",
+      "hnPoints": 508
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+      "publishedAt": "2026-10-07T17:59:34.000Z",
+      "snippet": "107 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996406",
+      "hnPoints": 107
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "publishedAt": "2026-10-07T17:48:38.000Z",
+      "snippet": "239 points · 111 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49996259",
+      "hnPoints": 239
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "publishedAt": "2026-10-06T22:17:21.000Z",
+      "snippet": "1281 points · 1453 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49984923",
+      "hnPoints": 1281
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "publishedAt": "2026-10-07T18:43:18.000Z",
+      "snippet": "149 points · 69 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997073",
+      "hnPoints": 149
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A minimal kernel in Swift, running in QEMU",
+      "url": "https://carette.xyz/posts/minimal_swift_kernel_on_qemu/",
+      "publishedAt": "2026-10-06T12:20:03.000Z",
+      "snippet": "82 points · 15 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49977351",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Animated ASCII Art for Web Pages",
+      "url": "https://ascii.rest/",
+      "publishedAt": "2026-10-07T15:05:37.000Z",
+      "snippet": "359 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993857",
+      "hnPoints": 359
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why were Victorian elites so effective?",
+      "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
+      "publishedAt": "2026-10-07T15:09:33.000Z",
+      "snippet": "167 points · 267 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49993908",
+      "hnPoints": 167
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How machines learned precision",
+      "url": "https://glinscott.github.io/how-machines-learned-precision/",
+      "publishedAt": "2026-10-06T16:14:42.000Z",
+      "snippet": "168 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49980626",
+      "hnPoints": 168
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "House with 15m underground tunnels for sale for 300k",
+      "url": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
+      "publishedAt": "2026-10-07T12:57:10.000Z",
+      "snippet": "208 points · 195 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49992125",
+      "hnPoints": 208
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Navier–Stokes Lost in Translation",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "publishedAt": "2026-10-07T15:24:38.000Z",
+      "snippet": "310 points · 187 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49994145",
+      "hnPoints": 310
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Anti-patterns in software blogging",
+      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+      "publishedAt": "2026-10-07T13:08:26.000Z",
+      "snippet": "281 points · 139 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49992257",
+      "hnPoints": 281
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/math — no description",
+      "url": "https://github.com/openai/math",
+      "publishedAt": "2026-10-06T21:47:02Z",
+      "snippet": "11079 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "publishedAt": "2026-10-02T09:57:40Z",
+      "snippet": "2268 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "alchaincyf/huashu-art-motion — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "publishedAt": "2026-10-06T04:49:37Z",
+      "snippet": "2164 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "publishedAt": "2026-10-02T18:21:23Z",
+      "snippet": "1742 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "kargulstudio/sales-crm — no description",
+      "url": "https://github.com/kargulstudio/sales-crm",
+      "publishedAt": "2026-10-04T10:55:58Z",
+      "snippet": "1648 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mizorewww/x_gift_bot — X Premium gift CLI and redemption site",
+      "url": "https://github.com/mizorewww/x_gift_bot",
+      "publishedAt": "2026-10-02T10:29:43Z",
+      "snippet": "1033 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sganggs/Stronghold-Protocol — 明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+      "url": "https://github.com/sganggs/Stronghold-Protocol",
+      "publishedAt": "2026-10-02T09:38:41Z",
+      "snippet": "959 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Jakeschincariol/replica-skill — Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+      "url": "https://github.com/Jakeschincariol/replica-skill",
+      "publishedAt": "2026-10-03T12:07:49Z",
+      "snippet": "950 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "alejandrobujan/tendedero — Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
+      "url": "https://github.com/alejandrobujan/tendedero",
+      "publishedAt": "2026-10-07T01:29:54Z",
+      "snippet": "784 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rauchg/gdp-ts — no description",
+      "url": "https://github.com/rauchg/gdp-ts",
+      "publishedAt": "2026-10-04T18:55:18Z",
+      "snippet": "751 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "publishedAt": "2026-10-07T23:14:58.000Z",
+      "snippet": " <blockquote cite=\"https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s\"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p> <p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transfo",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "publishedAt": "2026-10-07T20:56:21.000Z",
+      "snippet": " <p>As previously <a href=\"https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/\">promised</a>, here's Anthropic's new fast, low cost model: <a href=\"https://www.anthropic.com/claude-haiku-5-5\">Introducing Claude Haiku 5.5</a>.</p> <p>The previous Haiku, 4.5, was very much showing its age. It came out <a href=\"https://simonwillison.net/2025/Oct/15/claude-haiku-45/\">almost a year ago</a>, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "publishedAt": "2026-10-07T14:53:51.000Z",
+      "snippet": " <p><strong><a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#summary\">Anti-Patterns in Software Blogging</a></strong></p> Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality.</p> <p>He also warns against <a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#overreliance-on-links\">overreliance ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Jake Boggan",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "publishedAt": "2026-10-07T04:47:55.000Z",
+      "snippet": " <blockquote cite=\"https://news.ycombinator.com/item?id=49984923#49987367\"><p>I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it.</p> <p>But it's supposedly proven here - <a href=\"https://github.com/",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Katie Harbath About Disrupting Politics at Facebook",
+      "url": "https://stratechery.com/2026/an-interview-with-katie-harbath-about-disrupting-politics-at-facebook/",
+      "publishedAt": "2026-10-08T10:00:00.000Z",
+      "snippet": "An interview with former Facebook Head of Global Elections Katie Harbath about her new book Disrupting Politics, and how things change for the company in the 2010s.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
+      "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
+      "publishedAt": "2026-10-07T10:01:39.000Z",
+      "snippet": "Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "publishedAt": "2026-10-08T07:27:51.000Z",
+      "snippet": "yay small models",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!q_iv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHUDOG1Jb0AAHQ2I.jpg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "publishedAt": "2026-10-07T14:10:45.000Z",
+      "snippet": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!r55R!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1c3cd3d-2682-47cb-9be6-74302c1ca8ea_2560x1440.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44.000Z",
+      "snippet": "Our head hurts.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!3_fH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf69e441-6f07-47c9-ba4d-3cd64a85fb49_1224x1255.png"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "The creative genius behind Squatty Potty & Poo-Pourri reveals his marketing playbook",
+      "publishedAt": "2026-10-07T10:00:00.000Z",
+      "snippet": "$1M Attention Guide: 15+ ways to get eyeballs on what you're building https://clickhubspot.com/okbv Episode 869: Shaan Puri ( https://x.com/ShaanVP ) talks to Angel Studios founder Jeff Harmon ( https://x.com/JeffreyHarmon ) about finding and exploiting glitches. — Show Notes: (0:00) I helped a dentist create one of the greatest marketing campaigns (8:35) How to find the glitch in the system (11:10) Go for your own problems (13:25) Where is the attention going? (16:10) ANGEL (19:15) 19-minute ad",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS9254119435.mp3"
+    }
+  ]
+}
