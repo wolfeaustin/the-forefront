@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-10",
+  "fetchedAt": "2026-10-10T10:13:23.498Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Paul Graham Essays",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
+      "publishedAt": "2026-10-10T00:37:07.000Z",
+      "snippet": "437 points · 165 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50028275",
+      "hnPoints": 437
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "publishedAt": "2026-10-10T03:02:47.000Z",
+      "snippet": "184 points · 76 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50029123",
+      "hnPoints": 184
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "publishedAt": "2026-10-09T13:03:48.000Z",
+      "snippet": "1239 points · 625 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019911",
+      "hnPoints": 1239
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "publishedAt": "2026-10-09T15:51:05.000Z",
+      "snippet": "981 points · 192 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50022292",
+      "hnPoints": 981
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Computers Cannot Make Decisions",
+      "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
+      "publishedAt": "2026-10-10T05:47:46.000Z",
+      "snippet": "83 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50029982",
+      "hnPoints": 83
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+      "publishedAt": "2026-10-07T19:15:57.000Z",
+      "snippet": "162 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49997481",
+      "hnPoints": 162
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "publishedAt": "2026-10-09T14:56:13.000Z",
+      "snippet": "90 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50021410",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "url": "https://carrierexplode.com/",
+      "publishedAt": "2026-10-09T18:10:55.000Z",
+      "snippet": "328 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024499",
+      "hnPoints": 328
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Compiling Rust to readable C with Eurydice",
+      "url": "https://lwn.net/Articles/1055211/",
+      "publishedAt": "2026-10-09T23:28:36.000Z",
+      "snippet": "82 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50027853",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "publishedAt": "2026-10-09T17:02:31.000Z",
+      "snippet": "376 points · 277 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50023450",
+      "hnPoints": 376
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "publishedAt": "2026-10-09T11:36:20.000Z",
+      "snippet": "147 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50019056",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "publishedAt": "2026-10-09T17:42:12.000Z",
+      "snippet": "119 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024090",
+      "hnPoints": 119
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scam American companies are using to manipulate ingredient lists",
+      "url": "https://twitter.com/WallStreetApes/status/2108594998656807078",
+      "publishedAt": "2026-10-09T17:35:40.000Z",
+      "snippet": "124 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50023995",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Proton Drive for Linux",
+      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "publishedAt": "2026-10-08T09:10:42.000Z",
+      "snippet": "84 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50003545",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "'Wallace and Gromit,' 90% Alone",
+      "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
+      "publishedAt": "2026-10-09T13:49:31.000Z",
+      "snippet": "217 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020533",
+      "hnPoints": 217
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The role of cat eye narrowing movements in cat–human communication (2020)",
+      "url": "https://www.nature.com/articles/s41598-020-73426-0",
+      "publishedAt": "2026-10-06T22:10:59.000Z",
+      "snippet": "86 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=49984854",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "publishedAt": "2026-10-09T21:06:59.000Z",
+      "snippet": "576 points · 311 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50026555",
+      "hnPoints": 576
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Our $445M Series D",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "publishedAt": "2026-10-09T13:12:47.000Z",
+      "snippet": "660 points · 296 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50020014",
+      "hnPoints": 660
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sorry, I'm in a meeting",
+      "url": "https://iminafleeting.com/",
+      "publishedAt": "2026-10-09T09:21:48.000Z",
+      "snippet": "905 points · 255 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50018088",
+      "hnPoints": 905
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: The rarest tech books and docs you've probably never read",
+      "url": "https://readrare.com/",
+      "publishedAt": "2026-10-09T17:39:44.000Z",
+      "snippet": "131 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50024055",
+      "hnPoints": 131
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishedAt": "2026-10-10T02:04:12.000Z",
+      "snippet": " <blockquote cite=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\"><p>Anthropic detailed the activity of its A.I. agents in <a href=\"https://www.anthropic.com/research/investigating-unintended-model-actions\">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "publishedAt": "2026-10-09T22:48:37.000Z",
+      "snippet": " <p><strong><a href=\"https://deno.com/blog/cloudflare\">Deno is joining Cloudflare</a></strong></p> The Deno team released the first version of <a href=\"https://github.com/denoland/celld\">celld</a> back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers.</p> <p>Today, Cloudflare are acquiring Deno outright, with the goal of building on <code>celld</code> to \"make workerd self-hosting a first-class supported way to build and run apps using the Worke",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "publishedAt": "2026-10-09T15:02:29.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/matthew_d_green/status/2108552414978564418\"><p>Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...]</p> <p>The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the ver",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "publishedAt": "2026-10-09T12:54:06.000Z",
+      "snippet": " <p>I shipped a new feature for my blog today: the <a href=\"https://simonwillison.net/newsletters/\">Newsletters</a> page, which offers an index of all of the newsletters I've sent out, both my free <a href=\"https://simonw.substack.com/\">weekly Substack</a> and my <a href=\"https://github.com/sponsors/simonw/\">monthly sponsors-only</a> updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner.</p> <h4 id=\"codex-voice-mode\">Codex voice mode</h4> <",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.41: It’s Not You, It’s Me",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
+      "publishedAt": "2026-10-09T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "publishedAt": "2026-10-10T06:45:57.000Z",
+      "snippet": "Wow.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!JxMf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2108594586310631424.jpg"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26.000Z",
+      "snippet": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+      "enclosure": "https://api.substack.com/feed/podcast/219666029/a55c7eb779368b4623e64d0933a07f0f.mp3"
+    }
+  ]
+}
