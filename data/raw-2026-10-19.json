@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-19",
+  "fetchedAt": "2026-10-19T10:13:50.677Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "publishedAt": "2026-10-19T07:23:57.000Z",
+      "snippet": "203 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50149392",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "publishedAt": "2026-10-18T20:48:14.000Z",
+      "snippet": "398 points · 192 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50145337",
+      "hnPoints": 398
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rabbits were a medieval royal luxury in England until the Black Death",
+      "url": "https://phys.org/news/2026-10-rabbits-medieval-royal-luxury-england.html",
+      "publishedAt": "2026-10-17T14:07:36.000Z",
+      "snippet": "89 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50131315",
+      "hnPoints": 89
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "William Gibson and the trademarking of cyberspace",
+      "url": "https://colo.to/cyberspace.html",
+      "publishedAt": "2026-10-18T23:37:57.000Z",
+      "snippet": "185 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50146625",
+      "hnPoints": 185
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "publishedAt": "2026-10-17T23:26:35.000Z",
+      "snippet": "376 points · 448 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50136150",
+      "hnPoints": 376
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "snippet": "168 points · 116 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50145507",
+      "hnPoints": 168
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "publishedAt": "2026-10-18T16:32:00.000Z",
+      "snippet": "444 points · 166 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50142573",
+      "hnPoints": 444
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Laptop Based on 6502 CPU",
+      "url": "https://www.maddox.pro/?p=448",
+      "publishedAt": "2026-10-15T22:56:23.000Z",
+      "snippet": "132 points · 54 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50111537",
+      "hnPoints": 132
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "publishedAt": "2026-10-19T02:01:16.000Z",
+      "snippet": "96 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50147492",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+      "publishedAt": "2026-10-18T01:38:08.000Z",
+      "snippet": "242 points · 144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50136979",
+      "hnPoints": 242
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RepRapMicron",
+      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "publishedAt": "2026-10-18T13:48:48.000Z",
+      "snippet": "394 points · 64 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50141076",
+      "hnPoints": 394
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "publishedAt": "2026-10-18T18:48:04.000Z",
+      "snippet": "165 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50144066",
+      "hnPoints": 165
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "publishedAt": "2026-10-18T21:36:10.000Z",
+      "snippet": "112 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50145715",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "publishedAt": "2026-10-17T22:26:47.000Z",
+      "snippet": "193 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50135762",
+      "hnPoints": 193
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PalmOS Lemmings",
+      "url": "https://github.com/ardiri/palmos-lemmings",
+      "publishedAt": "2026-10-18T17:56:59.000Z",
+      "snippet": "130 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50143536",
+      "hnPoints": 130
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A new way to think about borrow checking (in reverse)",
+      "url": "https://verdagon.dev/blog/reverse-borrow-checking",
+      "publishedAt": "2026-10-18T12:11:13.000Z",
+      "snippet": "87 points · 8 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50140383",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Java sealed classes and exhaustive pattern matching",
+      "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+      "publishedAt": "2026-10-18T14:47:37.000Z",
+      "snippet": "171 points · 133 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50141579",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
+      "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
+      "publishedAt": "2026-10-16T18:07:44.000Z",
+      "snippet": "80 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50122058",
+      "hnPoints": 80
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "publishedAt": "2026-10-19T04:41:46.000Z",
+      "snippet": "144 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50148452",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "macOS 15.8.2 Breaks OpenGL",
+      "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "publishedAt": "2026-10-18T15:26:06.000Z",
+      "snippet": "263 points · 297 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50141909",
+      "hnPoints": 263
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+      "url": "https://github.com/0x23/MicroManipulatorStepper",
+      "publishedAt": "2026-10-18T11:16:22.000Z",
+      "snippet": "202 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50140001",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "\"I'm on a war footing\": Terry Tao and the crisis in math",
+      "url": "https://www.nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+      "publishedAt": "2026-10-16T13:30:20.000Z",
+      "snippet": "188 points · 378 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50118165",
+      "hnPoints": 188
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill — Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "publishedAt": "2026-10-13T03:09:42Z",
+      "snippet": "3258 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Gathin23/tv-vibehack — Your TV, minus the ads. Debloat any Android TV or Google TV over Wi-Fi and swap the ad-filled home screen for a clean Apple TV-style launcher. No root, fully reversible.",
+      "url": "https://github.com/Gathin23/tv-vibehack",
+      "publishedAt": "2026-10-17T08:12:35Z",
+      "snippet": "3173 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "feder-cr/git-ai — Git designed for AI agents.",
+      "url": "https://github.com/feder-cr/git-ai",
+      "publishedAt": "2026-10-15T13:12:02Z",
+      "snippet": "2357 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HeyPuter/everything — We're rebuilding and open-sourcing the world’s software from scratch.",
+      "url": "https://github.com/HeyPuter/everything",
+      "publishedAt": "2026-10-13T16:18:22Z",
+      "snippet": "2269 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ahwootech/BRUTAL — A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under K",
+      "url": "https://github.com/ahwootech/BRUTAL",
+      "publishedAt": "2026-10-14T19:33:56Z",
+      "snippet": "1939 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "chenglou/handwired — Turn your regular JavaScript code into a neural net.",
+      "url": "https://github.com/chenglou/handwired",
+      "publishedAt": "2026-10-15T02:15:09Z",
+      "snippet": "1767 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Supermedo/uncharted_pc — Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+      "url": "https://github.com/Supermedo/uncharted_pc",
+      "publishedAt": "2026-10-15T00:17:23Z",
+      "snippet": "1494 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ly05010419/MacNativeGames — no description",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "publishedAt": "2026-10-17T19:52:00Z",
+      "snippet": "1258 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Caho1/open-claude-ui — 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+      "url": "https://github.com/Caho1/open-claude-ui",
+      "publishedAt": "2026-10-14T14:05:05Z",
+      "snippet": "1226 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leonxlnx/earshot — Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "publishedAt": "2026-10-15T06:52:46Z",
+      "snippet": "1102 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "publishedAt": "2026-10-18T23:43:09.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1\">llm-tools-datasette 0.1.1</a></p> <p>When I switched LLM over to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a> in <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-33\">LLM 0.33</a> I forget that this would break any plugins which used <code>httpx</code> without directly depending on it. <code>llm-tools-datasette</code> was one of those plugins, now fixed.</p> <p>Tags: <a",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "publishedAt": "2026-10-18T23:16:16.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.5\">llm-echo 0.5</a></p> <p>I'm working towards a new <a href=\"https://llm.datasette.io/\">LLM</a> release, and testing PRs caused me to revisit the <code>llm-echo</code> debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Do You Trust Apple?",
+      "url": "https://stratechery.com/2026/do-you-trust-apple/",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "snippet": "Apple has a lot of trust in terms of delivering integrated products and preserving privacy; the real trust question is if you think Siri AI will justify investing more in their ecosystem.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "publishedAt": "2026-10-18T12:31:36.000Z",
+      "snippet": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+      "enclosure": "https://api.substack.com/feed/podcast/219139599/eec213eb065b870b843f049939de6fc2.mp3"
+    },
+    {
+      "source": "Acquired",
+      "media": "podcast",
+      "title": "Seinfeld",
+      "url": "https://www.acquired.fm/episodes/seinfeld",
+      "publishedAt": "2026-10-19T04:00:46.000Z",
+      "snippet": "Seinfeld, which ended three decades ago, has been watched by 72 million Americans so far THIS YEAR. Behind that incredible stat is an equally incredible business story: obsessive creators, perfect market timing, an ownership structure that aligned incentives for the long term…all of which created a sitcom that became number one by breaking all the rules. Sponsors: Many thanks to our fantastic Fall '26 Season partners: Sierra Anthropic Sentry WorkOS Links: Sign up for email updates, get our takea",
+      "enclosure": "https://pscrb.fm/rss/p/media.transistor.fm/96a5f313/515377c5.mp3"
+    }
+  ]
+}
