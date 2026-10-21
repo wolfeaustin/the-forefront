@@ -1,0 +1,373 @@
+{
+  "date": "2026-10-21",
+  "fetchedAt": "2026-10-21T10:13:39.328Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Future of CSS",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "publishedAt": "2026-10-21T01:47:28.000Z",
+      "snippet": "379 points · 159 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50175070",
+      "hnPoints": 379
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "url": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "publishedAt": "2026-10-21T09:07:49.000Z",
+      "snippet": "131 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50177911",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "url": "https://news-web.php.net/php.announce/509",
+      "publishedAt": "2026-10-20T20:15:50.000Z",
+      "snippet": "880 points · 354 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50172041",
+      "hnPoints": 880
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "publishedAt": "2026-10-20T18:29:09.000Z",
+      "snippet": "799 points · 376 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50170593",
+      "hnPoints": 799
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "publishedAt": "2026-10-21T00:45:59.000Z",
+      "snippet": "179 points · 77 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50174687",
+      "hnPoints": 179
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "eMudhra intermediate CA compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "publishedAt": "2026-10-20T13:58:33.000Z",
+      "snippet": "960 points · 402 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50166579",
+      "hnPoints": 960
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "publishedAt": "2026-10-20T16:02:07.000Z",
+      "snippet": "677 points · 170 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50168396",
+      "hnPoints": 677
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "publishedAt": "2026-10-20T22:21:05.000Z",
+      "snippet": "203 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50173487",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "In Hilbert space, all things are quantumly possible",
+      "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "publishedAt": "2026-10-21T02:04:15.000Z",
+      "snippet": "98 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50175185",
+      "hnPoints": 98
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "url": "https://www.thebeliever.net/the-other-epidemic/",
+      "publishedAt": "2026-10-20T23:04:09.000Z",
+      "snippet": "199 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50173891",
+      "hnPoints": 199
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Good type against all odds",
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+      "publishedAt": "2026-10-21T01:45:07.000Z",
+      "snippet": "129 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50175059",
+      "hnPoints": 129
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ZX Spectrum Next Laptop",
+      "url": "https://www.dorchester3d.com/printing/blog/2020/11/zx-spectrum-next-laptop-version-2",
+      "publishedAt": "2026-10-19T02:48:11.000Z",
+      "snippet": "82 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50147799",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "publishedAt": "2026-10-20T16:40:24.000Z",
+      "snippet": "342 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50169053",
+      "hnPoints": 342
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What shall I teach my son?",
+      "url": "https://stevekrouse.com/ends",
+      "publishedAt": "2026-10-20T17:25:07.000Z",
+      "snippet": "403 points · 469 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50169707",
+      "hnPoints": 403
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "publishedAt": "2026-10-15T19:09:34.000Z",
+      "snippet": "260 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50108717",
+      "hnPoints": 260
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "publishedAt": "2026-10-20T12:17:28.000Z",
+      "snippet": "560 points · 274 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50165208",
+      "hnPoints": 560
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-20T09:08:54.000Z",
+      "snippet": "2251 points · 856 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50163277",
+      "hnPoints": 2251
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ofcom concedes defeat in 4chan case",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+      "publishedAt": "2026-10-20T14:30:31.000Z",
+      "snippet": "393 points · 308 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50167028",
+      "hnPoints": 393
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/DeepInfer — DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-16T07:47:23Z",
+      "snippet": "16353 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Gathin23/cleanyourtv — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "publishedAt": "2026-10-17T08:12:35Z",
+      "snippet": "15031 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ly05010419/MacNativeGames — no description",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "publishedAt": "2026-10-17T19:52:00Z",
+      "snippet": "3282 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "simbasjungles/free-my-tv — A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "publishedAt": "2026-10-19T19:29:01Z",
+      "snippet": "2198 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Leonxlnx/earshot — Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "publishedAt": "2026-10-15T06:52:46Z",
+      "snippet": "2021 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "chenglou/handwired — Turn your regular JavaScript code into a neural net.",
+      "url": "https://github.com/chenglou/handwired",
+      "publishedAt": "2026-10-15T02:15:09Z",
+      "snippet": "1865 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaoyang111222/cn-math-taxonomy — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "publishedAt": "2026-10-18T09:04:43Z",
+      "snippet": "1827 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Supermedo/uncharted_pc — Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+      "url": "https://github.com/Supermedo/uncharted_pc",
+      "publishedAt": "2026-10-15T00:17:23Z",
+      "snippet": "1746 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "publishedAt": "2026-10-20T09:13:06Z",
+      "snippet": "1587 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "aicodeking/leanrea — One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "url": "https://github.com/aicodeking/leanrea",
+      "publishedAt": "2026-10-17T02:53:24Z",
+      "snippet": "1223 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "publishedAt": "2026-10-20T23:50:25.000Z",
+      "snippet": " <p><strong><a href=\"https://emudhra.we-have-a-problem.com\">eMudhra Intermediate CA Compromise</a></strong></p> This is very, very bad news:</p> <blockquote> <p>The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores.</p> </blockquote> <p>Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "publishedAt": "2026-10-20T19:34:19.000Z",
+      "snippet": " <p>My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called <a href=\"https://github.com/simonw/battledrones#readme\">Battle Drones</a> (<a href=\"https://simonw.github.io/battledrones/\">play it here</a>). Unlike <a href=\"https://simonwillison.net/2026/Aug/5/raccoon-heist/\">my previous experiments</a>, this one is <em>actually fun to play</em>. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Netflix Earnings, Business or Franchise, Disney’s Deal",
+      "url": "https://stratechery.com/2026/netflix-earnings-business-or-franchise-disneys-deal/",
+      "publishedAt": "2026-10-21T10:00:00.000Z",
+      "snippet": "Netflix has a solid business, which is exactly the problem: the company increasingly seems like a business and not a franchise, at least in terms of growth.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Muse Spark Open, Meta + Apple, Thin and Thick",
+      "url": "https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "snippet": "Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "publishedAt": "2026-10-21T06:54:09.000Z",
+      "snippet": "An open source “bomb” drops from China",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!tu5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "publishedAt": "2026-10-21T05:01:26.000Z",
+      "snippet": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "enclosure": "https://api.substack.com/feed/podcast/221403684/69e655f2eacf6772a7f2575bbbbf9b0d.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "publishedAt": "2026-10-20T19:31:57.000Z",
+      "snippet": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "enclosure": "https://api.substack.com/feed/podcast/221372257/7df8338a8bb8d4ac8abb9702a0be2372.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+      "publishedAt": "2026-10-20T05:21:52.000Z",
+      "snippet": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!otPo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHVBPHSjWcAAHoHt.jpg"
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Christina Cacioppo - Building an Enduring Software Company in the Age of AI - [Invest Like the Best, EP.496]",
+      "url": "https://colossus.com/episode/becoming-a-category-winner/",
+      "publishedAt": "2026-10-20T08:00:00.000Z",
+      "snippet": "My guest today is Christina Cacioppo, founder and CEO of Vanta, which helps more than 16,000 companies manage security and compliance. Five years after our first conversation, we discuss how Vanta became a category leader, what it takes to reinvent a successful software business in the age of AI, and why Christina is betting on agents to do the work rather than simply assist users. We also explore the changing economics of software, the war for exceptional talent, AI's impact on cybersecurity, a",
+      "enclosure": "https://traffic.megaphone.fm/CLS1049065818.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "This 3-hour Elizabeth Holmes doc broke our brains",
+      "publishedAt": "2026-10-20T15:16:00.000Z",
+      "snippet": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/ekvd Episode 874: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) are breaking down the best documentary of the year. — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpur",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS6737818204.mp3"
+    }
+  ]
+}
