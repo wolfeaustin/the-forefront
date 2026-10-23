@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Oct 23, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Friday</span><span class="dot"></span><span>Oct 23, 2026</span></div>
+    <h1>13 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>39</b></span>
+      <span class="kept">Kept <b>13</b></span>
+      <span>Total read <b>~16 min</b></span>
+      <span>Filtered out <b>67%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-openais-patch-the-planet-program/" target="_blank" rel="noopener">GPT-5.6 Sol Found Two Critical PHP RCE Vulnerabilities Affecting ~70% of the Web</a></h2>
+        <p class="summary">OpenAI's GPT-5.6 Sol, as part of a 'Patch the Planet' security program, independently discovered multiple pre-auth remote code execution chains in core PHP — coordinated with the PHP team over two months before disclosure. This is one of the first documented cases of frontier AI autonomously finding critical vulnerabilities in foundational infrastructure at scale.</p>
+        <p class="why"><b>Why it matters:</b> If AI can now find RCEs in PHP, every web product your team ships or acquires is exposed to a new class of automated threat discovery — and potentially automated exploitation — on a timeline that changes your security posture immediately.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-openais-patch-the-planet-program/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·89</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener">PHP RCE Proof-of-Concept (CVE-2026-109618/109619): 5 Exploit Chains Now Public With Detection Rules</a></h2>
+        <p class="summary">A GitHub repo details five working pre-auth RCE exploit chains against PHP via session.upload_progress, including ready-to-use Suricata, Sigma, and ModSecurity detection rules. Given PHP powers a large share of the web, this is an immediate operational concern for any team running PHP infrastructure.</p>
+        <p class="why"><b>Why it matters:</b> If you run, host, or have acquired any PHP-based e-commerce or CMS property, you need to deploy these detection rules now — this is not theoretical.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://news.ycombinator.com/item?id=50193416" target="_blank" rel="noopener">A Developer Accidentally Broke the PHP RCE Embargo — Here's What That Reveals About Coordinated Disclosure</a></h2>
+        <p class="summary">A developer unknowingly published details about the PHP RCE vulnerability before the coordinated disclosure window closed, triggering an early public release of patches and exploit details. The post-mortem thread on HN is a rare, candid look at how embargo coordination fails in practice and what that means for incident response.</p>
+        <p class="why"><b>Why it matters:</b> For any founder running infrastructure or operating in the security supply chain, understanding the mechanics of coordinated disclosure failure is essential for both defensive preparation and vendor relationship management.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50193416" target="_blank" rel="noopener">Hacker News · 561 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50200997" target="_blank" rel="noopener">Hacker News · 160 pts</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>GPT-5.6 Sol Found Two Critical PHP RCE Vulnerabilities Affecting ~70% of the Web</h3>
+    <p>There is a clear product opportunity in AI-powered security auditing for SMBs and acquired businesses; a small technical team could build a continuous vulnerability scanner using frontier models targeting legacy PHP/CMS codebases that dominate small-business acquisitions.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/" target="_blank" rel="noopener">Anthropic Donates Agent Skills Standard to Linux Foundation's Agentic AI Foundation</a></h2>
+        <p class="summary">Anthropic is transferring its Agent Skills specification — the standard governing how AI agents share and invoke capabilities — to the Agentic AI Foundation under the Linux Foundation, making it vendor-neutral and community-governed. This follows the MCP donation and signals Anthropic is deliberately building open infrastructure rather than proprietary lock-in at the agent interoperability layer.</p>
+        <p class="why"><b>Why it matters:</b> If Agent Skills becomes the standard for how autonomous agents compose and delegate tasks, building on or contributing to it now is the equivalent of building on HTTP in 1995 — the team that understands the spec earliest has a durable advantage.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/NVIDIA/OpenShell" target="_blank" rel="noopener">OpenShell: Sandboxed, Private Runtime for Running Fleets of Autonomous AI Agents</a></h2>
+        <p class="summary">OpenShell is a runtime environment designed for safely executing autonomous AI agents at scale, providing isolation, auditability, and fleet management primitives without exposing host infrastructure. With 400 HN points and 194 comments, it's attracting serious technical attention as agentic workloads move from demos to production.</p>
+        <p class="why"><b>Why it matters:</b> Any team deploying AI agents in production faces the unsolved problem of safe execution environments — this is infrastructure that could underpin the next generation of agentic SaaS products.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50198675" target="_blank" rel="noopener">Hacker News · 400 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·83</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.anthropic.com/research/formal-verification" target="_blank" rel="noopener">LLMs Are Making Formal Software Verification Practical at Scale for the First Time</a></h2>
+        <p class="summary">A well-received HN discussion explores how LLMs are being used to write formal proofs and verification code — work previously too labor-intensive to be economical — enabling correctness guarantees on real production codebases. This isn't hype: teams are reportedly verifying code paths that would have been prohibitively expensive to prove by hand.</p>
+        <p class="why"><b>Why it matters:</b> Formal verification moving from academic exercise to practical tool means that software quality differentiation — especially in fintech, e-commerce fraud, and infrastructure — is about to become automated and therefore table stakes.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50202217" target="_blank" rel="noopener">Hacker News · 348 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-black-october/" target="_blank" rel="noopener">Latent Space 'Black October' Roundup: AI Security Threats Accelerating</a></h2>
+        <p class="summary">Latent Space's AINews digest frames October as a turning point for AI-enabled cyberattacks, cataloging a cluster of significant security incidents tied to AI-assisted exploitation. The framing is that automated, AI-driven attacks are no longer theoretical and the pace is accelerating.</p>
+        <p class="why"><b>Why it matters:</b> Technical founders need to update their threat models: AI-assisted attacks are now a baseline assumption, not a future risk, especially for small teams without dedicated security resources.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-black-october/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.taler.net/en/news/2026-13.html" target="_blank" rel="noopener">GNU Taler Prepares for Real-Money Deployment in Germany — Privacy-Preserving Digital Payments Go Live</a></h2>
+        <p class="summary">GNU Taler, an open-source electronic payment system designed to be privacy-preserving for payers while keeping merchant transactions auditable, is preparing operational deployment in Germany. This is a significant step from academic project to live financial infrastructure in a major EU economy.</p>
+        <p class="why"><b>Why it matters:</b> A privacy-preserving payment rail going live in Germany could open regulatory-compliant payment infrastructure for European e-commerce operators who face GDPR friction with existing payment processors.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50197404" target="_blank" rel="noopener">Hacker News · 298 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" target="_blank" rel="noopener">eMudhra Exits Global SSL/TLS Business — Certificate Authority Market Consolidates Further</a></h2>
+        <p class="summary">eMudhra, a publicly listed Indian CA, is exiting the global SSL/TLS certificate market, leaving a smaller set of dominant players and raising questions about market concentration in web PKI infrastructure. With 1064 HN points and 681 comments, this is generating significant concern about the fragility of the certificate authority ecosystem.</p>
+        <p class="why"><b>Why it matters:</b> Anyone running web infrastructure, especially across multiple domains or operating in compliance-sensitive contexts, should understand the certificate authority landscape is thinning — with direct implications for vendor risk and renewal reliability.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50195110" target="_blank" rel="noopener">Hacker News · 1064 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·58</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://quad9.net/news/blog/au-revoir-france/" target="_blank" rel="noopener">Quad9 DNS Resolver Forced to Exit France Over Court Order to Block Domains</a></h2>
+        <p class="summary">Quad9, a privacy-focused public DNS resolver, is withdrawing from France after French courts ordered it to block specific domains — a legal precedent that threatens the operational model of any privacy-preserving internet infrastructure provider in the EU. The 1220 HN points signal this is being watched closely by the technical community.</p>
+        <p class="why"><b>Why it matters:</b> For founders operating internet infrastructure or privacy-focused services in Europe, this ruling signals increasing legal exposure for DNS-layer services and may require architectural changes to EU-serving products.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50195959" target="_blank" rel="noopener">Hacker News · 1220 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system/" target="_blank" rel="noopener">Anthropic Built a Custom Source Control System (Scion) After Git Broke at 30,000 PRs/Day</a></h2>
+        <p class="summary">The Pragmatic Engineer reports that Anthropic's engineering velocity pushed Git to its limits and they built an internal replacement called Scion, which they chose not to open source. This is a case study in what happens when a technical organization scales faster than its tooling — and the architectural decisions they made.</p>
+        <p class="why"><b>Why it matters:</b> Understanding where Git breaks and what Anthropic chose to replace it with is directly relevant to any technical founder scaling a high-throughput engineering org or building developer tooling.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system/" target="_blank" rel="noopener">The Pragmatic Engineer</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://codeandcake.dev/posts/2026-10-22-docker-is-weird" target="_blank" rel="noopener">Docker's Architectural Oddities Explained: What Every Developer Should Actually Understand</a></h2>
+        <p class="summary">A high-engagement HN post (494 points, 224 comments) breaks down the genuinely unusual architectural decisions in Docker — including how it handles namespaces, layers, and networking — in a way that demystifies behaviors that surprise even experienced engineers. The thread surfaces hard-won debugging knowledge that documentation doesn't cover.</p>
+        <p class="why"><b>Why it matters:</b> Any technical team running containerized workloads will hit Docker's weird edges eventually; understanding them before production is cheaper than debugging them after.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50202681" target="_blank" rel="noopener">Hacker News · 494 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/modal-d/" target="_blank" rel="noopener">Modal CEO Erik Bernhardsson on GPU Economics, Elastic Compute, and the Agent Cloud</a></h2>
+        <p class="summary">Erik Bernhardsson explains why AI compute is structured the way it is — GPUs in rectangles, memory bandwidth constraints, the economics of elastic GPU sandboxes — and what that means for teams building on top of inference infrastructure. The episode covers Modal's growth and why the 'agent cloud' is a distinct market from traditional cloud.</p>
+        <p class="why"><b>Why it matters:</b> If you're building AI-native products and making infrastructure decisions, understanding the actual economics of GPU compute helps you buy or build more cost-effectively and spot where the margin lives.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/modal-d/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 39 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-10-23';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

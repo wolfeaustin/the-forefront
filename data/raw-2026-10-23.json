@@ -1,0 +1,393 @@
+{
+  "date": "2026-10-23",
+  "fetchedAt": "2026-10-23T10:13:30.330Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "publishedAt": "2026-10-22T23:01:18.000Z",
+      "snippet": "396 points · 102 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202285",
+      "hnPoints": 396
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "publishedAt": "2026-10-22T23:45:56.000Z",
+      "snippet": "494 points · 224 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202681",
+      "hnPoints": 494
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How does Fable 5.1 hide messages in images?",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "publishedAt": "2026-10-22T21:41:13.000Z",
+      "snippet": "91 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50201445",
+      "hnPoints": 91
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The foolishness of \"natural language programming\" (1978)",
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+      "publishedAt": "2026-10-23T00:52:01.000Z",
+      "snippet": "183 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50203161",
+      "hnPoints": 183
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "This I Believe (1952)",
+      "url": "https://www.awakin.org/v2/read/view.php?tid=468",
+      "publishedAt": "2026-10-23T02:19:38.000Z",
+      "snippet": "92 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50203759",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "publishedAt": "2026-10-22T17:44:06.000Z",
+      "snippet": "400 points · 194 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50198675",
+      "hnPoints": 400
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "publishedAt": "2026-10-22T16:08:00.000Z",
+      "snippet": "426 points · 430 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50197313",
+      "hnPoints": 426
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "publishedAt": "2026-10-22T15:26:22.000Z",
+      "snippet": "442 points · 156 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50196718",
+      "hnPoints": 442
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Getting ready to operate GNU Taler in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
+      "publishedAt": "2026-10-22T16:14:31.000Z",
+      "snippet": "298 points · 127 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50197404",
+      "hnPoints": 298
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Quad9 to exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "publishedAt": "2026-10-22T14:32:38.000Z",
+      "snippet": "1220 points · 410 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50195959",
+      "hnPoints": 1220
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "publishedAt": "2026-10-22T02:18:41.000Z",
+      "snippet": "548 points · 169 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50190363",
+      "hnPoints": 548
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jank – The native Clojure dialect with seamless C++ interop",
+      "url": "https://jank-lang.org/",
+      "publishedAt": "2026-10-22T23:56:36.000Z",
+      "snippet": "105 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202762",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "publishedAt": "2026-10-22T10:11:44.000Z",
+      "snippet": "561 points · 220 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50193416",
+      "hnPoints": 561
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "publishedAt": "2026-10-22T22:54:43.000Z",
+      "snippet": "348 points · 205 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202217",
+      "hnPoints": 348
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "publishedAt": "2026-10-22T11:42:03.000Z",
+      "snippet": "305 points · 274 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50194009",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "publishedAt": "2026-10-22T21:03:55.000Z",
+      "snippet": "160 points · 143 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50200997",
+      "hnPoints": 160
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "publishedAt": "2026-10-22T13:33:39.000Z",
+      "snippet": "1064 points · 681 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50195110",
+      "hnPoints": 1064
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+      "publishedAt": "2026-10-22T18:44:36.000Z",
+      "snippet": "203 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50199389",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Railpass",
+      "url": "https://train.samismith.com/",
+      "publishedAt": "2026-10-22T21:38:32.000Z",
+      "snippet": "107 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50201414",
+      "hnPoints": 107
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Gathin23/cleanyourtv — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "publishedAt": "2026-10-17T08:12:35Z",
+      "snippet": "26036 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ly05010419/MacNativeGames — no description",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "publishedAt": "2026-10-17T19:52:00Z",
+      "snippet": "4697 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "simbasjungles/free-my-tv — A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "publishedAt": "2026-10-19T19:29:01Z",
+      "snippet": "3648 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "publishedAt": "2026-10-20T09:13:06Z",
+      "snippet": "3553 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaoyang111222/cn-math-taxonomy — 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "publishedAt": "2026-10-18T09:04:43Z",
+      "snippet": "2575 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tek-sys-hub/Rubix-lang — The 100% Pure x86-64 Assembly Systems Language",
+      "url": "https://github.com/tek-sys-hub/Rubix-lang",
+      "publishedAt": "2026-10-19T05:34:37Z",
+      "snippet": "1914 stars · Assembly"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ikow/php2shell-poc — CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "publishedAt": "2026-10-21T07:55:16Z",
+      "snippet": "1619 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JoasASantos/REA-Prompts — REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "publishedAt": "2026-10-19T22:20:47Z",
+      "snippet": "1542 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "aicodeking/leanrea — One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "url": "https://github.com/aicodeking/leanrea",
+      "publishedAt": "2026-10-17T02:53:24Z",
+      "snippet": "1496 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "alchaincyf/huashu-motion — 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "publishedAt": "2026-10-18T12:19:27Z",
+      "snippet": "1496 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "publishedAt": "2026-10-22T19:42:26.000Z",
+      "snippet": " <p><strong><a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow\">DE STAAT - FREEDOM (Official Music Video)</a></strong></p> OK well this is a first for me... at <a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow&amp;t=44s\">00:44</a> in this new music video by Dutch alternative rock band <a href=\"https://en.wikipedia.org/wiki/De_Staat\">De Staat</a>:</p> <p><video src=\"https://static.simonwillison.net/static/2026/freedom-pelican.mp4\" poster=\"https://static.simonwillison.net/static/2026/freedom-",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "publishedAt": "2026-10-22T18:09:56.000Z",
+      "snippet": " <p><strong><a href=\"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation\">Donating Agent Skills to the Agentic AI Foundation</a></strong></p> News today from Anthropic:</p> <blockquote> <p>We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, <a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-t",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "publishedAt": "2026-10-22T15:34:13.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://sim",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta’s VR Glasses",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Craig Moffett About SpaceX and Bubbles",
+      "url": "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "snippet": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: Anthropic builds its own source control system",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system/",
+      "publishedAt": "2026-10-22T14:52:25.000Z",
+      "snippet": "Git had too many performance problems at 30,000 PRs per day, so Anthropic built its own. I talked with the team, including asking why they didn’t open source its new system, ‘Scion.’",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october/",
+      "publishedAt": "2026-10-23T10:09:29.000Z",
+      "snippet": "the Cyber onslaught continues.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d/",
+      "publishedAt": "2026-10-22T17:40:57.000Z",
+      "snippet": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a16579-8537-79c0-86b7-c9fb7a723041/01a16579-85f9-7405-b65b-7eeb25ff90b0.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "You are the Team  — Anekha Sokhal, Moshi",
+      "url": "https://latent.space/p/moshi/",
+      "publishedAt": "2026-10-22T14:03:40.000Z",
+      "snippet": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1641c-6022-751d-84e7-ce1521a0983d/01a1641c-605f-7675-a60f-8606f3ed51a6.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+      "publishedAt": "2026-10-22T07:42:44.000Z",
+      "snippet": "The Big Hardening begins",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "How To Stand Out In A World Of AI Designs",
+      "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI",
+      "publishedAt": "2026-10-22T15:00:16.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
