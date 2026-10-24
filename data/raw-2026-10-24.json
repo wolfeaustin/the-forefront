@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-24",
+  "fetchedAt": "2026-10-24T10:12:40.860Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "publishedAt": "2026-10-24T04:49:58.000Z",
+      "snippet": "158 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50218430",
+      "hnPoints": 158
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "snippet": "917 points · 534 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50212065",
+      "hnPoints": 917
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "publishedAt": "2026-10-23T16:21:50.000Z",
+      "snippet": "887 points · 581 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50211474",
+      "hnPoints": 887
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "publishedAt": "2026-10-24T01:16:58.000Z",
+      "snippet": "205 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50217500",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "publishedAt": "2026-10-24T03:43:54.000Z",
+      "snippet": "122 points · 13 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50218195",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "publishedAt": "2026-10-23T12:28:47.000Z",
+      "snippet": "765 points · 232 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50207910",
+      "hnPoints": 765
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "publishedAt": "2026-10-22T23:01:18.000Z",
+      "snippet": "1385 points · 235 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202285",
+      "hnPoints": 1385
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A practical guide to AI image generation, from diffusion to agents",
+      "url": "https://danielball.com/notes/ai_image_generation.html",
+      "publishedAt": "2026-10-20T19:22:39.000Z",
+      "snippet": "96 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50171379",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bringing uv and ty together",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "publishedAt": "2026-10-20T21:30:56.000Z",
+      "snippet": "156 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50172962",
+      "hnPoints": 156
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dessa: Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "publishedAt": "2026-10-23T19:09:54.000Z",
+      "snippet": "389 points · 140 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50213925",
+      "hnPoints": 389
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CVE Tracker",
+      "url": "https://cve.0xosprey.com/",
+      "publishedAt": "2026-10-23T21:21:47.000Z",
+      "snippet": "171 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50215530",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "publishedAt": "2026-10-24T05:49:57.000Z",
+      "snippet": "141 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50218633",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Canadians are running out of time to oppose Bill C-22",
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "publishedAt": "2026-10-22T22:43:19.000Z",
+      "snippet": "418 points · 220 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50202114",
+      "hnPoints": 418
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Real Kevin Bacon",
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "publishedAt": "2026-10-20T17:10:05.000Z",
+      "snippet": "310 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50169499",
+      "hnPoints": 310
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "C vs. C#: racing VLC's Gaussian blur",
+      "url": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/",
+      "publishedAt": "2026-10-21T05:48:12.000Z",
+      "snippet": "80 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50176544",
+      "hnPoints": 80
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Quake Fan who built the map editor everybody uses",
+      "url": "https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses",
+      "publishedAt": "2026-10-22T10:55:22.000Z",
+      "snippet": "117 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50193677",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Air Purifiers as White Noise Machines",
+      "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+      "publishedAt": "2026-10-23T17:28:36.000Z",
+      "snippet": "131 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50212507",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "url": "https://corgi.computer/",
+      "publishedAt": "2026-10-23T19:46:38.000Z",
+      "snippet": "84 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50214373",
+      "hnPoints": 84
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "publishedAt": "2026-10-20T09:13:06Z",
+      "snippet": "4109 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "simbasjungles/free-my-tv — A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "publishedAt": "2026-10-19T19:29:01Z",
+      "snippet": "4068 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xiaoyang111222/cn-math-taxonomy — 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "publishedAt": "2026-10-18T09:04:43Z",
+      "snippet": "2979 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JoasASantos/REA-Prompts — REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "publishedAt": "2026-10-19T22:20:47Z",
+      "snippet": "1853 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EthanArbuckle/fairplay-decrypt — Offline FairPlay App Store IPA decryption with independent key derivation",
+      "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
+      "publishedAt": "2026-10-19T10:07:58Z",
+      "snippet": "1782 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ikow/php2shell-poc — CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "publishedAt": "2026-10-21T07:55:16Z",
+      "snippet": "1719 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "alchaincyf/huashu-motion — 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "publishedAt": "2026-10-18T12:19:27Z",
+      "snippet": "1564 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "humblemuzzu/dumbtv — Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
+      "url": "https://github.com/humblemuzzu/dumbtv",
+      "publishedAt": "2026-10-18T17:04:12Z",
+      "snippet": "1420 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Ansub/tv-detox — Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+      "url": "https://github.com/Ansub/tv-detox",
+      "publishedAt": "2026-10-18T06:42:29Z",
+      "snippet": "1416 stars · Java"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "9bie/php2shell-bypass-aslr-exp — A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+      "publishedAt": "2026-10-21T11:11:57Z",
+      "snippet": "1364 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "publishedAt": "2026-10-23T21:35:13.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolo",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "snippet": " <p><strong><a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">Introducing Kimi K3.1 Pro</a></strong></p> Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".</p> <p>They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).</p> <p>The <a href=\"https://platform.kimi.ai/docs/pricing/chat\">US dollar pricing</a> is $2.00/",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.43: A New Era",
+      "url": "https://stratechery.com/2026/a-new-era/",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta’s VR Glasses",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "publishedAt": "2026-10-24T07:18:29.000Z",
+      "snippet": "We have Fable at home... or so we are being told by paid shills",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "publishedAt": "2026-10-23T15:19:48.000Z",
+      "snippet": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october/",
+      "publishedAt": "2026-10-23T10:09:29.000Z",
+      "snippet": "the Cyber onslaught continues.",
+      "enclosure": null
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "We spent 8 hours finding the best stuff on X. Here it is.",
+      "publishedAt": "2026-10-23T10:55:00.000Z",
+      "snippet": "Database of 300+ business ideas: https://clickhubspot.com/wtfv Episode 875: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) are joined by Ben Levy ( https://x.com/benmlevy ) to react to the best stuff on X this week. — Show Notes: (0:00) Idea: Wedding Crashers (3:10) Idea: Clavicular's Billion-Dollar Business Opportunity (7:55) Elon's Flying Tesla Roadster (12:25) Elon Wants to Give Every Kid a Share of SpaceX (16:50) Inside Andrew Huberman's Fridge (20:10) Peter L",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS8901995160.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "This Is How You Should Actually Make Launch Videos",
+      "url": "https://www.youtube.com/watch?v=v12aSIZIXUs",
+      "publishedAt": "2026-10-23T15:00:24.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
