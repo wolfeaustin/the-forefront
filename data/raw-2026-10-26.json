@@ -1,0 +1,342 @@
+{
+  "date": "2026-10-26",
+  "fetchedAt": "2026-10-26T10:16:39.796Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Switzerland. Block by block. At 1:1 scale",
+      "url": "https://blocks.manifold3d.ch/",
+      "publishedAt": "2026-10-26T08:46:09.000Z",
+      "snippet": "94 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50240922",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "publishedAt": "2026-10-26T03:23:57.000Z",
+      "snippet": "240 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50238708",
+      "hnPoints": 240
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "publishedAt": "2026-10-26T03:29:05.000Z",
+      "snippet": "139 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50238739",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Behind the scenes at the NeXT Computer office",
+      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+      "publishedAt": "2026-10-26T03:31:11.000Z",
+      "snippet": "121 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50238763",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "publishedAt": "2026-10-25T18:23:54.000Z",
+      "snippet": "547 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50234474",
+      "hnPoints": 547
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: A Truly Modular Keyboard",
+      "url": "https://github.com/notaroomba/keybytes",
+      "publishedAt": "2026-10-25T03:47:56.000Z",
+      "snippet": "163 points · 50 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50228115",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Overgrown, when plants invade your abandoned tabs",
+      "url": "https://charliegerard.dev/blog/overgrown-extension/",
+      "publishedAt": "2026-10-22T15:52:21.000Z",
+      "snippet": "279 points · 99 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50197108",
+      "hnPoints": 279
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Attention Is Not What You Need (2025)",
+      "url": "https://arxiv.org/abs/2512.19428",
+      "publishedAt": "2026-10-25T23:52:05.000Z",
+      "snippet": "114 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50237224",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "publishedAt": "2026-10-26T01:47:46.000Z",
+      "snippet": "257 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50238088",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why I Am a Programmer",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "publishedAt": "2026-10-25T19:11:31.000Z",
+      "snippet": "232 points · 72 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50235017",
+      "hnPoints": 232
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "F-Zero X on Nintendo 3DS",
+      "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+      "publishedAt": "2026-10-25T23:27:30.000Z",
+      "snippet": "119 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50237078",
+      "hnPoints": 119
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Steal My Bitcoin CTF PoC",
+      "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+      "publishedAt": "2026-10-26T00:15:17.000Z",
+      "snippet": "116 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50237379",
+      "hnPoints": 116
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "publishedAt": "2026-10-25T20:32:31.000Z",
+      "snippet": "187 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50235780",
+      "hnPoints": 187
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "publishedAt": "2026-10-24T21:47:31.000Z",
+      "snippet": "805 points · 716 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50225695",
+      "hnPoints": 805
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Amazon’s “digital pacifier” for toddlers",
+      "url": "https://oligarchwatch.substack.com/p/amazons-digital-pacifier-for-toddlers",
+      "publishedAt": "2026-10-21T18:37:48.000Z",
+      "snippet": "196 points · 280 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50185534",
+      "hnPoints": 196
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "publishedAt": "2026-10-25T17:15:38.000Z",
+      "snippet": "562 points · 238 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50233779",
+      "hnPoints": 562
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+      "publishedAt": "2026-10-26T01:03:39.000Z",
+      "snippet": "142 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50237712",
+      "hnPoints": 142
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "publishedAt": "2026-10-25T21:11:31.000Z",
+      "snippet": "314 points · 309 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50236102",
+      "hnPoints": 314
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Where the Romans Fought (interactive map)",
+      "url": "https://iosiflazaridis.github.io/battles-of-the-romans/",
+      "publishedAt": "2026-10-25T18:58:14.000Z",
+      "snippet": "100 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50234879",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Active incident at Dreamhost forcing password reset",
+      "url": "https://www.dreamhoststatus.com/",
+      "publishedAt": "2026-10-25T13:09:16.000Z",
+      "snippet": "154 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50231166",
+      "hnPoints": 154
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What goes into making an animated film?",
+      "url": "https://www.disneyanimation.com/process/",
+      "publishedAt": "2026-10-25T20:27:09.000Z",
+      "snippet": "145 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50235738",
+      "hnPoints": 145
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://talkweb.eu/openweb/4558/",
+      "publishedAt": "2026-10-25T17:30:55.000Z",
+      "snippet": "472 points · 229 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50233929",
+      "hnPoints": 472
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "publishedAt": "2026-10-20T09:13:06Z",
+      "snippet": "5710 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JustAResearcher/gpu-unlock-ada — GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "publishedAt": "2026-10-23T21:00:53Z",
+      "snippet": "3402 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wesbos/3d-model-anything — Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+      "url": "https://github.com/wesbos/3d-model-anything",
+      "publishedAt": "2026-10-21T19:38:50Z",
+      "snippet": "2004 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xevrion/hatchzip — HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted ",
+      "url": "https://github.com/xevrion/hatchzip",
+      "publishedAt": "2026-10-21T17:29:28Z",
+      "snippet": "1995 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Jakeschincariol/day-trader-skill — 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "publishedAt": "2026-10-20T14:17:54Z",
+      "snippet": "1828 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ikow/php2shell-poc — CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "publishedAt": "2026-10-21T07:55:16Z",
+      "snippet": "1816 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "oosexgang/hackios-xnu-kernel — no description",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "publishedAt": "2026-10-22T06:20:11Z",
+      "snippet": "1541 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "9bie/php2shell-bypass-aslr-exp — A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+      "publishedAt": "2026-10-21T11:11:57Z",
+      "snippet": "1460 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/php2shell-checker — no description",
+      "url": "https://github.com/openai/php2shell-checker",
+      "publishedAt": "2026-10-21T00:29:12Z",
+      "snippet": "1406 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "publishedAt": "2026-10-24T05:35:47Z",
+      "snippet": "1359 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Seam Cutter",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "publishedAt": "2026-10-25T15:10:19.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/seam-cutter\">Seam Cutter</a></p> <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p> <p>I wanted this because I often use <a href=\"https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095\">Tailor</a> on my iPhone to stitch seve",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+      "publishedAt": "2026-10-25T12:31:34.000Z",
+      "snippet": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+      "enclosure": "https://api.substack.com/feed/podcast/216929530/9a3287d5d680878b81bdf250edf88394.mp3"
+    }
+  ]
+}
