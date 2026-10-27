@@ -1,0 +1,383 @@
+{
+  "date": "2026-10-27",
+  "fetchedAt": "2026-10-27T10:14:33.130Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "publishedAt": "2026-10-26T21:35:28.000Z",
+      "snippet": "909 points · 437 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50251344",
+      "hnPoints": 909
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "publishedAt": "2026-10-27T06:25:37.000Z",
+      "snippet": "140 points · 108 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50255298",
+      "hnPoints": 140
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "publishedAt": "2026-10-26T21:59:15.000Z",
+      "snippet": "626 points · 226 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50251661",
+      "hnPoints": 626
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "publishedAt": "2026-10-26T15:11:59.000Z",
+      "snippet": "711 points · 99 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50245138",
+      "hnPoints": 711
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "publishedAt": "2026-10-26T17:56:55.000Z",
+      "snippet": "428 points · 245 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50248055",
+      "hnPoints": 428
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Type Server Protocol",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "publishedAt": "2026-10-26T18:14:49.000Z",
+      "snippet": "243 points · 163 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50248371",
+      "hnPoints": 243
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Solar power is becoming bigger than nuclear",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "publishedAt": "2026-10-26T15:26:17.000Z",
+      "snippet": "321 points · 478 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50245385",
+      "hnPoints": 321
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CSS-Tricks has a new owner",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "publishedAt": "2026-10-26T15:51:23.000Z",
+      "snippet": "481 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50245831",
+      "hnPoints": 481
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "url": "https://github.com/otya128/winevdm",
+      "publishedAt": "2026-10-27T01:15:04.000Z",
+      "snippet": "90 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50253529",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "publishedAt": "2026-10-26T22:41:48.000Z",
+      "snippet": "137 points · 45 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50252159",
+      "hnPoints": 137
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Printer Printing onto Paper",
+      "url": "https://twitter.com/macrofying/status/2112904628509528219",
+      "publishedAt": "2026-10-23T05:01:30.000Z",
+      "snippet": "131 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50204697",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New iPad mini",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+      "publishedAt": "2026-10-26T13:13:36.000Z",
+      "snippet": "209 points · 514 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50243061",
+      "hnPoints": 209
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "publishedAt": "2026-10-26T17:49:55.000Z",
+      "snippet": "177 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50247928",
+      "hnPoints": 177
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Websites Should Be Printable",
+      "url": "https://brennenputh.me/blog/printable-websites/",
+      "publishedAt": "2026-10-26T10:32:14.000Z",
+      "snippet": "340 points · 198 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50241664",
+      "hnPoints": 340
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "publishedAt": "2026-10-26T13:04:50.000Z",
+      "snippet": "1616 points · 1548 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50242939",
+      "hnPoints": 1616
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Blaise Pascal invented fixed route public transport (2024)",
+      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+      "publishedAt": "2026-10-22T19:52:50.000Z",
+      "snippet": "292 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50200152",
+      "hnPoints": 292
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nietzschian Debugger",
+      "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "publishedAt": "2026-10-26T17:25:30.000Z",
+      "snippet": "179 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50247493",
+      "hnPoints": 179
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SIMD-accelerated computer vision on a $2 microcontroller",
+      "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
+      "publishedAt": "2026-10-25T22:29:47.000Z",
+      "snippet": "207 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50236681",
+      "hnPoints": 207
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "publishedAt": "2026-10-26T15:35:12.000Z",
+      "snippet": "948 points · 916 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50245524",
+      "hnPoints": 948
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JustAResearcher/gpu-unlock-ada — GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "publishedAt": "2026-10-23T21:00:53Z",
+      "snippet": "4058 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "publishedAt": "2026-10-24T05:35:47Z",
+      "snippet": "2719 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wesbos/3d-model-anything — Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+      "url": "https://github.com/wesbos/3d-model-anything",
+      "publishedAt": "2026-10-21T19:38:50Z",
+      "snippet": "2131 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "designfuchen/word-atlas — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "publishedAt": "2026-10-25T08:27:22Z",
+      "snippet": "2130 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xevrion/hatchzip — HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted ",
+      "url": "https://github.com/xevrion/hatchzip",
+      "publishedAt": "2026-10-21T17:29:28Z",
+      "snippet": "2092 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ikow/php2shell-poc — CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "publishedAt": "2026-10-21T07:55:16Z",
+      "snippet": "1851 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "oosexgang/hackios-xnu-kernel — no description",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "publishedAt": "2026-10-22T06:20:11Z",
+      "snippet": "1747 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "t3dotgg/tstack — The agent skills I use every day. Works with Claude Code and Codex.",
+      "url": "https://github.com/t3dotgg/tstack",
+      "publishedAt": "2026-10-24T05:00:20Z",
+      "snippet": "1744 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "9bie/php2shell-bypass-aslr-exp — A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+      "publishedAt": "2026-10-21T11:11:57Z",
+      "snippet": "1486 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "openai/php2shell-checker — no description",
+      "url": "https://github.com/openai/php2shell-checker",
+      "publishedAt": "2026-10-21T00:29:12Z",
+      "snippet": "1431 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "publishedAt": "2026-10-26T23:53:07.000Z",
+      "snippet": " <p><strong><a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">GPT-6.1 Terra</a></strong></p> It's always interesting to note which aspects of a new model are emphasized in the release announcement.</p> <p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p> <blockquote> <p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Jason Koebler",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "publishedAt": "2026-10-26T19:00:25.000Z",
+      "snippet": " <blockquote cite=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\"><p>Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, spec",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "publishedAt": "2026-10-26T16:15:00.000Z",
+      "snippet": " <p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/webframe-evaluation#readme\">webframe: evaluated as a scraper and a sandbox</a></p> <p><a href=\"https://github.com/tractordev/webframe\">webframe</a> is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs <code>console.log()</code> to standard output and any exceptions to standard error.<",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "The End of the Internet",
+      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
+      "publishedAt": "2026-10-26T10:00:00.000Z",
+      "snippet": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+      "publishedAt": "2026-10-26T15:00:53.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/b3ec454d-2a57-4dac-9f09-3d0762816acf_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+      "publishedAt": "2026-10-26T12:04:20.000Z",
+      "snippet": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+      "enclosure": "https://api.substack.com/feed/podcast/221505216/55d5970917db6ba6a6d3eb0000f1bcc3.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "publishedAt": "2026-10-27T07:24:59.000Z",
+      "snippet": "The S-1, the numbers, and the reactions.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "url": "https://colossus.com/episode/the-limits-of-intelligence/",
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "snippet": "Cliff Sosin is the founder of CAS Investment Partners, which he started in 2012. Roughly 80% of his portfolio is in Carvana. We discuss why Cliff thinks there are hard limits to what even the smartest AI can predict, which businesses benefit as intelligence gets cheap, and what that means for Meta and the frontier labs. We also cover why he avoids investing in the AI build-out, how AI agents will push customers to the lowest-cost provider, and why he is comfortable with 80% of his portfolio in o",
+      "enclosure": "https://traffic.megaphone.fm/CLS5603610979.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "How to find your arbitrage (from the guy who’s done it 3x) ft. Nick Kokonas",
+      "publishedAt": "2026-10-26T10:48:00.000Z",
+      "snippet": "Database on how long it takes to become a millionaire: https://clickhubspot.com/tyvc Episode 876: Shaan Puri ( https://x.com/ShaanVP ) sits down with Nick Kokonas ( https://x.com/nickkokonas ) to talk about finding arbitrages and how to win an many different games. — Show Notes: (0:00) Intro (9:45) How I Became a Trader With $60K (18:15) Surviving Day 1 of Anything (20:35) The Comfort Trap (23:50) Finding Your Arb (32:00) No Boats. No Women. No Drugs. (34:55) Showing Up (43:15) Everything Is an ",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5698376491.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "The New Full-Stack Designer",
+      "url": "https://www.youtube.com/watch?v=eojywvxqoLc",
+      "publishedAt": "2026-10-26T14:00:10.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
