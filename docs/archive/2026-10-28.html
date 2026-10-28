@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Oct 28, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Wednesday</span><span class="dot"></span><span>Oct 28, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>41</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>66%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·79</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://tailscale.com/ssh-investigation-update" target="_blank" rel="noopener">Tailscale SSH Incident: Full Post-Mortem on a Security Vulnerability and Remediation</a></h2>
+        <p class="summary">Tailscale published a detailed investigation into a security flaw in its SSH implementation, including root cause, exploit conditions, and the remediation steps taken. The transparency and technical depth make this a rare primary-source security post-mortem from an infrastructure company widely used by small technical teams.</p>
+        <p class="why"><b>Why it matters:</b> If Tailscale SSH is part of your zero-trust access stack — which it is for a large fraction of small technical teams — you need to know whether you were exposed and what to update.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50264857" target="_blank" rel="noopener">Hacker News · 287 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·67</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/" target="_blank" rel="noopener">Critical UEFI Firmware RCE Flaw Affects Most Servers — Patch Status and Exposure</a></h2>
+        <p class="summary">A code-execution vulnerability in widely deployed UEFI firmware threatens the majority of servers, allowing an attacker to execute arbitrary code before the operating system loads — making it persistent and difficult to remediate without a firmware update. Coverage is limited but the underlying flaw is broad-impact.</p>
+        <p class="why"><b>Why it matters:</b> Any founder running bare-metal servers or managing infrastructure for customers needs to identify affected firmware versions and apply patches before this becomes widely exploited.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50265393" target="_blank" rel="noopener">Hacker News · 144 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Anthropic S-1: 1,400% Growth, 85% Gross Margin, $1B Operating Profit in Q2 — but $2T Valuation Raises Questions</h3>
+    <p>48% of revenue through cloud partners signals that AWS/GCP marketplace distribution is a high-leverage channel for AI-native products — a small team with a vertical AI application could ride the same procurement motion enterprises are already using to buy Claude.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/" target="_blank" rel="noopener">Anthropic Engineering: How Claude Separates the Model 'Brain' from Agent 'Hands' to Scale Safely</a></h2>
+        <p class="summary">Anthropic engineers Katelyn Lesse and Angela Jiang explain the architectural decision to decouple Claude's reasoning from its tool-execution layer, a pattern they call 'brain vs. hands,' which enables safer and more auditable agentic workflows at scale. The episode covers how this separation informed the Opus 4.5 launch and the design of Anthropic's managed agent APIs.</p>
+        <p class="why"><b>Why it matters:</b> If you're building agents or evaluating agentic frameworks, this is a primary-source explanation of the architectural pattern the leading lab uses internally — directly applicable to how a small team should structure tool-use and human-in-the-loop checkpoints.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/opus55/" target="_blank" rel="noopener">Latent Space</a>
+          <a class="chip" href="https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" target="_blank" rel="noopener">Google DeepMind's Genie 4: Interactive World Generation Takes a Major Step Forward</a></h2>
+        <p class="summary">Genie 4 is DeepMind's latest world model capable of generating interactive, playable environments from a single image or text prompt, with significantly improved consistency and controllability over its predecessors. With 901 upvotes and 500+ comments on HN, the community reaction suggests this is a genuine capability jump, not incremental polish.</p>
+        <p class="why"><b>Why it matters:</b> World models that generate interactive environments are the substrate for synthetic training data, game prototyping, and robotics simulation — a founder building in any of those verticals needs to track this capability curve.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50261319" target="_blank" rel="noopener">Hacker News · 901 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.anthropic.com/research/early-progress-drug-development" target="_blank" rel="noopener">Anthropic Reports Early Evidence That Claude Accelerates Drug Development Timelines</a></h2>
+        <p class="summary">Anthropic published a blog post describing preliminary results from partnerships with pharmaceutical researchers showing Claude meaningfully compressing specific drug-discovery workflows, particularly literature synthesis and hypothesis generation. The claims are early-stage but come with enough methodological detail to evaluate seriously.</p>
+        <p class="why"><b>Why it matters:</b> AI-accelerated drug development is one of the highest-stakes applications of frontier models; this is a primary-source progress report from the lab, not media speculation, and signals where Claude's domain capabilities are being validated.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50265609" target="_blank" rel="noopener">Hacker News · 229 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Anthropic S-1: 1,400% Growth, 85% Gross Margin, $1B Operating Profit in Q2 — but $2T Valuation Raises Questions</a></h2>
+        <p class="summary">Anthropic's IPO filing reveals extraordinary unit economics: 85% gross margins, $1B operating profit in a single quarter, and 48% of revenue flowing through cloud partners AWS and GCP. The $2T target valuation implies the market is pricing in a winner-take-most outcome despite intensifying competition from OpenAI, Google, and Meta.</p>
+        <p class="why"><b>Why it matters:</b> Understanding Anthropic's cost structure and channel strategy tells you exactly where the AI value chain is being captured — and where it isn't — which directly informs build-vs-buy decisions and competitive positioning for any software business.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/" target="_blank" rel="noopener">Stratechery Deep-Dive: Anthropic's IPO Unit Economics and the Compute Cost Squeeze</a></h2>
+        <p class="summary">Ben Thompson's analysis of the Anthropic S-1 focuses on the structural tension between a genuinely profitable core business and the capital intensity required to stay competitive at the frontier — he argues investors face endless dilution even as margins look attractive today. The piece frames who is actually paying for AI compute (enterprises, cloud resellers, consumers) and what that means for sustainable pricing.</p>
+        <p class="why"><b>Why it matters:</b> A founder pricing an AI-powered product or evaluating an acquisition needs to understand whether today's API economics are durable or a subsidized land-grab — this analysis gives the clearest framework available.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/" target="_blank" rel="noopener">Stratechery</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram" target="_blank" rel="noopener">Micron Abandons 4F² DRAM Architecture While Samsung and SK Hynix Double Down</a></h2>
+        <p class="summary">Micron has quietly dropped its 4F² DRAM development program — a next-generation cell architecture promising dramatic density improvements — while its two primary competitors continue to invest heavily in the technology. This divergence in semiconductor strategy will shape memory supply, pricing, and availability for AI training infrastructure over the next three to five years.</p>
+        <p class="why"><b>Why it matters:</b> Memory bandwidth and cost is a binding constraint on LLM training and inference economics; understanding which architectural bets the major suppliers are making gives a founder early signal on where hardware costs are headed.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50245014" target="_blank" rel="noopener">Hacker News · 168 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">Open-Source Firmware Unlocks Full Tensor Cores on RTX 4090 GPUs — Locally Generated</a></h2>
+        <p class="summary">gpu-unlock-ada is a C repository that generates firmware locally to unlock tensor core capabilities on RTX 4090s (and experimentally RTX 4070 Ti SUPER) that Nvidia artificially restricts in consumer cards. With 4,300+ GitHub stars in a short window, it has immediate traction among developers who need datacenter-grade compute without datacenter prices.</p>
+        <p class="why"><b>Why it matters:</b> If you're running local inference or fine-tuning on consumer GPUs, this could materially increase effective FLOPS per dollar on hardware you already own.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/t3dotgg/tstack" target="_blank" rel="noopener">Theo's 'tstack': Production Agent Skills for Claude Code and OpenAI Codex</a></h2>
+        <p class="summary">Popular developer Theo (t3.gg) open-sourced the exact agent skill configurations he uses daily, targeting Claude Code and Codex — 2,100+ stars in short order suggests strong demand for battle-tested agentic coding workflows. The repo is a concrete playbook, not a toy demo.</p>
+        <p class="why"><b>Why it matters:</b> Agent skills / system prompts that have been validated in real production use are far more valuable than synthetic examples — this is a starting point that can save weeks of trial-and-error configuring AI coding agents.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/t3dotgg/tstack" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/" target="_blank" rel="noopener">Python's Experimental JIT Compiler Is Being Removed — Here's Why It Matters for Performance Bets</a></h2>
+        <p class="summary">The CPython core team is pulling the experimental JIT that shipped in Python 3.13, citing insufficient performance gains relative to the maintenance burden and complexity it introduces. This is a meaningful signal for anyone who was planning to rely on JIT-driven Python performance improvements in the near term.</p>
+        <p class="why"><b>Why it matters:</b> Teams betting on Python performance improvements for inference pipelines, data processing, or compute-intensive workloads should recalibrate their timeline and consider alternatives like PyPy, Numba, or rewriting hot paths in Rust/C.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50257419" target="_blank" rel="noopener">Hacker News · 511 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·62</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://ghostty.org/docs/install/release-notes/1-4-0" target="_blank" rel="noopener">Ghostty 1.4: Notable Updates to the Fast, Native Terminal Emulator</a></h2>
+        <p class="summary">Ghostty 1.4 ships with a set of improvements to the already-well-regarded terminal emulator built by Mitchell Hashimoto, which prioritizes GPU-accelerated rendering and native platform integration. With 1,000+ HN upvotes, this release is clearly resonating with developers who spend most of their day in a terminal.</p>
+        <p class="why"><b>Why it matters:</b> If your team has not yet evaluated Ghostty as a daily-driver terminal, version 1.4 is a stable milestone worth testing — the rendering performance and native feel are meaningfully better than most alternatives for developer productivity.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50261998" target="_blank" rel="noopener">Hacker News · 1034 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·71</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://colossus.com/episode/the-limits-of-intelligence/" target="_blank" rel="noopener">Cliff Sosin (80% in Carvana) on Which Businesses Win When Intelligence Gets Cheap</a></h2>
+        <p class="summary">Investor Cliff Sosin argues that AI agents will systematically push customers toward lowest-cost providers, commoditizing anything that isn't protected by scale, data moats, or physical constraints — and explains why he avoids investing in the AI buildout itself in favor of its complements. His framework for identifying businesses that benefit from cheap intelligence is unusually rigorous for a podcast format.</p>
+        <p class="why"><b>Why it matters:</b> For a founder deciding where to build defensibility in an AI-saturated market, Sosin's 'complements to intelligence' framework is a concrete mental model worth stress-testing against your own business.</p>
+        <div class="mediacard">
+          <a class="playbtn" href="https://traffic.megaphone.fm/CLS5603610979.mp3" aria-label="Play episode">▶</a>
+          <div class="mediainfo">
+            <span class="mediatitle">Listen — opens episode</span>
+            <span class="mediadur mono">PODCAST</span>
+          </div>
+        </div>
+        <div class="srcrow">
+          <a class="chip" href="https://colossus.com/episode/the-limits-of-intelligence/" target="_blank" rel="noopener">Invest Like the Best</a>
+          <span class="meta mono">PODCAST · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/offline-coding/" target="_blank" rel="noopener">How to Run an Offline AI Coding Agent from a Remote Location Using OpenCode, Ollama, and Qwen</a></h2>
+        <p class="summary">A practical walkthrough of setting up a fully offline coding agent stack — no cloud dependency — using the OpenCode agentic IDE, Ollama for local model serving, and Qwen as the underlying model. The context (coding from the Himalayas) is a stunt, but the technical setup is genuinely reproducible for air-gapped or low-connectivity environments.</p>
+        <p class="why"><b>Why it matters:</b> Any team building for regulated industries, remote operations, or privacy-sensitive customers needs a tested offline agent reference architecture — this is one.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/offline-coding/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 41 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-10-28';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

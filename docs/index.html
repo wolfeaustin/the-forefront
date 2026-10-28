@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Forefront — Oct 27, 2026</title>
+<title>The Forefront — Oct 28, 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -175,13 +175,13 @@
 </header>
 <main class="wrap">
   <div class="dayhead">
-    <div class="datemeta mono"><span>Tuesday</span><span class="dot"></span><span>Oct 27, 2026</span></div>
+    <div class="datemeta mono"><span>Wednesday</span><span class="dot"></span><span>Oct 28, 2026</span></div>
     <h1>14 things worth your attention today.</h1>
     <div class="filterstat">
-      <span>Scanned <b>39</b></span>
+      <span>Scanned <b>41</b></span>
       <span class="kept">Kept <b>14</b></span>
       <span>Total read <b>~17 min</b></span>
-      <span>Filtered out <b>64%</b></span>
+      <span>Filtered out <b>66%</b></span>
     </div>
   </div>
   <section class="section">
@@ -189,31 +189,15 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·97</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
-      </div>
-      <div>
-        <h2><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm" target="_blank" rel="noopener">Anthropic S-1: $2T IPO filing reveals $1B operating profit in Q2, 1400% growth, 85% margins</a></h2>
-        <p class="summary">Anthropic has filed its S-1, disclosing extraordinary unit economics: 85% gross margins, $1B operating profit in a single quarter, and 48% of revenue flowing through cloud partners (AWS, GCP). The filing is the clearest public window yet into frontier AI lab economics and competitive positioning.</p>
-        <p class="why"><b>Why it matters:</b> Every technical founder building on or competing adjacent to AI needs to understand the actual business model, margin structure, and partner dependency of the dominant AI provider — this filing is the primary source.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50242939" target="_blank" rel="noopener">Hacker News · 1616 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·82</div>
+        <div class="score">S·79</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf" target="_blank" rel="noopener">The Exponential Time Hypothesis Is False: A potential breakthrough in computational complexity</a></h2>
-        <p class="summary">A new paper claims to disprove the Exponential Time Hypothesis (ETH), one of the foundational assumptions in theoretical computer science that underpins hardness proofs for SAT and many NP-complete problems. If verified, this would be among the most significant results in complexity theory in decades, with downstream implications for cryptography, optimization, and AI training.</p>
-        <p class="why"><b>Why it matters:</b> If the proof holds, assumptions baked into current cryptographic systems, optimization algorithms, and complexity-theoretic AI safety arguments would need revisiting — founders building on any of these pillars should track verification closely.</p>
+        <h2><a href="https://tailscale.com/ssh-investigation-update" target="_blank" rel="noopener">Tailscale SSH Incident: Full Post-Mortem on a Security Vulnerability and Remediation</a></h2>
+        <p class="summary">Tailscale published a detailed investigation into a security flaw in its SSH implementation, including root cause, exploit conditions, and the remediation steps taken. The transparency and technical depth make this a rare primary-source security post-mortem from an infrastructure company widely used by small technical teams.</p>
+        <p class="why"><b>Why it matters:</b> If Tailscale SSH is part of your zero-trust access stack — which it is for a large fraction of small technical teams — you need to know whether you were exposed and what to update.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50251661" target="_blank" rel="noopener">Hacker News · 626 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50264857" target="_blank" rel="noopener">Hacker News · 287 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -225,11 +209,11 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/" target="_blank" rel="noopener">Critical: KV cache cross-request data leakage found in Cloudflare Workers AI GLM-5.3 model</a></h2>
-        <p class="summary">A researcher documented 155 confirmed instances of KV cache content from one user's request leaking into another user's response in Cloudflare's hosted GLM-5.3 model via Workers AI. This is a concrete, verified privacy failure in a production AI inference service, not a theoretical risk.</p>
-        <p class="why"><b>Why it matters:</b> Any founder using shared cloud AI inference infrastructure for customer data needs to audit their provider's cache isolation guarantees — this is not hypothetical, it happened at scale on a major CDN's platform.</p>
+        <h2><a href="https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/" target="_blank" rel="noopener">Critical UEFI Firmware RCE Flaw Affects Most Servers — Patch Status and Exposure</a></h2>
+        <p class="summary">A code-execution vulnerability in widely deployed UEFI firmware threatens the majority of servers, allowing an attacker to execute arbitrary code before the operating system loads — making it persistent and difficult to remediate without a firmware update. Coverage is limited but the underlying flaw is broad-impact.</p>
+        <p class="why"><b>Why it matters:</b> Any founder running bare-metal servers or managing infrastructure for customers needs to identify affected firmware versions and apply patches before this becomes widely exploited.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50252159" target="_blank" rel="noopener">Hacker News · 137 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50265393" target="_blank" rel="noopener">Hacker News · 144 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -237,8 +221,8 @@
   </section>
   <aside class="opp">
     <div class="eyebrow">Opportunity Hidden in Today's News</div>
-    <h3>Anthropic S-1: $2T IPO filing reveals $1B operating profit in Q2, 1400% growth, 85% margins</h3>
-    <p>The 48% revenue-through-cloud-partners figure signals that AWS/GCP reseller margins on Anthropic APIs are real and substantial — a reminder that building managed AI services on top of these credits and reselling to enterprise remains a low-capital arbitrage.</p>
+    <h3>Anthropic S-1: 1,400% Growth, 85% Gross Margin, $1B Operating Profit in Q2 — but $2T Valuation Raises Questions</h3>
+    <p>48% of revenue through cloud partners signals that AWS/GCP marketplace distribution is a high-leverage channel for AI-native products — a small team with a vertical AI application could ride the same procurement motion enterprises are already using to buy Claude.</p>
     <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
   </aside>
   <section class="section">
@@ -246,82 +230,32 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·81</div>
+        <div class="score">S·85</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://magazine.sebastianraschka.com/p/building-reasoning-models" target="_blank" rel="noopener">Sebastian Raschka's from-scratch video course: Build reasoning models yourself</a></h2>
-        <p class="summary">Sebastian Raschka (author of 'Build a Large Language Model from Scratch') has released a structured video course walking through building reasoning models from first principles — covering the training techniques behind o1-style chain-of-thought. High signal-to-noise, primary technical content rather than commentary.</p>
-        <p class="why"><b>Why it matters:</b> Understanding reasoning model internals gives technical founders a durable edge in evaluating which tasks genuinely benefit from inference-time compute scaling versus where cheaper models suffice.</p>
+        <h2><a href="https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/" target="_blank" rel="noopener">Anthropic Engineering: How Claude Separates the Model 'Brain' from Agent 'Hands' to Scale Safely</a></h2>
+        <p class="summary">Anthropic engineers Katelyn Lesse and Angela Jiang explain the architectural decision to decouple Claude's reasoning from its tool-execution layer, a pattern they call 'brain vs. hands,' which enables safer and more auditable agentic workflows at scale. The episode covers how this separation informed the Opus 4.5 launch and the design of Anthropic's managed agent APIs.</p>
+        <p class="why"><b>Why it matters:</b> If you're building agents or evaluating agentic frameworks, this is a primary-source explanation of the architectural pattern the leading lab uses internally — directly applicable to how a small team should structure tool-use and human-in-the-loop checkpoints.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50245138" target="_blank" rel="noopener">Hacker News · 711 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
+          <a class="chip" href="https://latent.space/p/opus55/" target="_blank" rel="noopener">Latent Space</a>
+          <a class="chip" href="https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
         </div>
       </div>
     </article>
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·78</div>
+        <div class="score">S·84</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://simonwillison.net/2026/Oct/26/gpt-61-terra/" target="_blank" rel="noopener">OpenAI launches GPT-6.1 Terra with visual reasoning and computer use as headline capabilities</a></h2>
-        <p class="summary">GPT-6.1 Terra is positioned explicitly around visual reasoning and computer use — the framing of the release announcement is as telling as the model itself, signaling where OpenAI sees the near-term competitive battleground. Fast and efficient positioning suggests it targets the Sonnet/Flash tier rather than frontier.</p>
-        <p class="why"><b>Why it matters:</b> Computer use as a first-class capability in a fast, efficient model means agent-based workflows that interact with GUIs become economically viable at scale — a direct unlock for automation products targeting non-API business software.</p>
+        <h2><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" target="_blank" rel="noopener">Google DeepMind's Genie 4: Interactive World Generation Takes a Major Step Forward</a></h2>
+        <p class="summary">Genie 4 is DeepMind's latest world model capable of generating interactive, playable environments from a single image or text prompt, with significantly improved consistency and controllability over its predecessors. With 901 upvotes and 500+ comments on HN, the community reaction suggests this is a genuine capability jump, not incremental polish.</p>
+        <p class="why"><b>Why it matters:</b> World models that generate interactive environments are the substrate for synthetic training data, game prototyping, and robotics simulation — a founder building in any of those verticals needs to track this capability curve.</p>
         <div class="srcrow">
-          <a class="chip" href="https://simonwillison.net/2026/Oct/26/gpt-61-terra/" target="_blank" rel="noopener">Simon Willison</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·74</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://openai.com/index/building-scientific-understanding-with-academic-communities/" target="_blank" rel="noopener">Three new peer-reviewed discoveries in mathematics, computer science, and physics — a rare simultaneous cluster</a></h2>
-        <p class="summary">Hacker News surfaced a set of three distinct, significant research results across foundational disciplines simultaneously — an unusual occurrence that the thread treats as genuinely novel rather than hype. The specifics of each result matter for evaluation; the clustering itself is a signal worth noting.</p>
-        <p class="why"><b>Why it matters:</b> Foundational advances in CS and physics often create 5-10 year engineering windows before commoditization — catching them early is how small teams identify non-obvious technical bets.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50251344" target="_blank" rel="noopener">Hacker News · 909 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-  </section>
-  <section class="section">
-    <div class="eyebrow">Business &amp; Markets</div>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·90</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
-      </div>
-      <div>
-        <h2><a href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Anthropic S-1 Deep Dive: The numbers behind the $2T valuation and what they mean for AI infrastructure</a></h2>
-        <p class="summary">Latent Space breaks down the Anthropic S-1 with context: 1400% revenue growth, $134B cash on hand, $10B lifetime burn, and heavy cloud-partner dependency. The analysis surfaces the strategic implications of the margin profile and revenue mix that the raw filing alone won't tell you.</p>
-        <p class="why"><b>Why it matters:</b> This provides the interpretive layer on top of the primary S-1 filing — together they give a complete picture of where frontier AI lab economics are heading and how cloud platforms are extracting their toll.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Latent Space</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·76</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/" target="_blank" rel="noopener">Microsoft offers mass buyouts to roughly 25% of its workforce — the largest voluntary reduction in company history</a></h2>
-        <p class="summary">Microsoft is offering buyouts across a broad swath of its employee base, covering approximately one in four workers. This follows earlier layoffs and signals a structural reorientation of headcount toward AI-native workflows rather than traditional engineering and sales org structures.</p>
-        <p class="why"><b>Why it matters:</b> When the world's largest software company systematically reduces headcount while accelerating AI investment, it validates the 'fewer people, more leverage' thesis and telegraphs where enterprise software purchasing is heading.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50245524" target="_blank" rel="noopener">Hacker News · 948 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50261319" target="_blank" rel="noopener">Hacker News · 901 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -333,31 +267,47 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://stratechery.com/2026/the-end-of-the-internet/" target="_blank" rel="noopener">Stratechery: The open internet is ending — and the next era may be better for builders</a></h2>
-        <p class="summary">Ben Thompson argues that the era of anyone self-hosting a publicly reachable server is functionally over, but frames this as the final chapter of a long transition rather than a sudden collapse. The follow-on argument — that the next layer is brighter for certain builders — is where the actionable thesis lives.</p>
-        <p class="why"><b>Why it matters:</b> Understanding the structural shift away from the open web toward platform-mediated distribution is prerequisite to choosing the right go-to-market for any product built in the next decade.</p>
+        <h2><a href="https://www.anthropic.com/research/early-progress-drug-development" target="_blank" rel="noopener">Anthropic Reports Early Evidence That Claude Accelerates Drug Development Timelines</a></h2>
+        <p class="summary">Anthropic published a blog post describing preliminary results from partnerships with pharmaceutical researchers showing Claude meaningfully compressing specific drug-discovery workflows, particularly literature synthesis and hypothesis generation. The claims are early-stage but come with enough methodological detail to evaluate seriously.</p>
+        <p class="why"><b>Why it matters:</b> AI-accelerated drug development is one of the highest-stakes applications of frontier models; this is a primary-source progress report from the lab, not media speculation, and signals where Claude's domain capabilities are being validated.</p>
         <div class="srcrow">
-          <a class="chip" href="https://stratechery.com/2026/the-end-of-the-internet/" target="_blank" rel="noopener">Stratechery</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50265609" target="_blank" rel="noopener">Hacker News · 229 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
     </article>
   </section>
   <section class="section">
-    <div class="eyebrow">Tools &amp; Repos</div>
+    <div class="eyebrow">Business &amp; Markets</div>
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·77</div>
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Anthropic S-1: 1,400% Growth, 85% Gross Margin, $1B Operating Profit in Q2 — but $2T Valuation Raises Questions</a></h2>
+        <p class="summary">Anthropic's IPO filing reveals extraordinary unit economics: 85% gross margins, $1B operating profit in a single quarter, and 48% of revenue flowing through cloud partners AWS and GCP. The $2T target valuation implies the market is pricing in a winner-take-most outcome despite intensifying competition from OpenAI, Google, and Meta.</p>
+        <p class="why"><b>Why it matters:</b> Understanding Anthropic's cost structure and channel strategy tells you exactly where the AI value chain is being captured — and where it isn't — which directly informs build-vs-buy decisions and competitive positioning for any software business.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-anthropic-s1/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">GPU Tensor Unlock for RTX 4090: Open-source firmware restores capped compute on consumer GPUs</a></h2>
-        <p class="summary">A GitHub repo (4k+ stars, trending) releases source code for unlocking tensor operations on RTX 4090s that NVIDIA artificially caps via firmware to protect data-center GPU sales. Firmware is generated locally, no third-party server required.</p>
-        <p class="why"><b>Why it matters:</b> If this holds up to scrutiny, it materially reduces the cost per FLOP for small teams running local inference or fine-tuning — a 4090 cluster becomes meaningfully more competitive with cloud GPU pricing.</p>
+        <h2><a href="https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/" target="_blank" rel="noopener">Stratechery Deep-Dive: Anthropic's IPO Unit Economics and the Compute Cost Squeeze</a></h2>
+        <p class="summary">Ben Thompson's analysis of the Anthropic S-1 focuses on the structural tension between a genuinely profitable core business and the capital intensity required to stay competitive at the frontier — he argues investors face endless dilution even as margins look attractive today. The piece frames who is actually paying for AI compute (enterprises, cloud resellers, consumers) and what that means for sustainable pricing.</p>
+        <p class="why"><b>Why it matters:</b> A founder pricing an AI-powered product or evaluating an acquisition needs to understand whether today's API economics are durable or a subsidized land-grab — this analysis gives the clearest framework available.</p>
         <div class="srcrow">
-          <a class="chip" href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">GitHub Trending</a>
-          <span class="meta mono">REPO · 1 SOURCE</span>
+          <a class="chip" href="https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/" target="_blank" rel="noopener">Stratechery</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
     </article>
@@ -368,25 +318,44 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md" target="_blank" rel="noopener">Type Server Protocol: A language-agnostic standard for type information, analogous to LSP</a></h2>
-        <p class="summary">A proposal for a Type Server Protocol (TSP) modeled on the Language Server Protocol would decouple type-checking engines from editors and build tools, enabling richer tooling across polyglot codebases. The thread discusses implementation approaches and the gap this fills versus existing LSP extensions.</p>
-        <p class="why"><b>Why it matters:</b> For technical teams building developer tools or AI coding assistants, a standard type-information protocol would dramatically simplify the data layer needed for reliable code generation and refactoring.</p>
+        <h2><a href="https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram" target="_blank" rel="noopener">Micron Abandons 4F² DRAM Architecture While Samsung and SK Hynix Double Down</a></h2>
+        <p class="summary">Micron has quietly dropped its 4F² DRAM development program — a next-generation cell architecture promising dramatic density improvements — while its two primary competitors continue to invest heavily in the technology. This divergence in semiconductor strategy will shape memory supply, pricing, and availability for AI training infrastructure over the next three to five years.</p>
+        <p class="why"><b>Why it matters:</b> Memory bandwidth and cost is a binding constraint on LLM training and inference economics; understanding which architectural bets the major suppliers are making gives a founder early signal on where hardware costs are headed.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50248371" target="_blank" rel="noopener">Hacker News · 243 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50245014" target="_blank" rel="noopener">Hacker News · 168 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">Open-Source Firmware Unlocks Full Tensor Cores on RTX 4090 GPUs — Locally Generated</a></h2>
+        <p class="summary">gpu-unlock-ada is a C repository that generates firmware locally to unlock tensor core capabilities on RTX 4090s (and experimentally RTX 4070 Ti SUPER) that Nvidia artificially restricts in consumer cards. With 4,300+ GitHub stars in a short window, it has immediate traction among developers who need datacenter-grade compute without datacenter prices.</p>
+        <p class="why"><b>Why it matters:</b> If you're running local inference or fine-tuning on consumer GPUs, this could materially increase effective FLOPS per dollar on hardware you already own.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/JustAResearcher/gpu-unlock-ada" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
         </div>
       </div>
     </article>
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·68</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://github.com/t3dotgg/tstack" target="_blank" rel="noopener">Theo's 'tstack': Agent skill primitives for Claude Code and Codex, open-sourced</a></h2>
-        <p class="summary">Theo (t3dotgg) has open-sourced the agent skill templates and prompts he uses daily with Claude Code and Codex — essentially a distilled, battle-tested workflow for AI-assisted coding that goes beyond boilerplate. 1700+ stars in days suggests strong practitioner validation.</p>
-        <p class="why"><b>Why it matters:</b> Stealing a proven agent workflow from a high-output developer is faster than building your own from scratch — this is immediately actionable for any team using Claude Code.</p>
+        <h2><a href="https://github.com/t3dotgg/tstack" target="_blank" rel="noopener">Theo's 'tstack': Production Agent Skills for Claude Code and OpenAI Codex</a></h2>
+        <p class="summary">Popular developer Theo (t3.gg) open-sourced the exact agent skill configurations he uses daily, targeting Claude Code and Codex — 2,100+ stars in short order suggests strong demand for battle-tested agentic coding workflows. The repo is a concrete playbook, not a toy demo.</p>
+        <p class="why"><b>Why it matters:</b> Agent skills / system prompts that have been validated in real production use are far more valuable than synthetic examples — this is a starting point that can save weeks of trial-and-error configuring AI coding agents.</p>
         <div class="srcrow">
           <a class="chip" href="https://github.com/t3dotgg/tstack" target="_blank" rel="noopener">GitHub Trending</a>
           <span class="meta mono">REPO · 1 SOURCE</span>
@@ -396,15 +365,31 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·63</div>
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/" target="_blank" rel="noopener">Python's Experimental JIT Compiler Is Being Removed — Here's Why It Matters for Performance Bets</a></h2>
+        <p class="summary">The CPython core team is pulling the experimental JIT that shipped in Python 3.13, citing insufficient performance gains relative to the maintenance burden and complexity it introduces. This is a meaningful signal for anyone who was planning to rely on JIT-driven Python performance improvements in the near term.</p>
+        <p class="why"><b>Why it matters:</b> Teams betting on Python performance improvements for inference pipelines, data processing, or compute-intensive workloads should recalibrate their timeline and consider alternatives like PyPy, Numba, or rewriting hot paths in Rust/C.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50257419" target="_blank" rel="noopener">Hacker News · 511 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·62</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://shraiwi.com/blog/simd-fast-esp32s3/" target="_blank" rel="noopener">SIMD-accelerated computer vision running on a $2 microcontroller</a></h2>
-        <p class="summary">A developer demonstrates real-time computer vision inference on a sub-$2 microcontroller by hand-optimizing SIMD instructions, achieving performance previously requiring far more expensive hardware. The writeup includes the specific techniques and benchmarks.</p>
-        <p class="why"><b>Why it matters:</b> This dramatically lowers the bill-of-materials threshold for embedded vision products — surveillance, agriculture, quality control, and wearables all become viable at price points that were previously impossible.</p>
+        <h2><a href="https://ghostty.org/docs/install/release-notes/1-4-0" target="_blank" rel="noopener">Ghostty 1.4: Notable Updates to the Fast, Native Terminal Emulator</a></h2>
+        <p class="summary">Ghostty 1.4 ships with a set of improvements to the already-well-regarded terminal emulator built by Mitchell Hashimoto, which prioritizes GPU-accelerated rendering and native platform integration. With 1,000+ HN upvotes, this release is clearly resonating with developers who spend most of their day in a terminal.</p>
+        <p class="why"><b>Why it matters:</b> If your team has not yet evaluated Ghostty as a daily-driver terminal, version 1.4 is a stable milestone worth testing — the rendering performance and native feel are meaningfully better than most alternatives for developer productivity.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50236681" target="_blank" rel="noopener">Hacker News · 207 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50261998" target="_blank" rel="noopener">Hacker News · 1034 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -415,13 +400,13 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·72</div>
+        <div class="score">S·71</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://colossus.com/episode/the-limits-of-intelligence/" target="_blank" rel="noopener">Cliff Sosin on why cheap intelligence benefits 'complement' businesses — and why he's 80% in Carvana</a></h2>
-        <p class="summary">CAS Investment Partners founder Cliff Sosin argues that as AI makes intelligence cheap, the businesses that win are those owning the complements to intelligence — physical assets, proprietary data, distribution. He applies this framework to Meta, frontier labs, and why he avoids AI infrastructure entirely.</p>
-        <p class="why"><b>Why it matters:</b> This framework — own the complements to cheap intelligence — is directly actionable for founders deciding where to build moats in an AI-commoditized world.</p>
+        <h2><a href="https://colossus.com/episode/the-limits-of-intelligence/" target="_blank" rel="noopener">Cliff Sosin (80% in Carvana) on Which Businesses Win When Intelligence Gets Cheap</a></h2>
+        <p class="summary">Investor Cliff Sosin argues that AI agents will systematically push customers toward lowest-cost providers, commoditizing anything that isn't protected by scale, data moats, or physical constraints — and explains why he avoids investing in the AI buildout itself in favor of its complements. His framework for identifying businesses that benefit from cheap intelligence is unusually rigorous for a podcast format.</p>
+        <p class="why"><b>Why it matters:</b> For a founder deciding where to build defensibility in an AI-saturated market, Sosin's 'complements to intelligence' framework is a concrete mental model worth stress-testing against your own business.</p>
         <div class="mediacard">
           <a class="playbtn" href="https://traffic.megaphone.fm/CLS5603610979.mp3" aria-label="Play episode">▶</a>
           <div class="mediainfo">
@@ -435,16 +420,32 @@
         </div>
       </div>
     </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/offline-coding/" target="_blank" rel="noopener">How to Run an Offline AI Coding Agent from a Remote Location Using OpenCode, Ollama, and Qwen</a></h2>
+        <p class="summary">A practical walkthrough of setting up a fully offline coding agent stack — no cloud dependency — using the OpenCode agentic IDE, Ollama for local model serving, and Qwen as the underlying model. The context (coding from the Himalayas) is a stunt, but the technical setup is genuinely reproducible for air-gapped or low-connectivity environments.</p>
+        <p class="why"><b>Why it matters:</b> Any team building for regulated industries, remote operations, or privacy-sensitive customers needs a tested offline agent reference architecture — this is one.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/offline-coding/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
   </section>
 </main>
 <footer>
   <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>The Forefront — we read 39 things so you don't have to.</span>
+    <span>The Forefront — we read 41 things so you don't have to.</span>
     <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
   </div>
 </footer>
 <script>(function(){
-  var KEY = 'forefront:activity:2026-10-27';
+  var KEY = 'forefront:activity:2026-10-28';
   // localStorage with in-memory fallback (some embedded previews block storage)
   var store;
   try {

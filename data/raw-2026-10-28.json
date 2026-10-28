@@ -1,0 +1,411 @@
+{
+  "date": "2026-10-28",
+  "fetchedAt": "2026-10-28T10:10:56.047Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "publishedAt": "2026-10-28T01:47:50.000Z",
+      "snippet": "269 points · 137 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50268380",
+      "hnPoints": 269
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publishedAt": "2026-10-27T16:06:01.000Z",
+      "snippet": "901 points · 517 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50261319",
+      "hnPoints": 901
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ghostty 1.4",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "publishedAt": "2026-10-27T16:51:22.000Z",
+      "snippet": "1034 points · 331 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50261998",
+      "hnPoints": 1034
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+      "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+      "publishedAt": "2026-10-25T18:49:48.000Z",
+      "snippet": "238 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50234796",
+      "hnPoints": 238
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "publishedAt": "2026-10-27T19:55:06.000Z",
+      "snippet": "350 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50264853",
+      "hnPoints": 350
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "publishedAt": "2026-10-27T19:55:21.000Z",
+      "snippet": "287 points · 148 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50264857",
+      "hnPoints": 287
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "publishedAt": "2026-10-27T20:50:42.000Z",
+      "snippet": "229 points · 219 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50265609",
+      "hnPoints": 229
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "publishedAt": "2026-10-27T11:17:57.000Z",
+      "snippet": "511 points · 277 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50257419",
+      "hnPoints": 511
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "publishedAt": "2026-10-27T20:48:49.000Z",
+      "snippet": "169 points · 90 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50265594",
+      "hnPoints": 169
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New 14‑inch MacBook Pro with M6",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "publishedAt": "2026-10-27T16:08:32.000Z",
+      "snippet": "362 points · 494 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50261352",
+      "hnPoints": 362
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "publishedAt": "2026-10-27T20:35:09.000Z",
+      "snippet": "144 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50265393",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SS United States to be sunk as largest artificial reef",
+      "url": "https://divemagazine.com/scuba-diving-news/ss-united-states-to-be-sunk-as-worlds-largest-artificial-reef-in-november",
+      "publishedAt": "2026-10-26T04:41:15.000Z",
+      "snippet": "148 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50239214",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New iMac with M6",
+      "url": "https://www.apple.com/imac/",
+      "publishedAt": "2026-10-27T13:02:02.000Z",
+      "snippet": "336 points · 425 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50258538",
+      "hnPoints": 336
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jokes for the ZX81",
+      "url": "https://spelk.press/gb/products/81-jokes-for-the-zx81",
+      "publishedAt": "2026-10-26T12:45:16.000Z",
+      "snippet": "94 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50242688",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Four Months of Zig",
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+      "publishedAt": "2026-10-27T20:13:27.000Z",
+      "snippet": "128 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50265128",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "url": "https://cfsg.axiommath.ai/",
+      "publishedAt": "2026-10-27T16:29:02.000Z",
+      "snippet": "212 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50261647",
+      "hnPoints": 212
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An examination of lost firefly species of the US and Canada",
+      "url": "https://journaloflostspecies.org/index.php/jls/article/view/37/33",
+      "publishedAt": "2026-10-24T19:04:42.000Z",
+      "snippet": "126 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50224079",
+      "hnPoints": 126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "publishedAt": "2026-10-27T14:06:42.000Z",
+      "snippet": "941 points · 345 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50259604",
+      "hnPoints": 941
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why Micron Is Suddenly Ditching 4F² DRAM as Rivals Double Down",
+      "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
+      "publishedAt": "2026-10-26T15:05:04.000Z",
+      "snippet": "168 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50245014",
+      "hnPoints": 168
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JustAResearcher/gpu-unlock-ada — GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "publishedAt": "2026-10-23T21:00:53Z",
+      "snippet": "4343 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "publishedAt": "2026-10-24T05:35:47Z",
+      "snippet": "3966 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unclebob/ub-mode — no description",
+      "url": "https://github.com/unclebob/ub-mode",
+      "publishedAt": "2026-10-25T16:04:09Z",
+      "snippet": "3066 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "designfuchen/word-atlas — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "publishedAt": "2026-10-25T08:27:22Z",
+      "snippet": "2896 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "t3dotgg/tstack — The agent skills I use every day. Works with Claude Code and Codex.",
+      "url": "https://github.com/t3dotgg/tstack",
+      "publishedAt": "2026-10-24T05:00:20Z",
+      "snippet": "2127 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "oosexgang/hackios-xnu-kernel — no description",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "publishedAt": "2026-10-22T06:20:11Z",
+      "snippet": "1867 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "interplains/Zero-Breach-Toolkit — Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "publishedAt": "2026-10-25T14:41:34Z",
+      "snippet": "1606 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "morganlinton/BeautifulRust — Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CL",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "publishedAt": "2026-10-23T03:01:11Z",
+      "snippet": "1345 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "enesozturk/dimensional-drawing — Create Apple style dimensional drawings of UI components.",
+      "url": "https://github.com/enesozturk/dimensional-drawing",
+      "publishedAt": "2026-10-23T12:20:16Z",
+      "snippet": "1312 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "publishedAt": "2026-10-27T12:24:37Z",
+      "snippet": "1241 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "publishedAt": "2026-10-27T19:34:18.000Z",
+      "snippet": " <p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong></p> I'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p> <p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-confere",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Meta Earnings, Muse and the Frontier, Musebook",
+      "url": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
+      "publishedAt": "2026-10-28T10:06:13.000Z",
+      "snippet": "Meta's earnings come in the context of Zuckerberg delivering on his promise; if investors believe in Muse they must support Meta's spending on compute.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
+      "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+      "publishedAt": "2026-10-27T10:32:57.000Z",
+      "snippet": "Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "publishedAt": "2026-10-28T08:50:30.000Z",
+      "snippet": "Since coding is solved, why code for the job?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "publishedAt": "2026-10-27T18:53:10.000Z",
+      "snippet": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "publishedAt": "2026-10-27T18:40:19.000Z",
+      "snippet": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a17e24-16fc-71e3-bdc8-f0c1aeee546c/01a17e24-18bb-7daa-afc4-3f3bfdc294d7.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "publishedAt": "2026-10-27T14:41:25.000Z",
+      "snippet": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "publishedAt": "2026-10-27T07:24:59.000Z",
+      "snippet": "The S-1, the numbers, and the reactions.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Cliff Sosin - Owning the Complements to Intelligence - [Invest Like the Best, EP.497]",
+      "url": "https://colossus.com/episode/the-limits-of-intelligence/",
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "snippet": "Cliff Sosin is the founder of CAS Investment Partners, which he started in 2012. Roughly 80% of his portfolio is in Carvana. We discuss why Cliff thinks there are hard limits to what even the smartest AI can predict, which businesses benefit as intelligence gets cheap, and what that means for Meta and the frontier labs. We also cover why he avoids investing in the AI build-out, how AI agents will push customers to the lowest-cost provider, and why he is comfortable with 80% of his portfolio in o",
+      "enclosure": "https://traffic.megaphone.fm/CLS5603610979.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Data Center Supply Chain",
+      "url": "https://www.youtube.com/shorts/9EJM4LNMK0I",
+      "publishedAt": "2026-10-28T05:25:32.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "The $15-an-Hour Expert",
+      "url": "https://www.youtube.com/shorts/vaKVoWc3TtY",
+      "publishedAt": "2026-10-27T23:18:56.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Robots Made In America",
+      "url": "https://www.youtube.com/shorts/7adYEc1XkEs",
+      "publishedAt": "2026-10-27T18:29:01.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Startups in a World of Abundant Space Access",
+      "url": "https://www.youtube.com/shorts/e5W-7cggAg0",
+      "publishedAt": "2026-10-27T16:33:51.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
