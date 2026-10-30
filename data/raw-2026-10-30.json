@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-30",
+  "fetchedAt": "2026-10-30T10:10:35.173Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "publishedAt": "2026-10-29T21:38:59.000Z",
+      "snippet": "1362 points · 836 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50296470",
+      "hnPoints": 1362
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
+      "snippet": "1474 points · 397 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50289418",
+      "hnPoints": 1474
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cuis: The Modern Smalltalk-80",
+      "url": "https://cuis.st/",
+      "publishedAt": "2026-10-27T06:33:16.000Z",
+      "snippet": "119 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50255343",
+      "hnPoints": 119
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Astroterm: A Planetarium for Your Terminal",
+      "url": "https://github.com/da-luce/astroterm",
+      "publishedAt": "2026-10-28T08:29:55.000Z",
+      "snippet": "141 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50270651",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "publishedAt": "2026-10-30T00:42:41.000Z",
+      "snippet": "206 points · 128 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50298436",
+      "hnPoints": 206
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
+      "url": "https://www.youtube.com/watch?v=kL9BTbIGxLg",
+      "publishedAt": "2026-10-28T13:20:05.000Z",
+      "snippet": "130 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50273104",
+      "hnPoints": 130
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "publishedAt": "2026-10-29T21:40:28.000Z",
+      "snippet": "293 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50296486",
+      "hnPoints": 293
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "publishedAt": "2026-10-29T20:32:28.000Z",
+      "snippet": "213 points · 15 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50295450",
+      "hnPoints": 213
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "publishedAt": "2026-10-29T15:53:03.000Z",
+      "snippet": "437 points · 150 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50291054",
+      "hnPoints": 437
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "publishedAt": "2026-10-29T23:25:46.000Z",
+      "snippet": "93 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50297697",
+      "hnPoints": 93
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "publishedAt": "2026-10-29T14:57:55.000Z",
+      "snippet": "480 points · 254 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50290177",
+      "hnPoints": 480
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "publishedAt": "2026-10-30T01:58:44.000Z",
+      "snippet": "142 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50298964",
+      "hnPoints": 142
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+      "url": "https://journal.animationstudies.org/article/id/66/",
+      "publishedAt": "2026-10-29T22:26:38.000Z",
+      "snippet": "121 points · 29 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50297089",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Patrick Stewart has died",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "publishedAt": "2026-10-29T19:41:39.000Z",
+      "snippet": "2988 points · 631 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50294702",
+      "hnPoints": 2988
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "If IPv4 were land",
+      "url": "https://iptrust.co/blog/if-ipv4-were-land",
+      "publishedAt": "2026-10-29T12:19:00.000Z",
+      "snippet": "288 points · 402 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50287775",
+      "hnPoints": 288
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What we know so far about Spain train crash",
+      "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+      "publishedAt": "2026-10-29T08:55:08.000Z",
+      "snippet": "204 points · 369 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50286197",
+      "hnPoints": 204
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+      "url": "https://github.com/johncassil/dontallow",
+      "publishedAt": "2026-10-29T19:27:44.000Z",
+      "snippet": "135 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50294506",
+      "hnPoints": 135
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ElementaryUI – Swift, in the Browser",
+      "url": "https://elementary.codes",
+      "publishedAt": "2026-10-29T20:56:39.000Z",
+      "snippet": "102 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50295821",
+      "hnPoints": 102
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unclebob/ub-mode — no description",
+      "url": "https://github.com/unclebob/ub-mode",
+      "publishedAt": "2026-10-25T16:04:09Z",
+      "snippet": "5121 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "publishedAt": "2026-10-24T05:35:47Z",
+      "snippet": "4920 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "interplains/Zero-Breach-Toolkit — Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "publishedAt": "2026-10-25T14:41:34Z",
+      "snippet": "3715 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "publishedAt": "2026-10-27T12:24:37Z",
+      "snippet": "3648 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "designfuchen/word-atlas — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "publishedAt": "2026-10-25T08:27:22Z",
+      "snippet": "3305 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "t3dotgg/tstack — The agent skills I use every day. Works with Claude Code and Codex.",
+      "url": "https://github.com/t3dotgg/tstack",
+      "publishedAt": "2026-10-24T05:00:20Z",
+      "snippet": "2428 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "andyhuo520/digital-human-koubo — AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / C",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "publishedAt": "2026-10-26T04:34:09Z",
+      "snippet": "1528 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ccch1mneyyy/dsh-Go — dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "publishedAt": "2026-10-25T08:09:52Z",
+      "snippet": "1419 stars · Dart"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DenisSergeevitch/ex-ussr-kinship-research — Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR.",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "publishedAt": "2026-10-25T10:05:56Z",
+      "snippet": "1283 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison ",
+      "url": "https://github.com/qybaihe/bla",
+      "publishedAt": "2026-10-25T05:25:45Z",
+      "snippet": "1126 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "publishedAt": "2026-10-29T22:48:29.000Z",
+      "snippet": " <p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong></p> Earlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "publishedAt": "2026-10-29T17:00:26.000Z",
+      "snippet": " <p><strong><a href=\"https://twitter.com/jsnnsa/status/2115623382721126826\">How I Built the Most AI-Pilled Company in the World</a></strong></p> Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building <a href=\"https://spawn.co\">Spawn</a> is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.</p> <p>Spawn is a massively multiplayer gaming environment where players can use prompts (to ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "publishedAt": "2026-10-29T14:06:27.000Z",
+      "snippet": " <blockquote cite=\"https://twitter.com/benhylak/status/2115172657910120740\"><p>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.</p> <p>except for our product, of course. </p> <p>in our product, customers love the ui and love us very much.</p> <p>we're special that way.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/benhylak/status/2115172657910120740\">Ben Hylak</a></p> <p>Tags: <a href=\"http",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+      "publishedAt": "2026-10-30T10:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+      "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+      "publishedAt": "2026-10-29T10:00:00.000Z",
+      "snippet": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "publishedAt": "2026-10-30T08:24:29.000Z",
+      "snippet": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "snippet": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19.000Z",
+      "snippet": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "AI for the Air-Gapped Economy",
+      "url": "https://www.youtube.com/shorts/x21EgQzfZaM",
+      "publishedAt": "2026-10-30T05:41:20.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "AI for City Hall",
+      "url": "https://www.youtube.com/shorts/VoSVN7H07-Q",
+      "publishedAt": "2026-10-29T22:23:19.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "LLMs That Write Well",
+      "url": "https://www.youtube.com/shorts/674Efd5Scfg",
+      "publishedAt": "2026-10-29T18:48:01.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Vertical Foundation Models",
+      "url": "https://www.youtube.com/shorts/LI9NqE2iIqg",
+      "publishedAt": "2026-10-29T14:31:00.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
