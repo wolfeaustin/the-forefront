@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-31",
+  "fetchedAt": "2026-10-31T10:07:55.927Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "publishedAt": "2026-10-30T17:25:15.000Z",
+      "snippet": "309 points · 88 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50307190",
+      "hnPoints": 309
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "url": "https://github.com/chris124567/cfsolve",
+      "publishedAt": "2026-10-28T17:29:23.000Z",
+      "snippet": "207 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50277379",
+      "hnPoints": 207
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "publishedAt": "2026-10-30T12:50:01.000Z",
+      "snippet": "455 points · 304 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50303172",
+      "hnPoints": 455
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "publishedAt": "2026-10-30T15:10:31.000Z",
+      "snippet": "434 points · 315 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50305025",
+      "hnPoints": 434
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tell HN: Scribd Breached",
+      "url": "https://news.ycombinator.com/item?id=50312756",
+      "publishedAt": "2026-10-31T02:46:36.000Z",
+      "snippet": "205 points · 84 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50312756",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Breaking the open web won't stop the bad bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "publishedAt": "2026-10-27T18:42:55.000Z",
+      "snippet": "261 points · 111 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50263837",
+      "hnPoints": 261
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "publishedAt": "2026-10-30T16:40:22.000Z",
+      "snippet": "252 points · 122 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50306442",
+      "hnPoints": 252
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The oldest ice disappears and the Stone Age emerges from it",
+      "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+      "publishedAt": "2026-10-30T19:51:33.000Z",
+      "snippet": "152 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50309266",
+      "hnPoints": 152
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "publishedAt": "2026-10-30T15:48:12.000Z",
+      "snippet": "280 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50305637",
+      "hnPoints": 280
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Infinite Mac: BeOS",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "publishedAt": "2026-10-30T19:30:09.000Z",
+      "snippet": "157 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50309029",
+      "hnPoints": 157
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "url": "https://tng.episodle.com/",
+      "publishedAt": "2026-10-30T23:51:24.000Z",
+      "snippet": "192 points · 54 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50311686",
+      "hnPoints": 192
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "publishedAt": "2026-10-30T07:09:12.000Z",
+      "snippet": "893 points · 529 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50300683",
+      "hnPoints": 893
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "publishedAt": "2026-10-30T15:44:29.000Z",
+      "snippet": "289 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50305573",
+      "hnPoints": 289
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "publishedAt": "2026-10-30T14:08:20.000Z",
+      "snippet": "192 points · 224 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50304122",
+      "hnPoints": 192
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "publishedAt": "2026-10-30T10:06:15.000Z",
+      "snippet": "310 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50301854",
+      "hnPoints": 310
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jules Verne's Lost Novel",
+      "url": "https://blue-continuum.com/verne-paris",
+      "publishedAt": "2026-10-30T19:55:10.000Z",
+      "snippet": "111 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50309314",
+      "hnPoints": 111
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+      "url": "https://www.firezone.dev/blog/introducing-sanstun",
+      "publishedAt": "2026-10-30T21:30:00.000Z",
+      "snippet": "133 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50310398",
+      "hnPoints": 133
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "publishedAt": "2026-10-30T20:23:30.000Z",
+      "snippet": "315 points · 177 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50309647",
+      "hnPoints": 315
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "publishedAt": "2026-10-29T21:58:34.000Z",
+      "snippet": "154 points · 181 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50296730",
+      "hnPoints": 154
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "publishedAt": "2026-10-28T12:24:25.000Z",
+      "snippet": "226 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50272479",
+      "hnPoints": 226
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tree-mounted machines connect to web app to let users knock on wood remotely",
+      "url": "https://www.designboom.com/technology/tree-mounted-machines-web-app-users-knock-on-wood-remotely/",
+      "publishedAt": "2026-10-27T13:00:04.000Z",
+      "snippet": "89 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50258496",
+      "hnPoints": 89
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "unclebob/ub-mode — no description",
+      "url": "https://github.com/unclebob/ub-mode",
+      "publishedAt": "2026-10-25T16:04:09Z",
+      "snippet": "5498 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "publishedAt": "2026-10-27T12:24:37Z",
+      "snippet": "4332 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "interplains/Zero-Breach-Toolkit — Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "publishedAt": "2026-10-25T14:41:34Z",
+      "snippet": "3922 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "designfuchen/word-atlas — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "publishedAt": "2026-10-25T08:27:22Z",
+      "snippet": "3462 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ccch1mneyyy/dsh-Go — dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "publishedAt": "2026-10-25T08:09:52Z",
+      "snippet": "3099 stars · Dart"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "url": "https://github.com/heydamir/unslop",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "snippet": "2083 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wangzan101/Mika — Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "url": "https://github.com/wangzan101/Mika",
+      "publishedAt": "2026-10-29T14:34:07Z",
+      "snippet": "2028 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "publishedAt": "2026-10-29T12:32:46Z",
+      "snippet": "1998 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "andyhuo520/digital-human-koubo — AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / C",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "publishedAt": "2026-10-26T04:34:09Z",
+      "snippet": "1568 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison ",
+      "url": "https://github.com/qybaihe/bla",
+      "publishedAt": "2026-10-25T05:25:45Z",
+      "snippet": "1566 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "publishedAt": "2026-10-30T21:59:22.000Z",
+      "snippet": " <p><strong><a href=\"https://github.com/dbreunig/nesformer\">dbreunig/nesformer</a></strong></p> Inspired by <a href=\"https://divagr.com/blog/qwenputer\">qwenputer</a> by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!</p> <p>In <a href=\"https://news.ycombinator.com/item?id=50306442#50307402\">a comment on Hacker News</a> Drew rev",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.44: At Long Last…",
+      "url": "https://stratechery.com/2026/at-long-last/",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of October 26, 2026 including Anthropic numbers, the end of the Internet as we know it, and autocracies then and now.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+      "publishedAt": "2026-10-30T10:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: Time to rethink software security because of AI?",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-time-to-rethink-software-security-because-of-ai/",
+      "publishedAt": "2026-10-30T16:49:15.000Z",
+      "snippet": "A month’s worth of security breaches in a single day – will things get worse before they improve?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "publishedAt": "2026-10-31T05:00:48.000Z",
+      "snippet": "It turns out you cannot have your cake AND eat it",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "publishedAt": "2026-10-30T08:24:29.000Z",
+      "snippet": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "What Happens When Everyone Can Build Software",
+      "url": "https://www.youtube.com/watch?v=vl7HiMdGfjo",
+      "publishedAt": "2026-10-30T14:30:00.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "AI for the Air-Gapped Economy",
+      "url": "https://www.youtube.com/shorts/x21EgQzfZaM",
+      "publishedAt": "2026-10-30T05:41:20.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}

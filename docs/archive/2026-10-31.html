@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Oct 31, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Saturday</span><span class="dot"></span><span>Oct 31, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>39</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>64%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·96</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/" target="_blank" rel="noopener">Malicious backdoor discovered in fake 'Claude Code' VS Code extension on Cursor Marketplace</a></h2>
+        <p class="summary">A trojanized extension impersonating Anthropic's Claude Code tool was distributed via the Cursor Marketplace, containing a backdoor that could exfiltrate data or execute arbitrary code on developer machines. This is a supply-chain attack targeting AI-native development workflows specifically, where developer trust in AI tooling is high and scrutiny is often low.</p>
+        <p class="why"><b>Why it matters:</b> If your team uses Cursor or installs AI coding extensions, this is an active threat vector you need to audit immediately — and it signals that AI tool impersonation is becoming a serious supply-chain attack surface.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50300683" target="_blank" rel="noopener">Hacker News · 893 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·91</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.binarysecurity.no/posts/2026/10/one-root-case" target="_blank" rel="noopener">Researcher demonstrates five full cross-tenant compromises in Azure, exposing systemic cloud isolation failures</a></h2>
+        <p class="summary">A security researcher published detailed writeups of five separate vulnerabilities in Azure that each allowed complete compromise across tenant boundaries — the foundational security promise of multi-tenant cloud. The vulnerabilities span multiple Azure services and suggest structural, not incidental, weaknesses in Azure's isolation architecture.</p>
+        <p class="why"><b>Why it matters:</b> Any SaaS or multi-tenant product running on Azure needs to understand that the cloud boundary they depend on has had serious, repeatable failures — and customers will start asking about it.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50301854" target="_blank" rel="noopener">Hacker News · 310 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·87</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://status.northflank.com" target="_blank" rel="noopener">Northflank confirms security breach with significant community discussion</a></h2>
+        <p class="summary">Northflank, a developer platform for deploying and orchestrating containerized workloads, disclosed a breach that drew over 300 comments on Hacker News — suggesting meaningful impact to developer teams who rely on it for CI/CD and hosting. Details are still emerging but the breach affects a platform that sits deep in many small technical teams' infrastructure stacks.</p>
+        <p class="why"><b>Why it matters:</b> If you or your team uses Northflank for deployment, you need to rotate credentials and audit access logs now; more broadly, this is a reminder that developer infrastructure platforms are high-value targets.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50305025" target="_blank" rel="noopener">Hacker News · 434 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·79</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/" target="_blank" rel="noopener">Bot-blocking via CAPTCHA and browser fingerprinting harms legitimate users without stopping sophisticated bots</a></h2>
+        <p class="summary">A well-argued piece makes the case that the arms race of bot detection — Cloudflare Turnstile, browser fingerprinting, proof-of-work challenges — primarily imposes friction on real users and accessibility tools while failing to stop well-resourced scrapers who can solve or bypass them. The piece connects directly to candidate [1], a library that defeats Turnstile without a headless browser.</p>
+        <p class="why"><b>Why it matters:</b> If you're building a product that relies on bot blocking for competitive data protection or rate limiting, you may be paying a UX cost for security theater — and should rethink your threat model.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50263837" target="_blank" rel="noopener">Hacker News · 261 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Malicious backdoor discovered in fake 'Claude Code' VS Code extension on Cursor Marketplace</h3>
+    <p>Security tooling that verifies authenticity and behavioral integrity of AI coding extensions (sandboxing, permission auditing, publisher verification) is an unmet need as the Cursor/Windsurf ecosystem explodes.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/" target="_blank" rel="noopener">New 'Sleep' framework lets LLMs consolidate and retain new knowledge over time without catastrophic forgetting</a></h2>
+        <p class="summary">Researchers propose a continual learning framework for LLMs that mimics sleep-phase memory consolidation, allowing models to integrate new knowledge incrementally without overwriting prior training — addressing one of the core limitations that forces full retraining cycles. If the approach scales, it could dramatically reduce the cost and latency of keeping deployed models current.</p>
+        <p class="why"><b>Why it matters:</b> For any team building AI products where model freshness matters (customer support, knowledge retrieval, domain-specific assistants), continual learning without retraining would change the economics of deployment significantly.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50272479" target="_blank" rel="noopener">Hacker News · 226 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://twitter.com/sgondala2/status/2115832070274723875" target="_blank" rel="noopener">Practitioner playbook: how to restructure an engineering org around AI-native workflows</a></h2>
+        <p class="summary">A detailed post from someone who has actually done it covers how to reorganize a small engineering team to get compounding value from AI coding tools — including how to rethink code review, documentation standards, context management, and which roles change most. Unlike most 'AI will change everything' pieces, this one is prescriptive and specific to small technical teams.</p>
+        <p class="why"><b>Why it matters:</b> If you haven't yet restructured how your engineering team works around AI tools, this is a practical starting point with concrete org-level recommendations rather than individual productivity tips.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50296730" target="_blank" rel="noopener">Hacker News · 154 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·71</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/" target="_blank" rel="noopener">Cisco's experiment: one engineer with unlimited AI tokens rewrites years of legacy code</a></h2>
+        <p class="summary">Cisco gave a single engineer unrestricted access to AI coding tools and tasked them with modernizing a legacy codebase — the HN thread has 224 comments dissecting what worked, what failed, and what the limits of current AI coding agents are on real production code. Key insight emerging from discussion: AI excels at translating well-specified legacy code but struggles with undocumented business logic.</p>
+        <p class="why"><b>Why it matters:</b> For founders considering AI-assisted legacy modernization — either in their own products or as a service offering — this is a real-world data point on where the ceiling currently is.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50304122" target="_blank" rel="noopener">Hacker News · 192 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·55</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/dbreunig/nesformer" target="_blank" rel="noopener">Researchers bake a working NES 6502 CPU emulator into 1GB of Qwen model weights</a></h2>
+        <p class="summary">Building on a prior experiment, a researcher has distilled a functional Nintendo Entertainment System emulator into the weights of a small Qwen model — the model can now 'run' NES ROMs like Super Mario Bros purely through neural forward passes, without any explicit emulator code. While slow and impractical today, it demonstrates that neural networks can implicitly learn and execute deterministic computational processes.</p>
+        <p class="why"><b>Why it matters:</b> This is a meaningful research proof-of-concept that LLMs can encode and execute structured computational state machines — with long-term implications for how AI agents might internalize and simulate systems rather than calling external tools.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50306442" target="_blank" rel="noopener">Hacker News · 252 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/" target="_blank" rel="noopener">Google admits AI Mode is cannibalizing Search ad revenue; stock drops 15% in worst single-day loss since 2004 IPO</a></h2>
+        <p class="summary">Google internally acknowledged that its AI-powered search mode is reducing click-through rates on ads, contributing to a roughly 15% stock drop that erased approximately $500B in market cap — the worst such decline since the company went public. This is the clearest signal yet that the shift to AI answer interfaces is structurally destructive to the search advertising model that funds most of the internet.</p>
+        <p class="why"><b>Why it matters:</b> If your business depends on Google search traffic or search ads for customer acquisition, the degradation of that channel is accelerating and you should be diversifying now, not later.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/" target="_blank" rel="noopener">The $6.3B Binance hack was executed in 20 minutes using a logic flaw, not brute force</a></h2>
+        <p class="summary">A detailed post-mortem reveals how attackers exploited a logic vulnerability in Binance's cross-chain bridge to drain $6.3B in 20 minutes — not through cryptographic cracking but through a flaw in how the bridge validated proof data. The speed and surgical nature of the exploit highlight how a single logic error in a high-value protocol can be catastrophic.</p>
+        <p class="why"><b>Why it matters:</b> For anyone building financial, payments, or cross-chain infrastructure, this is a concrete case study in how formal logic errors (not just implementation bugs) create systemic risk that audits often miss.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50303172" target="_blank" rel="noopener">Hacker News · 455 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/heydamir/unslop" target="_blank" rel="noopener">'Unslop' Claude skill strips AI-looking UI patterns and replaces them with designed interfaces</a></h2>
+        <p class="summary">An open-source Claude skill (2000+ stars quickly) takes vibecoded or AI-generated UI and applies design principles to make it look intentional rather than generated — addressing the homogenization problem where AI-built interfaces all look identical. It works as a Claude Code skill, meaning it plugs into existing AI coding workflows.</p>
+        <p class="why"><b>Why it matters:</b> For small technical teams shipping products quickly with AI-generated UI, this is a practical tool to close the last-mile gap between 'functional' and 'professional-looking' without a dedicated designer.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/heydamir/unslop" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/interplains/Zero-Breach-Toolkit" target="_blank" rel="noopener">Zero-Breach Toolkit: open-source, offline spyware detection for Windows, macOS, Linux, Android, and iPhone backups</a></h2>
+        <p class="summary">A fast-rising open-source Python toolkit (nearly 4K stars) scans devices and iPhone backups offline for known mercenary spyware indicators — covering Pegasus and similar tools — without sending data to any cloud service. The offline-first design is notable for enterprise and high-risk contexts where cloud forensic tools are not acceptable.</p>
+        <p class="why"><b>Why it matters:</b> For founders handling sensitive customer data or operating in regulated industries, having an auditable, offline spyware check in your security toolkit is a low-cost, high-value addition.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/interplains/Zero-Breach-Toolkit" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.youtube.com/watch?v=vl7HiMdGfjo" target="_blank" rel="noopener">Y Combinator: 'What Happens When Everyone Can Build Software' — implications for the next wave of founders</a></h2>
+        <p class="summary">YC explores what the democratization of software building means for startup formation, competition, and defensibility as coding barriers drop toward zero. Relevant for technical founders thinking about where moats will come from when software itself is no longer scarce.</p>
+        <p class="why"><b>Why it matters:</b> The strategic question of where defensibility lives when anyone can build software is the defining question for technical founders right now, and YC's perspective on it is worth 30 minutes.</p>
+        <div class="mediacard video">
+          <a class="playbtn" href="https://www.youtube.com/watch?v=vl7HiMdGfjo" aria-label="Watch video">▶</a>
+          <div class="mediainfo">
+            <span class="mediatitle">Watch on YouTube</span>
+            <span class="mediadur mono">VIDEO</span>
+          </div>
+        </div>
+        <div class="srcrow">
+          <a class="chip" href="https://www.youtube.com/watch?v=vl7HiMdGfjo" target="_blank" rel="noopener">Y Combinator (YouTube)</a>
+          <span class="meta mono">VIDEO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.youtube.com/shorts/x21EgQzfZaM" target="_blank" rel="noopener">Y Combinator: 'AI for the Air-Gapped Economy' — building AI products for security-sensitive and offline markets</a></h2>
+        <p class="summary">YC covers the emerging opportunity in deploying AI for enterprises, governments, and industries that cannot send data to cloud APIs — a large, underserved market that requires on-premise or air-gapped AI deployments. For technical founders, this is a real and growing niche with longer sales cycles but much less competition.</p>
+        <p class="why"><b>Why it matters:</b> The air-gapped and on-premise AI deployment market is large, cash-rich, and currently underserved by startups who default to cloud-first architectures.</p>
+        <div class="mediacard video">
+          <a class="playbtn" href="https://www.youtube.com/shorts/x21EgQzfZaM" aria-label="Watch video">▶</a>
+          <div class="mediainfo">
+            <span class="mediatitle">Watch on YouTube</span>
+            <span class="mediadur mono">VIDEO</span>
+          </div>
+        </div>
+        <div class="srcrow">
+          <a class="chip" href="https://www.youtube.com/shorts/x21EgQzfZaM" target="_blank" rel="noopener">Y Combinator (YouTube)</a>
+          <span class="meta mono">VIDEO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 39 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-10-31';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
