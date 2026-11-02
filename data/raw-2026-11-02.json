@@ -1,0 +1,399 @@
+{
+  "date": "2026-11-02",
+  "fetchedAt": "2026-11-02T10:09:59.723Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "publishedAt": "2026-11-02T05:06:30.000Z",
+      "snippet": "175 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50333339",
+      "hnPoints": 175
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "publishedAt": "2026-11-01T15:58:28.000Z",
+      "snippet": "1382 points · 231 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50326821",
+      "hnPoints": 1382
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "publishedAt": "2026-10-31T01:38:56.000Z",
+      "snippet": "449 points · 285 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50312408",
+      "hnPoints": 449
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "publishedAt": "2026-10-31T19:56:53.000Z",
+      "snippet": "2568 points · 568 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50319510",
+      "hnPoints": 2568
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "publishedAt": "2026-11-02T01:59:38.000Z",
+      "snippet": "122 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50332163",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+      "publishedAt": "2026-11-02T01:31:07.000Z",
+      "snippet": "88 points · 15 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50331957",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "publishedAt": "2026-11-01T19:35:27.000Z",
+      "snippet": "394 points · 528 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50328896",
+      "hnPoints": 394
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "publishedAt": "2026-10-31T11:53:47.000Z",
+      "snippet": "122 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50315217",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Trigger.dev customer environment variables exposed",
+      "url": "https://trigger.dev/blog/security-incident-nov-2026",
+      "publishedAt": "2026-11-02T01:09:16.000Z",
+      "snippet": "90 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50331784",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "url": "https://github.com/raphlinus/nibnib",
+      "publishedAt": "2026-10-30T04:17:06.000Z",
+      "snippet": "148 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50299811",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
+      "publishedAt": "2026-10-28T09:46:12.000Z",
+      "snippet": "120 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50271106",
+      "hnPoints": 120
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Copper – A minimal low-level programming language with OOP and generics",
+      "url": "https://tibleiz.net/copper/",
+      "publishedAt": "2026-10-30T19:09:33.000Z",
+      "snippet": "167 points · 93 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50308754",
+      "hnPoints": 167
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "publishedAt": "2026-11-01T13:02:30.000Z",
+      "snippet": "243 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50325253",
+      "hnPoints": 243
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "publishedAt": "2026-10-30T03:06:52.000Z",
+      "snippet": "84 points · 36 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50299427",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "snippet": "377 points · 292 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50323088",
+      "hnPoints": 377
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "publishedAt": "2026-11-01T13:24:49.000Z",
+      "snippet": "141 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50325454",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "publishedAt": "2026-11-01T18:28:42.000Z",
+      "snippet": "316 points · 348 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50328251",
+      "hnPoints": 316
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "One-minute frequency disturbances from synchronization in power systems",
+      "url": "https://www.nature.com/articles/s41560-026-02144-0",
+      "publishedAt": "2026-10-31T10:14:08.000Z",
+      "snippet": "157 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50314617",
+      "hnPoints": 157
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Point your camera at a landscape to learn about its geology",
+      "url": "https://outcrop.rocks/",
+      "publishedAt": "2026-10-29T15:22:41.000Z",
+      "snippet": "205 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50290533",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OccupySaaS",
+      "url": "https://occupysaas.com/",
+      "publishedAt": "2026-11-02T00:17:27.000Z",
+      "snippet": "268 points · 159 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50331402",
+      "hnPoints": 268
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Radiation Map of the World",
+      "url": "https://radiaverse.com/",
+      "publishedAt": "2026-10-28T20:06:27.000Z",
+      "snippet": "178 points · 48 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50280131",
+      "hnPoints": 178
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "publishedAt": "2026-11-01T14:34:43.000Z",
+      "snippet": "490 points · 164 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50326099",
+      "hnPoints": 490
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: I rebuilt my old canvas 3D library as a small WebGL 2 library – phoria2",
+      "url": "https://kevs3d.co.uk/phoria2/",
+      "publishedAt": "2026-10-31T09:49:42.000Z",
+      "snippet": "92 points · 17 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50314508",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Domain hacks with unusual Unicode characters (2018)",
+      "url": "https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/",
+      "publishedAt": "2026-11-01T10:44:20.000Z",
+      "snippet": "84 points · 55 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50324371",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "publishedAt": "2026-10-31T22:41:06.000Z",
+      "snippet": "817 points · 207 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50320963",
+      "hnPoints": 817
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+      "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+      "publishedAt": "2026-11-01T16:23:26.000Z",
+      "snippet": "180 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50327058",
+      "hnPoints": 180
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "snippet": "10780 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "anhao/ai-pose-gallery-zh — 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "publishedAt": "2026-10-27T12:24:37Z",
+      "snippet": "5368 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "url": "https://github.com/heydamir/unslop",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "snippet": "5322 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wangzan101/Mika — An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "url": "https://github.com/wangzan101/Mika",
+      "publishedAt": "2026-10-29T14:34:07Z",
+      "snippet": "4704 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "publishedAt": "2026-10-29T12:32:46Z",
+      "snippet": "3484 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "snippet": "3114 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Djihads80/Eglantine — VERY experimental Nintendo Switch 2 emulator",
+      "url": "https://github.com/Djihads80/Eglantine",
+      "publishedAt": "2026-10-29T00:25:18Z",
+      "snippet": "2168 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "publishedAt": "2026-10-31T14:50:00Z",
+      "snippet": "2120 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "paipiange/nvzhuang — 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "snippet": "2011 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "haydenschmitty/floorplan — See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "publishedAt": "2026-10-27T12:03:01Z",
+      "snippet": "1987 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "publishedAt": "2026-11-01T23:24:22.000Z",
+      "snippet": " <p>I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:</p> <p><strong>If in doubt, delete the uv.lock file</strong></p> <p>Most of my projects are libraries which don't include a <code>uv.lock</code> file, since it's rude for a library dependency to lock versions for anything else that uses it.</p> <p>Running <code>uv run pytest</code> etc tends to leave <code>uv.lock</code> files lying around, which are ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "publishedAt": "2026-11-01T16:49:04.000Z",
+      "snippet": " <blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p> <p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that w",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+      "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "publishedAt": "2026-11-01T13:31:36.000Z",
+      "snippet": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
+      "enclosure": "https://api.substack.com/feed/podcast/222540764/f275dfcf515e562def6dae7092c58a8f.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "$100M hedge fund manager: Do not make the mistake of dying rich",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "snippet": "Free guide: how to build wealth (and use it well): https://clickhubspot.com/fjvx Episode 878: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk to Bill Perkins ( https://x.com/bp22 ) about how to die with zero and never have a regret about it. — Show Notes: (0:00) Intro (0:55) How Bill made his money (1:55) Price go up or price go down? (3:45) Maximize risk when young (5:15) The 3 edges of the greatest investors (9:15) The name of the game is to stay in the game",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS1021774702.mp3"
+    }
+  ]
+}
