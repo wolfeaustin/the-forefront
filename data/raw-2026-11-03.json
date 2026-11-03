@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-03",
+  "fetchedAt": "2026-11-03T10:09:17.649Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "publishedAt": "2026-11-02T18:21:28.000Z",
+      "snippet": "2634 points · 803 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341174",
+      "hnPoints": 2634
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "publishedAt": "2026-11-03T01:53:34.000Z",
+      "snippet": "268 points · 81 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50346981",
+      "hnPoints": 268
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "publishedAt": "2026-11-03T01:33:43.000Z",
+      "snippet": "207 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50346849",
+      "hnPoints": 207
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "European RISC-V Industrial Computing Initiative",
+      "url": "https://erici.eu",
+      "publishedAt": "2026-11-02T08:58:33.000Z",
+      "snippet": "111 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50334523",
+      "hnPoints": 111
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "publishedAt": "2026-11-02T17:16:17.000Z",
+      "snippet": "698 points · 340 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50340088",
+      "hnPoints": 698
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Resisting Cognitive Surrender",
+      "url": "https://knlb.dev/essays/surrender",
+      "publishedAt": "2026-11-01T06:13:30.000Z",
+      "snippet": "172 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50323123",
+      "hnPoints": 172
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "publishedAt": "2026-11-02T16:34:36.000Z",
+      "snippet": "403 points · 383 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339397",
+      "hnPoints": 403
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "publishedAt": "2026-11-02T13:25:35.000Z",
+      "snippet": "549 points · 124 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50336518",
+      "hnPoints": 549
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "publishedAt": "2026-11-02T17:47:40.000Z",
+      "snippet": "230 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50340619",
+      "hnPoints": 230
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "publishedAt": "2026-11-02T17:05:25.000Z",
+      "snippet": "144 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339913",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "publishedAt": "2026-11-02T23:47:56.000Z",
+      "snippet": "227 points · 138 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50345924",
+      "hnPoints": 227
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "publishedAt": "2026-11-02T16:25:26.000Z",
+      "snippet": "272 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339221",
+      "hnPoints": 272
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Who is hiring? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50338728",
+      "publishedAt": "2026-11-02T16:01:37.000Z",
+      "snippet": "219 points · 178 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50338728",
+      "hnPoints": 219
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "publishedAt": "2026-11-02T18:54:44.000Z",
+      "snippet": "160 points · 118 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341736",
+      "hnPoints": 160
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Polyend releases the Tracker firmware source code",
+      "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+      "publishedAt": "2026-11-02T17:20:13.000Z",
+      "snippet": "132 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50340159",
+      "hnPoints": 132
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "publishedAt": "2026-11-02T22:30:47.000Z",
+      "snippet": "352 points · 259 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50344919",
+      "hnPoints": 352
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "publishedAt": "2026-11-02T18:39:38.000Z",
+      "snippet": "509 points · 146 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341462",
+      "hnPoints": 509
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "publishedAt": "2026-11-02T14:52:00.000Z",
+      "snippet": "1525 points · 633 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50337608",
+      "hnPoints": 1525
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "snippet": "15245 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "url": "https://github.com/heydamir/unslop",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "snippet": "6784 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wangzan101/Mika — An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "url": "https://github.com/wangzan101/Mika",
+      "publishedAt": "2026-10-29T14:34:07Z",
+      "snippet": "5806 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "publishedAt": "2026-10-31T14:50:00Z",
+      "snippet": "5735 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "publishedAt": "2026-10-29T12:32:46Z",
+      "snippet": "4238 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "snippet": "3786 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Djihads80/Eglantine — VERY experimental Nintendo Switch 2 emulator",
+      "url": "https://github.com/Djihads80/Eglantine",
+      "publishedAt": "2026-10-29T00:25:18Z",
+      "snippet": "2720 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "BryceYuuu/RUN — RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+      "url": "https://github.com/BryceYuuu/RUN",
+      "publishedAt": "2026-10-29T11:28:43Z",
+      "snippet": "2443 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "paipiange/nvzhuang — 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "snippet": "2085 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "lexifina/global-law — Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+      "url": "https://github.com/lexifina/global-law",
+      "publishedAt": "2026-10-28T13:34:16Z",
+      "snippet": "1722 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "publishedAt": "2026-11-03T05:32:25.000Z",
+      "snippet": " <p><strong><a href=\"https://www.youtube.com/watch?v=UytYrhYLOKI\">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></strong></p> Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights.</p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "publishedAt": "2026-11-03T05:28:59.000Z",
+      "snippet": " <p>I sent out the October edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-10-october.md\">access it here</a>. This month:</p> <ul> <li>The October inflection point for vibe game development</li> <li>The vulnerability apocalypse gets hot</li> <li>LLM releases</li> <li>API credits for $100+/month subscriptions</li> <li>What I'",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "publishedAt": "2026-11-02T23:49:30.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37\">llm 0.37</a></p> <p>There's a <em>lot</em> of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.</p> <p>I added <code>gpt-6.1-sol</code> and <code>gpt-6.1-terra</code>, plus a new <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">llm openai endpoint add</a> command to make it easie",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "publishedAt": "2026-11-02T13:31:26.000Z",
+      "snippet": " <p>I was reminded today of <a href=\"https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/\">AI Adoption Rate Trending Down for Large Companies</a>, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart <a href=\"https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/\">to demonstrate GPT-5 data analysis</a>, and t",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
+      "url": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
+      "publishedAt": "2026-11-02T11:00:00.000Z",
+      "snippet": "Google's earnings miss looks a lot like Facebook's, and that's a credit to Google. The company is being more aggressive than they get credit for.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+      "publishedAt": "2026-11-02T16:02:08.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/3cbd4d61-dbc1-4931-afa0-8a8cb35543cb_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+      "publishedAt": "2026-11-02T13:04:11.000Z",
+      "snippet": "Listen now | 🎙️ Figma growth PM Ezra Mechaber demos PM OS, a 31-skill repo used by 60+ PMs, and AutoXP, an agent that runs growth experiments with one human checkpoint",
+      "enclosure": "https://api.substack.com/feed/podcast/222585887/bfda41c5e11152421ee6c9867402b579.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "publishedAt": "2026-11-03T05:35:00.000Z",
+      "snippet": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "publishedAt": "2026-11-02T23:01:02.000Z",
+      "snippet": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "publishedAt": "2026-11-02T22:54:03.000Z",
+      "snippet": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "$100M hedge fund manager: Do not make the mistake of dying rich",
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "snippet": "Free guide: how to build wealth (and use it well): https://clickhubspot.com/fjvx Episode 878: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk to Bill Perkins ( https://x.com/bp22 ) about how to die with zero and never have a regret about it. — Show Notes: (0:00) Intro (0:55) How Bill made his money (1:55) Price go up or price go down? (3:45) Maximize risk when young (5:15) The 3 edges of the greatest investors (9:15) The name of the game is to stay in the game",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS1021774702.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Engineers Make Great Founders",
+      "url": "https://www.youtube.com/shorts/lqdc1MeyIfs",
+      "publishedAt": "2026-11-02T23:54:36.000Z",
+      "snippet": "",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "The $1B Company Fixing AI’s Software Bottleneck",
+      "url": "https://www.youtube.com/watch?v=NVzgt2AEvDg",
+      "publishedAt": "2026-11-02T16:29:13.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
