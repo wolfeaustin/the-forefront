@@ -1,0 +1,357 @@
+{
+  "date": "2026-11-04",
+  "fetchedAt": "2026-11-04T10:10:29.232Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kitty 0.50",
+      "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+      "publishedAt": "2026-11-04T08:57:10.000Z",
+      "snippet": "92 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50362980",
+      "hnPoints": 92
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jelly Sheet",
+      "url": "https://mrdoob.github.io/codevember-2026/01/",
+      "publishedAt": "2026-11-04T03:40:50.000Z",
+      "snippet": "247 points · 67 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50361268",
+      "hnPoints": 247
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "publishedAt": "2026-11-02T16:29:19.000Z",
+      "snippet": "815 points · 321 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339288",
+      "hnPoints": 815
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "publishedAt": "2026-11-03T16:47:29.000Z",
+      "snippet": "601 points · 200 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50354358",
+      "hnPoints": 601
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Internals of PostgreSQL",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "publishedAt": "2026-11-03T21:51:06.000Z",
+      "snippet": "280 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358702",
+      "hnPoints": 280
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "C++26 Disapproved",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+      "publishedAt": "2026-11-04T00:33:22.000Z",
+      "snippet": "304 points · 192 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50360164",
+      "hnPoints": 304
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Giant canyon on Mars is still tectonically active",
+      "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+      "publishedAt": "2026-11-04T01:40:42.000Z",
+      "snippet": "90 points · 13 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50360573",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+      "url": "https://hackertv.org",
+      "publishedAt": "2026-11-03T01:18:09.000Z",
+      "snippet": "336 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50346755",
+      "hnPoints": 336
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "publishedAt": "2026-11-02T14:02:42.000Z",
+      "snippet": "472 points · 194 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50336918",
+      "hnPoints": 472
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+      "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/",
+      "publishedAt": "2026-11-02T04:31:20.000Z",
+      "snippet": "191 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50333131",
+      "hnPoints": 191
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "publishedAt": "2026-11-03T17:40:00.000Z",
+      "snippet": "624 points · 183 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50355251",
+      "hnPoints": 624
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Safari introduces Adaptive Dark Mode in 27.3",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "publishedAt": "2026-11-03T21:39:05.000Z",
+      "snippet": "438 points · 228 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358562",
+      "hnPoints": 438
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "publishedAt": "2026-11-03T17:22:37.000Z",
+      "snippet": "1281 points · 430 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50354960",
+      "hnPoints": 1281
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "publishedAt": "2026-11-03T18:11:11.000Z",
+      "snippet": "172 points · 166 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50355767",
+      "hnPoints": 172
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We're training a Figma-fluent editing model",
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+      "publishedAt": "2026-11-01T04:05:23.000Z",
+      "snippet": "121 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50322603",
+      "hnPoints": 121
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "publishedAt": "2026-11-03T21:40:53.000Z",
+      "snippet": "339 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358582",
+      "hnPoints": 339
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "url": "https://github.com/finic-ai/kairos",
+      "publishedAt": "2026-11-03T21:16:48.000Z",
+      "snippet": "93 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358314",
+      "hnPoints": 93
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "publishedAt": "2026-11-03T12:21:17.000Z",
+      "snippet": "980 points · 203 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50351111",
+      "hnPoints": 980
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+      "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+      "publishedAt": "2026-11-03T12:58:43.000Z",
+      "snippet": "80 points · 194 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50351463",
+      "hnPoints": 80
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "snippet": "18000 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "publishedAt": "2026-10-31T14:50:00Z",
+      "snippet": "9701 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "heydamir/unslop — A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "url": "https://github.com/heydamir/unslop",
+      "publishedAt": "2026-10-29T15:41:21Z",
+      "snippet": "7896 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wangzan101/Mika — An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "url": "https://github.com/wangzan101/Mika",
+      "publishedAt": "2026-10-29T14:34:07Z",
+      "snippet": "6310 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "publishedAt": "2026-10-29T12:32:46Z",
+      "snippet": "4658 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "snippet": "4431 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "BryceYuuu/RUN — RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+      "url": "https://github.com/BryceYuuu/RUN",
+      "publishedAt": "2026-10-29T11:28:43Z",
+      "snippet": "3437 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Djihads80/Eglantine — VERY experimental Nintendo Switch 2 emulator",
+      "url": "https://github.com/Djihads80/Eglantine",
+      "publishedAt": "2026-10-29T00:25:18Z",
+      "snippet": "3248 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "paipiange/nvzhuang — 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "publishedAt": "2026-10-29T06:08:00Z",
+      "snippet": "2167 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Verlintas/NOIR — 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "url": "https://github.com/Verlintas/NOIR",
+      "publishedAt": "2026-10-31T21:34:39Z",
+      "snippet": "1854 stars · Kotlin"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "publishedAt": "2026-11-03T16:29:48.000Z",
+      "snippet": " <p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of t",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "publishedAt": "2026-11-03T05:32:25.000Z",
+      "snippet": " <p><strong><a href=\"https://www.youtube.com/watch?v=UytYrhYLOKI\">I discovered a sound that leaks your exact location (and it&#x27;s everywhere) - YouTube</a></strong></p> Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights.</p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "publishedAt": "2026-11-03T05:28:59.000Z",
+      "snippet": " <p>I sent out the October edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-10-october.md\">access it here</a>. This month:</p> <ul> <li>The October inflection point for vibe game development</li> <li>The vulnerability apocalypse gets hot</li> <li>LLM releases</li> <li>API credits for $100+/month subscriptions</li> <li>What I'",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
+      "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
+      "publishedAt": "2026-11-03T11:00:00.000Z",
+      "snippet": "Apple's earnings suggest that the company's hardware business is doing better than ever, even in the face of memory challenges. Does the software story help or hurt?",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Lenny’s Newsletter holiday gift guide 2026",
+      "url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
+      "publishedAt": "2026-11-03T14:45:33.000Z",
+      "snippet": "100+ gift ideas—all things I actually use, love, and recommend",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!TE3u!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfde823f-2bd0-4627-ad51-72f034b11907_1456x970.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "publishedAt": "2026-11-03T05:35:00.000Z",
+      "snippet": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+      "url": "https://colossus.com/episode/the-productive-investor/",
+      "publishedAt": "2026-11-04T09:00:00.000Z",
+      "snippet": "My guest today is Martin Casado, General Partner at Andreessen Horowitz. Martin has spent three decades building and investing in technology infrastructure. We discuss why traditional approaches to investing often fail to capture disruptive technologies, how AI is reshaping the economics of software, and why the ability to turn capital directly into technological progress may be the most important change of all. Martin also shares lessons from some of his biggest investments and acquisitions. Pl",
+      "enclosure": "https://traffic.megaphone.fm/CLS7412616378.mp3"
+    }
+  ]
+}
