@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-05",
+  "fetchedAt": "2026-11-05T10:09:34.257Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "publishedAt": "2026-11-04T20:45:18.000Z",
+      "snippet": "1048 points · 334 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50371246",
+      "hnPoints": 1048
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lemmings CSS Animation",
+      "url": "https://markblah.github.io/lemmings/",
+      "publishedAt": "2026-11-05T04:54:10.000Z",
+      "snippet": "178 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50375354",
+      "hnPoints": 178
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "publishedAt": "2026-11-04T23:35:44.000Z",
+      "snippet": "297 points · 174 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372945",
+      "hnPoints": 297
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "publishedAt": "2026-11-04T23:33:14.000Z",
+      "snippet": "337 points · 238 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372929",
+      "hnPoints": 337
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "publishedAt": "2026-11-04T15:30:30.000Z",
+      "snippet": "532 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366999",
+      "hnPoints": 532
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "publishedAt": "2026-11-04T18:53:29.000Z",
+      "snippet": "293 points · 108 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369925",
+      "hnPoints": 293
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Spreading Liquid with Three.js",
+      "url": "https://mofu-dev.com/en/blog/fluid-foundation/",
+      "publishedAt": "2026-11-02T18:45:54.000Z",
+      "snippet": "103 points · 15 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341576",
+      "hnPoints": 103
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A new Go API for JSON",
+      "url": "https://go.dev/blog/jsonv2",
+      "publishedAt": "2026-11-04T17:52:11.000Z",
+      "snippet": "317 points · 150 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369106",
+      "hnPoints": 317
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Insects don't swarm at LED lights",
+      "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+      "publishedAt": "2026-11-04T19:50:23.000Z",
+      "snippet": "256 points · 128 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50370610",
+      "hnPoints": 256
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "So my ISP was hijacking my DNS",
+      "url": "https://www.karthihegde.dev/posts/dns_tampering",
+      "publishedAt": "2026-11-04T12:51:51.000Z",
+      "snippet": "83 points · 50 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50364860",
+      "hnPoints": 83
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Conductor is joining Meta",
+      "url": "https://www.conductor.build/announcement",
+      "publishedAt": "2026-11-04T18:22:40.000Z",
+      "snippet": "178 points · 187 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369503",
+      "hnPoints": 178
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "url": "https://icode4.coffee/?p=1746",
+      "publishedAt": "2026-11-04T22:01:49.000Z",
+      "snippet": "114 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372164",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "publishedAt": "2026-11-04T14:37:22.000Z",
+      "snippet": "332 points · 355 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366117",
+      "hnPoints": 332
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "snippet": "1186 points · 697 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50364336",
+      "hnPoints": 1186
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+      "url": "https://fireflyk64.github.io/wcmulti/",
+      "publishedAt": "2026-11-04T18:51:27.000Z",
+      "snippet": "186 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369895",
+      "hnPoints": 186
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "publishedAt": "2026-11-04T19:55:14.000Z",
+      "snippet": "149 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50370654",
+      "hnPoints": 149
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "publishedAt": "2026-11-04T17:17:46.000Z",
+      "snippet": "222 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368626",
+      "hnPoints": 222
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "publishedAt": "2026-11-04T17:31:53.000Z",
+      "snippet": "88 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368804",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)",
+      "url": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+      "publishedAt": "2026-11-04T15:01:44.000Z",
+      "snippet": "307 points · 237 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366522",
+      "hnPoints": 307
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Starfall – Affordable, routine access to microgravity",
+      "url": "https://www.spacex.com/starfall",
+      "publishedAt": "2026-11-05T00:18:18.000Z",
+      "snippet": "221 points · 154 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50373308",
+      "hnPoints": 221
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "publishedAt": "2026-11-04T15:21:21.000Z",
+      "snippet": "240 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366863",
+      "hnPoints": 240
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A wave of plastic-free coffee pods and machines",
+      "url": "https://www.cnn.com/2026/11/02/food/coffee-machine-plastic-free",
+      "publishedAt": "2026-11-04T15:20:49.000Z",
+      "snippet": "95 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366853",
+      "hnPoints": 95
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tencent Hy4",
+      "url": "https://hy.tencent.ai/research/hy4",
+      "publishedAt": "2026-11-04T14:11:26.000Z",
+      "snippet": "245 points · 89 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50365780",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "publishedAt": "2026-11-02T15:48:45.000Z",
+      "snippet": "139 points · 265 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50338474",
+      "hnPoints": 139
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "snippet": "19109 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "publishedAt": "2026-10-31T14:50:00Z",
+      "snippet": "13548 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "publishedAt": "2026-10-30T06:43:25Z",
+      "snippet": "5019 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/agent-autoloop — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "publishedAt": "2026-11-03T08:02:11Z",
+      "snippet": "2983 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Verlintas/NOIR — 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "url": "https://github.com/Verlintas/NOIR",
+      "publishedAt": "2026-10-31T21:34:39Z",
+      "snippet": "2289 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "elvarofficial/teardown — A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+      "url": "https://github.com/elvarofficial/teardown",
+      "publishedAt": "2026-10-30T09:29:01Z",
+      "snippet": "2014 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "publishedAt": "2026-11-01T05:35:12Z",
+      "snippet": "1811 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "govijr/terminal-mac — Entire MacOS running in your terminal.",
+      "url": "https://github.com/govijr/terminal-mac",
+      "publishedAt": "2026-11-03T03:22:56Z",
+      "snippet": "1748 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mromidev/claude-animated-shorts — Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "publishedAt": "2026-11-01T05:50:38Z",
+      "snippet": "1612 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Arjun-Ingole/hop — Install Linux next to Windows without a USB stick",
+      "url": "https://github.com/Arjun-Ingole/hop",
+      "publishedAt": "2026-10-30T19:40:45Z",
+      "snippet": "1518 stars · PowerShell"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "publishedAt": "2026-11-04T15:26:02.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a10\">datasette-llm 0.1a10</a></p> <p>Fixes a <a href=\"https://github.com/datasette/datasette-llm/pull/11\">bug</a> that affected my <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "AI on the Ballot",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "publishedAt": "2026-11-04T11:00:00.000Z",
+      "snippet": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] It's Swapping Season",
+      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+      "publishedAt": "2026-11-05T06:24:09.000Z",
+      "snippet": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "publishedAt": "2026-11-04T19:17:30.000Z",
+      "snippet": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+      "url": "https://colossus.com/episode/the-productive-investor/",
+      "publishedAt": "2026-11-04T09:00:00.000Z",
+      "snippet": "My guest today is Martin Casado, General Partner at Andreessen Horowitz. Martin has spent three decades building and investing in technology infrastructure. We discuss why traditional approaches to investing often fail to capture disruptive technologies, how AI is reshaping the economics of software, and why the ability to turn capital directly into technological progress may be the most important change of all. Martin also shares lessons from some of his biggest investments and acquisitions. Pl",
+      "enclosure": "https://traffic.megaphone.fm/CLS7412616378.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "The 2 businesses AI can never make obsolete",
+      "publishedAt": "2026-11-04T12:19:00.000Z",
+      "snippet": "Unsexy business ideas database: https://clickhubspot.com/fpko Episode 879: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk about businesses that non-technical people can still win at in the age of AI. — Show Notes: (0:00) NADA (3:59) White Coat Investor (5:03) BNI (8:35) MODA (11:12) Finding/Nurturing Whales (15:50) Triumph (21:43) Private Photo Vault — Links: • NADA - https://www.nada.org • White Coat Investor - https://www.whitecoatinvestor.com/ • BNI - http",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS7554284823.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "10 Habits PhDs Must Unlearn To Build a Startup | Startup School",
+      "url": "https://www.youtube.com/watch?v=u-8KpXcPYCw",
+      "publishedAt": "2026-11-04T15:00:23.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
