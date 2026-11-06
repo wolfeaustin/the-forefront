@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 6, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Friday</span><span class="dot"></span><span>Nov 6, 2026</span></div>
+    <h1>12 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>37</b></span>
+      <span class="kept">Kept <b>12</b></span>
+      <span>Total read <b>~14 min</b></span>
+      <span>Filtered out <b>68%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/anthropics/claude-code/issues/107757" target="_blank" rel="noopener">Claude Code silently sends user email addresses to visited websites via HTTP headers</a></h2>
+        <p class="summary">Researchers found that Anthropic's Claude Code agentic coding tool leaks authenticated user email addresses to arbitrary websites it browses during task execution, exposing a significant privacy and security flaw in agentic AI tooling. With 1,100+ upvotes and nearly 350 comments, this is generating serious scrutiny of how AI agents handle identity in browsing contexts.</p>
+        <p class="why"><b>Why it matters:</b> Any founder building agentic products that browse the web or call external APIs needs to audit what identifying headers their agent runtime sends—this is a liability and trust issue, not just a Anthropic bug.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50385272" target="_blank" rel="noopener">Hacker News · 1146 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>DeepSeek releases autonomous superagent prototype with 19K+ GitHub stars overnight</h3>
+    <p>Early adopters who understand this architecture can build tooling, wrappers, or vertical agents on top of it before the design patterns harden—similar to the LangChain moment in 2022.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/deepseek-ai/dsh-superagent-prototype" target="_blank" rel="noopener">DeepSeek releases autonomous superagent prototype with 19K+ GitHub stars overnight</a></h2>
+        <p class="summary">DeepSeek open-sourced a prototype agent system designed to operate more autonomously than current tool-calling agents, achieving massive community traction immediately. The repo signals a concrete architectural direction from a lab that has repeatedly shipped production-grade systems ahead of Western counterparts.</p>
+        <p class="why"><b>Why it matters:</b> If DeepSeek's autonomous agent architecture becomes the reference implementation, teams building on top of agents need to study it now before it shapes the ecosystem.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/deepseek-ai/dsh-superagent-prototype" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-it-s-swapping-season/" target="_blank" rel="noopener">AINews roundup: OpenAI's Linux kernel security work, Kimi K3.1 Pro open weights, and Ripple-65B</a></h2>
+        <p class="summary">This edition covers OpenAI contributing to Linux kernel security (a signal of infrastructure ambitions), Moonshot AI releasing open weights for Kimi K3.1 Pro, and Ricursive shipping Ripple-65B for recursive reasoning tasks. The convergence of open-weight frontier models and agentic infrastructure investments marks a materially different competitive landscape than six months ago.</p>
+        <p class="why"><b>Why it matters:</b> Open-weight frontier models closing the gap with closed APIs changes the build-vs-buy calculus for any product team currently paying per-token to a major lab.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-it-s-swapping-season/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.linum.ai/field-notes/pjit-21k" target="_blank" rel="noopener">Decent text-to-image model trained for ~$20K released under Apache 2.0</a></h2>
+        <p class="summary">A team trained a competitive text-to-image model for approximately $20,000 in compute and released weights under the permissive Apache 2.0 license, dramatically lowering the barrier for teams wanting to own their image generation stack. This directly challenges the assumption that competitive generative image models require millions in training budget.</p>
+        <p class="why"><b>Why it matters:</b> If a $20K training run produces a commercially deployable image model, the cost-to-capability curve for AI products just got materially more favorable for small teams.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50368208" target="_blank" rel="noopener">Hacker News · 229 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/rivet-dev/rivet" target="_blank" rel="noopener">Rivet (YC W23) launches agent orchestration and scaling layer built on S3</a></h2>
+        <p class="summary">Rivet is building infrastructure to scale and orchestrate AI agents using S3 as a durable state backend, targeting the operational gap between demo-grade and production-grade agent deployments. The YC-backed launch addresses a real pain point: agents that work locally but fail at scale due to state management and coordination problems.</p>
+        <p class="why"><b>Why it matters:</b> Teams shipping agents to production consistently hit state persistence and orchestration walls—a managed solution here could save weeks of infrastructure work.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50381687" target="_blank" rel="noopener">Hacker News · 96 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://mcp-explained.com/" target="_blank" rel="noopener">Practical MCP explainer earns 300 HN points as protocol adoption accelerates</a></h2>
+        <p class="summary">A well-received explanation of Anthropic's Model Context Protocol is circulating widely, indicating that MCP is crossing from early-adopter curiosity to mainstream developer awareness. The HN traction suggests the protocol is reaching the inflection point where understanding it becomes table stakes for teams building AI-integrated products.</p>
+        <p class="why"><b>Why it matters:</b> MCP is becoming the standard interface for connecting AI agents to external tools and data sources—founders who understand it now will architect integrations that age well.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50379249" target="_blank" rel="noopener">Hacker News · 300 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/" target="_blank" rel="noopener">Intuit CEO explains how a 30-year-old accounting software company is restructuring around AI</a></h2>
+        <p class="summary">Stratechery's interview with Sasan Goodarzi details how Intuit is repositioning QuickBooks, TurboTax, and Credit Karma as AI-native platforms rather than trying to bolt AI onto legacy workflows. For founders in fintech, accounting automation, or SMB SaaS, this is a candid look at how the dominant incumbent thinks about AI disruption from the inside.</p>
+        <p class="why"><b>Why it matters:</b> Understanding how Intuit is repositioning helps founders identify the specific gaps the incumbent won't serve well—and where new entrants can win.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/" target="_blank" rel="noopener">Stratechery</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·62</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.salon.com/2026/11/05/goodbye-from-salon/" target="_blank" rel="noopener">Salon shuts down after 30 years, marking another major digital media collapse</a></h2>
+        <p class="summary">Salon, one of the web's oldest digital publications, has announced it is closing, joining a long list of ad-supported online media brands that failed to find a sustainable model in the post-platform-algorithm era. The closure is a data point in the structural collapse of ad-dependent content businesses that relied on social and search traffic.</p>
+        <p class="why"><b>Why it matters:</b> For founders building content-adjacent or media-adjacent products, Salon's failure clarifies which business models are structurally broken and reinforces the case for subscription or utility-first content strategies.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50383739" target="_blank" rel="noopener">Hacker News · 581 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·58</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html" target="_blank" rel="noopener">Internal docs allege Facebook knowingly profited $16B from AI deepfake scam ads, per Mark Cuban lawsuit</a></h2>
+        <p class="summary">Mark Cuban's lawsuit against Meta includes internal documents allegedly showing Facebook was aware that AI-generated deepfake ads using his likeness were fraudulent but continued running them because they were high-revenue. If the documents hold up, this is a significant liability signal for the entire programmatic ad ecosystem.</p>
+        <p class="why"><b>Why it matters:</b> Founders running paid acquisition on Meta need to understand the platform's internal risk calculus—and the growing legal exposure that could force policy changes affecting ad targeting and creative policies.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50385870" target="_blank" rel="noopener">Hacker News · 334 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://firenook.dev/" target="_blank" rel="noopener">Firenook: Firebase emulator rewritten in Rust delivers 40× faster writes and 10× RAM reduction</a></h2>
+        <p class="summary">An open-source project re-implements Firebase's local emulator suite in Rust, achieving dramatic performance improvements that make local development with Firebase-style semantics significantly more practical for data-intensive workflows. The 40× write throughput improvement is especially relevant for teams doing integration testing against large datasets.</p>
+        <p class="why"><b>Why it matters:</b> Teams using Firebase or evaluating it for new products can now run realistic local tests that were previously too slow to be useful in CI pipelines.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50378643" target="_blank" rel="noopener">Hacker News · 118 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">Agent-autoloop: CLI agent that works in background and only interrupts for decisions requiring human judgment</a></h2>
+        <p class="summary">This TypeScript repo implements an autonomous command-line agent that picks up tasks, executes them end-to-end, and surfaces only genuine decision points to the user via notifications rather than constant prompting. The pattern—maximum autonomy with interrupt-only human-in-the-loop—is a practical step beyond current chat-and-confirm agent UX.</p>
+        <p class="why"><b>Why it matters:</b> The interrupt-only interaction model is a more scalable pattern for real work than turn-by-turn agent UX, and studying this implementation shows how to build it.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://colossus.com/episode/trillion-dollar-goalposts/" target="_blank" rel="noopener">Abstract Ventures founder on whether we're in 2019 or 2021 for the current VC cycle</a></h2>
+        <p class="summary">Ramtin Naimi of Abstract Ventures, who reviews an unusually large deal volume, describes a market where hot rounds now come with a second pricier tranche for losing firms, and where term sheet pulls are spiking—patterns he hasn't seen since the last peak. His 2019-vs-2021 framing is a useful calibration tool for founders deciding when to raise and at what terms.</p>
+        <p class="why"><b>Why it matters:</b> Founders raising in the next 6–12 months need this market read to negotiate terms intelligently and avoid raising at a peak with unfavorable structure.</p>
+        <div class="mediacard">
+          <a class="playbtn" href="https://traffic.megaphone.fm/CLS7293803007.mp3" aria-label="Play episode">▶</a>
+          <div class="mediainfo">
+            <span class="mediatitle">Listen — opens episode</span>
+            <span class="mediadur mono">PODCAST</span>
+          </div>
+        </div>
+        <div class="srcrow">
+          <a class="chip" href="https://colossus.com/episode/trillion-dollar-goalposts/" target="_blank" rel="noopener">Invest Like the Best</a>
+          <span class="meta mono">PODCAST · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 37 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-06';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

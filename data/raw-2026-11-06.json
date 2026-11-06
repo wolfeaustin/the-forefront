@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-06",
+  "fetchedAt": "2026-11-06T10:09:26.642Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "publishedAt": "2026-11-06T07:40:35.000Z",
+      "snippet": "154 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50389333",
+      "hnPoints": 154
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "publishedAt": "2026-11-05T22:17:15.000Z",
+      "snippet": "1146 points · 347 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50385272",
+      "hnPoints": 1146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "publishedAt": "2026-11-05T12:19:02.000Z",
+      "snippet": "2706 points · 650 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50378228",
+      "hnPoints": 2706
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "publishedAt": "2026-11-05T20:43:42.000Z",
+      "snippet": "549 points · 198 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50384233",
+      "hnPoints": 549
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pwn.college",
+      "url": "https://pwn.college/",
+      "publishedAt": "2026-11-06T03:27:14.000Z",
+      "snippet": "153 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50387796",
+      "hnPoints": 153
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "publishedAt": "2026-11-06T04:17:49.000Z",
+      "snippet": "86 points · 34 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50388122",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Inkling 2 Small",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "publishedAt": "2026-11-06T00:00:24.000Z",
+      "snippet": "198 points · 68 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50386338",
+      "hnPoints": 198
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Hackintosh Reborn",
+      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+      "publishedAt": "2026-11-05T19:08:22.000Z",
+      "snippet": "309 points · 173 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50383057",
+      "hnPoints": 309
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Britain to make salary disclosure in job ads mandatory",
+      "url": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+      "publishedAt": "2026-11-06T07:22:04.000Z",
+      "snippet": "171 points · 168 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50389222",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Window Sweaters",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "publishedAt": "2026-11-05T16:50:14.000Z",
+      "snippet": "344 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50381383",
+      "hnPoints": 344
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "url": "https://firenook.dev/",
+      "publishedAt": "2026-11-05T13:07:29.000Z",
+      "snippet": "118 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50378643",
+      "hnPoints": 118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "url": "https://github.com/rivet-dev/rivet",
+      "publishedAt": "2026-11-05T17:17:42.000Z",
+      "snippet": "96 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50381687",
+      "hnPoints": 96
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Motorola Signature 27 with GrapheneOS support",
+      "url": "https://motorolanews.com/motorola-signature-27-2/",
+      "publishedAt": "2026-11-05T16:01:34.000Z",
+      "snippet": "482 points · 345 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50380810",
+      "hnPoints": 482
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "publishedAt": "2026-11-05T23:09:57.000Z",
+      "snippet": "334 points · 156 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50385870",
+      "hnPoints": 334
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "publishedAt": "2026-11-04T16:45:11.000Z",
+      "snippet": "229 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368208",
+      "hnPoints": 229
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "September in Servo: <progress>, rounded rectangles, and more",
+      "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+      "publishedAt": "2026-11-05T14:34:18.000Z",
+      "snippet": "240 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50379576",
+      "hnPoints": 240
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I wish tech companies knew more about me",
+      "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+      "publishedAt": "2026-11-05T13:40:52.000Z",
+      "snippet": "421 points · 354 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50378942",
+      "hnPoints": 421
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Download your favourite YouTube videos",
+      "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+      "publishedAt": "2026-11-05T13:00:11.000Z",
+      "snippet": "345 points · 161 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50378571",
+      "hnPoints": 345
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "publishedAt": "2026-11-06T05:19:04.000Z",
+      "snippet": "87 points · 72 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50388513",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Goodbye from Salon",
+      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+      "publishedAt": "2026-11-05T20:03:29.000Z",
+      "snippet": "581 points · 228 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50383739",
+      "hnPoints": 581
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MCP Explained",
+      "url": "https://mcp-explained.com/",
+      "publishedAt": "2026-11-05T14:08:35.000Z",
+      "snippet": "300 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50379249",
+      "hnPoints": 300
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pangram Image 1.0",
+      "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+      "publishedAt": "2026-11-05T19:27:52.000Z",
+      "snippet": "107 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50383294",
+      "hnPoints": 107
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Obscure audio codec is a perfect fit for the N64",
+      "url": "https://phoboslab.org/log/2026/11/n64-ulc-codec",
+      "publishedAt": "2026-11-05T12:51:48.000Z",
+      "snippet": "232 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50378508",
+      "hnPoints": 232
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/dsh-superagent-prototype — Towards a More Autonomous Agent System",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "snippet": "19937 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.",
+      "url": "https://github.com/storytold/craft-anything",
+      "publishedAt": "2026-10-31T14:50:00Z",
+      "snippet": "16371 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/agent-autoloop — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "publishedAt": "2026-11-03T08:02:11Z",
+      "snippet": "3461 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "zortos293/Lichii — VERY experimental Nintendo Switch 2 emulator",
+      "url": "https://github.com/zortos293/Lichii",
+      "publishedAt": "2026-10-31T14:17:26Z",
+      "snippet": "2851 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto — Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "publishedAt": "2026-11-04T14:54:56Z",
+      "snippet": "2699 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Verlintas/NOIR — 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "url": "https://github.com/Verlintas/NOIR",
+      "publishedAt": "2026-10-31T21:34:39Z",
+      "snippet": "2663 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "govijr/terminal-mac — Entire MacOS running in your terminal.",
+      "url": "https://github.com/govijr/terminal-mac",
+      "publishedAt": "2026-11-03T03:22:56Z",
+      "snippet": "2020 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mromidev/claude-animated-shorts — Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "publishedAt": "2026-11-01T05:50:38Z",
+      "snippet": "1909 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "publishedAt": "2026-11-01T05:35:12Z",
+      "snippet": "1896 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wquguru/cicada — 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+      "url": "https://github.com/wquguru/cicada",
+      "publishedAt": "2026-11-01T05:41:23Z",
+      "snippet": "1530 stars · Swift"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+      "publishedAt": "2026-11-05T17:34:03.000Z",
+      "snippet": " <blockquote cite=\"https://ftrain.com/aboard-the-web-is-more-than-enough\"><p>The web browser is very, very, very powerful software for applications, <em>and the cost of accessing that power is going down seemingly every day</em>.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://ftrain.com/aboard-the-web-is-more-than-enough\">Paul Ford</a>, The Web Is More Than Enough</p> <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/paul-",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+      "publishedAt": "2026-11-05T11:00:00.000Z",
+      "snippet": "An interview with Intuit CEO Sasan Goodarzi about the working for one of tech's oldest software companies, and how Intuit is leaning into the AI paradigm shift.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] It's Swapping Season",
+      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+      "publishedAt": "2026-11-05T06:24:09.000Z",
+      "snippet": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Ramtin Naimi on the State of Venture Investing - [Invest Like the Best, EP.499]",
+      "url": "https://colossus.com/episode/trillion-dollar-goalposts/",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "snippet": "My guest today is Ramtin Naimi, the founder of Abstract Ventures, back for our second conversation. Few people see as many companies as Ramtin and his firm, so this time we zoom in on what they’re seeing right now. The question he keeps coming back to is whether this is 2019 or 2021: early in a run, or at the top of one. Hot rounds now come with a second, pricier tranche for the firms that lost the deal, and he’s seen more term sheets pulled or renegotiated in recent weeks than at any time since",
+      "enclosure": "https://traffic.megaphone.fm/CLS7293803007.mp3"
+    }
+  ]
+}
