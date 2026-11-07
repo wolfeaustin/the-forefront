@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-07",
+  "fetchedAt": "2026-11-07T10:07:47.810Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "publishedAt": "2026-11-06T23:30:52.000Z",
+      "snippet": "641 points · 100 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50399933",
+      "hnPoints": 641
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+      "publishedAt": "2026-11-07T04:54:36.000Z",
+      "snippet": "97 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50401740",
+      "hnPoints": 97
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "publishedAt": "2026-11-06T19:48:51.000Z",
+      "snippet": "477 points · 109 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397429",
+      "hnPoints": 477
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "publishedAt": "2026-11-06T12:13:51.000Z",
+      "snippet": "1008 points · 1864 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50391456",
+      "hnPoints": 1008
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "publishedAt": "2026-11-06T23:37:19.000Z",
+      "snippet": "122 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50399991",
+      "hnPoints": 122
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "publishedAt": "2026-11-06T04:00:28.000Z",
+      "snippet": "338 points · 273 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50388001",
+      "hnPoints": 338
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
+      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
+      "publishedAt": "2026-11-04T02:19:16.000Z",
+      "snippet": "103 points · 8 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50360810",
+      "hnPoints": 103
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "publishedAt": "2026-11-06T19:33:38.000Z",
+      "snippet": "237 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397219",
+      "hnPoints": 237
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "publishedAt": "2026-11-07T05:20:18.000Z",
+      "snippet": "171 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50401867",
+      "hnPoints": 171
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "publishedAt": "2026-11-06T20:27:23.000Z",
+      "snippet": "305 points · 255 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397994",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "publishedAt": "2026-11-06T16:50:29.000Z",
+      "snippet": "220 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50394855",
+      "hnPoints": 220
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GitHub's new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "publishedAt": "2026-11-06T19:24:21.000Z",
+      "snippet": "146 points · 28 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397099",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "publishedAt": "2026-11-06T13:35:27.000Z",
+      "snippet": "336 points · 230 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50392118",
+      "hnPoints": 336
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "publishedAt": "2026-11-06T19:19:27.000Z",
+      "snippet": "126 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397017",
+      "hnPoints": 126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Devvm.dev: One VM for every project",
+      "url": "https://devvm.dev/",
+      "publishedAt": "2026-11-06T17:30:22.000Z",
+      "snippet": "156 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50395450",
+      "hnPoints": 156
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Chomsky and the two cultures of statistical learning (2011)",
+      "url": "https://www.norvig.com/chomsky.html",
+      "publishedAt": "2026-11-06T08:18:36.000Z",
+      "snippet": "127 points · 102 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50389570",
+      "hnPoints": 127
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I toured Unitree's factory. I'm more bullish on the West",
+      "url": "https://josef.cn/blog/unitree",
+      "publishedAt": "2026-11-07T01:05:16.000Z",
+      "snippet": "120 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50400597",
+      "hnPoints": 120
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/agent-autoloop — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "publishedAt": "2026-11-03T08:02:11Z",
+      "snippet": "3830 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto — Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "publishedAt": "2026-11-04T14:54:56Z",
+      "snippet": "2969 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "govijr/terminal-mac — Entire MacOS running in your terminal.",
+      "url": "https://github.com/govijr/terminal-mac",
+      "publishedAt": "2026-11-03T03:22:56Z",
+      "snippet": "2199 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mromidev/claude-animated-shorts — Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "publishedAt": "2026-11-01T05:50:38Z",
+      "snippet": "2099 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "publishedAt": "2026-11-01T05:35:12Z",
+      "snippet": "2007 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Minireel/HGhub — YellowFruit third-party client",
+      "url": "https://github.com/Minireel/HGhub",
+      "publishedAt": "2026-11-03T14:04:27Z",
+      "snippet": "1906 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "wquguru/cicada — 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+      "url": "https://github.com/wquguru/cicada",
+      "publishedAt": "2026-11-01T05:41:23Z",
+      "snippet": "1589 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "1291 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "s1dashu/quiet-md — Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.",
+      "url": "https://github.com/s1dashu/quiet-md",
+      "publishedAt": "2026-11-01T14:22:53Z",
+      "snippet": "1228 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+      "url": "https://github.com/livliv-dev/player",
+      "publishedAt": "2026-11-04T03:28:33Z",
+      "snippet": "1041 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "publishedAt": "2026-11-06T17:13:12.000Z",
+      "snippet": " <blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.45: Falling Leaves (and Stocks)",
+      "url": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+      "publishedAt": "2026-11-06T18:14:42.000Z",
+      "snippet": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "publishedAt": "2026-11-07T03:04:53.000Z",
+      "snippet": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "publishedAt": "2026-11-06T15:10:53.000Z",
+      "snippet": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1a3f4-4773-7a7d-acdc-731f8540ab5d/01a1b153-728b-7ba1-9c45-88599573e55f.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "publishedAt": "2026-11-06T10:35:21.000Z",
+      "snippet": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Ramtin Naimi - The State of Venture - [Invest Like the Best, EP.499]",
+      "url": "https://colossus.com/episode/trillion-dollar-goalposts/",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "snippet": "My guest today is Ramtin Naimi, the founder of Abstract Ventures, back for our second conversation. Few people see as many companies as Ramtin and his firm, so this time we zoom in on what they’re seeing right now. The question he keeps coming back to is whether this is 2019 or 2021: early in a run, or at the top of one. Hot rounds now come with a second, pricier tranche for the firms that lost the deal, and he’s seen more term sheets pulled or renegotiated in recent weeks than at any time since",
+      "enclosure": "https://traffic.megaphone.fm/CLS7293803007.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Bringing Supersonic Flight To The People",
+      "url": "https://www.youtube.com/watch?v=NYGf--dBeHA",
+      "publishedAt": "2026-11-06T16:00:09.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}

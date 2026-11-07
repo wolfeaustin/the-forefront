@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 7, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Saturday</span><span class="dot"></span><span>Nov 7, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>35</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>60%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://hightouch.com/blog/llm-judges-identity-resolution" target="_blank" rel="noopener">Cascading LLM Architecture: A Cheap Model That Escalates to Opus Cuts Cost 4x While Matching Flagship Accuracy</a></h2>
+        <p class="summary">A 'Jev' routing pattern lets a smaller, cheaper model handle most queries and escalate to Claude Opus only when uncertain, achieving Opus-level accuracy at roughly one-quarter the cost. This is a concrete, implementable architecture rather than speculation — the HN thread has 109 comments analyzing the tradeoffs.</p>
+        <p class="why"><b>Why it matters:</b> Any product team paying frontier-model API bills should evaluate this routing pattern immediately; it's a direct cost lever with no accuracy penalty.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50397429" target="_blank" rel="noopener">Hacker News · 477 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai" target="_blank" rel="noopener">METR Study at Anthropic Finds AI Is Meaningfully Accelerating Its Own Research Cycle</a></h2>
+        <p class="summary">A study by METR conducted inside Anthropic found that AI tools are demonstrably speeding up AI research workflows — not at the margins, but in ways that compress research timelines. This is one of the first credible inside-the-lab measurements of AI-on-AI-research acceleration.</p>
+        <p class="why"><b>Why it matters:</b> If the feedback loop of AI accelerating its own development is empirically confirmed, the pace of model capability jumps you need to plan around is faster than most roadmaps assume.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50397994" target="_blank" rel="noopener">Hacker News · 305 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·86</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/" target="_blank" rel="noopener">Inkling 2 Small: 17A-594B MoE Model Trained in 68 Hours on 12T Tokens, Beats Muse Spark</a></h2>
+        <p class="summary">A new mixture-of-experts model called Inkling 2 Small was trained in just 68 hours on 12 trillion tokens using a 17-active/594-billion-parameter architecture and outperforms Muse Spark on benchmarks. The speed and efficiency of the training run signals a step-change in how fast competitive frontier models can be produced.</p>
+        <p class="why"><b>Why it matters:</b> Training-run timelines collapsing to days means the competitive landscape for foundation models is shifting faster than quarterly release cycles — relevant for anyone betting on a particular model provider.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener">Gemini 1.2 Flash Omni: Google Drops a Multimodal Speed Tier Worth Benchmarking Against GPT-4o Mini</a></h2>
+        <p class="summary">Google released Gemini Omni 1.2 Flash, a multimodal model targeting the fast, cheap inference tier — the same slot occupied by GPT-4o Mini and Claude Haiku. With 336 HN upvotes and 230 comments, early testers are actively comparing its vision, audio, and reasoning capabilities in real tasks.</p>
+        <p class="why"><b>Why it matters:</b> If Gemini Flash undercuts GPT-4o Mini on cost or beats it on multimodal tasks, it's an immediate swap candidate for high-volume inference pipelines.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50392118" target="_blank" rel="noopener">Hacker News · 336 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·79</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-anthropic-ipo-whither-now/" target="_blank" rel="noopener">AINews: Anthropic IPO Signals and What Comes Next for the Lab</a></h2>
+        <p class="summary">Latent Space's AINews digest covers the Anthropic IPO situation alongside ARC Prize's evaluation of Inkling 2 Small and Thinking Machines' catch of early checkpoints bypassing safety guardrails. The guardrail-bypass finding is particularly notable as it surfaces a real alignment-in-practice failure mode.</p>
+        <p class="why"><b>Why it matters:</b> An Anthropic IPO would reshape the enterprise AI procurement landscape; the guardrail bypass story matters for anyone building safety-dependent AI pipelines.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-anthropic-ipo-whither-now/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Cascading LLM Architecture: A Cheap Model That Escalates to Opus Cuts Cost 4x While Matching Flagship Accuracy</h3>
+    <p>Build a drop-in LLM proxy or middleware layer that implements confidence-based model cascading as a service — SaaS pricing on top of pass-through API costs.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·71</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming" target="_blank" rel="noopener">Targeted Payment-Skimming Campaign Hits Restaurant Delivery Platforms — Attack Pattern Documented</a></h2>
+        <p class="summary">A documented campaign is skimming payment credentials specifically through restaurant delivery ordering flows, exploiting gaps between restaurant POS systems and third-party delivery middleware. The attack pattern is detailed enough to serve as a threat model for anyone running e-commerce or food-tech payment flows.</p>
+        <p class="why"><b>Why it matters:</b> If you operate or build on top of any delivery or marketplace payment integration, the specific attack vector documented here is worth reviewing against your own stack.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50397017" target="_blank" rel="noopener">Hacker News · 126 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·61</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://josef.cn/blog/unitree" target="_blank" rel="noopener">Factory Tour of Unitree Robotics Leaves Observer More Bullish on Western Robotics Competitiveness</a></h2>
+        <p class="summary">A firsthand account of touring Unitree's manufacturing facility in China concludes — counterintuitively — that Western robotics companies have more defensible advantages than the facility tour suggests Unitree does. The piece engages with actual manufacturing constraints rather than surface-level impressions.</p>
+        <p class="why"><b>Why it matters:</b> Anyone evaluating robotics investments or automation vendors needs ground-truth visibility into Chinese manufacturing capabilities versus the hype narrative.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50400597" target="_blank" rel="noopener">Hacker News · 120 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·55</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/" target="_blank" rel="noopener">RealPage Algorithmic Rent-Pricing Scheme Settles for $360M — Sets Precedent for Coordinated AI Pricing Liability</a></h2>
+        <p class="summary">The class-action case against RealPage, which used shared competitor data to algorithmically coordinate rental prices across landlords, settled for nearly $360 million. The legal theory — that software-mediated price coordination can constitute collusion even without direct human agreement — now has a large settlement behind it.</p>
+        <p class="why"><b>Why it matters:</b> Any SaaS product that aggregates competitor pricing data to inform customer pricing decisions should review this settlement as a direct liability precedent.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50399991" target="_blank" rel="noopener">Hacker News · 122 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·81</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://pwn.ai/blog/firecracker-escape" target="_blank" rel="noopener">Firecracker VM Escape Demonstrated: What It Means for Serverless Isolation Assumptions</a></h2>
+        <p class="summary">Part 2 of a Firecracker VM escape writeup documents a working exploit that breaks the isolation model many serverless and sandbox platforms rely on. Firecracker is the microVM runtime under AWS Lambda and Fly.io, so this affects real production trust boundaries.</p>
+        <p class="why"><b>Why it matters:</b> If you're running multi-tenant workloads or AI sandboxing on Firecracker-based infrastructure, your isolation assumptions may need revisiting before your next security review.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50397219" target="_blank" rel="noopener">Hacker News · 237 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·77</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/" target="_blank" rel="noopener">GitHub Rewrote Its Git Object Storage Architecture — Here's What They Changed and Why</a></h2>
+        <p class="summary">GitHub published details on a new storage architecture for Git objects, addressing scale and performance problems that emerged at millions-of-repositories scale. The writeup is a primary-source engineering case study from one of the highest-traffic distributed systems in the world.</p>
+        <p class="why"><b>Why it matters:</b> If you're building any version-controlled or append-heavy storage system, the tradeoffs GitHub documents are directly instructive — especially around metadata fan-out and object deduplication at scale.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50397099" target="_blank" rel="noopener">Hacker News · 146 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://mitchellh.com/writing/libghostty-1-0" target="_blank" rel="noopener">Libghostty 1.0: Ghostty Terminal Releases a Stable Native Embedding Library</a></h2>
+        <p class="summary">Ghostty, the high-performance terminal emulator, has shipped libghostty 1.0 — a stable C-API library that lets developers embed a full terminal emulator inside any application. This opens the door to native terminal UIs in desktop apps without bundling Electron or WebView.</p>
+        <p class="why"><b>Why it matters:</b> Small technical teams building developer tools, IDE alternatives, or CLI-heavy products now have a production-ready, embeddable terminal with a stable ABI.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50399933" target="_blank" rel="noopener">Hacker News · 641 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·69</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">Agent-Autoloop: CLI Agent That Works Autonomously in Background and Interrupts Only for Human Decisions</a></h2>
+        <p class="summary">This TypeScript repo implements a command-line agent that picks up tasks, runs them to completion in the background, and surfaces a decision card to the human only when it hits genuine ambiguity. It's garnered 3,830 stars quickly, suggesting strong resonance with the 'async agent' pattern.</p>
+        <p class="why"><b>Why it matters:</b> The human-interrupt-only pattern is one of the most practical approaches to making agents actually usable in production workflows without constant babysitting.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/wquguru/cicada" target="_blank" rel="noopener">Cicada: Open-Source Real-Time Subtitles and AI Meeting Notes for Any Call, Across All Platforms</a></h2>
+        <p class="summary">Cicada is a free, open-source app for Mac, Windows, Linux, and Android that provides live subtitles, simultaneous interpretation, and AI meeting summaries for any call or stream — without requiring integration with the meeting platform. It has 1,589 GitHub stars and supports multiple languages.</p>
+        <p class="why"><b>Why it matters:</b> For founders running international business or evaluating acquisition targets across language barriers, a free, local-first real-time translation layer is immediately useful.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/wquguru/cicada" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://colossus.com/episode/trillion-dollar-goalposts/" target="_blank" rel="noopener">Invest Like the Best: VC Pattern Recognition — Is This 2019 or 2021?</a></h2>
+        <p class="summary">Abstract Ventures founder Ramtin Naimi shares current deal flow signals including hot rounds pricing in a second tranche for losing firms and term sheets being pulled at rates not seen since the last downturn. His framing — 2019 (early innings) vs 2021 (top of cycle) — is a useful analytical lens for anyone deploying capital or raising.</p>
+        <p class="why"><b>Why it matters:</b> If you're raising or making acquisitions in the next 12 months, knowing whether VCs are in fear-of-missing-out mode or quietly pulling back changes your timing strategy.</p>
+        <div class="mediacard">
+          <a class="playbtn" href="https://traffic.megaphone.fm/CLS7293803007.mp3" aria-label="Play episode">▶</a>
+          <div class="mediainfo">
+            <span class="mediatitle">Listen — opens episode</span>
+            <span class="mediadur mono">PODCAST</span>
+          </div>
+        </div>
+        <div class="srcrow">
+          <a class="chip" href="https://colossus.com/episode/trillion-dollar-goalposts/" target="_blank" rel="noopener">Invest Like the Best</a>
+          <span class="meta mono">PODCAST · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 35 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-07';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
