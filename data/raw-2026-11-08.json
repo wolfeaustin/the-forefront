@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-08",
+  "fetchedAt": "2026-11-08T10:08:01.948Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "publishedAt": "2026-11-08T03:11:48.000Z",
+      "snippet": "303 points · 180 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50410107",
+      "hnPoints": 303
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "snippet": "585 points · 110 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406670",
+      "hnPoints": 585
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "publishedAt": "2026-11-07T20:45:32.000Z",
+      "snippet": "393 points · 270 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50407882",
+      "hnPoints": 393
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Making any integer with four 2s (2025)",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "publishedAt": "2026-11-07T22:38:58.000Z",
+      "snippet": "143 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50408713",
+      "hnPoints": 143
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "publishedAt": "2026-11-07T09:36:36.000Z",
+      "snippet": "992 points · 250 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50403052",
+      "hnPoints": 992
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "publishedAt": "2026-11-05T10:52:04.000Z",
+      "snippet": "135 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50377661",
+      "hnPoints": 135
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "publishedAt": "2026-11-07T17:19:00.000Z",
+      "snippet": "309 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406222",
+      "hnPoints": 309
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "publishedAt": "2026-11-07T23:09:40.000Z",
+      "snippet": "141 points · 93 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50408931",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "publishedAt": "2026-11-07T09:46:03.000Z",
+      "snippet": "729 points · 385 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50403097",
+      "hnPoints": 729
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+      "publishedAt": "2026-11-07T11:11:15.000Z",
+      "snippet": "326 points · 301 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50403507",
+      "hnPoints": 326
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "publishedAt": "2026-11-07T17:27:30.000Z",
+      "snippet": "237 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406292",
+      "hnPoints": 237
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "snippet": "456 points · 276 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406563",
+      "hnPoints": 456
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "publishedAt": "2026-11-07T17:06:36.000Z",
+      "snippet": "463 points · 292 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406111",
+      "hnPoints": 463
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The $8 Linux Computer (2022)",
+      "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+      "publishedAt": "2026-11-07T14:00:20.000Z",
+      "snippet": "235 points · 92 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50404599",
+      "hnPoints": 235
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Every processor die anyone has photographed and given away",
+      "url": "https://sheets.works/data-viz/cpu-dies",
+      "publishedAt": "2026-11-07T16:21:36.000Z",
+      "snippet": "124 points · 25 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50405782",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "publishedAt": "2026-11-07T05:20:18.000Z",
+      "snippet": "380 points · 329 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50401867",
+      "hnPoints": 380
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Five memorable books about programming (2008)",
+      "url": "https://prog21.dadgum.com/19.html",
+      "publishedAt": "2026-11-07T17:30:49.000Z",
+      "snippet": "116 points · 75 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406319",
+      "hnPoints": 116
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+      "publishedAt": "2026-11-07T04:54:36.000Z",
+      "snippet": "238 points · 212 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50401740",
+      "hnPoints": 238
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/agent-autoloop — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "publishedAt": "2026-11-03T08:02:11Z",
+      "snippet": "4031 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto — Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "publishedAt": "2026-11-04T14:54:56Z",
+      "snippet": "3163 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Minireel/HGhub — YellowFruit third-party client",
+      "url": "https://github.com/Minireel/HGhub",
+      "publishedAt": "2026-11-03T14:04:27Z",
+      "snippet": "2652 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "govijr/terminal-mac — Entire MacOS running in your terminal.",
+      "url": "https://github.com/govijr/terminal-mac",
+      "publishedAt": "2026-11-03T03:22:56Z",
+      "snippet": "2309 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "publishedAt": "2026-11-05T12:18:58Z",
+      "snippet": "2189 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "1795 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+      "url": "https://github.com/livliv-dev/player",
+      "publishedAt": "2026-11-04T03:28:33Z",
+      "snippet": "1285 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Sandflow-ai/sand3d — 3D modeling in Python, built for LLMs.",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "publishedAt": "2026-11-03T08:23:03Z",
+      "snippet": "1184 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mmdoctor/google-pro-helper — no description",
+      "url": "https://github.com/mmdoctor/google-pro-helper",
+      "publishedAt": "2026-11-05T04:52:28Z",
+      "snippet": "1181 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sarpstar/cinecode — Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and ha",
+      "url": "https://github.com/sarpstar/cinecode",
+      "publishedAt": "2026-11-03T10:08:16Z",
+      "snippet": "1178 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "publishedAt": "2026-11-07T23:57:46.000Z",
+      "snippet": " <p><strong><a href=\"https://github.com/simonw/datasette/issues/3046\">datasette #3046: Don&#x27;t serve link: rel=next HTTP headers to Firefox for HTML pages</a></strong></p> I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Prefetch\">HTTP prefetch</a> to the next page of rows in that table.</p> <p>This was happening because Datasette pages serve an HTTP <code>link<",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "How To Build The Future: Paul Graham & Amjad Masad",
+      "url": "https://www.youtube.com/watch?v=Q78dJ0vkWe8",
+      "publishedAt": "2026-11-07T15:00:14.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
