@@ -1,0 +1,347 @@
+{
+  "date": "2026-11-09",
+  "fetchedAt": "2026-11-09T10:09:41.379Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "url": "https://ketchup3d.github.io/app/",
+      "publishedAt": "2026-11-08T22:35:35.000Z",
+      "snippet": "494 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418176",
+      "hnPoints": 494
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unlocking any car from X brand in most of the world",
+      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "publishedAt": "2026-11-09T00:10:50.000Z",
+      "snippet": "358 points · 142 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50419215",
+      "hnPoints": 358
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I'm not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "publishedAt": "2026-11-08T23:44:36.000Z",
+      "snippet": "288 points · 487 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418975",
+      "hnPoints": 288
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "publishedAt": "2026-11-09T07:04:25.000Z",
+      "snippet": "140 points · 79 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50422069",
+      "hnPoints": 140
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Declarative Dragging",
+      "url": "https://declarative-dragging.github.io/",
+      "publishedAt": "2026-11-04T17:05:07.000Z",
+      "snippet": "549 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368481",
+      "hnPoints": 549
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Chimera Vocal Synth",
+      "url": "https://chimera-vocal-synth.vercel.app/",
+      "publishedAt": "2026-11-08T22:36:03.000Z",
+      "snippet": "226 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418182",
+      "hnPoints": 226
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Outlook.com is rejecting email from domains without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "publishedAt": "2026-11-08T19:20:32.000Z",
+      "snippet": "409 points · 289 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416158",
+      "hnPoints": 409
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "url": "https://duxlabs.dev/",
+      "publishedAt": "2026-11-08T19:08:51.000Z",
+      "snippet": "289 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416053",
+      "hnPoints": 289
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: What are you working on? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50417407",
+      "publishedAt": "2026-11-08T21:20:20.000Z",
+      "snippet": "214 points · 707 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50417407",
+      "hnPoints": 214
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "publishedAt": "2026-11-08T22:20:09.000Z",
+      "snippet": "681 points · 731 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418016",
+      "hnPoints": 681
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Critique of GPUI",
+      "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+      "publishedAt": "2026-11-09T03:51:10.000Z",
+      "snippet": "103 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50420857",
+      "hnPoints": 103
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "snippet": "423 points · 191 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50411961",
+      "hnPoints": 423
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "RIP, Harvest",
+      "url": "https://aphyr.com/posts/427-rip-harvest",
+      "publishedAt": "2026-11-09T01:58:21.000Z",
+      "snippet": "351 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50420035",
+      "hnPoints": 351
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "publishedAt": "2026-11-08T18:16:07.000Z",
+      "snippet": "780 points · 413 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50415628",
+      "hnPoints": 780
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Writing as a thinking tool",
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "publishedAt": "2026-11-08T10:41:52.000Z",
+      "snippet": "359 points · 89 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50412067",
+      "hnPoints": 359
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "snippet": "254 points · 172 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416363",
+      "hnPoints": 254
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "When a language's creator and its owners strongly disagree [pdf]",
+      "url": "https://isocpp.org/files/papers/P4454R0.pdf",
+      "publishedAt": "2026-11-08T23:28:01.000Z",
+      "snippet": "127 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418818",
+      "hnPoints": 127
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "publishedAt": "2026-11-08T03:11:48.000Z",
+      "snippet": "768 points · 470 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50410107",
+      "hnPoints": 768
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Minireel/HGhub — YellowFruit third-party client",
+      "url": "https://github.com/Minireel/HGhub",
+      "publishedAt": "2026-11-03T14:04:27Z",
+      "snippet": "4569 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "KKKKhazix/agent-autoloop — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "publishedAt": "2026-11-03T08:02:11Z",
+      "snippet": "4219 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "publishedAt": "2026-11-05T12:18:58Z",
+      "snippet": "3606 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "govijr/terminal-mac — Entire MacOS running in your terminal.",
+      "url": "https://github.com/govijr/terminal-mac",
+      "publishedAt": "2026-11-03T03:22:56Z",
+      "snippet": "2450 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "1897 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sarpstar/cinecode — Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and ha",
+      "url": "https://github.com/sarpstar/cinecode",
+      "publishedAt": "2026-11-03T10:08:16Z",
+      "snippet": "1763 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tangerineturtle1/NX2navi — no description",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "publishedAt": "2026-11-07T10:01:23Z",
+      "snippet": "1720 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Sandflow-ai/sand3d — 3D modeling in Python, built for LLMs.",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "publishedAt": "2026-11-03T08:23:03Z",
+      "snippet": "1522 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CzJam/gjgjxweb — 《搞机工具箱》Web移植版",
+      "url": "https://github.com/CzJam/gjgjxweb",
+      "publishedAt": "2026-11-03T02:00:54Z",
+      "snippet": "1370 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+      "url": "https://github.com/livliv-dev/player",
+      "publishedAt": "2026-11-04T03:28:33Z",
+      "snippet": "1369 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "publishedAt": "2026-11-09T04:32:33.000Z",
+      "snippet": " <p><a href=\"https://news.ycombinator.com/item?id=50416456#50421091\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50416456\">The Web Is More Than Enough, by Paul Ford</a> &mdash; Hacker News.</p><p>OK, this comment convinced me to give that a shot.</p> <p>Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "snippet": " <p>Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.</p> <h4 id=\"they-re-too-good-at-describing-the-work\">They're too good at describing the work</h4> <p>The problem is that they are <em>too</em> good. An",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "publishedAt": "2026-11-08T22:26:00.000Z",
+      "snippet": " <p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust#readme\">parse_number() as a SQLite extension: C vs Rust</a></p> <p>I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a <code>parse_number()</code> function for turning strings like <code>-$1,234.56</code> or <code>'12.5%'</code> into numeric values that could be summed and sorted.</p> <p>I fired up regular Claud",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "publishedAt": "2026-11-08T13:31:32.000Z",
+      "snippet": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+      "enclosure": "https://api.substack.com/feed/podcast/219474705/5fcf90cae186120b6d62e9a3f792b5f7.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "publishedAt": "2026-11-08T21:41:44.000Z",
+      "snippet": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "publishedAt": "2026-11-08T21:23:29.000Z",
+      "snippet": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1bcf7-771f-7c67-ba1d-94f856e787b0/01a1bcf7-78db-7028-b115-7c753e3b3b76.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+      "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+      "publishedAt": "2026-11-08T15:00:39.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 9, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Monday</span><span class="dot"></span><span>Nov 9, 2026</span></div>
+    <h1>12 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>34</b></span>
+      <span class="kept">Kept <b>12</b></span>
+      <span>Total read <b>~14 min</b></span>
+      <span>Filtered out <b>65%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers" target="_blank" rel="noopener">Goldman Sachs pulls Claude Code from bankers and traders — here's why it matters</a></h2>
+        <p class="summary">Goldman Sachs has revoked Claude Code access from its front-office staff, signaling serious enterprise friction around AI coding tools in regulated, high-stakes environments. The move raises questions about whether agentic coding tools are ready for professional financial workflows, or whether compliance/liability concerns are simply too high at this stage.</p>
+        <p class="why"><b>Why it matters:</b> Understanding where enterprise AI tool adoption is hitting walls — and why — is directly actionable for founders building B2B AI products or selling into regulated industries.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50415628" target="_blank" rel="noopener">Hacker News · 780 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://caleb.software/posts/claude-to-pi.html" target="_blank" rel="noopener">Users switching from Claude to Pi in noticeable numbers — what's driving the shift</a></h2>
+        <p class="summary">A high-engagement HN thread titled 'Goodbye Claude, hello Pi' reflects a growing segment of users abandoning Anthropic's Claude for Inflection's Pi, with 768 points and 470 comments suggesting this is more than anecdote. The thread likely surfaces concrete reasons — model behavior changes, pricing, or personality — that reveal real user preferences in the consumer AI assistant market.</p>
+        <p class="why"><b>Why it matters:</b> Churn signals in the AI assistant market reveal what users actually value, which is critical intelligence for anyone building on top of or competing with frontier models.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50410107" target="_blank" rel="noopener">Hacker News · 768 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://mailroute.net/blog/outlook-rejecting-email-without-dmarc" target="_blank" rel="noopener">Outlook.com now rejects email from domains lacking DMARC — act before your deliverability breaks</a></h2>
+        <p class="summary">Microsoft's Outlook.com has begun hard-rejecting inbound email from domains that don't have DMARC records configured, following similar moves by Gmail. With 409 HN points and nearly 300 comments, this is an operationally urgent change affecting any business that sends transactional or marketing email from a custom domain.</p>
+        <p class="why"><b>Why it matters:</b> If you haven't set up DMARC on your sending domains, your email is now being silently dropped by one of the world's largest mailbox providers — this is a time-sensitive operational fix.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50416158" target="_blank" rel="noopener">Hacker News · 409 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Goldman Sachs pulls Claude Code from bankers and traders — here's why it matters</h3>
+    <p>There's a clear gap for AI coding or productivity tools purpose-built for compliance-sensitive industries (finance, legal, healthcare) with audit trails, permission controls, and liability-aware design — a small technical team could carve out a defensible niche here.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·83</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/synchopate/llama-modchip" target="_blank" rel="noopener">Run DeepSeek 284B on 64GB RAM with no GPU using a new llama modchip approach</a></h2>
+        <p class="summary">A project called 'llama-modchip' enables running DeepSeek's 284B parameter model on a 64GB RAM machine with no discrete GPU, apparently via aggressive quantization and memory mapping techniques. With 423 HN points and nearly 200 comments, this represents a meaningful step toward running frontier-class models on commodity hardware.</p>
+        <p class="why"><b>Why it matters:</b> If large models can run locally on standard developer machines, the cost and privacy calculus for AI-powered products changes dramatically — inference bills and data-sharing concerns both shrink.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50411961" target="_blank" rel="noopener">Hacker News · 423 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·75</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">Agent-autoloop: open-source CLI agent that runs autonomously and escalates only when stuck</a></h2>
+        <p class="summary">Agent-autoloop is a TypeScript repo with 4,200+ GitHub stars that lets a command-line agent pick up tasks, execute them end-to-end in the background, and surface a decision card to the human only when it hits genuine ambiguity. This 'interrupt-driven' interaction model — rather than constant hand-holding — is a meaningful architectural pattern for autonomous agents.</p>
+        <p class="why"><b>Why it matters:</b> The interrupt-driven agent model this repo demonstrates is likely how production agentic workflows will be designed, and understanding it now gives builders a head start on UX and system architecture.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·73</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://twitter.com/shanemelaugh/status/2119192075505893695" target="_blank" rel="noopener">Developers notice Claude Opus reasoning patterns shifted on November 3 — intentional or regression?</a></h2>
+        <p class="summary">A thread with 140 HN points documents observed changes in Claude Opus's thinking/reasoning behavior following a November 3 update, with users debating whether the model was deliberately 'nerfed' or changed in ways that broke existing workflows. This kind of silent behavioral change in a production API is a real reliability risk for teams building on top of Claude.</p>
+        <p class="why"><b>Why it matters:</b> If you're building products on Claude's API, undocumented behavioral changes to reasoning quality can silently break your product — this thread is a heads-up to audit outputs and add regression testing.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50422069" target="_blank" rel="noopener">Hacker News · 140 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://aphyr.com/posts/427-rip-harvest" target="_blank" rel="noopener">Harvest time-tracking shuts down — a window into what killed a $100M SaaS</a></h2>
+        <p class="summary">Harvest, a long-running and well-regarded time-tracking and invoicing SaaS, has announced it is shutting down, prompting a 351-point HN thread with 105 comments dissecting what went wrong. For anyone studying SaaS acquisition targets or building in the productivity/billing space, this is a postmortem worth reading.</p>
+        <p class="why"><b>Why it matters:</b> Understanding why a profitable, established SaaS like Harvest failed reveals market dynamics — pricing pressure, AI disruption of time tracking, or strategic missteps — that apply to adjacent businesses.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50420035" target="_blank" rel="noopener">Hacker News · 351 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://ketchup3d.github.io/app/" target="_blank" rel="noopener">KetchUp: open-source SketchUp alternative built in Rust and WebGPU</a></h2>
+        <p class="summary">KetchUp is a new open-source 3D modeling tool written in Rust with a WebGPU renderer, positioning itself as a modern alternative to the aging and increasingly paywalled SketchUp. With 494 HN points and 142 comments, there's clear appetite for a free, performant, browser-capable 3D design tool.</p>
+        <p class="why"><b>Why it matters:</b> For founders building in construction tech, interior design, e-commerce (3D product visualization), or any spatial domain, a Rust/WebGPU-based open-source modeler is a foundation worth watching or contributing to.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50418176" target="_blank" rel="noopener">Hacker News · 494 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/Sandflow-ai/sand3d" target="_blank" rel="noopener">Sand3D: Python 3D modeling library designed for LLM code generation</a></h2>
+        <p class="summary">Sand3D is a 1,500-star GitHub repo providing a Python API for 3D modeling that is explicitly designed to be easy for LLMs to generate correct code with. The project signals a broader pattern of tooling being redesigned from the ground up around AI code generation rather than human ergonomics.</p>
+        <p class="why"><b>Why it matters:</b> Libraries designed for LLM codegen rather than human use represent a new category of infrastructure — if this pattern succeeds, it reshapes which APIs and SDKs will win adoption in an agentic world.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/Sandflow-ai/sand3d" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Practical trick: hide verbose AI-generated PR descriptions with HTML details/summary tags</a></h2>
+        <p class="summary">Simon Willison shares a simple convention for managing the wall-of-text PR descriptions that Claude Code and Codex generate: wrap them in HTML `&lt;details&gt;&lt;summary&gt;` tags so reviewers can expand only when needed. It's a small but immediately usable workflow pattern for teams already running AI-assisted development.</p>
+        <p class="why"><b>Why it matters:</b> If your team uses AI coding agents, this pattern keeps your GitHub PRs readable without losing the AI-generated context that's useful for audits or future reference.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://declarative-dragging.github.io/" target="_blank" rel="noopener">Declarative Dragging: a new browser API proposal for drag-and-drop without JavaScript</a></h2>
+        <p class="summary">A high-scoring HN post (549 points) covers a proposal or implementation for handling drag-and-drop interactions declaratively in HTML/CSS rather than requiring custom JavaScript event handling. If adopted, this would significantly simplify a notoriously painful part of web UI development.</p>
+        <p class="why"><b>Why it matters:</b> Any improvement to the web's native drag-and-drop primitive reduces boilerplate and third-party dependencies for teams building data-dense or reorderable UIs.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50368481" target="_blank" rel="noopener">Hacker News · 549 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·58</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/" target="_blank" rel="noopener">Stanford's CS146S course redesigned around open-source contribution in the age of AI coding agents</a></h2>
+        <p class="summary">Mihail Eric describes how Stanford's AI engineering course was restructured so students must navigate unfamiliar codebases and propose real changes to open-source projects — because AI agents can trivially solve last year's assignments. The course design offers a blueprint for what genuinely AI-resistant engineering skill development looks like.</p>
+        <p class="why"><b>Why it matters:</b> For founders thinking about hiring, team training, or what engineering skills will remain valuable, this is a concrete framework from a credible institution rather than opinion.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/cs146s/" target="_blank" rel="noopener">Latent Space</a>
+          <a class="chip" href="https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 34 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-09';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
