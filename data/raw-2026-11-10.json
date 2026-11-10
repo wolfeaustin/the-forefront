@@ -1,0 +1,429 @@
+{
+  "date": "2026-11-10",
+  "fetchedAt": "2026-11-10T10:09:37.208Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "publishedAt": "2026-11-10T06:01:08.000Z",
+      "snippet": "287 points · 91 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50436640",
+      "hnPoints": 287
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "publishedAt": "2026-11-09T18:01:10.000Z",
+      "snippet": "599 points · 803 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429068",
+      "hnPoints": 599
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "url": "https://postalpro.usps.com/zcb",
+      "publishedAt": "2026-11-09T19:58:59.000Z",
+      "snippet": "621 points · 318 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50431058",
+      "hnPoints": 621
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Your TV can see through walls",
+      "url": "https://maurycyz.com/projects/fading/",
+      "publishedAt": "2026-11-10T05:24:45.000Z",
+      "snippet": "112 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50436410",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Locating the source of a mysterious beep",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "publishedAt": "2026-11-10T00:10:46.000Z",
+      "snippet": "196 points · 85 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50434310",
+      "hnPoints": 196
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "publishedAt": "2026-11-09T16:00:45.000Z",
+      "snippet": "532 points · 286 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50427362",
+      "hnPoints": 532
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "E-means: Outperforming k-means in one-tenth the epochs",
+      "url": "https://e-means.github.io/",
+      "publishedAt": "2026-11-09T18:45:43.000Z",
+      "snippet": "404 points · 37 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429734",
+      "hnPoints": 404
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "publishedAt": "2026-11-09T12:19:22.000Z",
+      "snippet": "1028 points · 151 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50424581",
+      "hnPoints": 1028
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Horible public key tricks",
+      "url": "https://maurycyz.com/projects/badcert/",
+      "publishedAt": "2026-11-10T00:07:17.000Z",
+      "snippet": "167 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50434264",
+      "hnPoints": 167
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+      "publishedAt": "2026-11-09T14:31:39.000Z",
+      "snippet": "316 points · 211 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50426175",
+      "hnPoints": 316
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A primer on GPUs and kernel optimization",
+      "url": "https://www.nabo.dev/blogs/kernel-primer",
+      "publishedAt": "2026-11-05T23:48:04.000Z",
+      "snippet": "155 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50386246",
+      "hnPoints": 155
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The first 300-millimeter power silicon carbide (SiC) wafer",
+      "url": "https://www.infineon.com/press-release/2026/infpr202611-028",
+      "publishedAt": "2026-11-09T18:25:01.000Z",
+      "snippet": "139 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429430",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "url": "https://www.watched.earth",
+      "publishedAt": "2026-11-09T17:51:31.000Z",
+      "snippet": "354 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50428907",
+      "hnPoints": 354
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "publishedAt": "2026-11-10T03:20:06.000Z",
+      "snippet": "149 points · 109 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50435660",
+      "hnPoints": 149
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "publishedAt": "2026-11-09T18:24:38.000Z",
+      "snippet": "604 points · 129 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429426",
+      "hnPoints": 604
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Muse Ember: Our smallest, most efficient model",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "publishedAt": "2026-11-09T17:58:46.000Z",
+      "snippet": "300 points · 125 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429024",
+      "hnPoints": 300
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "On Being an Engineer in 2026",
+      "url": "https://twitter.com/shaharglazner/status/2119796029256032278",
+      "publishedAt": "2026-11-09T15:07:23.000Z",
+      "snippet": "111 points · 158 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50426681",
+      "hnPoints": 111
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Time for AVIF everywhere?",
+      "url": "https://www.michaelponders.com/2026/11/isnt-it-time-for-avif-everywhere.html",
+      "publishedAt": "2026-11-07T17:34:07.000Z",
+      "snippet": "81 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406348",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+      "publishedAt": "2026-11-09T23:08:13.000Z",
+      "snippet": "398 points · 289 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50433659",
+      "hnPoints": 398
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "url": "https://meowdisplay.app/",
+      "publishedAt": "2026-11-09T18:39:22.000Z",
+      "snippet": "103 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429636",
+      "hnPoints": 103
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "publishedAt": "2026-11-05T12:18:58Z",
+      "snippet": "5712 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "url": "https://github.com/huamidev/GestaltX",
+      "publishedAt": "2026-11-09T05:15:48Z",
+      "snippet": "3647 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tangerineturtle1/NX2navi — no description",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "publishedAt": "2026-11-07T10:01:23Z",
+      "snippet": "2614 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jhaizhou-ops/S2Arm — Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把",
+      "url": "https://github.com/jhaizhou-ops/S2Arm",
+      "publishedAt": "2026-11-08T05:49:46Z",
+      "snippet": "2213 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "1989 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DIYgod/pinky — Let AI agents use your phone, with you in the loop.",
+      "url": "https://github.com/DIYgod/pinky",
+      "publishedAt": "2026-11-06T16:53:14Z",
+      "snippet": "1586 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "IainKay/ram-altman — Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+      "url": "https://github.com/IainKay/ram-altman",
+      "publishedAt": "2026-11-05T16:16:41Z",
+      "snippet": "1584 stars · Shell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mmdoctor/google-pro-helper — no description",
+      "url": "https://github.com/mmdoctor/google-pro-helper",
+      "publishedAt": "2026-11-05T04:52:28Z",
+      "snippet": "1556 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+      "url": "https://github.com/livliv-dev/player",
+      "publishedAt": "2026-11-04T03:28:33Z",
+      "snippet": "1432 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jamesondh/chimera-vocal-synth — the ultimate vocal synthesizer - sing, speak, beatbox, and more",
+      "url": "https://github.com/jamesondh/chimera-vocal-synth",
+      "publishedAt": "2026-11-05T19:10:42Z",
+      "snippet": "1396 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "snippet": " <p><strong><a href=\"https://research.meta.ai/blog/muse-ember\">Introducing Our Smallest, Most Efficient Model: Muse Ember</a></strong></p> Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:</p> <blockquote> <p>[...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.</p> </blockquote> <p>For shorter p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "snippet": " <blockquote cite=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code\"><p>Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...]</p> <p>If you want the model ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "publishedAt": "2026-11-10T03:53:04.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/yonkers-rises\">Yonkers Rises</a></p> <p>I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I <a href=\"https://claude.ai/share/97443910-2e0a-4e17-9b9e-11d14d8ff65c\">prompted Fable 5.2 Medium</a> to:</p> <blockquote> <p><code>Make a three js animation where yonkers stands up as a",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "publishedAt": "2026-11-09T23:58:46.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.31\">llm-anthropic 0.31</a></p> <p>Anthropic <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">released Fable 5.2 and Mythos 5.2</a> today. Fable 5.2 is currently <a href=\"https://artificialanalysis.ai/models/claude-fable-5-2\">ranked first on Artificial Analysis</a>. Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become m",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "publishedAt": "2026-11-09T23:57:21.000Z",
+      "snippet": " <p>Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started <em>intermittently beeping</em>. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build <a href=\"https://github.com/simonw/beep-locator\">Beep Locator</a>, a software system for triangulating ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "publishedAt": "2026-11-09T04:32:33.000Z",
+      "snippet": " <p><a href=\"https://news.ycombinator.com/item?id=50416456#50421091\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50416456\">The Web Is More Than Enough, by Paul Ford</a> &mdash; Hacker News.</p><p>OK, this comment convinced me to give that a shot.</p> <p>Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "snippet": " <p>Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.</p> <h4 id=\"they-re-too-good-at-describing-the-work\">They're too good at describing the work</h4> <p>The problem is that they are <em>too</em> good. An",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+      "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "snippet": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+      "publishedAt": "2026-11-09T20:37:49.000Z",
+      "snippet": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+      "enclosure": "https://api.substack.com/feed/podcast/224204833/3e7b0383ece75c99e49912158629159a.mp3"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+      "publishedAt": "2026-11-09T16:01:20.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/e6e32d0e-f138-4daa-997c-05e1b4421b34_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How this founder built a better Duolingo with Codex | William Imoh",
+      "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+      "publishedAt": "2026-11-09T13:04:17.000Z",
+      "snippet": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+      "enclosure": "https://api.substack.com/feed/podcast/223506048/0e772a6b2d54aca00c8dfa53a9591eb4.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "publishedAt": "2026-11-10T06:34:44.000Z",
+      "snippet": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://latent.space/p/handshake/",
+      "publishedAt": "2026-11-09T17:15:53.000Z",
+      "snippet": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c0f3-0e12-7b37-bb7f-c0b59fbc3b39/01a1c0f3-1027-7b6d-887c-fbde19347d32.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "What I’d build if I wanted to get rich with AI",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "snippet": "$1M Problems Worth-Solving (90+ Business Ideas): https://clickhubspot.com/tbod Episode 880: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) break down the moats in AI. — Show Notes: (0:00) Drugs and Miracles (7:05) Food Is Technology (8:45) Warfare (12:40) Building Homes With Robots (18:05) New Materials (18:20) Full Self-Driving Everything (19:10) Weather and Oceans (19:25) Human Body Hardware (25:30) Common Sense Politics (33:05) Think About Your Career Like an I",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS7800077006.mp3"
+    }
+  ]
+}

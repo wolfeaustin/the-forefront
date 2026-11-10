@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 10, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Tuesday</span><span class="dot"></span><span>Nov 10, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>41</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>66%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·95</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.anthropic.com/claude-fable-and-mythos-5-2" target="_blank" rel="noopener">Anthropic releases Claude Fable 5.2 and Mythos 5.2, claims world #1 benchmark ranking</a></h2>
+        <p class="summary">Anthropic launched two new models today — Fable 5.2 (frontier capability) and Mythos 5.2 — with Fable 5.2 taking the top spot on Artificial Analysis rankings. The release coincides with Anthropic's IPO roadshow, making it a significant commercial and technical milestone.</p>
+        <p class="why"><b>Why it matters:</b> If Fable 5.2 genuinely outperforms all competitors, it reshapes which model a technical team should be building on right now.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50429068" target="_blank" rel="noopener">Hacker News · 599 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/thisisme6598/gemini_files/" target="_blank" rel="noopener">Google Gemini reportedly routes personal Drive files and Gmail content to human annotators</a></h2>
+        <p class="summary">Reports are emerging that Google's Gemini AI, when given access to personal Drive and Gmail, sends that data to human reviewers for annotation purposes. This is a significant privacy breach concern for enterprise and prosumer users who have granted Gemini broad data access.</p>
+        <p class="why"><b>Why it matters:</b> Any founder who has enabled Gemini integrations for their team or in their product needs to understand what data exposure they've consented to.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50429426" target="_blank" rel="noopener">Hacker News · 604 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Anthropic releases Claude Fable 5.2 and Mythos 5.2, claims world #1 benchmark ranking</h3>
+    <p>Teams building AI-native products should immediately benchmark Fable 5.2 against their current stack — there may be a brief window to ship meaningfully better user experiences before competitors catch up.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/" target="_blank" rel="noopener">Anthropic documents how Claude Fable 5.2 behavior changes based on stated code ownership in prompts</a></h2>
+        <p class="summary">Anthropic's official prompting guide reveals that Fable 5.2 meaningfully changes its coding behavior depending on whether the prompt frames the codebase as the user's own or someone else's — when ownership is unstated, the model tends toward redundant additions rather than refactoring. This is a primary-source, actionable prompt-engineering insight directly from Anthropic.</p>
+        <p class="why"><b>Why it matters:</b> A single prompt framing change ('this is my codebase') can materially improve the quality of AI-generated code in your existing workflows today.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/" target="_blank" rel="noopener">Amazon cuts millions in costs by replacing Claude Sonnet 4.6 with an internal Strands-based routing model</a></h2>
+        <p class="summary">Amazon built a lightweight 'Decider' model using their Strands agent framework to route tasks previously handled by Claude Sonnet 4.6, achieving significant cost savings at scale. The pattern — using a cheap classifier to gate expensive frontier model calls — is a replicable architecture for any team managing AI inference costs.</p>
+        <p class="why"><b>Why it matters:</b> This is a concrete, working playbook for dramatically reducing LLM API costs that a small technical team can replicate without Amazon-scale resources.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50436640" target="_blank" rel="noopener">Hacker News · 287 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/" target="_blank" rel="noopener">Latent Space deep-dive: Fable 5.2 reclaims #1 LLM ranking on Anthropic's IPO roadshow day</a></h2>
+        <p class="summary">Latent Space's AINews breakdown contextualizes the Fable 5.2 launch within Anthropic's IPO roadshow timing and examines the 'how much thinking is worth paying for' question across model tiers. It's one of the more analytically grounded takes on the release.</p>
+        <p class="why"><b>Why it matters:</b> Understanding the strategic context behind this model release — including IPO incentives and the extended thinking cost/value tradeoff — helps founders make smarter decisions about which tier to build on.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://e-means.github.io/" target="_blank" rel="noopener">E-means clustering algorithm outperforms k-means in convergence speed, reaching better solutions in one-tenth the epochs</a></h2>
+        <p class="summary">A new clustering algorithm called E-means reportedly achieves superior clustering quality to k-means while converging in roughly 10x fewer training epochs. For teams doing unsupervised learning on customer segmentation, embeddings, or product recommendation, this is a direct drop-in improvement to evaluate.</p>
+        <p class="why"><b>Why it matters:</b> Faster, better clustering with no additional complexity is immediately useful for any technical team doing segmentation, search, or recommendation work.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50429734" target="_blank" rel="noopener">Hacker News · 404 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.nabo.dev/blogs/kernel-primer" target="_blank" rel="noopener">Practical primer on GPU architecture and CUDA kernel optimization for ML engineers</a></h2>
+        <p class="summary">A tutorial-style piece covering GPU memory hierarchy, thread scheduling, and kernel optimization techniques aimed at engineers who use GPUs for ML but haven't gone deep on the hardware. As inference costs dominate AI product economics, understanding where compute is wasted becomes a business skill.</p>
+        <p class="why"><b>Why it matters:</b> Teams running significant GPU inference workloads can directly apply kernel optimization knowledge to reduce costs without changing models or architecture.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50386246" target="_blank" rel="noopener">Hacker News · 155 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy" target="_blank" rel="noopener">Canada's Real-Time Rail (RTR) payment system launches, enabling instant bank-to-bank transfers</a></h2>
+        <p class="summary">Payments Canada has officially launched the Real-Time Rail, the country's first instant payment infrastructure allowing 24/7 real-time settlement between Canadian financial institutions. This is a structural change to Canadian payments comparable to what FedNow brought to the US.</p>
+        <p class="why"><b>Why it matters:</b> RTR unlocks new fintech product categories in Canada — instant payouts, real-time merchant settlement, and embedded finance flows that weren't previously possible.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50427362" target="_blank" rel="noopener">Hacker News · 532 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html" target="_blank" rel="noopener">CoreWeave bond yield exceeds 16%, signaling rising stress in AI infrastructure credit markets</a></h2>
+        <p class="summary">CoreWeave's bonds are trading at yields above 16%, a level that indicates the market views the company's debt as high-risk despite massive AI tailwinds. This suggests investors are pricing in real uncertainty about whether GPU-cloud revenue can service the heavy capital loads these companies have taken on.</p>
+        <p class="why"><b>Why it matters:</b> If AI infrastructure credit stress spreads, it could tighten GPU availability, raise compute costs, or trigger consolidation — all of which directly affect technical founders' build costs and vendor risk.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50435660" target="_blank" rel="noopener">Hacker News · 149 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.infineon.com/press-release/2026/infpr202611-028" target="_blank" rel="noopener">First 300mm silicon carbide wafer produced, potentially halving SiC chip manufacturing costs</a></h2>
+        <p class="summary">A 300-millimeter silicon carbide wafer has been produced for the first time, matching the standard wafer size used in mainstream silicon manufacturing. SiC is the key semiconductor material for EV power electronics and industrial power conversion, and larger wafers dramatically reduce per-chip cost.</p>
+        <p class="why"><b>Why it matters:</b> Cheaper SiC means lower-cost EVs, faster EV adoption curves, and new cost thresholds for power electronics in industrial and robotics applications — all 3-5 year business implications.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50429430" target="_blank" rel="noopener">Hacker News · 139 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/handshake/" target="_blank" rel="noopener">Handshake AI went from zero to $1B valuation in one year selling specialized training data to frontier labs</a></h2>
+        <p class="summary">Latent Space published a detailed breakdown of Handshake AI's business, which supplies high-quality domain-specific training data to frontier AI labs across finance, biology, and alignment. The piece includes specific examples of what labs actually pay for, making it unusually concrete for this space.</p>
+        <p class="why"><b>Why it matters:</b> Understanding what frontier labs are buying reveals durable data moats that small technical teams with domain expertise could build and sell.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/handshake/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://postalpro.usps.com/zcb" target="_blank" rel="noopener">USPS now publishes official ZIP Code boundary polygons as a free dataset</a></h2>
+        <p class="summary">The United States Postal Service has released authoritative ZIP Code Tabulation Area polygon data, providing official geographic boundaries that were previously only available through expensive third-party data vendors. This is immediately useful for any product that maps, segments, or routes by ZIP Code.</p>
+        <p class="why"><b>Why it matters:</b> Replacing paid geo-boundary data with the USPS primary source reduces costs and eliminates licensing risk for e-commerce, logistics, and local-market products.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50431058" target="_blank" rel="noopener">Hacker News · 621 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/DIYgod/pinky" target="_blank" rel="noopener">Pinky (Go): open-source framework for AI agents that control your phone with human-in-the-loop approval</a></h2>
+        <p class="summary">Pinky is an open-source Go project that lets AI agents operate a mobile phone while keeping the human in the loop for approvals. With 1,586 GitHub stars in its trending debut, it's an early but concrete implementation of the agentic mobile control pattern.</p>
+        <p class="why"><b>Why it matters:</b> Mobile agent control with human oversight is an underexplored category that could unlock significant automation for e-commerce operations, QA, and customer service workflows.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/DIYgod/pinky" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·62</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Simon Willison's pattern: hide verbose AI-generated PR descriptions behind collapsible HTML details tags</a></h2>
+        <p class="summary">Willison describes a lightweight workflow improvement: wrapping the AI-generated PR body in HTML `&lt;details&gt;&lt;summary&gt;` tags so reviewers aren't overwhelmed by Claude Code or Codex's characteristically verbose descriptions. It's a small but immediately actionable convention for teams running AI-heavy development workflows.</p>
+        <p class="why"><b>Why it matters:</b> If your team is using coding agents heavily, this is a one-minute change that meaningfully improves code review ergonomics.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/9/details-summary/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 41 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-10';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
