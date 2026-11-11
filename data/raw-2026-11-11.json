@@ -1,0 +1,433 @@
+{
+  "date": "2026-11-11",
+  "fetchedAt": "2026-11-11T10:09:35.714Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "publishedAt": "2026-11-11T04:28:57.000Z",
+      "snippet": "197 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50449748",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "publishedAt": "2026-11-10T15:25:20.000Z",
+      "snippet": "945 points · 338 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50441707",
+      "hnPoints": 945
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": ".name Grandfathered",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "publishedAt": "2026-11-10T16:37:44.000Z",
+      "snippet": "838 points · 184 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50442736",
+      "hnPoints": 838
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Scion is back and is going to sell a kei truck in America",
+      "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+      "publishedAt": "2026-11-10T19:50:46.000Z",
+      "snippet": "474 points · 315 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50445401",
+      "hnPoints": 474
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A great old-timey game-programming hack (2013)",
+      "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+      "publishedAt": "2026-11-11T01:56:31.000Z",
+      "snippet": "161 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50448921",
+      "hnPoints": 161
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "publishedAt": "2026-11-10T21:25:03.000Z",
+      "snippet": "248 points · 199 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50446520",
+      "hnPoints": 248
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+      "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+      "publishedAt": "2026-11-11T02:57:08.000Z",
+      "snippet": "100 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50449275",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Six Math Essentials",
+      "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+      "publishedAt": "2026-11-10T20:58:44.000Z",
+      "snippet": "246 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50446246",
+      "hnPoints": 246
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why I wrote the BEAM book (2025)",
+      "url": "https://happihacking.com/blog/posts/2025/why_I_wrote_theBEAMBook/",
+      "publishedAt": "2026-11-09T15:41:35.000Z",
+      "snippet": "90 points · 14 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50427107",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "publishedAt": "2026-11-10T18:02:02.000Z",
+      "snippet": "399 points · 229 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443824",
+      "hnPoints": 399
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Starlink Mini 2",
+      "url": "https://starlink.com/mini-2",
+      "publishedAt": "2026-11-10T18:22:32.000Z",
+      "snippet": "413 points · 411 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50444129",
+      "hnPoints": 413
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "publishedAt": "2026-11-10T12:11:12.000Z",
+      "snippet": "635 points · 185 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50439193",
+      "hnPoints": 635
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Val Town is winding down",
+      "url": "https://blog.val.town/winding-down",
+      "publishedAt": "2026-11-10T17:31:14.000Z",
+      "snippet": "383 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443427",
+      "hnPoints": 383
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "publishedAt": "2026-11-10T22:17:56.000Z",
+      "snippet": "400 points · 190 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50447074",
+      "hnPoints": 400
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "publishedAt": "2026-11-10T18:01:15.000Z",
+      "snippet": "368 points · 110 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443812",
+      "hnPoints": 368
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hacking the Meta Ray-Ban smartglasses",
+      "url": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/",
+      "publishedAt": "2026-11-07T17:19:02.000Z",
+      "snippet": "113 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406224",
+      "hnPoints": 113
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "publishedAt": "2026-11-10T17:55:07.000Z",
+      "snippet": "229 points · 161 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443716",
+      "hnPoints": 229
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "publishedAt": "2026-11-10T10:25:58.000Z",
+      "snippet": "552 points · 524 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50438318",
+      "hnPoints": 552
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "publishedAt": "2026-11-10T17:02:32.000Z",
+      "snippet": "234 points · 93 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443090",
+      "hnPoints": 234
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Announcing .NET 11",
+      "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+      "publishedAt": "2026-11-10T16:01:27.000Z",
+      "snippet": "191 points · 243 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50442225",
+      "hnPoints": 191
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Process Explorer for macOS",
+      "url": "https://github.com/microsoft/Procexp-Mac",
+      "publishedAt": "2026-11-09T22:30:41.000Z",
+      "snippet": "205 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50433216",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "$30M Raised to Redo the CPU",
+      "url": "https://tendrils.co/blog/2026-11-10/30m-raised",
+      "publishedAt": "2026-11-10T22:14:03.000Z",
+      "snippet": "100 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50447036",
+      "hnPoints": 100
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ableton Live 13",
+      "url": "https://www.ableton.com/en/live/",
+      "publishedAt": "2026-11-10T12:58:04.000Z",
+      "snippet": "311 points · 335 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50439695",
+      "hnPoints": 311
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "publishedAt": "2026-11-05T12:18:58Z",
+      "snippet": "7001 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "url": "https://github.com/huamidev/GestaltX",
+      "publishedAt": "2026-11-09T05:15:48Z",
+      "snippet": "5662 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tangerineturtle1/NX2navi — no description",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "publishedAt": "2026-11-07T10:01:23Z",
+      "snippet": "3025 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jhaizhou-ops/S2Arm — Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把",
+      "url": "https://github.com/jhaizhou-ops/S2Arm",
+      "publishedAt": "2026-11-08T05:49:46Z",
+      "snippet": "2521 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "2017 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "IainKay/ram-altman — Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+      "url": "https://github.com/IainKay/ram-altman",
+      "publishedAt": "2026-11-05T16:16:41Z",
+      "snippet": "1858 stars · Shell"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jamesondh/chimera-vocal-synth — the ultimate vocal synthesizer - sing, speak, beatbox, and more",
+      "url": "https://github.com/jamesondh/chimera-vocal-synth",
+      "publishedAt": "2026-11-05T19:10:42Z",
+      "snippet": "1814 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DIYgod/pinky — Let AI agents use your phone, with you in the loop.",
+      "url": "https://github.com/DIYgod/pinky",
+      "publishedAt": "2026-11-06T16:53:14Z",
+      "snippet": "1797 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mmdoctor/google-pro-helper — no description",
+      "url": "https://github.com/mmdoctor/google-pro-helper",
+      "publishedAt": "2026-11-05T04:52:28Z",
+      "snippet": "1691 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "voyager-so/vork — Headless 3D and VFX engine for agents. Research preview.",
+      "url": "https://github.com/voyager-so/vork",
+      "publishedAt": "2026-11-05T22:37:07Z",
+      "snippet": "1372 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.36\">llm-gemini 0.36</a></p> <p>Gemini 4 Carbon was announced <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">two weeks ago</a> for \"a subset of cyber defenders\", but today it's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">available to everyone else</a>.</p> <p>This is Google's ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "snippet": " <p><strong><a href=\"https://research.meta.ai/blog/muse-ember\">Introducing Our Smallest, Most Efficient Model: Muse Ember</a></strong></p> Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:</p> <blockquote> <p>[...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.</p> </blockquote> <p>For shorter p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "snippet": " <blockquote cite=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code\"><p>Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...]</p> <p>If you want the model ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley",
+      "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "snippet": "The Jensen Huang story got worse for him on Monday; the real risk for Huang is governance, even more than national security. Who benefits?",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "publishedAt": "2026-11-10T15:04:03.000Z",
+      "snippet": "PMs are winning, engineers are plateauing, designers are hurting, and the biggest AI hiring boom isn’t in software",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!-6sL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8be609d0-ed10-464c-8b94-d052d45956da_2912x1940.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "publishedAt": "2026-11-11T09:34:28.000Z",
+      "snippet": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+      "url": "https://latent.space/p/codex-work/",
+      "publishedAt": "2026-11-11T04:49:48.000Z",
+      "snippet": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://latent.space/p/resend/",
+      "publishedAt": "2026-11-10T20:05:17.000Z",
+      "snippet": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c6f7-44d3-72a3-8e65-ffcfae742084/01a1c6f7-4605-726f-ac19-31f9b1763da0.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "publishedAt": "2026-11-10T18:56:32.000Z",
+      "snippet": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "publishedAt": "2026-11-10T06:34:44.000Z",
+      "snippet": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Zach Reitano - Building Ro and Why Healthcare Should Be 50% of GDP - [Invest Like the Best, EP.500]",
+      "url": "https://colossus.com/episode/the-patient-revolution/",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "snippet": "My guest today is Zach Reitano, the co-founder and CEO of Ro, the country’s leading provider of GLP-1s. In four years, Ro has grown from a $250 million run rate to over $3 billion, with fewer people than it had in 2021. The heart of our conversation is what he sees as the central flaw in American healthcare, which is that the patient is not the customer. He points to GLP-1s and LASIK as examples of what’s possible when patients pay directly, and he thinks AI could bring healthcare down to the pr",
+      "enclosure": "https://traffic.megaphone.fm/CLS9826691790.mp3"
+    }
+  ]
+}
