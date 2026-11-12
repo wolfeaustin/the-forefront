@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Forefront — Nov 11, 2026</title>
+<title>The Forefront — Nov 12, 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -175,61 +175,70 @@
 </header>
 <main class="wrap">
   <div class="dayhead">
-    <div class="datemeta mono"><span>Wednesday</span><span class="dot"></span><span>Nov 11, 2026</span></div>
+    <div class="datemeta mono"><span>Thursday</span><span class="dot"></span><span>Nov 12, 2026</span></div>
     <h1>14 things worth your attention today.</h1>
     <div class="filterstat">
-      <span>Scanned <b>44</b></span>
+      <span>Scanned <b>42</b></span>
       <span class="kept">Kept <b>14</b></span>
       <span>Total read <b>~17 min</b></span>
-      <span>Filtered out <b>68%</b></span>
+      <span>Filtered out <b>67%</b></span>
     </div>
   </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability" target="_blank" rel="noopener">Critical Remote Code Execution Vulnerability Disclosed in Apache HTTP Server</a></h2>
+        <p class="summary">A critical RCE vulnerability has been disclosed in Apache HTTP Server, one of the most widely deployed web servers in the world, requiring urgent patching across any infrastructure running it. The severity class of this bug means it is likely already being actively probed or exploited in the wild.</p>
+        <p class="why"><b>Why it matters:</b> If you or any vendor in your stack runs Apache httpd, this is an immediate operational risk — patch verification should happen today, not this week.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50462177" target="_blank" rel="noopener">Hacker News · 202 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/" target="_blank" rel="noopener">Voltage Glitching Unlocks Full A100 Performance in Restricted Mining Card — Detailed Teardown</a></h2>
+        <p class="summary">A hardware hacker used voltage glitching techniques to bypass firmware restrictions on an A100-based mining card, restoring the full ML compute capabilities Nvidia had locked out at the firmware level. The write-up provides a detailed technical methodology and raises questions about the grey market for restricted Nvidia silicon.</p>
+        <p class="why"><b>Why it matters:</b> With A100s commanding premium prices and supply constrained, the existence of a viable hardware exploit to unlock restricted variants has immediate implications for anyone sourcing GPU compute — either as a risk or an opportunity.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50451903" target="_blank" rel="noopener">Hacker News · 303 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Anthropic IPO Roadshow Reveals Multi-Cloud Compute Strategy Across AWS, Google TPUs, Nvidia, and AMD</h3>
+    <p>The multi-vendor inference pattern Anthropic describes is replicable at smaller scale; teams building inference routing layers or cost-optimization middleware for LLM workloads now have a credible architectural template from a production player.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
   <section class="section">
     <div class="eyebrow">AI &amp; Research</div>
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·92</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
-      </div>
-      <div>
-        <h2><a href="https://deepmind.google/blog/introducing-alphaproof-code/" target="_blank" rel="noopener">AlphaProof Source Code Released — DeepMind's Math-Solving RL System Is Now Public</a></h2>
-        <p class="summary">DeepMind has released the code for AlphaProof, the reinforcement-learning system that achieved silver-medal performance on the International Mathematical Olympiad. This is a primary-source release of a genuinely novel RL-over-formal-reasoning architecture that researchers and engineers can now study and adapt.</p>
-        <p class="why"><b>Why it matters:</b> Understanding how AlphaProof structures reward signals over formal proofs is directly applicable to building agents that reason reliably — a core unsolved problem for anyone shipping AI products.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50439193" target="_blank" rel="noopener">Hacker News · 635 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·88</div>
+        <div class="score">S·85</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/" target="_blank" rel="noopener">AI-Assisted Coding Produces Structurally Fragile Codebases — Practitioners Document the Pattern</a></h2>
-        <p class="summary">A widely discussed post argues that heavy AI coding assistance tends to produce code that works immediately but accumulates hidden structural debt — passing tests while lacking coherent abstractions. The 500+ comment thread on HN adds substantial practitioner evidence corroborating the thesis.</p>
-        <p class="why"><b>Why it matters:</b> Any founder shipping a product with AI-assisted engineering needs to understand this failure mode before it becomes a rewrite-or-die situation 18 months from now.</p>
+        <h2><a href="https://latent.space/p/ainews-d-day-decision-models-day/" target="_blank" rel="noopener">Google Launches 'Decision Models' API — A New Category of AI for Structured Business Decisions</a></h2>
+        <p class="summary">Google has entered the decision model market with a dedicated API, positioning structured decision-making as a distinct AI product category separate from generative or chat models. Cloudflare and TypeSafe AI also demonstrated production classifiers handling real operational decisions at the AI Engineer event.</p>
+        <p class="why"><b>Why it matters:</b> Decision models purpose-built for business logic — rather than repurposed chat models — represent a potentially significant architectural shift for anyone building AI-driven workflows, pricing engines, or operations automation.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50438318" target="_blank" rel="noopener">Hacker News · 552 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·86</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/" target="_blank" rel="noopener">Claude Fable 5.2 Reclaims World #1 LLM Ranking as Anthropic IPO Roadshow Begins</a></h2>
-        <p class="summary">Anthropic launched Claude Fable 5.2 and Mythos 5.2 on the same day its IPO roadshow kicked off, with Fable 5.2 immediately topping public benchmarks. The timing and the dual-model release (a full reasoning model alongside a faster variant) signals Anthropic is positioning for a major liquidity event at peak competitive standing.</p>
-        <p class="why"><b>Why it matters:</b> An Anthropic IPO would reshape the AI infrastructure funding landscape and affect pricing, API stability, and competitive dynamics for every team building on top of frontier models.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/" target="_blank" rel="noopener">Latent Space</a>
+          <a class="chip" href="https://latent.space/p/ainews-d-day-decision-models-day/" target="_blank" rel="noopener">Latent Space</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -241,11 +250,28 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/" target="_blank" rel="noopener">Claude Fable 5.2 Prompt Engineering: Code Ownership Framing Changes Model Behavior Meaningfully</a></h2>
-        <p class="summary">Anthropic's official documentation reveals that Fable 5.2 behaves differently based on how the prompt frames code ownership — explicitly claiming the codebase as 'yours' causes the model to refactor more aggressively rather than defensively extending existing structure. This is a concrete, actionable prompt-engineering finding from the primary source.</p>
-        <p class="why"><b>Why it matters:</b> A single prompt framing change that meaningfully improves coding agent output quality is immediately worth testing for any team running Claude-based dev tooling.</p>
+        <h2><a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/" target="_blank" rel="noopener">Google Releases Gemini Decisions API for Structured AI Decision-Making</a></h2>
+        <p class="summary">Google has shipped a dedicated Decisions API under the Gemini umbrella, designed to return structured, auditable outputs for business decision workflows rather than free-form text. The API appears to target use cases like routing, classification, and policy enforcement where reliability and explainability matter more than fluency.</p>
+        <p class="why"><b>Why it matters:</b> A purpose-built decisions API from Google — if it delivers on structured reliability — could meaningfully change how small technical teams architect automated decision pipelines without building their own fine-tuned classifiers.</p>
         <div class="srcrow">
-          <a class="chip" href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/" target="_blank" rel="noopener">Simon Willison</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50456791" target="_blank" rel="noopener">Hacker News · 433 pts</a>
+          <a class="chip" href="https://simonwillison.net/2026/Nov/11/gemini-decisions-api/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·75</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://pietromiotti.com/latest/maya-site" target="_blank" rel="noopener">AI Agents Used LiDAR and Satellite Data to Identify a Previously Unmapped Maya Archaeological Site</a></h2>
+        <p class="summary">A team used AI agents to process and cross-correlate remote sensing data — LiDAR, satellite imagery — and flagged a site that appears to be an unmapped Maya settlement, later partially confirmed by domain experts. The workflow demonstrates autonomous AI agents conducting meaningful scientific discovery by synthesizing heterogeneous data sources without direct human guidance.</p>
+        <p class="why"><b>Why it matters:</b> This is a concrete, documented example of AI agents doing novel discovery work in a domain with no labeled training data for the specific task — the methodology is transferable to commercial intelligence, real estate, and resource mapping applications.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50452455" target="_blank" rel="noopener">Hacker News · 990 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -253,15 +279,34 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·81</div>
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://machinelearning.apple.com/research/faster-retrieval" target="_blank" rel="noopener">Techniques for Faster Vector Retrieval to Improve RAG Accuracy and Cut Costs</a></h2>
+        <p class="summary">A writeup examines retrieval bottlenecks in production RAG systems and proposes indexing and query strategies that improve both latency and relevance simultaneously, with benchmarks. As RAG becomes a standard pattern for enterprise AI products, retrieval quality is increasingly the differentiating variable.</p>
+        <p class="why"><b>Why it matters:</b> If you're shipping any RAG-based product, retrieval speed and precision are your primary quality levers — this is a practical engineering guide rather than theoretical research.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50455633" target="_blank" rel="noopener">Hacker News · 209 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update" target="_blank" rel="noopener">Anthropic Publishes Tracker of Vulnerabilities Discovered by Claude — A New Kind of AI Safety Artifact</a></h2>
-        <p class="summary">Anthropic has launched a public tracker documenting real-world vulnerabilities that Claude itself identified, treating the model as an active security-research participant rather than just a product. This is structurally novel: a lab systematically attributing CVE-class findings to its own model and publishing them.</p>
-        <p class="why"><b>Why it matters:</b> This establishes a template for AI-assisted security research that small teams can adopt, and signals that model-driven vulnerability discovery is becoming a legitimate workflow worth integrating.</p>
+        <h2><a href="https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/" target="_blank" rel="noopener">Anthropic IPO Roadshow Reveals Multi-Cloud Compute Strategy Across AWS, Google TPUs, Nvidia, and AMD</a></h2>
+        <p class="summary">Anthropic has launched its IPO roadshow with a video containing previously unreleased business details, including how it trains and serves Claude across four distinct compute platforms simultaneously. The multi-cloud inference strategy is notably unusual and signals both resilience planning and aggressive capacity diversification at the frontier.</p>
+        <p class="why"><b>Why it matters:</b> Understanding how the leading safety-focused AI lab structures its compute and business gives founders a rare primary-source look at what sustainable frontier AI infrastructure actually looks like — directly relevant to anyone building on or competing near these stacks.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50447074" target="_blank" rel="noopener">Hacker News · 400 pts</a>
+          <a class="chip" href="https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/" target="_blank" rel="noopener">Simon Willison</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -273,43 +318,11 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://latent.space/p/resend/" target="_blank" rel="noopener">Resend's Zeno Rocha on Designing APIs and Docs for AI Agents, Not Just Human Developers</a></h2>
-        <p class="summary">The founder of Resend explains how they deliberately structured their API documentation and tooling so that Claude Code and similar agents reliably choose Resend over alternatives — a practice he calls 'agent experience design.' The piece draws a direct line from docs structure to agent tool-call success rates.</p>
-        <p class="why"><b>Why it matters:</b> Any developer-tools company or API business should immediately audit whether their documentation is optimized for agent consumption, since agents are becoming a primary discovery and integration channel.</p>
+        <h2><a href="https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/" target="_blank" rel="noopener">United Airlines Explicitly Bans AI Agents from Booking Flights — Sets Legal and Contractual Precedent</a></h2>
+        <p class="summary">United Airlines has updated its terms to prohibit AI agents from booking flights on behalf of travelers, drawing a hard legal line around agent-initiated transactions in a major consumer category. This is one of the first explicit corporate bans on agentic AI behavior, and the contractual and liability logic behind it will likely spread to other industries.</p>
+        <p class="why"><b>Why it matters:</b> Any founder building AI agents that transact on behalf of users needs to understand this precedent — it signals where corporate and legal resistance to autonomous agents will crystallize first.</p>
         <div class="srcrow">
-          <a class="chip" href="https://latent.space/p/resend/" target="_blank" rel="noopener">Latent Space</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·76</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://simonwillison.net/2026/Nov/10/muse-ember/" target="_blank" rel="noopener">Meta Launches Muse Ember: A Small, Fast Model Purpose-Built for Agentic Tool-Call Loops</a></h2>
-        <p class="summary">Meta's Muse Ember is explicitly designed for the high-frequency, low-latency tasks agents repeat constantly — routing, extraction, tool calls, and subtask delegation — competing directly with Claude Haiku and GPT Luna. Meta is positioning it as infrastructure-tier AI rather than a showcase model.</p>
-        <p class="why"><b>Why it matters:</b> A cheap, fast, capable small model from Meta (likely with favorable pricing given their distribution strategy) could meaningfully reduce the per-call cost of running agent pipelines at scale.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://simonwillison.net/2026/Nov/10/muse-ember/" target="_blank" rel="noopener">Simon Willison</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·74</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://latent.space/p/codex-work/" target="_blank" rel="noopener">OpenAI Demos Voice-Steered Codex with Cloud Handoff at AI Engineer Summit</a></h2>
-        <p class="summary">At the AI Engineer Code Summit, OpenAI showed developers how to direct Codex via voice, escalate tasks to cloud execution, and use 'dots' — a new artifact/reference primitive — to pass context between sessions. These are workflow-level UX changes, not just model updates.</p>
-        <p class="why"><b>Why it matters:</b> Voice steering and async cloud handoff are the interaction patterns that will define how developers work with coding agents in 2027 — seeing the primitives now lets you design your tooling around them.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://latent.space/p/codex-work/" target="_blank" rel="noopener">Latent Space</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50458900" target="_blank" rel="noopener">Hacker News · 556 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -321,34 +334,9 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://latent.space/p/naiveai/" target="_blank" rel="noopener">NaiveAI Claims 2,100 Tokens/Second — Hands-On Test Shows Coding Quality Competitive with DeepSeek</a></h2>
-        <p class="summary">NaiveAI is positioning itself at the top of inference speed rankings with a claimed 2,100 tokens per second, and a Latent Space hands-on evaluation found its coding output competitive with DeepSeek at that speed. If the numbers hold at scale, this would be the fastest production-grade coding model available.</p>
-        <p class="why"><b>Why it matters:</b> Raw inference speed at this level changes the economics of coding-agent loops significantly — tasks that required batching or async execution could run interactively, opening new product architectures.</p>
-        <div class="srcrow">
-          <a class="chip" href="https://latent.space/p/naiveai/" target="_blank" rel="noopener">Latent Space</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
-        </div>
-      </div>
-    </article>
-  </section>
-  <aside class="opp">
-    <div class="eyebrow">Opportunity Hidden in Today's News</div>
-    <h3>AlphaProof Source Code Released — DeepMind's Math-Solving RL System Is Now Public</h3>
-    <p>Teams building coding agents or formal-verification tooling can study AlphaProof's RL loop to improve correctness guarantees; the approach could be adapted to business logic verification or test generation.</p>
-    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
-  </aside>
-  <section class="section">
-    <div class="eyebrow">Business &amp; Markets</div>
-
-    <article class="story">
-      <div class="rail">
-        <div class="score">S·72</div>
-        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-      </div>
-      <div>
-        <h2><a href="https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/" target="_blank" rel="noopener">Mercor Raises $750M Series D at $20B Valuation on $3B Run Rate — AI Hiring Marketplace Scaling Fast</a></h2>
-        <p class="summary">Mercor, the AI-powered talent marketplace, has closed a $750M round at a $20B valuation with a $3B annual run rate, making it one of the fastest-scaling HR-tech companies on record. The growth is being driven by enterprise demand for AI-vetted technical hiring at scale.</p>
-        <p class="why"><b>Why it matters:</b> A $3B run rate in AI-mediated hiring signals that the market for agent-assisted talent sourcing is real and large — both a competitive threat to traditional recruiters and a signal of where enterprise HR budgets are moving.</p>
+        <h2><a href="https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/" target="_blank" rel="noopener">Mercor Raises $750M Series D at $20B Valuation on $3B ARR Run Rate — Google GA's Gemini 4 Carbon</a></h2>
+        <p class="summary">Mercor, the AI-powered talent marketplace, has raised at a $20B valuation with $3B in annualized revenue, making it one of the fastest-growing B2B AI companies on record. The same news cycle includes Google generally releasing Gemini 4 Carbon, suggesting a dense day of AI infrastructure milestones.</p>
+        <p class="why"><b>Why it matters:</b> Mercor's numbers signal that AI-mediated labor markets are compounding faster than most market maps predicted — directly relevant to any founder competing in hiring, staffing, or workforce automation.</p>
         <div class="srcrow">
           <a class="chip" href="https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/" target="_blank" rel="noopener">Latent Space</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
@@ -358,15 +346,15 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·66</div>
+        <div class="score">S·58</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late" target="_blank" rel="noopener">2026 Tech Job Market: PMs Thriving, Engineers Plateauing, Designers Declining — AI Hiring Boom Isn't in Software</a></h2>
-        <p class="summary">Lenny's Newsletter's late-2026 state-of-market analysis finds that AI is bifurcating the tech labor market: product managers who can direct AI output are in high demand, while generalist engineers face salary compression, and the biggest AI-driven hiring surge is in physical-world operations and healthcare. The report draws on current compensation and headcount data.</p>
-        <p class="why"><b>Why it matters:</b> A technical founder making hiring or compensation decisions in the next 12 months needs to understand which roles are becoming leverage multipliers versus which are being commoditized.</p>
+        <h2><a href="https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/" target="_blank" rel="noopener">Intel and AMD Earnings Diverge Sharply — Stratechery Argues Intel Needs to Rediscover Its Foundry Identity</a></h2>
+        <p class="summary">Ben Thompson analyzes the starkly different earnings trajectories of Intel and AMD, arguing the gap reflects fundamental strategic decisions made years ago rather than current execution. His conclusion — that Intel may need to recommit to being a pure foundry rather than an integrated chip designer — has implications for the semiconductor supply chain every hardware-dependent startup relies on.</p>
+        <p class="why"><b>Why it matters:</b> The Intel-AMD divergence affects long-term GPU and CPU supply dynamics that touch every infrastructure decision a technical founder makes over the next 3–5 years.</p>
         <div class="srcrow">
-          <a class="chip" href="https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late" target="_blank" rel="noopener">Lenny's Newsletter</a>
+          <a class="chip" href="https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/" target="_blank" rel="noopener">Stratechery</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
         </div>
       </div>
@@ -381,12 +369,13 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://github.com/GoogleChrome/modern-web-guidance" target="_blank" rel="noopener">Prompt Library Steers Coding Agents Away from Outdated JavaScript Toward Modern Web Primitives</a></h2>
-        <p class="summary">A Show HN project addresses a well-documented failure mode: coding agents trained on older data default to jQuery-era patterns, Webpack, and legacy fetch polyfills rather than native browser APIs. The repo provides prompt templates and context injection to push agents toward current primitives like native ESM, the Fetch API, and modern CSS.</p>
-        <p class="why"><b>Why it matters:</b> Any small team using Cursor, Copilot, or similar tools to build frontend code is likely getting 2019-era output by default — this is a cheap fix with immediate quality impact.</p>
+        <h2><a href="https://github.com/aws/aws-emulator" target="_blank" rel="noopener">LocalStack-Style AWS Emulator Gains Serious Traction — 849 Upvotes on HN</a></h2>
+        <p class="summary">An AWS emulator project allowing developers to run AWS services locally without cloud credentials or cost is generating substantial community interest, suggesting a real gap in the local development workflow for cloud-native teams. Projects like this reduce feedback loop time and cloud bills during development, which compounds meaningfully for small teams.</p>
+        <p class="why"><b>Why it matters:</b> Any tool that lets a small technical team iterate on cloud infrastructure locally without AWS bills or IAM friction is a direct productivity multiplier worth evaluating immediately.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50443812" target="_blank" rel="noopener">Hacker News · 368 pts</a>
-          <span class="meta mono">TEXT · 1 SOURCE</span>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50456631" target="_blank" rel="noopener">Hacker News · 849 pts</a>
+          <a class="chip" href="https://simonwillison.net/2026/Nov/11/aws-emulator/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
         </div>
       </div>
     </article>
@@ -397,12 +386,28 @@
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://gatezh.com/posts/macos-secure-enclave-ssh-keys/" target="_blank" rel="noopener">Store SSH Private Keys Directly in Apple Silicon's Secure Enclave — No Passphrase, Hardware-Backed</a></h2>
-        <p class="summary">A detailed guide explains how to generate and store SSH keys inside the macOS Secure Enclave, meaning the private key never exists in addressable memory and cannot be exfiltrated even with root access. The technique works on M-series Macs and requires no third-party hardware token.</p>
-        <p class="why"><b>Why it matters:</b> For a small technical team managing production server access, this is a free, immediate security upgrade that eliminates one of the most common credential-theft vectors with no workflow cost.</p>
+        <h2><a href="https://hugovk.dev/blog/2026/lock-github-actions/" target="_blank" rel="noopener">Practical Guide to Locking GitHub Actions Against Supply Chain Attacks</a></h2>
+        <p class="summary">A detailed write-up explains how to pin GitHub Actions to specific commit SHAs rather than mutable tags, preventing the class of supply chain attacks where a compromised action tag is updated to run malicious code in your CI pipeline. This is a low-effort hardening step with high impact that most small teams skip.</p>
+        <p class="why"><b>Why it matters:</b> CI/CD supply chain attacks are one of the most underrated vectors for small technical teams — this is an immediately actionable hardening checklist that takes under an hour to implement.</p>
         <div class="srcrow">
-          <a class="chip" href="https://news.ycombinator.com/item?id=50449748" target="_blank" rel="noopener">Hacker News · 197 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50459485" target="_blank" rel="noopener">Hacker News · 253 pts</a>
           <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/DIYgod/pinky" target="_blank" rel="noopener">'Pinky' — Open-Source Tool Lets AI Agents Control Your Phone With Human-in-the-Loop Oversight</a></h2>
+        <p class="summary">Pinky is a Go-based open-source project enabling AI agents to operate a smartphone while keeping the human visibly in the loop for approvals and corrections, addressing the control problem in mobile agent workflows. With nearly 2,000 stars in a short period, it's gaining traction as a practical mobile automation framework.</p>
+        <p class="why"><b>Why it matters:</b> Mobile agent control is a missing infrastructure layer for many automation use cases — this provides a working open-source foundation that a small team could build a product on top of.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/DIYgod/pinky" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
         </div>
       </div>
     </article>
@@ -412,13 +417,13 @@
 
     <article class="story">
       <div class="rail">
-        <div class="score">S·62</div>
+        <div class="score">S·60</div>
         <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
       </div>
       <div>
-        <h2><a href="https://colossus.com/episode/the-patient-revolution/" target="_blank" rel="noopener">Ro CEO Zach Reitano on Growing from $250M to $3B ARR with Fewer People — and AI's Role in Healthcare Cost Compression</a></h2>
-        <p class="summary">Reitano argues that American healthcare's core flaw is that patients aren't the customers, and uses Ro's GLP-1 business as a case study in what happens when they are. He believes AI could collapse the price of primary care by 10x, following the LASIK model of consumer-pays direct.</p>
-        <p class="why"><b>Why it matters:</b> The direct-pay healthcare thesis, if correct, implies large software and services opportunities in the same window as GLP-1 adoption — worth understanding for founders adjacent to health, insurance, or consumer wellness.</p>
+        <h2><a href="https://colossus.com/episode/the-patient-revolution/" target="_blank" rel="noopener">Ro CEO Zach Reitano on Growing from $250M to $3B Revenue With Fewer Employees — and Why AI Collapses Healthcare Costs</a></h2>
+        <p class="summary">Reitano walks through how Ro scaled GLP-1 delivery dramatically while actually reducing headcount, using AI to absorb operational complexity that would otherwise require linear hiring. His central thesis — that AI could make high-quality healthcare affordable by eliminating the administrative and coordination overhead — is specific and mechanism-driven.</p>
+        <p class="why"><b>Why it matters:</b> The Ro playbook of AI-enabled revenue scaling with shrinking headcount is the operational model many founders are trying to build; hearing it described with real numbers from someone who executed it is worth the listen.</p>
         <div class="mediacard">
           <a class="playbtn" href="https://traffic.megaphone.fm/CLS9826691790.mp3" aria-label="Play episode">▶</a>
           <div class="mediainfo">
@@ -436,12 +441,12 @@
 </main>
 <footer>
   <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>The Forefront — we read 44 things so you don't have to.</span>
+    <span>The Forefront — we read 42 things so you don't have to.</span>
     <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
   </div>
 </footer>
 <script>(function(){
-  var KEY = 'forefront:activity:2026-11-11';
+  var KEY = 'forefront:activity:2026-11-12';
   // localStorage with in-memory fallback (some embedded previews block storage)
   var store;
   try {

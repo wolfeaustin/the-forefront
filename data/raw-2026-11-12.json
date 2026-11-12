@@ -1,0 +1,429 @@
+{
+  "date": "2026-11-12",
+  "fetchedAt": "2026-11-12T10:09:18.437Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jane Street: Socratic Tutor",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "publishedAt": "2026-11-10T10:18:22.000Z",
+      "snippet": "196 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50438261",
+      "hnPoints": 196
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "publishedAt": "2026-11-11T07:03:17.000Z",
+      "snippet": "1200 points · 134 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50450488",
+      "hnPoints": 1200
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "publishedAt": "2026-11-11T22:34:23.000Z",
+      "snippet": "428 points · 56 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50459745",
+      "hnPoints": 428
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "publishedAt": "2026-11-12T02:11:11.000Z",
+      "snippet": "202 points · 88 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50462177",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "snippet": "849 points · 236 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50456631",
+      "hnPoints": 849
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "publishedAt": "2026-11-11T22:31:06.000Z",
+      "snippet": "1023 points · 1380 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50459703",
+      "hnPoints": 1023
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "publishedAt": "2026-11-11T16:38:44.000Z",
+      "snippet": "494 points · 236 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50455394",
+      "hnPoints": 494
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publishedAt": "2026-11-11T18:32:42.000Z",
+      "snippet": "433 points · 130 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50456791",
+      "hnPoints": 433
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "publishedAt": "2026-11-11T21:24:35.000Z",
+      "snippet": "556 points · 548 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50458900",
+      "hnPoints": 556
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lock Your GitHub Actions",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "publishedAt": "2026-11-11T22:16:41.000Z",
+      "snippet": "253 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50459485",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Emacs in the Age of Magic",
+      "url": "https://commandlinesystems.com/magic.txt",
+      "publishedAt": "2026-11-11T20:26:32.000Z",
+      "snippet": "230 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50458208",
+      "hnPoints": 230
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Utah Teapot",
+      "url": "https://graphics.cs.utah.edu/teapot/",
+      "publishedAt": "2026-11-11T19:45:10.000Z",
+      "snippet": "139 points · 33 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50457618",
+      "hnPoints": 139
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "url": "https://github.com/tylertms/Stela",
+      "publishedAt": "2026-11-11T23:02:38.000Z",
+      "snippet": "109 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50460154",
+      "hnPoints": 109
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "url": "https://av.github.io/safe-sand/",
+      "publishedAt": "2026-11-11T13:39:29.000Z",
+      "snippet": "378 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50453288",
+      "hnPoints": 378
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "publishedAt": "2026-11-11T12:05:22.000Z",
+      "snippet": "990 points · 361 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50452455",
+      "hnPoints": 990
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "publishedAt": "2026-11-11T16:57:45.000Z",
+      "snippet": "209 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50455633",
+      "hnPoints": 209
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "publishedAt": "2026-11-11T15:33:06.000Z",
+      "snippet": "241 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50454625",
+      "hnPoints": 241
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "publishedAt": "2026-11-11T20:23:57.000Z",
+      "snippet": "107 points · 25 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50458166",
+      "hnPoints": 107
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+      "publishedAt": "2026-11-11T10:48:40.000Z",
+      "snippet": "303 points · 115 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50451903",
+      "hnPoints": 303
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "url": "https://nathan.rs/posts/weight-space-lp/",
+      "publishedAt": "2026-11-11T12:30:17.000Z",
+      "snippet": "281 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50452655",
+      "hnPoints": 281
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+      "url": "https://github.com/huamidev/GestaltX",
+      "publishedAt": "2026-11-09T05:15:48Z",
+      "snippet": "6701 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "tangerineturtle1/NX2navi — no description",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "publishedAt": "2026-11-07T10:01:23Z",
+      "snippet": "3373 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jhaizhou-ops/S2Arm — Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把",
+      "url": "https://github.com/jhaizhou-ops/S2Arm",
+      "publishedAt": "2026-11-08T05:49:46Z",
+      "snippet": "2695 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "JenkinWoo/sheeridVerify — no description",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "publishedAt": "2026-11-06T09:28:09Z",
+      "snippet": "2057 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DIYgod/pinky — Let AI agents use your phone, with you in the loop.",
+      "url": "https://github.com/DIYgod/pinky",
+      "publishedAt": "2026-11-06T16:53:14Z",
+      "snippet": "1938 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "publishedAt": "2026-11-10T02:37:31Z",
+      "snippet": "1657 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "mahmoudtawfik1998/secure-pdf-document-processor — Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop",
+      "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+      "publishedAt": "2026-11-06T21:23:09Z",
+      "snippet": "1305 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "hembramneeraj3-create/aida-64-extreme — Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration",
+      "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+      "publishedAt": "2026-11-06T20:33:44Z",
+      "snippet": "1304 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "abdulmannanmalik13-wq/adobe-substance-3d-studio — Adobe Substance 3D Creative Studio 2026 - Secure Asset Pipeline Desktop Installer",
+      "url": "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio",
+      "publishedAt": "2026-11-06T20:33:06Z",
+      "snippet": "1304 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "AleRibeiro44/archicad-desktop-setup — Archicad 2026 complete standalone desktop setup with pre-configured ready-to-run installation build",
+      "url": "https://github.com/AleRibeiro44/archicad-desktop-setup",
+      "publishedAt": "2026-11-06T20:36:04Z",
+      "snippet": "1301 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "publishedAt": "2026-11-11T22:03:25.000Z",
+      "snippet": " <p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Gemini Decisions API</a></strong></p> Google join <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">Jev</a> and <a href=\"https://simonwillison.net/2026/Oct/6/llm-openai-decisions/\">OpenAI</a> in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "publishedAt": "2026-11-11T21:18:30.000Z",
+      "snippet": " <p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong></p> Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p> <p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-whe",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "publishedAt": "2026-11-11T18:42:50.000Z",
+      "snippet": " <p><strong><a href=\"https://tools.simonwillison.net/#tags\">Browse tools.simonwillison.net by tag</a></strong></p> I've been wanting a better way to browse my <a href=\"\">collection of vibe-coded tools</a> (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using <a href=\"https://github.com/tree-sitter/py-tree-sitter\">tree-sitter</a> to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.</p> <p>The ho",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "publishedAt": "2026-11-11T17:19:52.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.2\">llm 0.37.2</a></p> <p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p> <p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stabl",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "publishedAt": "2026-11-11T15:11:59.000Z",
+      "snippet": " <p><strong><a href=\"https://ipo.anthropic.com/us/#roadshow-video\">Anthropic&#x27;s IPO roadshow video</a></strong></p> Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.</p> <p>The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.</p> <p>I'm not sure w",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+      "url": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "snippet": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+      "publishedAt": "2026-11-11T13:04:09.000Z",
+      "snippet": "Watch now (34 mins) | 🎙️ Scott Farrar walks through the Claude Code and Obsidian system he built to track appliances, chase insurance quotes, and keep household projects moving",
+      "enclosure": "https://api.substack.com/feed/podcast/224221477/e714fff25978e0a4d943e3d0fd317f24.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] D-Day (Decision Models Day)",
+      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "publishedAt": "2026-11-12T05:26:54.000Z",
+      "snippet": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+      "url": "https://latent.space/p/jev-revolution/",
+      "publishedAt": "2026-11-12T05:08:20.000Z",
+      "snippet": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "publishedAt": "2026-11-11T09:34:28.000Z",
+      "snippet": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+      "url": "https://latent.space/p/codex-work/",
+      "publishedAt": "2026-11-11T04:49:48.000Z",
+      "snippet": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Zach Reitano - Building Ro and Why Healthcare Should Be 50% of GDP - [Invest Like the Best, EP.500]",
+      "url": "https://colossus.com/episode/the-patient-revolution/",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "snippet": "My guest today is Zach Reitano, the co-founder and CEO of Ro, the country’s leading provider of GLP-1s. In four years, Ro has grown from a $250 million run rate to over $3 billion, with fewer people than it had in 2021. The heart of our conversation is what he sees as the central flaw in American healthcare, which is that the patient is not the customer. He points to GLP-1s and LASIK as examples of what’s possible when patients pay directly, and he thinks AI could bring healthcare down to the pr",
+      "enclosure": "https://traffic.megaphone.fm/CLS9826691790.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "Robert Greene almost died. Here’s what it taught him about living",
+      "publishedAt": "2026-11-11T13:43:00.000Z",
+      "snippet": "Get Sam's top 9 books for entrepreneurs (+ his reading strategy): https://clickhubspot.com/rhagt Episode 881: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk to Robert Greene about living a more meaningful life. — Show Notes: (0:00) People Are Suffering (2:00) Everything Is Amazing and No One Is Happy (10:45) Go Outside (14:20) Feeling Flat (18:00) The Immense and the Impossible (29:35) Say Less Than Necessary (30:05) Disappear (35:30) Robert's AI Prediction (",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS9615843865.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Inside Theranos with ex-Employee Tyler Shultz",
+      "url": "https://www.youtube.com/watch?v=iXWSYlAX5Lg",
+      "publishedAt": "2026-11-11T19:44:03.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
