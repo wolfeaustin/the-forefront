@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 13, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Friday</span><span class="dot"></span><span>Nov 13, 2026</span></div>
+    <h1>13 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>40</b></span>
+      <span class="kept">Kept <b>13</b></span>
+      <span>Total read <b>~16 min</b></span>
+      <span>Filtered out <b>68%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://ipo.anthropic.com/us/" target="_blank" rel="noopener">Anthropic Files for IPO</a></h2>
+        <p class="summary">Anthropic has moved toward a public offering, which would be one of the largest AI-company listings in history and a major liquidity and valuation signal for the entire sector. This sets a public market benchmark for frontier AI companies and will likely accelerate competitor funding rounds and M&amp;A activity.</p>
+        <p class="why"><b>Why it matters:</b> An Anthropic IPO reprices every AI startup's valuation, changes the competitive landscape for API pricing, and signals where institutional capital thinks the frontier-AI market is heading.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50465829" target="_blank" rel="noopener">Hacker News · 931 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f" target="_blank" rel="noopener">Jensen Huang Resigns as Nvidia CEO After 33 Years; Colette Kress Named Interim CEO</a></h2>
+        <p class="summary">Jensen Huang, the founder who turned Nvidia into a $3T company and the dominant force in AI infrastructure, has stepped down. CFO Colette Kress takes over as interim CEO, raising immediate questions about strategic continuity in AI chips, software ecosystem, and open-source commitments.</p>
+        <p class="why"><b>Why it matters:</b> Nvidia's roadmap, pricing power, and partner relationships are entirely Jensen-shaped — any strategic pivot by new leadership affects every company building on CUDA or buying H-series hardware.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50467087" target="_blank" rel="noopener">Hacker News · 3559 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/" target="_blank" rel="noopener">Latent Space's Deep Dive: What Jensen Huang's Exit Means for American AI Leadership and Open Source</a></h2>
+        <p class="summary">The Latent Space team breaks down the strategic implications of Huang's resignation, including risks to Nvidia's open-source commitments and the broader question of whether U.S. AI hardware leadership is institutionalized or founder-dependent. This is primary analysis, not just news recap.</p>
+        <p class="why"><b>Why it matters:</b> If you're making infrastructure bets or evaluating AI tooling suppliers, understanding whether Nvidia's advantages are durable without its founder is an urgent strategic question.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Anthropic Files for IPO</h3>
+    <p>Founders building on top of Anthropic's API should watch the S-1 closely for disclosed pricing economics and usage data — it may reveal underserved verticals or usage patterns worth targeting.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://brave.com/blog/search-api-agentic-payments/" target="_blank" rel="noopener">Brave Search API Becomes First Major Search Provider to Accept Agentic Payments via x402 Protocol</a></h2>
+        <p class="summary">Brave's Search API now lets AI agents pay for search results autonomously using the x402 protocol — a machine-to-machine HTTP payment standard built on stablecoins. This is an early live implementation of agent-native commerce, where software agents transact without human intervention.</p>
+        <p class="why"><b>Why it matters:</b> If you're building AI agents that need to query external data or services, x402 is worth understanding now — it's the plumbing that makes agent-to-business transactions possible at scale.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50477649" target="_blank" rel="noopener">Hacker News · 103 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Google Releases Gemini 4 Hydrogen: Lowest-Cost Member of the Gemini 4 Family</a></h2>
+        <p class="summary">Google has launched Gemini 4 Hydrogen, positioned as the budget tier of the Gemini 4 lineup alongside Carbon and Argon, though pricing differences between the tiers are reportedly confusing. This extends Google's multimodel strategy and gives developers another cost/capability tradeoff to evaluate.</p>
+        <p class="why"><b>Why it matters:</b> A new low-cost frontier model from Google changes the build-vs-buy calculus for any team currently using GPT-4o-mini or Claude Haiku — worth benchmarking for your specific use case immediately.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50472260" target="_blank" rel="noopener">Hacker News · 418 pts</a>
+          <a class="chip" href="https://news.ycombinator.com/item?id=50471431" target="_blank" rel="noopener">Hacker News · 530 pts</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·75</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-d-day-decision-models-day/" target="_blank" rel="noopener">Google and Cloudflare Enter the 'Decision Model' Market; New Category Emerges at AI Engineer</a></h2>
+        <p class="summary">At AI Engineer, Google announced entry into decision models — AI systems designed to make structured operational choices rather than generate text — while Cloudflare demonstrated a classifier that handles build-failure triage. This signals a new product category distinct from chat and coding assistants.</p>
+        <p class="why"><b>Why it matters:</b> Decision models targeting DevOps and operational workflows are a new surface area where small teams can build specialized products before the giants fully commoditize the space.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-d-day-decision-models-day/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer" target="_blank" rel="noopener">Edge0-145B Brings Frontier-Class AI Capabilities to Consumer Hardware</a></h2>
+        <p class="summary">Edge0-145B is a 145-billion-parameter model designed to run locally on consumer-grade machines, claiming frontier-level performance without cloud dependency. If the benchmarks hold up, this represents a meaningful step toward private, offline AI inference for sensitive workloads.</p>
+        <p class="why"><b>Why it matters:</b> Local frontier-class inference unlocks use cases where data privacy or latency make cloud APIs unacceptable — relevant for any founder building in healthcare, legal, or enterprise security.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50475713" target="_blank" rel="noopener">Hacker News · 249 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·73</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/" target="_blank" rel="noopener">incident.io Cut AI Dev Spend from $4,500 to $1,600 Per Dev Per Month — Here's How</a></h2>
+        <p class="summary">The resiliency startup incident.io reduced its per-developer AI tooling cost by 64% over roughly a year by auditing and rationalizing its AI tool stack. This is a concrete, named case study with real numbers, not generic advice about AI ROI.</p>
+        <p class="why"><b>Why it matters:</b> If your team is spending on AI coding tools without tracking ROI, this is a benchmark — $1,600/dev/month is the new 'efficient' target, and the methodology for getting there is worth studying.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/" target="_blank" rel="noopener">The Pragmatic Engineer</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/simpsoka/zigzag" target="_blank" rel="noopener">Founder Reverse-Engineered a $300 Embroidery Machine's Subscription App — and Built a Better One</a></h2>
+        <p class="summary">A developer discovered that their embroidery machine required a recurring subscription just to use software that processes design files, so they built a local replacement app that removes the dependency entirely. The post details the reverse-engineering process and the broader problem of hardware companies using software subscriptions as a revenue extraction mechanism.</p>
+        <p class="why"><b>Why it matters:</b> This is a replicable playbook: find hardware with predatory software lock-in, build a better local or open-source alternative, and either sell it or use it to understand a niche market deeply.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50470488" target="_blank" rel="noopener">Hacker News · 526 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/" target="_blank" rel="noopener">22-Year-Old Postgres Type-Confusion Bug Weaponized into Remote Code Execution</a></h2>
+        <p class="summary">Security researchers have demonstrated that a subtle type-confusion primitive in PostgreSQL, present for over two decades, can be chained into a full remote code execution exploit. The post provides technical depth on the mechanism, making it actionable for teams auditing their Postgres configurations.</p>
+        <p class="why"><b>Why it matters:</b> If you run Postgres in production — which most technical founders do — this is a patch-and-audit moment, not a 'read later' item.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50471761" target="_blank" rel="noopener">Hacker News · 195 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">agentes-chat: Open-Source Self-Hosted Slack Alternative Where AI Agents Are First-Class Team Members</a></h2>
+        <p class="summary">This TypeScript repo implements a Slack-like team communication platform where AI agents (Claude, GPT, Gemini, Grok) participate natively in channels and DMs alongside humans, with MCP integration for tool use. It's self-hosted, meaning enterprises with data-residency requirements can deploy it internally.</p>
+        <p class="why"><b>Why it matters:</b> For founders building internal tooling or B2B SaaS, this is both a deployable starting point and a signal about where enterprise communication is heading — AI agents as coworkers, not just chatbots.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">supermimic: Humanoid Robot Whole-Body Motion Tracking Using a Single Differentiable World Model</a></h2>
+        <p class="summary">HybridRobotics has open-sourced a Python framework that enables humanoid robots to track full-body motion using one differentiable world model, simplifying what previously required complex multi-system pipelines. This is a research-to-code artifact with immediate utility for teams working on embodied AI.</p>
+        <p class="why"><b>Why it matters:</b> If you're evaluating robotics or embodied AI as a business area, this framework lowers the technical barrier to building motion-tracking applications significantly.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·57</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/" target="_blank" rel="noopener">Rust 1.100 Released — Incremental Improvements to the Ecosystem</a></h2>
+        <p class="summary">Rust 1.100 ships with continued language and toolchain improvements, maintaining the steady cadence of releases that has made Rust increasingly viable for production systems work. The release notes detail specific stabilizations worth reviewing if your team writes Rust.</p>
+        <p class="why"><b>Why it matters:</b> If your team uses Rust for performance-critical or systems work, checking the stabilized APIs in each release is routine maintenance that occasionally unlocks meaningful ergonomic wins.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50472038" target="_blank" rel="noopener">Hacker News · 681 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 40 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-13';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
