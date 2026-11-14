@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 14, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Saturday</span><span class="dot"></span><span>Nov 14, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>41</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>66%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·95</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/" target="_blank" rel="noopener">Jensen Huang Resigns After 33 Years; Colette Kress Named Interim NVIDIA CEO</a></h2>
+        <p class="summary">Jensen Huang has stepped down as NVIDIA CEO, with CFO Colette Kress taking the interim role after one of the most consequential runs in semiconductor history. The leadership transition comes at a pivotal moment for AI infrastructure and open-source GPU computing advocacy.</p>
+        <p class="why"><b>Why it matters:</b> NVIDIA's strategic direction on pricing, open-source tooling, and AI ecosystem partnerships may shift materially under new leadership — directly affecting every technical founder's compute costs and toolchain decisions.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/ggml-org/ggml/releases/tag/v1.0.0" target="_blank" rel="noopener">ggml Hits v1.0.0 — The Tensor Library Powering Local AI Inference Declares Stability</a></h2>
+        <p class="summary">ggml, the C tensor library underlying llama.cpp and virtually all serious local LLM inference tooling, has released its first stable 1.0.0 version. This signals API stability that makes it safer to build production systems on top of the library without fear of breaking changes.</p>
+        <p class="why"><b>Why it matters:</b> Any team running local inference — for cost, privacy, or latency reasons — can now build more confidently on ggml without chasing a moving target.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50493062" target="_blank" rel="noopener">Hacker News · 263 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·62</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.nature.com/articles/d41586-026-03638-3" target="_blank" rel="noopener">Researchers Identify a Protein That Drives Aging Without Triggering Inflammation — A Potential Drug Target</a></h2>
+        <p class="summary">Scientists have identified a specific protein whose activity accelerates cellular aging through a pathway that is decoupled from the inflammatory response typically associated with senescence. This separation makes it a cleaner pharmacological target than previous aging mechanisms.</p>
+        <p class="why"><b>Why it matters:</b> Longevity biology is approaching commercially relevant timescales; understanding which mechanisms have validated drug targets helps investors and founders evaluate the biotech pipeline with more precision.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50488470" target="_blank" rel="noopener">Hacker News · 201 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Jensen Huang Resigns After 33 Years; Colette Kress Named Interim NVIDIA CEO</h3>
+    <p>If NVIDIA's advocacy for developer ecosystems weakens, AMD ROCm and other alternatives may gain credibility faster — teams building inference infrastructure should evaluate platform diversification now.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://haddyalchaer.com/jepa" target="_blank" rel="noopener">600 Experiments Later: What JEPA World Models Actually Do (and Don't Do)</a></h2>
+        <p class="summary">A researcher shares hard-won empirical findings from running over 600 experiments on JEPA (Joint Embedding Predictive Architecture) world models, the approach championed by Yann LeCun as an alternative to autoregressive generation. The post cuts through hype with specific failure modes and what conditions actually produce useful representations.</p>
+        <p class="why"><b>Why it matters:</b> JEPA is a credible candidate for the next paradigm shift in AI architecture; understanding its real limits now gives technical founders a head start on where to build vs. where to wait.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50487185" target="_blank" rel="noopener">Hacker News · 262 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">HybridRobotics 'SuperMimic': Humanoid Whole-Body Motion Tracking via a Single Differentiable World Model</a></h2>
+        <p class="summary">This open-source repo from HybridRobotics demonstrates humanoid robots learning whole-body motion tracking using one differentiable world model rather than separate perception and control stacks. The 1,472-star traction suggests rapid community uptake in robotics ML.</p>
+        <p class="why"><b>Why it matters:</b> Unified differentiable world models for robotics represent a meaningful architectural shift that will compress the timeline for capable humanoid robots — relevant for anyone evaluating automation investments.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·73</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://unsloth.ai/docs/models/qwen3.8" target="_blank" rel="noopener">Unsloth Releases Dynamic v3.1 Quantizations for Qwen3 8B–27B — Better Quality at Smaller Sizes</a></h2>
+        <p class="summary">Unsloth's updated dynamic quantization scheme for the Qwen3 family (8B to 27B parameters) improves quality-per-bit by selectively preserving precision in the most sensitive layers rather than applying uniform compression. This makes capable open models more practical to run on consumer hardware.</p>
+        <p class="why"><b>Why it matters:</b> Teams running inference on constrained hardware budgets get meaningfully better model quality for the same compute cost, which changes the economics of local or edge AI deployments.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50491980" target="_blank" rel="noopener">Hacker News · 146 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.perplexity.ai/hub/blog/perplexity-decider" target="_blank" rel="noopener">Perplexity's 'Decider' v1.3: How They Train and Evaluate a Query-Routing Model</a></h2>
+        <p class="summary">Perplexity shares details on Decider v1.3, their internal model that routes queries to the right backend (search, reasoning, retrieval) based on intent classification. The post covers training data construction, evaluation methodology, and production use cases.</p>
+        <p class="why"><b>Why it matters:</b> Query routing is an underappreciated but high-leverage component of any multi-model AI system; this is a rare primary-source look at how a production AI product solves it at scale.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50488464" target="_blank" rel="noopener">Hacker News · 131 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus" target="_blank" rel="noopener">NVIDIA Allegedly Engineered GPU Scarcity by Funneling Capital to AI Startups That Then Bought Its Hardware</a></h2>
+        <p class="summary">Reports allege NVIDIA strategically funded AI startups with the implicit expectation those companies would purchase its GPUs, creating artificial demand that justified premium pricing and constrained competitor positioning. If substantiated, this reveals a supply-demand manipulation playbook with potential antitrust exposure.</p>
+        <p class="why"><b>Why it matters:</b> Understanding how NVIDIA has shaped the GPU market helps founders calibrate whether current compute scarcity is structural or manufactured — and when it might unwind.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50493251" target="_blank" rel="noopener">Hacker News · 572 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/artcraft/" target="_blank" rel="noopener">ArtCraft Used AI to Clone Photoshop as Open Source — Now Wants to Rebuild the Entire Creative Internet</a></h2>
+        <p class="summary">ArtCraft's CEO Brandon Thomas describes how AI-assisted development let a small team rewrite Photoshop's core functionality as open-source software, dramatically undercutting Adobe's moat. The company now has broader ambitions to disrupt other entrenched creative-tool incumbents.</p>
+        <p class="why"><b>Why it matters:</b> This is a live case study in how AI coding tools collapse the engineering cost of attacking incumbents with complex legacy software — directly relevant to any founder evaluating software acquisition or build targets.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/artcraft/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/" target="_blank" rel="noopener">Advertising Infrastructure Used as Covert Surveillance Tool by Intelligence Agencies Worldwide</a></h2>
+        <p class="summary">Security researchers have documented that multiple national intelligence agencies have been using commercial ad-targeting and data-broker infrastructure to conduct surveillance, exploiting the same location and behavioral signals sold to marketers. The finding spans agencies across multiple continents.</p>
+        <p class="why"><b>Why it matters:</b> Any founder building on ad-tech data pipelines or handling user location data needs to understand the regulatory and reputational surface they're inheriting — this will drive tightened privacy regulation.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50492950" target="_blank" rel="noopener">Hacker News · 101 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">Agentes-Chat: Self-Hosted Slack Alternative Where AI Agents Are First-Class Team Members via MCP</a></h2>
+        <p class="summary">This open-source TypeScript project is a self-hosted team messaging platform built from the ground up to treat AI agents as participants in channels and DMs, with MCP integration for Claude, GPT-4, Gemini, and Grok. It's a production-grade alternative to bolting AI onto Slack.</p>
+        <p class="why"><b>Why it matters:</b> For technical teams running internal AI-augmented workflows, this offers a privacy-preserving, cost-controlled foundation that doesn't require negotiating enterprise AI add-ons with Salesforce.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·75</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener">Yogurt: Free, Local, Open-Source AI Meeting Notes — Private Alternative to Granola</a></h2>
+        <p class="summary">Yogurt is a cross-platform (Mac, Windows, Linux) open-source meeting notes app that runs AI transcription and summarization entirely on-device, with no data leaving the machine. It directly targets Granola and similar cloud-based tools where privacy is a concern.</p>
+        <p class="why"><b>Why it matters:</b> For founders and small teams handling sensitive conversations — M&amp;A, investor calls, customer discovery — a local-first AI notes tool eliminates a meaningful data-leakage risk while cutting SaaS costs.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/" target="_blank" rel="noopener">Reverse-Engineering a Coway Air Purifier to Remove Cloud Dependency — Full Teardown</a></h2>
+        <p class="summary">A developer fully reverse-engineered the Coway Airmega's cloud protocol and rebuilt local control, eliminating the vendor's mandatory cloud dependency and subscription risk. The post documents the protocol analysis and local integration approach in enough detail to generalize.</p>
+        <p class="why"><b>Why it matters:</b> The methodology is directly applicable to any small team building local-first IoT integrations or evaluating smart-device acquisitions where cloud lock-in is a business-continuity risk.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50474959" target="_blank" rel="noopener">Hacker News · 751 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.youtube.com/watch?v=IRK8h67ol7Q" target="_blank" rel="noopener">Jonathan Blow: AI Coding Tools Haven't Changed Software Quality — Here's His Argument</a></h2>
+        <p class="summary">Game developer Jonathan Blow argues that despite widespread AI coding adoption, shipped software hasn't gotten meaningfully better in quality, reliability, or capability — the productivity gains are being absorbed by complexity and churn rather than producing better end products. The video has sparked substantial debate with 340+ HN comments.</p>
+        <p class="why"><b>Why it matters:</b> This is a sharp counterpoint worth engaging with before making headcount or tooling decisions based on AI productivity assumptions.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50484658" target="_blank" rel="noopener">Hacker News · 295 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 41 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-14';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

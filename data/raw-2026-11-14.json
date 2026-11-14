@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-14",
+  "fetchedAt": "2026-11-14T10:07:55.379Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ggml v1.0.0",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-14T02:28:29.000Z",
+      "snippet": "263 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50493062",
+      "hnPoints": 263
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "publishedAt": "2026-11-14T04:23:30.000Z",
+      "snippet": "105 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50493904",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "publishedAt": "2026-11-14T02:52:59.000Z",
+      "snippet": "572 points · 330 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50493251",
+      "hnPoints": 572
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "publishedAt": "2026-11-13T21:05:53.000Z",
+      "snippet": "1545 points · 1170 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50489641",
+      "hnPoints": 1545
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "publishedAt": "2026-11-14T00:06:04.000Z",
+      "snippet": "146 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50491980",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Terminal borders that don't cost a cell",
+      "url": "https://www.joshka.net/cell-borders/",
+      "publishedAt": "2026-11-13T23:06:40.000Z",
+      "snippet": "253 points · 107 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50491423",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "url": "https://grounds.top/",
+      "publishedAt": "2026-11-13T23:17:39.000Z",
+      "snippet": "147 points · 21 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50491545",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What happened to 3Com?",
+      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "publishedAt": "2026-11-13T23:48:59.000Z",
+      "snippet": "141 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50491830",
+      "hnPoints": 141
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Found: A protein that drives ageing without unleashing inflammation",
+      "url": "https://www.nature.com/articles/d41586-026-03638-3",
+      "publishedAt": "2026-11-13T19:25:21.000Z",
+      "snippet": "201 points · 31 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50488470",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "snippet": "295 points · 340 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50484658",
+      "hnPoints": 295
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FM-1 Workbench",
+      "url": "https://open.m-vave.com/fm1-workbench",
+      "publishedAt": "2026-11-13T19:14:02.000Z",
+      "snippet": "238 points · 157 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50488325",
+      "hnPoints": 238
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "publishedAt": "2026-11-13T22:04:24.000Z",
+      "snippet": "262 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50490593",
+      "hnPoints": 262
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "publishedAt": "2026-11-13T17:55:28.000Z",
+      "snippet": "262 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50487185",
+      "hnPoints": 262
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How Not to Build a Music Player",
+      "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+      "publishedAt": "2026-11-13T23:04:30.000Z",
+      "snippet": "112 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50491400",
+      "hnPoints": 112
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "publishedAt": "2026-11-13T19:24:47.000Z",
+      "snippet": "131 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50488464",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "url": "https://isometricsf.com/",
+      "publishedAt": "2026-11-13T17:58:37.000Z",
+      "snippet": "210 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50487228",
+      "hnPoints": 210
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "publishedAt": "2026-11-14T02:02:42.000Z",
+      "snippet": "135 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50492860",
+      "hnPoints": 135
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Live-migration support in FreeBSD and bhyve coming",
+      "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+      "publishedAt": "2026-11-13T19:58:42.000Z",
+      "snippet": "105 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50488835",
+      "hnPoints": 105
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
+      "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
+      "publishedAt": "2026-11-13T15:08:07.000Z",
+      "snippet": "173 points · 97 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50484650",
+      "hnPoints": 173
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A technical vision for the Haskell ecosystem",
+      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "publishedAt": "2026-11-13T14:43:12.000Z",
+      "snippet": "205 points · 118 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50484235",
+      "hnPoints": 205
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+      "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+      "publishedAt": "2026-11-14T00:52:29.000Z",
+      "snippet": "166 points · 59 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50492315",
+      "hnPoints": 166
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "publishedAt": "2026-11-12T22:03:09.000Z",
+      "snippet": "751 points · 213 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50474959",
+      "hnPoints": 751
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+      "publishedAt": "2026-11-13T18:23:49.000Z",
+      "snippet": "88 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50487605",
+      "hnPoints": 88
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "publishedAt": "2026-11-14T02:15:41.000Z",
+      "snippet": "101 points · 11 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50492950",
+      "hnPoints": 101
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lonewolf 0.3 – A standalone XMPP server written in Rust",
+      "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+      "publishedAt": "2026-11-13T14:28:40.000Z",
+      "snippet": "142 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50484007",
+      "hnPoints": 142
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+      "url": "https://github.com/huamidev/GestaltX",
+      "publishedAt": "2026-11-09T05:15:48Z",
+      "snippet": "7455 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "jhaizhou-ops/S2Arm — Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把",
+      "url": "https://github.com/jhaizhou-ops/S2Arm",
+      "publishedAt": "2026-11-08T05:49:46Z",
+      "snippet": "2907 stars · C#"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "publishedAt": "2026-11-10T02:37:31Z",
+      "snippet": "1986 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "apex-compute/ANR — Apex Neural Rendering (ANR) by Apex Compute",
+      "url": "https://github.com/apex-compute/ANR",
+      "publishedAt": "2026-11-11T04:27:17Z",
+      "snippet": "1599 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HybridRobotics/supermimic — Humanoid whole-body motion tracking with one differentiable world model.",
+      "url": "https://github.com/HybridRobotics/supermimic",
+      "publishedAt": "2026-11-10T10:46:56Z",
+      "snippet": "1472 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP to",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "publishedAt": "2026-11-09T00:50:28Z",
+      "snippet": "1363 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "FrigadeHQ/yogurt — Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "publishedAt": "2026-11-10T20:01:01Z",
+      "snippet": "1346 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/chat-demo — Chat Demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "publishedAt": "2026-11-12T08:08:19Z",
+      "snippet": "1323 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "HolyArrs/HolyArrs — One self-hosted app for your shows, movies and music.",
+      "url": "https://github.com/HolyArrs/HolyArrs",
+      "publishedAt": "2026-11-09T23:53:25Z",
+      "snippet": "1133 stars · Go"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "DevedevT/FFmpeg-GUI-Editor-Windows — Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French & Italian.",
+      "url": "https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows",
+      "publishedAt": "2026-11-12T20:49:07Z",
+      "snippet": "984 stars · Visual Basic .NET"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-cluster-map 0.19",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "publishedAt": "2026-11-13T23:02:45.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p> <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p> <p>Here's <a href=\"https://datasette.io/global-power-plants/global-p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-leaflet 0.3",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "publishedAt": "2026-11-13T22:30:54.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p> <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p> <p><code>datasette-leaflet</",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.46: The End of Jensen",
+      "url": "https://stratechery.com/2026/the-end-of-jensen/",
+      "publishedAt": "2026-11-13T18:00:00.000Z",
+      "snippet": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "publishedAt": "2026-11-14T08:31:02.000Z",
+      "snippet": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "publishedAt": "2026-11-13T09:04:13.000Z",
+      "snippet": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "publishedAt": "2026-11-13T04:17:25.000Z",
+      "snippet": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "enclosure": null
+    }
+  ]
+}
