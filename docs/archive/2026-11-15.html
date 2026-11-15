@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 15, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Sunday</span><span class="dot"></span><span>Nov 15, 2026</span></div>
+    <h1>12 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>31</b></span>
+      <span class="kept">Kept <b>12</b></span>
+      <span>Total read <b>~14 min</b></span>
+      <span>Filtered out <b>61%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.crissyfield.de/research/lovable-en/" target="_blank" rel="noopener">Lovable's vibe-coded apps leaked 200K private messages and passport scans due to misconfigured backends</a></h2>
+        <p class="summary">Security researchers found that apps built with Lovable's AI app-builder exposed sensitive user data including government IDs and private messages, because the generated code had no meaningful access controls on backend storage. The root cause is structural: AI-generated apps optimized for speed skip security primitives that experienced developers treat as table stakes.</p>
+        <p class="why"><b>Why it matters:</b> If you build or sell SaaS on AI-generated scaffolding, this is a live liability story — and an opening for anyone who can offer security-hardened AI app generation or auditing.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50499017" target="_blank" rel="noopener">Hacker News · 814 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://forge-blog.github.io/posts/rust-std-memory-safety/" target="_blank" rel="noopener">Memory safety bugs found in Rust's standard library — the language's core safety guarantee has caveats</a></h2>
+        <p class="summary">Researchers identified memory safety vulnerabilities within Rust's own standard library, demonstrating that the language's safety guarantees depend on the correctness of the standard library itself, not just user code. The bugs involve unsafe blocks in stdlib internals that are not covered by Rust's ownership model.</p>
+        <p class="why"><b>Why it matters:</b> Teams choosing Rust for security-critical infrastructure on the assumption of near-zero memory bugs need to understand that the guarantee is narrower than commonly marketed.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50478701" target="_blank" rel="noopener">Hacker News · 142 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·58</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://projectzero.google/2026/11/disclosure-policy.html" target="_blank" rel="noopener">Google Project Zero formalizes 90-day disclosure policy regardless of patch status</a></h2>
+        <p class="summary">Project Zero will now publish vulnerability details 90 days after notifying vendors, whether or not a patch has shipped, hardening the policy against vendor delays. This increases pressure on software vendors to patch faster and raises the floor for how quickly exploits become public.</p>
+        <p class="why"><b>Why it matters:</b> If your product depends on third-party libraries or platforms, the effective window between discovery and public exploit knowledge just got more predictable — and shorter for slow-moving vendors.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50496051" target="_blank" rel="noopener">Hacker News · 251 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Lovable's vibe-coded apps leaked 200K private messages and passport scans due to misconfigured backends</h3>
+    <p>A lightweight security-audit layer or compliance wrapper for AI-generated apps (Lovable, Bolt, etc.) is an immediate gap — small teams using these tools have no current way to verify their backends are locked down before launch.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/" target="_blank" rel="noopener">Generative AI consumes significantly more energy processing non-English text due to tokenizer inefficiency</a></h2>
+        <p class="summary">Research shows that because major LLM tokenizers were trained predominantly on English, non-English inputs require more tokens to encode the same semantic content, directly increasing compute and energy cost per query. For languages like Arabic or Thai, the cost per unit of meaning can be 3–10x higher than English.</p>
+        <p class="why"><b>Why it matters:</b> If you're building or pricing AI products for non-English markets, your cost model and latency assumptions are likely wrong — and this creates a structural moat for teams who build multilingual-efficient inference pipelines.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50441444" target="_blank" rel="noopener">Hacker News · 210 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax" target="_blank" rel="noopener">DeepSeek V3 fully implemented in ~200 lines of pure JAX — readable reference for a frontier model</a></h2>
+        <p class="summary">A developer distilled the entire DeepSeek V3 architecture into roughly 200 lines of JAX, stripping away framework boilerplate to expose just the essential math. This is an unusually clean primary-source reference for anyone wanting to understand or extend a state-of-the-art open-weight model.</p>
+        <p class="why"><b>Why it matters:</b> If your team is studying how frontier-class MoE models actually work at the weight level, this is the fastest path to genuine understanding without reading through 50K lines of production training code.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50497589" target="_blank" rel="noopener">Hacker News · 233 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">SuperMimic: Humanoid whole-body motion tracking trained with one differentiable world model</a></h2>
+        <p class="summary">HybridRobotics released a Python repo demonstrating humanoid robots that can track complex whole-body motions end-to-end using a single differentiable world model, bypassing the need for separate motion-capture pipelines and physics simulators. The technique significantly compresses the sim-to-real gap for dexterous manipulation.</p>
+        <p class="why"><b>Why it matters:</b> Robotics automation is moving faster than most founders expect — this technique, if it generalizes, could accelerate the deployment timeline for humanoid workers in warehouses and manufacturing by 12–24 months.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/HybridRobotics/supermimic" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/apex-compute/ANR" target="_blank" rel="noopener">Apex Neural Rendering (ANR): New C++ library for real-time neural scene representation</a></h2>
+        <p class="summary">Apex Compute released a C++ neural rendering library with nearly 2K stars in short order, targeting real-time applications of NeRF-style and Gaussian splatting techniques. The focus on a production-grade, low-level library rather than research notebooks suggests this is aimed at shipping products, not papers.</p>
+        <p class="why"><b>Why it matters:</b> Neural rendering is crossing from research to product — a performant C++ library lowers the barrier for small teams to integrate photorealistic 3D into e-commerce, AR, and digital-twin applications.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/apex-compute/ANR" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">Agentes-chat: Open-source self-hosted Slack where AI agents are first-class teammates with MCP support</a></h2>
+        <p class="summary">This TypeScript repo ships a self-hosted messaging platform where Claude, GPT, Gemini, or Grok agents join channels and DMs natively, with MCP integration for tool use. It's a direct open-source challenge to the emerging category of agent-native collaboration tools.</p>
+        <p class="why"><b>Why it matters:</b> MCP-native agent collaboration in a self-hosted package means small teams can run autonomous agents alongside humans without paying Slack enterprise rates or trusting a vendor with agent credentials.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/agentes-chat/agentes-chat" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener">Yogurt: Free open-source local AI meeting notes for Mac, Windows, and Linux (Granola alternative)</a></h2>
+        <p class="summary">Yogurt is a TypeScript app that records and transcribes meetings on-device, keeping all data local — no cloud upload, no subscription. It directly targets the $15–20/month Granola niche with a self-hosted approach.</p>
+        <p class="why"><b>Why it matters:</b> For founders and small teams nervous about meeting transcripts hitting third-party servers, this is a production-ready alternative that also signals the local-AI-productivity category is maturing fast.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/" target="_blank" rel="noopener">PyPI now shows security signals directly on package pages — provenance, 2FA status, and more</a></h2>
+        <p class="summary">PyPI's redesigned project pages surface attestation provenance, maintainer 2FA status, and other security metadata in a prominent, readable format. This reduces the research burden when evaluating whether a dependency is trustworthy.</p>
+        <p class="why"><b>Why it matters:</b> Supply-chain attacks via malicious PyPI packages are a real and recurring threat — having security signals at a glance lowers the cost of due diligence for every Python project your team ships.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50497892" target="_blank" rel="noopener">Hacker News · 244 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/14/datasette-llm/" target="_blank" rel="noopener">datasette-llm now supports any OpenAI-compatible endpoint, enabling local and self-hosted LLMs in Datasette</a></h2>
+        <p class="summary">The datasette-llm plugin update lets you point Datasette's AI features at any OpenAI-protocol-compatible backend — Ollama, vLLM, or any hosted alternative — rather than being locked to OpenAI. This extends Datasette's LLM-powered data exploration to air-gapped or cost-sensitive deployments.</p>
+        <p class="why"><b>Why it matters:</b> If you use Datasette for internal data analysis, you can now run LLM queries against your data entirely on-prem, which matters for sensitive business or customer data.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/14/datasette-llm/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·55</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/" target="_blank" rel="noopener">Use an old Android phone as a low-cost Linux server instead of a Raspberry Pi</a></h2>
+        <p class="summary">A developer walks through running a full Linux environment on old Android hardware using Termux and related tools, achieving Raspberry Pi-level compute at zero marginal cost from hardware that's already owned. The post covers networking, persistent services, and storage considerations.</p>
+        <p class="why"><b>Why it matters:</b> For bootstrapped founders building IoT prototypes, edge compute demos, or internal tooling on a tight budget, this technique replaces a $70–100 hardware purchase with hardware you already own.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50440709" target="_blank" rel="noopener">Hacker News · 556 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 31 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-15';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
