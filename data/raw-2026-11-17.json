@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-17",
+  "fetchedAt": "2026-11-17T10:09:45.512Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "publishedAt": "2026-11-16T20:43:36.000Z",
+      "snippet": "1521 points · 208 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50522980",
+      "hnPoints": 1521
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "publishedAt": "2026-11-16T21:32:17.000Z",
+      "snippet": "545 points · 241 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50523601",
+      "hnPoints": 545
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "publishedAt": "2026-11-16T23:00:34.000Z",
+      "snippet": "345 points · 150 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50524767",
+      "hnPoints": 345
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+      "url": "https://support.apple.com/en-us/149699",
+      "publishedAt": "2026-11-17T02:17:04.000Z",
+      "snippet": "126 points · 66 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50526560",
+      "hnPoints": 126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "publishedAt": "2026-11-16T21:20:37.000Z",
+      "snippet": "253 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50523459",
+      "hnPoints": 253
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why 3dfx 1 cards had such a washed out color output?",
+      "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+      "publishedAt": "2026-11-17T00:16:24.000Z",
+      "snippet": "135 points · 38 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50525575",
+      "hnPoints": 135
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Chemistry is Actually Geometry",
+      "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+      "publishedAt": "2026-11-16T20:22:18.000Z",
+      "snippet": "229 points · 111 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50522643",
+      "hnPoints": 229
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "publishedAt": "2026-11-16T16:23:22.000Z",
+      "snippet": "418 points · 290 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50519354",
+      "hnPoints": 418
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "publishedAt": "2026-11-16T16:53:39.000Z",
+      "snippet": "381 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50519744",
+      "hnPoints": 381
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+      "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "publishedAt": "2026-11-16T20:48:08.000Z",
+      "snippet": "147 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50523025",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "publishedAt": "2026-11-16T13:51:38.000Z",
+      "snippet": "347 points · 151 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50517602",
+      "hnPoints": 347
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "publishedAt": "2026-11-16T22:58:20.000Z",
+      "snippet": "603 points · 451 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50524736",
+      "hnPoints": 603
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Grazing sheep in fields with solar arrays",
+      "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+      "publishedAt": "2026-11-16T17:27:46.000Z",
+      "snippet": "272 points · 264 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50520182",
+      "hnPoints": 272
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "publishedAt": "2026-11-16T13:18:22.000Z",
+      "snippet": "325 points · 237 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50517321",
+      "hnPoints": 325
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Formal Verification Is Not Verifiable",
+      "url": "https://alperenkeles.com/posts/formal-verification-is-not-verifiable/",
+      "publishedAt": "2026-11-14T15:07:48.000Z",
+      "snippet": "120 points · 41 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50497621",
+      "hnPoints": 120
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "publishedAt": "2026-11-16T18:31:30.000Z",
+      "snippet": "775 points · 647 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50521045",
+      "hnPoints": 775
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Squircles",
+      "url": "https://linebender.org/wiki/curves/squircle/",
+      "publishedAt": "2026-11-16T07:55:10.000Z",
+      "snippet": "191 points · 49 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50515151",
+      "hnPoints": 191
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Spamhaus new email sender requirements in November",
+      "url": "https://www.spamhaus.org/sender-guidelines/",
+      "publishedAt": "2026-11-16T21:47:19.000Z",
+      "snippet": "110 points · 106 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50523784",
+      "hnPoints": 110
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Do Repeat Yourself",
+      "url": "https://arcentry.com/blog/do-repeat-yourself/",
+      "publishedAt": "2026-11-16T12:06:46.000Z",
+      "snippet": "90 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50516689",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to Break into Security, Ptacek Edition (2012)",
+      "url": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+      "publishedAt": "2026-11-16T22:19:23.000Z",
+      "snippet": "110 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50524225",
+      "hnPoints": 110
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/chat-demo — Chat Demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "publishedAt": "2026-11-12T08:08:19Z",
+      "snippet": "4357 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "apex-compute/ANR — Apex Neural Rendering (ANR) by Apex Compute",
+      "url": "https://github.com/apex-compute/ANR",
+      "publishedAt": "2026-11-11T04:27:17Z",
+      "snippet": "2524 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "hitkeeen/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, co",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "publishedAt": "2026-11-12T14:32:15Z",
+      "snippet": "2359 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Noniv/abyssal-garden — A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no ima",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "publishedAt": "2026-11-12T13:57:34Z",
+      "snippet": "1918 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duwqijlk/muse-protocol — muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "publishedAt": "2026-11-14T01:24:58Z",
+      "snippet": "1540 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Eynnzerr/TelemetryCleaner — 基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
+      "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+      "publishedAt": "2026-11-11T06:25:10Z",
+      "snippet": "1399 stars · Kotlin"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ZiChuanLan/freebie-radar — 白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "publishedAt": "2026-11-12T09:08:11Z",
+      "snippet": "1304 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Immortal-Protocols/lastbook — Offline knowledge AI, maps and videos for survival and rebuilding",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "publishedAt": "2026-11-12T23:49:03Z",
+      "snippet": "1034 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. S",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "publishedAt": "2026-11-16T19:28:29Z",
+      "snippet": "826 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "opencoredev/islandcn — The open-source Dynamic Island for React, installed with shadcn.",
+      "url": "https://github.com/opencoredev/islandcn",
+      "publishedAt": "2026-11-13T11:50:50Z",
+      "snippet": "788 stars · TypeScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "publishedAt": "2026-11-17T06:16:26.000Z",
+      "snippet": " <blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "publishedAt": "2026-11-16T23:57:26.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.3\">llm 0.37.3</a></p> <p>A bug fix release for <a href=\"https://llm.datasette.io\">LLM</a>, mainly to cover a problem with the most recent Homebrew package of the software.</p> <p>Homebrew now ships the latest SQLite, <a href=\"https://www.sqlite.org/releaselog/3_54_1.html\">3.54.1</a>, which includes <a href=\"https://sqlite.org/bugs/info/2026-10-12T13:52:22Z\">a fix</a> that <a href=\"https://github.com/simonw/llm",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Obituaries",
+      "url": "https://stratechery.com/2026/obituaries/",
+      "publishedAt": "2026-11-16T11:02:49.000Z",
+      "snippet": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "publishedAt": "2026-11-16T16:02:55.000Z",
+      "snippet": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "enclosure": "https://substack-post-media.s3.amazonaws.com/public/images/a088136b-9831-4903-9b32-15ecbdbccc89_1456x1048.png"
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "How I fight token fraud as a solo founder",
+      "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+      "publishedAt": "2026-11-16T13:04:09.000Z",
+      "snippet": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+      "enclosure": "https://api.substack.com/feed/podcast/224392250/ad3b2051f728063c0a409b97f39c7873.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "publishedAt": "2026-11-17T09:24:56.000Z",
+      "snippet": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "url": "https://latent.space/p/bfl/",
+      "publishedAt": "2026-11-16T21:38:03.000Z",
+      "snippet": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3"
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "$1.5B+ Investor: “This is Why Elon Wins”",
+      "publishedAt": "2026-11-16T12:18:00.000Z",
+      "snippet": "How to move faster than everyone (interactive guide): https://clickhubspot.com/ghbk Episode 882: Shaan Puri ( https://x.com/ShaanVP ) sits down with his friend James Currier to learn what James teaches his Standord students about startups. — Show Notes: (0:00) The speed advantage: How to beat anyone (2:45) Mike Cassidy: $500M in 500 days (5:15) How to break your speed bar (6:20) A 16-year-old sails solo across the Atlantic (7:00) Launching 24 products in 3 years (8:45) Set deadlines, not goals (",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS2143548328.mp3"
+    }
+  ]
+}
