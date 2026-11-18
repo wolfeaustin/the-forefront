@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 18, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Wednesday</span><span class="dot"></span><span>Nov 18, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>39</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>64%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://calif.io/java4shell/" target="_blank" rel="noopener">Critical RCE Vulnerability Discovered in OpenJDK Base64 Processing (Java4Shell)</a></h2>
+        <p class="summary">A remote code execution vulnerability has been identified in OpenJDK when handling Base64-encoded data, drawing comparisons to the severity of Log4Shell. Any Java application processing untrusted Base64 input may be affected, requiring immediate patching review.</p>
+        <p class="why"><b>Why it matters:</b> If you run any Java-based backend services or dependencies — including many e-commerce and SaaS stacks — this needs to be triaged today before it's actively exploited.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50538240" target="_blank" rel="noopener">Hacker News · 943 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>OpenAI Releases GPT-6.2 Astra and Sol: Next-Generation Frontier Models</h3>
+    <p>Applications that were previously too unreliable with GPT-4-class models may now be viable; teams that shelved agent workflows due to error rates should re-evaluate immediately.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·90</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/" target="_blank" rel="noopener">OpenAI Releases GPT-6.2 Astra and Sol: Next-Generation Frontier Models</a></h2>
+        <p class="summary">OpenAI has shipped GPT-6.2 under the Astra and Sol designations, representing a significant capability jump from prior generations and drawing intense community benchmarking. Early reports indicate substantially improved reasoning, coding, and agentic task completion across both variants.</p>
+        <p class="why"><b>Why it matters:</b> Understanding where the frontier sits today is table stakes for any technical founder deciding which model to build on — betting on the wrong tier wastes months of product work.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50535230" target="_blank" rel="noopener">Hacker News · 1274 pts</a>
+          <a class="chip" href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 2 SOURCES</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/" target="_blank" rel="noopener">Harvard Study: AI Coding Agents Move the Bottleneck from Writing Code to Reviewing It</a></h2>
+        <p class="summary">Harvard researchers studying teams using AI coding agents found that code output volume increased dramatically but review capacity became the new constraint, with reviewers overwhelmed by AI-generated diffs they couldn't fully evaluate. This creates a qualitatively different risk profile — more code shipped faster with less human understanding per line.</p>
+        <p class="why"><b>Why it matters:</b> If you're deploying AI coding agents on your team, this study identifies where your process will break before you discover it in production.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50538303" target="_blank" rel="noopener">Hacker News · 184 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/" target="_blank" rel="noopener">Microsoft Releases MAI Code 2 and Code 2 Flash: Dedicated Coding Models</a></h2>
+        <p class="summary">Microsoft has launched MAI Code 2 and a faster 'Flash' variant, purpose-built coding models representing Microsoft's direct push into the competitive coding AI space alongside Anthropic and OpenAI offerings. Early benchmarks suggest strong performance on code generation and completion tasks at varying latency/cost tradeoffs.</p>
+        <p class="why"><b>Why it matters:</b> More competition at the frontier coding model tier means better price-performance options for teams building developer tools or AI-assisted coding products.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50535885" target="_blank" rel="noopener">Hacker News · 359 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/cloudflare/" target="_blank" rel="noopener">Cloudflare Repositions as an AI Inference Layer, Building 'System One' Edge Models</a></h2>
+        <p class="summary">Cloudflare is building low-latency 'System One' models designed to make decisions and retrieve data in milliseconds at the network edge, effectively inserting itself into the AI inference stack rather than just serving as CDN infrastructure. This positions Cloudflare as a potential platform layer for latency-sensitive AI applications.</p>
+        <p class="why"><b>Why it matters:</b> For founders building real-time AI features, Cloudflare's edge inference could eliminate a full infrastructure layer — worth evaluating before committing to a centralized inference architecture.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/cloudflare/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://runta.com/blog/introducing-frontierharness-eval-v1-1/" target="_blank" rel="noopener">Practical Comparison: Which Evaluation Harness Works Best for Each LLM</a></h2>
+        <p class="summary">A community-driven analysis on Hacker News catalogues which benchmarking and evaluation harnesses produce the most reliable, reproducible results for different model families, exposing systematic mismatches between harnesses and model strengths. This matters because benchmark scores vary substantially depending on harness choice, not just model capability.</p>
+        <p class="why"><b>Why it matters:</b> If you're making build-vs-buy or model-selection decisions based on published benchmarks, understanding harness sensitivity is essential to avoid being misled by apples-to-oranges comparisons.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50532191" target="_blank" rel="noopener">Hacker News · 375 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·63</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/" target="_blank" rel="noopener">Perplexity Hits $1B Annual Revenue Run Rate, Up 4x Year-Over-Year</a></h2>
+        <p class="summary">Perplexity AI has reached a $1 billion annualized revenue run rate, reportedly quadrupling from the prior year, confirming that AI-native search is capturing meaningful commercial traction rather than remaining a novelty. This validates the 'answer engine' category as a real business and accelerates competitive pressure on Google.</p>
+        <p class="why"><b>Why it matters:</b> Perplexity's growth trajectory is evidence that AI search is now a durable revenue category — founders building content, SEO tools, or search-adjacent products need to treat this as a structural market shift, not a cyclical one.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·86</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://revscope.co/blog/search-seo-geo-2026/" target="_blank" rel="noopener">Google AI Overviews Linked to 40% Reduction in Organic Search Click-Through</a></h2>
+        <p class="summary">New data suggests Google's AI-generated answer summaries are suppressing organic click-through rates by roughly 40%, a structural shift that threatens SEO-dependent businesses and content publishers. This is not a temporary fluctuation — it reflects a fundamental change in how Google monetizes intent without routing users to sources.</p>
+        <p class="why"><b>Why it matters:</b> If any part of your e-commerce or software business depends on organic search traffic, this is a revenue threat that demands a strategic response now, not at the next quarterly review.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50540178" target="_blank" rel="noopener">Hacker News · 389 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·71</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf" target="_blank" rel="noopener">Nvidia Quietly Stopped Disclosing Singapore Revenue as Chip Export Controls Tighten</a></h2>
+        <p class="summary">Nvidia has ceased breaking out Singapore as a separate revenue line item in its filings, coinciding with the period when Singapore emerged as a potential routing point for chips subject to US export restrictions. The timing, alongside $104B in annual revenues, raises questions about geographic revenue opacity and regulatory exposure.</p>
+        <p class="why"><b>Why it matters:</b> For anyone investing in or building businesses dependent on Nvidia supply chains, this is an early signal of geopolitical supply-chain risk that rarely surfaces until it's too late to hedge.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50534631" target="_blank" rel="noopener">Hacker News · 545 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://nicolasbouliane.com/blog/death-by-ai" target="_blank" rel="noopener">Niche Content Site 'All About Berlin' Documents Existential Damage from AI-Generated Competition</a></h2>
+        <p class="summary">The founder of All About Berlin, a highly-regarded niche information site, describes how AI-generated content flooding search results has collapsed their traffic and made the site economically unviable, despite superior quality. This is a documented case study of the AI content displacement effect on small publisher economics.</p>
+        <p class="why"><b>Why it matters:</b> Any founder with a content-driven acquisition target or SEO-dependent business should read this as a concrete stress test of what AI-era content economics look like for niche sites.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50542705" target="_blank" rel="noopener">Hacker News · 336 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener">Prime Radiant Details External Sandbox Architecture for Safer Local Coding Agents</a></h2>
+        <p class="summary">A practical writeup on running coding agent-executed code in external sandboxes isolated from the host machine, specifically designed to make local model experimentation safe against prompt injection and accidental destructive actions. The approach is architecture-agnostic and applicable to any team running code-executing agents.</p>
+        <p class="why"><b>Why it matters:</b> Any team running coding agents locally without this kind of isolation is one prompt injection away from data loss or credential exposure — this is an immediately actionable security pattern.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·74</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener">Agent Skill for Automated LLM Inference Speed Optimization on Any Hardware</a></h2>
+        <p class="summary">An open-source agent skill that hill-climbs local LLM serving configuration — covering decode speed, speculative decoding, prefill, KV cache, startup time, and TTFT — across arbitrary hardware and quantization choices. It operates autonomously to find better serving configurations without manual tuning expertise.</p>
+        <p class="why"><b>Why it matters:</b> Small teams running local models for cost or privacy reasons can automatically recover significant performance without needing deep MLSys expertise.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/erkamyaman/rust-anything" target="_blank" rel="noopener">rust-anything: Incrementally Rewrite Any App in Rust with Behavior-Verified Steps</a></h2>
+        <p class="summary">An open-source tool that records existing application behavior (for CLIs, HTTP servers, and TypeScript/Python libraries) and then validates each incremental Rust rewrite step against that recorded behavior, making safe partial rewrites feasible. This removes the primary risk of Rust rewrites — behavioral regression — by automating correctness verification throughout.</p>
+        <p class="why"><b>Why it matters:</b> Small teams with performance-critical Python or TypeScript services can now pursue incremental Rust rewrites with a safety net, rather than betting on a costly full rewrite.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/erkamyaman/rust-anything" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/" target="_blank" rel="noopener">Stratechery: Apple's Permission Update Exposes Its Inability to Think Beyond the App Paradigm</a></h2>
+        <p class="summary">Ben Thompson argues that while Apple avoids breaking the Mac with its latest permissions changes, it fundamentally fails to solve the agent integration problem — revealing a structural limitation in how Apple thinks about software architecture in the AI era. The piece also includes a hands-on iPhone Duo review.</p>
+        <p class="why"><b>Why it matters:</b> For founders building AI agents or tools that need OS-level integration, Apple's architectural constraints are a platform risk worth understanding before investing in deep Apple-ecosystem features.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/" target="_blank" rel="noopener">Stratechery</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 39 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-18';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

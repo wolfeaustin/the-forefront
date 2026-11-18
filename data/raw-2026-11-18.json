@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-18",
+  "fetchedAt": "2026-11-18T10:09:25.255Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "publishedAt": "2026-11-17T21:11:28.000Z",
+      "snippet": "943 points · 240 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50538240",
+      "hnPoints": 943
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ID.me terms required for IRS sign-in",
+      "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+      "publishedAt": "2026-11-18T00:51:45.000Z",
+      "snippet": "361 points · 161 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50540437",
+      "hnPoints": 361
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "publishedAt": "2026-11-18T00:17:58.000Z",
+      "snippet": "389 points · 294 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50540178",
+      "hnPoints": 389
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "publishedAt": "2026-11-17T22:13:34.000Z",
+      "snippet": "603 points · 199 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50538994",
+      "hnPoints": 603
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "publishedAt": "2026-11-17T17:12:06.000Z",
+      "snippet": "545 points · 243 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50534631",
+      "hnPoints": 545
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "publishedAt": "2026-11-18T04:14:04.000Z",
+      "snippet": "98 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50541790",
+      "hnPoints": 98
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "publishedAt": "2026-11-17T23:18:49.000Z",
+      "snippet": "325 points · 71 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50539610",
+      "hnPoints": 325
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Archive Team is archiving the Apple Support Community",
+      "url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+      "publishedAt": "2026-11-17T23:32:58.000Z",
+      "snippet": "197 points · 70 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50539747",
+      "hnPoints": 197
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Highly classified US national security communications network goes down",
+      "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+      "publishedAt": "2026-11-17T15:38:28.000Z",
+      "snippet": "580 points · 670 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50532849",
+      "hnPoints": 580
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "publishedAt": "2026-11-18T06:47:26.000Z",
+      "snippet": "336 points · 296 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50542705",
+      "hnPoints": 336
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "publishedAt": "2026-11-17T18:25:13.000Z",
+      "snippet": "359 points · 155 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50535885",
+      "hnPoints": 359
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+      "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+      "publishedAt": "2026-11-17T19:25:27.000Z",
+      "snippet": "335 points · 105 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50536813",
+      "hnPoints": 335
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Phrack 73",
+      "url": "https://phrack.org/issues/73/introduction_md",
+      "publishedAt": "2026-11-17T18:31:25.000Z",
+      "snippet": "384 points · 53 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50535992",
+      "hnPoints": 384
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "jQuery 4.1.0",
+      "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+      "publishedAt": "2026-11-17T19:50:40.000Z",
+      "snippet": "322 points · 164 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50537156",
+      "hnPoints": 322
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "publishedAt": "2026-11-17T21:16:12.000Z",
+      "snippet": "184 points · 256 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50538303",
+      "hnPoints": 184
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "publishedAt": "2026-11-17T17:46:43.000Z",
+      "snippet": "1274 points · 794 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50535230",
+      "hnPoints": 1274
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Solid 2.0",
+      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+      "publishedAt": "2026-11-17T18:56:17.000Z",
+      "snippet": "313 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50536387",
+      "hnPoints": 313
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://news.ycombinator.com/item?id=50536468",
+      "publishedAt": "2026-11-17T19:01:43.000Z",
+      "snippet": "81 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50536468",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cerebras Disaggregated Inference",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "publishedAt": "2026-11-18T00:56:23.000Z",
+      "snippet": "81 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50540472",
+      "hnPoints": 81
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What is the best harness for each model?",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "publishedAt": "2026-11-17T14:53:43.000Z",
+      "snippet": "375 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50532191",
+      "hnPoints": 375
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tencent Hy4 Flash",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "publishedAt": "2026-11-17T21:06:08.000Z",
+      "snippet": "126 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50538184",
+      "hnPoints": 126
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "deepseek-ai/chat-demo — Chat Demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "publishedAt": "2026-11-12T08:08:19Z",
+      "snippet": "4669 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. S",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "publishedAt": "2026-11-16T19:28:29Z",
+      "snippet": "3372 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Noniv/abyssal-garden — A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no ima",
+      "url": "https://github.com/Noniv/abyssal-garden",
+      "publishedAt": "2026-11-12T13:57:34Z",
+      "snippet": "2280 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, ",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "snippet": "2228 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Immortal-Protocols/lastbook — Offline knowledge AI, maps and videos for survival and rebuilding",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "publishedAt": "2026-11-12T23:49:03Z",
+      "snippet": "1951 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duwqijlk/muse-protocol — muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "publishedAt": "2026-11-14T01:24:58Z",
+      "snippet": "1612 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ZiChuanLan/freebie-radar — 白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "publishedAt": "2026-11-12T09:08:11Z",
+      "snippet": "1527 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CzzzzzzJ/mdldm-maitian — 麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "publishedAt": "2026-11-14T03:59:22Z",
+      "snippet": "1204 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "snippet": "1005 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "joshpuckett/allo — Allo is your friendly neighborhood typeface, free and open source",
+      "url": "https://github.com/joshpuckett/allo",
+      "publishedAt": "2026-11-15T17:33:42Z",
+      "snippet": "963 stars · Python"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "publishedAt": "2026-11-17T22:52:29.000Z",
+      "snippet": " <p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab b",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "snippet": " <p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "publishedAt": "2026-11-17T16:48:33.000Z",
+      "snippet": " <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</stron",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "publishedAt": "2026-11-17T06:16:26.000Z",
+      "snippet": " <blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p> ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+      "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "snippet": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+      "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+      "publishedAt": "2026-11-17T18:02:02.000Z",
+      "snippet": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!_4Bo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e03312c-6e52-4564-9749-ae529a239aff_1456x970.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "snippet": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "publishedAt": "2026-11-17T09:24:56.000Z",
+      "snippet": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Brad Gerstner & Geoffrey Canada - Raising the Floor for Every American Child - [Invest Like the Best, EP.501]",
+      "url": "https://colossus.com/episode/restoring-the-american-dream/",
+      "publishedAt": "2026-11-17T13:00:00.000Z",
+      "snippet": "My guests today are Brad Gerstner, founder of Altimeter Capital, and Geoffrey Canada, founder of Harlem Children's Zone. Geoffrey spent decades helping disadvantaged kids get a great education, but it takes more than that to achieve the American dream. Without savings, you’re one emergency away from bankruptcy. Brad set out to change that. When he first called me about Invest America in 2020, I thought it was a fool’s errand. Six years later, nearly 70 million children have accounts in their nam",
+      "enclosure": "https://traffic.megaphone.fm/CLS6783435309.mp3"
+    }
+  ]
+}
