@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 20, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Friday</span><span class="dot"></span><span>Nov 20, 2026</span></div>
+    <h1>14 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>39</b></span>
+      <span class="kept">Kept <b>14</b></span>
+      <span>Total read <b>~17 min</b></span>
+      <span>Filtered out <b>64%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·95</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/openssl/openssl/pull/33652" target="_blank" rel="noopener">Critical OpenSSL Buffer Overflow (CVE-2026-121481, CVSS 9.8) Affects EVP_EncodeBlock</a></h2>
+        <p class="summary">A CVSS 9.8 buffer overflow vulnerability has been disclosed in OpenSSL's EVP_EncodeBlock function, one of the most widely deployed cryptographic primitives in server and embedded software. Any service doing base64 encoding via OpenSSL — which is almost everything — should treat this as an emergency patch.</p>
+        <p class="why"><b>Why it matters:</b> If your stack touches OpenSSL (and it almost certainly does), this is a drop-everything patch event before exploits circulate.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50569226" target="_blank" rel="noopener">Hacker News · 245 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·92</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/" target="_blank" rel="noopener">Anthropic Lists on Nasdaq — Largest U.S. IPO in History at $1.5T Valuation</a></h2>
+        <p class="summary">Anthropic priced its IPO at $83 per share, opened at $111.50, and closed at $97.17, implying a ~$1.5 trillion valuation and cementing AI infrastructure as a generational capital market event. This is the benchmark data point for how public markets are pricing frontier AI companies.</p>
+        <p class="why"><b>Why it matters:</b> The IPO sets a public comp for every AI-adjacent valuation conversation — fundraising, M&amp;A, and investor expectations — for the next several years.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50562754" target="_blank" rel="noopener">Hacker News · 1083 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·90</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/" target="_blank" rel="noopener">Anthropic IPO Closes First Day at $97, Plus Google Opens Genie 4 to Developers</a></h2>
+        <p class="summary">The Latent Space AINews digest covers Anthropic's historic IPO first-day trading and separately notes that Google has opened Genie 4 — its world-model/video generation system — to developers. Two significant infrastructure events in one day.</p>
+        <p class="why"><b>Why it matters:</b> Genie 4 developer access is the more actionable signal for builders: world-model APIs could unlock new product categories in simulation, gaming, and robotics.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·80</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/" target="_blank" rel="noopener">Railway's Postmortem: Attacker Used Uncensored AI Models to Accelerate the Hack</a></h2>
+        <p class="summary">Cloud platform Railway published a detailed incident postmortem revealing the attacker likely used no-safeguards AI models to accelerate the attack chain. Railway has since hardened its systems and the postmortem is specific enough to serve as a defensive playbook.</p>
+        <p class="why"><b>Why it matters:</b> This is the first well-documented public case of AI-assisted attacks against developer infrastructure — the threat model for SaaS platforms just changed, and the postmortem contains concrete defensive mitigations.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/" target="_blank" rel="noopener">The Pragmatic Engineer</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·76</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/" target="_blank" rel="noopener">Virus Injection Halts Pancreatic Cancer in Three Patients — Early Human Trial Data</a></h2>
+        <p class="summary">Researchers report that targeted virus injection stopped pancreatic cancer progression in three patients in an early-stage trial, a disease with a historically dismal prognosis and near-zero response to most therapies. While n=3 is small, pancreatic cancer's baseline makes any signal here scientifically significant.</p>
+        <p class="why"><b>Why it matters:</b> Oncolytic virus therapy has been a long-delayed frontier; this is the kind of early human signal that precedes major biotech investment cycles — worth watching if you invest in or evaluate healthcare adjacent businesses.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50563066" target="_blank" rel="noopener">Hacker News · 780 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>Anthropic Lists on Nasdaq — Largest U.S. IPO in History at $1.5T Valuation</h3>
+    <p>The IPO will accelerate enterprise AI procurement budgets as CFOs gain a trusted public benchmark; teams building in Anthropic's ecosystem (Claude API, MCP tooling) now have a more stable long-term counterparty.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.anthropic.com/research/claude-black-hole-physics" target="_blank" rel="noopener">Claude Independently Solves Two Open Problems in Black Hole Physics</a></h2>
+        <p class="summary">Anthropic's Claude resolved two previously unsolved problems in theoretical physics without human direction, producing results that have been verified by domain experts. This is a documented instance of an AI system making genuine scientific discoveries rather than summarizing or assisting human work.</p>
+        <p class="why"><b>Why it matters:</b> Autonomous scientific discovery is a qualitative capability threshold — when AI can do this in physics, the timeline for it doing this in materials science, drug targets, and engineering design compresses dramatically.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50563148" target="_blank" rel="noopener">Hacker News · 501 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/" target="_blank" rel="noopener">Google's Gemini 4 Neon Scores 61 on Intelligence Index — Direct Competitor to Claude Opus</a></h2>
+        <p class="summary">Google's mid-tier Gemini 4 Neon model has scored 61 on the emerging Intelligence Index benchmark, placing it in the same competitive tier as Anthropic's top models. This signals Google has closed meaningful ground on frontier capability and is aggressively pricing into the enterprise AI market.</p>
+        <p class="why"><b>Why it matters:</b> More capable mid-tier models mean better price-performance tradeoffs for builders — the competitive pressure between Google and Anthropic directly lowers your inference costs and raises your capability ceiling.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine" target="_blank" rel="noopener">Paid Advertising Is Now a 98% Tax: The Structural Case for Owned Channels</a></h2>
+        <p class="summary">A widely circulated analysis argues that the auction dynamics of Google and Meta ads have matured to the point where advertisers, on average, capture only 2% of the value they create — the rest accrues to the platforms. The piece frames paid acquisition not as a growth lever but as an extraction mechanism that benefits incumbents with better data and margins.</p>
+        <p class="why"><b>Why it matters:</b> For any e-commerce or SaaS founder still anchored to paid CAC as a growth model, this reframes the strategic priority toward owned distribution, retention, and AI-driven personalization.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50564159" target="_blank" rel="noopener">Hacker News · 290 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·84</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/" target="_blank" rel="noopener">Eric Seufert: Agents Will Shop via Ads, Not Organic Search — What Retailers Must Build Now</a></h2>
+        <p class="summary">In a Stratechery interview, marketing analyst Eric Seufert argues that as AI agents handle consumer purchasing decisions, advertising — not organic discovery — will be how brands reach agents, and retailers must restructure their catalogs and APIs to be agent-readable. The interview covers concrete infrastructure changes brands need to make.</p>
+        <p class="why"><b>Why it matters:</b> If agents intermediate commerce, the entire funnel from discovery to checkout changes, and brands that build agent-friendly APIs and structured product data early will have a durable moat.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/" target="_blank" rel="noopener">Stratechery</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/" target="_blank" rel="noopener">AI SaaS Founder Loses Revenue to Token Fraud — LLM-Powered Abuse at Scale</a></h2>
+        <p class="summary">ChatPRD founder Claire Vo documents a live token fraud attack on her AI platform where bad actors systematically exploited her product to consume LLM tokens at scale, costing real money. The video and accompanying thread are specific about the attack mechanics and partial mitigations she implemented.</p>
+        <p class="why"><b>Why it matters:</b> Any founder shipping an AI product with token-based costs needs to treat fraud as a first-class product problem before launch, not after — this case study is the clearest public example of what that failure looks like.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/" target="_blank" rel="noopener">Simon Willison</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·77</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/linear-scaling/" target="_blank" rel="noopener">Linear Hit $100M ARR With No SDRs, No FDEs — COO Breaks Down the AI-Native GTM</a></h2>
+        <p class="summary">Linear COO Cristina Cordova details how the company scaled to $100M ARR with over 50% of support tickets written by agents, no sales development reps, and no field deployment engineers. The Latent Space interview is a concrete GTM playbook for AI-assisted growth in developer tools.</p>
+        <p class="why"><b>Why it matters:</b> This is a replicable model: a small technical team can now run a GTM motion that previously required 50+ sales headcount, and Linear has done it at scale with real numbers.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/linear-scaling/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener">Agent Skill Auto-Optimizes Local LLM Serving Speed Across Any Hardware</a></h2>
+        <p class="summary">The sybil-solutions/inference-optimisation-skill repo provides an agentic skill that hill-climbs local LLM inference performance — covering decode speed, speculative decoding, prefill, KV cache, startup time, and TTFT — across arbitrary hardware and quantization configs. It's framed as a plug-in skill for AI agents rather than a manual tuning guide.</p>
+        <p class="why"><b>Why it matters:</b> For any team running local models in production (cost, privacy, or latency reasons), automated inference tuning across the full serving stack is a genuine multiplier that previously required deep MLSys expertise.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/sybil-solutions/inference-optimisation-skill" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·70</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/erkamyaman/rust-anything" target="_blank" rel="noopener">Rust-Anything: Incrementally Rewrite Any App in Rust With Behavior Verification at Every Step</a></h2>
+        <p class="summary">The erkamyaman/rust-anything repo automates incremental Rust rewrites of CLIs, HTTP servers, and TypeScript/Python libraries by recording the original's behavior and verifying each rewritten component against it. With 5,800+ stars, it addresses one of the highest-friction parts of adopting Rust in a live codebase.</p>
+        <p class="why"><b>Why it matters:</b> Incremental, verified rewrites lower the risk of Rust adoption to near-zero for performance-critical paths — a small team can now Rust-ify a bottleneck service over a sprint rather than a quarter.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/erkamyaman/rust-anything" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Listen &amp; Watch</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://thedataexchange.media/pete-warden-moonshine/" target="_blank" rel="noopener">Pete Warden on Local AI, Open Models, Voice Interfaces, and the Coming Hardware Shift</a></h2>
+        <p class="summary">Pete Warden (TensorFlow Lite creator, now at Google) covers the practical trajectory of local AI deployment, why open models are winning on-device, and his predictions for voice as the dominant interface in ambient computing hardware. The interview is notably grounded in deployment realities rather than benchmark speculation.</p>
+        <p class="why"><b>Why it matters:</b> Warden has shipped local AI at scale; his view on which open models and hardware form factors will matter in 2–3 years is higher signal than most analyst takes on the same topic.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50561508" target="_blank" rel="noopener">Hacker News · 245 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 39 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-20';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

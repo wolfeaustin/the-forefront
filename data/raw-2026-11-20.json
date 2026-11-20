@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-20",
+  "fetchedAt": "2026-11-20T10:09:31.902Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "publishedAt": "2026-11-20T02:01:09.000Z",
+      "snippet": "245 points · 193 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50569226",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "FFmpeg 9.1 'Gauss'",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "publishedAt": "2026-11-20T04:02:39.000Z",
+      "snippet": "134 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50569998",
+      "hnPoints": 134
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Jujutsu Primer",
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "publishedAt": "2026-11-20T05:46:01.000Z",
+      "snippet": "118 points · 77 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50570628",
+      "hnPoints": 118
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "publishedAt": "2026-11-20T02:43:49.000Z",
+      "snippet": "103 points · 9 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50569516",
+      "hnPoints": 103
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "\"I can tell you wrote this yourself\"",
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "publishedAt": "2026-11-20T07:13:21.000Z",
+      "snippet": "144 points · 146 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50571189",
+      "hnPoints": 144
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "publishedAt": "2026-11-19T17:30:44.000Z",
+      "snippet": "501 points · 231 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50563148",
+      "hnPoints": 501
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PostgreSQL 19",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "publishedAt": "2026-11-20T03:45:45.000Z",
+      "snippet": "188 points · 9 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50569890",
+      "hnPoints": 188
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Garage Door Spam",
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "publishedAt": "2026-11-16T16:13:36.000Z",
+      "snippet": "864 points · 361 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50519231",
+      "hnPoints": 864
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "How to CAD Almost Anything",
+      "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+      "publishedAt": "2026-11-17T06:29:57.000Z",
+      "snippet": "265 points · 91 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50528119",
+      "hnPoints": 265
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vint Cerf on why TCP/IP was never patented",
+      "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+      "publishedAt": "2026-11-20T01:06:12.000Z",
+      "snippet": "106 points · 46 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50568861",
+      "hnPoints": 106
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Synology Security Advisory",
+      "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "publishedAt": "2026-11-19T22:13:40.000Z",
+      "snippet": "150 points · 114 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50567209",
+      "hnPoints": 150
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "publishedAt": "2026-11-19T18:35:17.000Z",
+      "snippet": "290 points · 147 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50564159",
+      "hnPoints": 290
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+      "url": "https://notesbylex.com/weight-space-programming-1990s",
+      "publishedAt": "2026-11-17T22:11:46.000Z",
+      "snippet": "90 points · 5 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50538977",
+      "hnPoints": 90
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "publishedAt": "2026-11-19T15:38:12.000Z",
+      "snippet": "245 points · 219 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50561508",
+      "hnPoints": 245
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "publishedAt": "2026-11-19T17:02:40.000Z",
+      "snippet": "1083 points · 2144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50562754",
+      "hnPoints": 1083
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Someone reported java4shell bug in September 2026",
+      "url": "https://github.com/openjdk/jdk/pull/32781",
+      "publishedAt": "2026-11-19T11:47:03.000Z",
+      "snippet": "428 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50558906",
+      "hnPoints": 428
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "url": "https://github.com/onlook-dev/onlook/",
+      "publishedAt": "2026-11-19T16:34:04.000Z",
+      "snippet": "119 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50562320",
+      "hnPoints": 119
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "ChatGPT for SNES",
+      "url": "https://www.bxfoundry.com/chatgpt_snes/",
+      "publishedAt": "2026-11-20T00:25:59.000Z",
+      "snippet": "86 points · 22 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50568548",
+      "hnPoints": 86
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "publishedAt": "2026-11-19T17:25:33.000Z",
+      "snippet": "780 points · 134 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50563066",
+      "hnPoints": 780
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+      "url": "https://cornholenews.news",
+      "publishedAt": "2026-11-19T15:38:32.000Z",
+      "snippet": "224 points · 104 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50561515",
+      "hnPoints": 224
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+      "publishedAt": "2026-11-19T13:18:11.000Z",
+      "snippet": "305 points · 61 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50559719",
+      "hnPoints": 305
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "publishedAt": "2026-11-19T18:47:16.000Z",
+      "snippet": "107 points · 212 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50564366",
+      "hnPoints": 107
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, ",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "snippet": "5834 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. S",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "publishedAt": "2026-11-16T19:28:29Z",
+      "snippet": "4890 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "gylive/google-ultra — no description",
+      "url": "https://github.com/gylive/google-ultra",
+      "publishedAt": "2026-11-17T10:21:54Z",
+      "snippet": "2498 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Hut-hzf/ung220z-tool — ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "publishedAt": "2026-11-15T11:16:46Z",
+      "snippet": "1878 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "duwqijlk/muse-protocol — muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "publishedAt": "2026-11-14T01:24:58Z",
+      "snippet": "1674 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "CzzzzzzJ/mdldm-maitian — 麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "publishedAt": "2026-11-14T03:59:22Z",
+      "snippet": "1672 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "haziqahmedqasmi/PeakCut — AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "publishedAt": "2026-11-14T07:38:20Z",
+      "snippet": "1436 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "snippet": "1284 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "joshpuckett/allo — Allo is your friendly neighborhood typeface, free and open source",
+      "url": "https://github.com/joshpuckett/allo",
+      "publishedAt": "2026-11-15T17:33:42Z",
+      "snippet": "1188 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "publishedAt": "2026-11-19T14:43:10Z",
+      "snippet": "1008 stars · n/a"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "snippet": " <p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "publishedAt": "2026-11-19T20:43:57.000Z",
+      "snippet": " <p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p> <p>This release was definitely ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "An Interview With Eric Seufert About Agentic Commerce",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+      "publishedAt": "2026-11-19T11:00:00.000Z",
+      "snippet": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+      "enclosure": null
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "media": "text",
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/",
+      "publishedAt": "2026-11-19T18:53:58.000Z",
+      "snippet": "Cloud platform Railway published a detailed postmortem about their recent hack in which the attacker likely used no-safeguards AI models. Railway hardened its systems as a result.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+      "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "publishedAt": "2026-11-20T07:12:24.000Z",
+      "snippet": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://latent.space/p/linear-scaling/",
+      "publishedAt": "2026-11-19T23:58:21.000Z",
+      "snippet": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "publishedAt": "2026-11-19T07:07:43.000Z",
+      "snippet": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+      "enclosure": null
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "publishedAt": "2026-11-19T15:00:34.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
