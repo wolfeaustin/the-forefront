@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-21",
+  "fetchedAt": "2026-11-21T10:07:46.652Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "publishedAt": "2026-11-20T18:33:14.000Z",
+      "snippet": "2069 points · 962 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50579568",
+      "hnPoints": 2069
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "publishedAt": "2026-11-20T14:16:21.000Z",
+      "snippet": "2642 points · 1822 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50574968",
+      "hnPoints": 2642
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "publishedAt": "2026-11-20T20:12:19.000Z",
+      "snippet": "995 points · 185 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50581260",
+      "hnPoints": 995
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "publishedAt": "2026-11-20T18:17:51.000Z",
+      "snippet": "431 points · 237 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50579331",
+      "hnPoints": 431
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Clojure will affect the way you think about programming (2017)",
+      "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+      "publishedAt": "2026-11-21T02:40:39.000Z",
+      "snippet": "93 points · 30 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50585376",
+      "hnPoints": 93
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "NINLIVE: The Nine Inch Nails live archive",
+      "url": "https://ninlive.com/",
+      "publishedAt": "2026-11-20T22:30:47.000Z",
+      "snippet": "257 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50583274",
+      "hnPoints": 257
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "publishedAt": "2026-11-20T17:21:36.000Z",
+      "snippet": "445 points · 181 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50578358",
+      "hnPoints": 445
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "publishedAt": "2026-11-20T16:29:06.000Z",
+      "snippet": "409 points · 119 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50577265",
+      "hnPoints": 409
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sir Brian May adds new dimension to Hera asteroid",
+      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+      "publishedAt": "2026-11-20T23:19:44.000Z",
+      "snippet": "104 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50583768",
+      "hnPoints": 104
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "url": "https://news.ycombinator.com/item?id=50583761",
+      "publishedAt": "2026-11-20T23:18:32.000Z",
+      "snippet": "182 points · 144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50583761",
+      "hnPoints": 182
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+      "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+      "publishedAt": "2026-11-17T16:58:30.000Z",
+      "snippet": "132 points · 47 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50534387",
+      "hnPoints": 132
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "publishedAt": "2026-11-20T20:03:59.000Z",
+      "snippet": "215 points · 65 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50581110",
+      "hnPoints": 215
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "publishedAt": "2026-11-20T15:34:31.000Z",
+      "snippet": "287 points · 89 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50576232",
+      "hnPoints": 287
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publishedAt": "2026-11-20T13:29:59.000Z",
+      "snippet": "315 points · 587 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50574383",
+      "hnPoints": 315
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "publishedAt": "2026-11-20T18:15:16.000Z",
+      "snippet": "147 points · 62 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50579297",
+      "hnPoints": 147
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Tinnitus frequency finder and audio notch tool",
+      "url": "https://trynotched.com/find",
+      "publishedAt": "2026-11-18T03:40:01.000Z",
+      "snippet": "177 points · 115 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50541568",
+      "hnPoints": 177
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Slopstrap – Make your site look hastily vibecoded",
+      "url": "https://slopstrap.mikelacher.com/",
+      "publishedAt": "2026-11-20T15:24:11.000Z",
+      "snippet": "267 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50576012",
+      "hnPoints": 267
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Serious cyberattack thought backed by wealthy operators",
+      "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+      "publishedAt": "2026-11-20T23:29:30.000Z",
+      "snippet": "84 points · 43 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50583856",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
+      "url": "https://simpleflying.com/airbus-a321xlr-often-stuck-climbing-1st-few-hours-flight/",
+      "publishedAt": "2026-11-14T09:13:24.000Z",
+      "snippet": "117 points · 86 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50495392",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Backblaze Notice at Collection and Privacy Policy",
+      "url": "https://www.backblaze.com/company/policy/privacy",
+      "publishedAt": "2026-11-21T03:23:16.000Z",
+      "snippet": "190 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50585593",
+      "hnPoints": 190
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "publishedAt": "2026-11-20T20:03:07.000Z",
+      "snippet": "292 points · 254 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50581084",
+      "hnPoints": 292
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Winedroid – run Android apps without Android (WASM demo)",
+      "url": "https://winedroid.soham.sh/demo/",
+      "publishedAt": "2026-11-20T19:30:16.000Z",
+      "snippet": "146 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50580536",
+      "hnPoints": 146
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, ",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "snippet": "6949 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. S",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "publishedAt": "2026-11-16T19:28:29Z",
+      "snippet": "5525 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "gylive/google-ultra — no description",
+      "url": "https://github.com/gylive/google-ultra",
+      "publishedAt": "2026-11-17T10:21:54Z",
+      "snippet": "2560 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Hut-hzf/ung220z-tool — ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "publishedAt": "2026-11-15T11:16:46Z",
+      "snippet": "2129 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "publishedAt": "2026-11-19T14:43:10Z",
+      "snippet": "1902 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "iamajmeena/neonclipping — Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "publishedAt": "2026-11-19T10:00:43Z",
+      "snippet": "1452 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "snippet": "1401 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "joshpuckett/allo — Allo is your friendly neighborhood typeface, free and open source",
+      "url": "https://github.com/joshpuckett/allo",
+      "publishedAt": "2026-11-15T17:33:42Z",
+      "snippet": "1271 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "chuanqisun/spaceship — Steer ideas like a space pilot!",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "publishedAt": "2026-11-16T14:43:45Z",
+      "snippet": "1003 stars · HTML"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "siliconjungle/shapeshift-labs-ink-studio — Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+      "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+      "publishedAt": "2026-11-16T07:44:00Z",
+      "snippet": "901 stars · JavaScript"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "publishedAt": "2026-11-20T19:21:49.000Z",
+      "snippet": " <blockquote cite=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now ",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "publishedAt": "2026-11-20T16:30:48.000Z",
+      "snippet": " <blockquote cite=\"https://alpo.ge/remark.pdf\"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course ",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "2026.47: Down in DC",
+      "url": "https://stratechery.com/2026/down-in-dc/",
+      "publishedAt": "2026-11-20T19:09:57.000Z",
+      "snippet": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+      "publishedAt": "2026-11-20T11:00:00.000Z",
+      "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "publishedAt": "2026-11-21T05:02:13.000Z",
+      "snippet": "November 20 2026 —",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "url": "https://latent.space/p/formal-verification/",
+      "publishedAt": "2026-11-20T21:18:41.000Z",
+      "snippet": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+      "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "publishedAt": "2026-11-20T07:12:24.000Z",
+      "snippet": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "enclosure": null
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "A recovering awkward person’s guide to undeniable charisma",
+      "publishedAt": "2026-11-20T11:00:00.000Z",
+      "snippet": "Vanessa's Playbook to Use Charisma as Your Unfair Advantage: https://clickhubspot.com/wdjv Episode 884: Sam Parr ( https://x.com/theSamParr ) gets coached by Vanessa Van Edwards on how to be more charismatic. — Show Notes: (0:00) Sam performs a magic trick (1:00) The most charismatic people are learned (2:45) Competence w/o warmth = suspicion (4:30) A war against authenticity (5:55) What is being likeable? (6:15) Oxytocin (9:00) First impressions matter more than you think (10:00) Dopamine (11:4",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS3628435363.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "We’ll Be Inferior to Our Grandchildren—and That’s Great",
+      "url": "https://www.youtube.com/shorts/tgK-mPtgCCU",
+      "publishedAt": "2026-11-20T21:43:29.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
