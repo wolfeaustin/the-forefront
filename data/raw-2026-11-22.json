@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-22",
+  "fetchedAt": "2026-11-22T10:08:01.642Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "publishedAt": "2026-11-22T04:04:56.000Z",
+      "snippet": "478 points · 280 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50596133",
+      "hnPoints": 478
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "publishedAt": "2026-11-20T21:03:12.000Z",
+      "snippet": "995 points · 216 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50582069",
+      "hnPoints": 995
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "publishedAt": "2026-11-21T14:36:45.000Z",
+      "snippet": "1032 points · 851 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50589618",
+      "hnPoints": 1032
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app/",
+      "publishedAt": "2026-11-22T00:07:59.000Z",
+      "snippet": "235 points · 80 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50594911",
+      "hnPoints": 235
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "publishedAt": "2026-11-21T18:02:19.000Z",
+      "snippet": "461 points · 117 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50591853",
+      "hnPoints": 461
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "snippet": "146 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50595554",
+      "hnPoints": 146
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "publishedAt": "2026-11-21T13:23:14.000Z",
+      "snippet": "610 points · 387 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50588982",
+      "hnPoints": 610
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Getting the mind to steer the body to steer you",
+      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "publishedAt": "2026-11-20T22:11:05.000Z",
+      "snippet": "271 points · 89 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50583028",
+      "hnPoints": 271
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "My monitor was cutting my download speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "publishedAt": "2026-11-21T10:36:32.000Z",
+      "snippet": "585 points · 271 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50587875",
+      "hnPoints": 585
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "publishedAt": "2026-11-21T22:09:58.000Z",
+      "snippet": "114 points · 13 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50594132",
+      "hnPoints": 114
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "snippet": "93 points · 21 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50593481",
+      "hnPoints": 93
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Advice for the next 100 Rust GUIs",
+      "url": "https://linebender.org/blog/next-100-guis/",
+      "publishedAt": "2026-11-21T21:17:53.000Z",
+      "snippet": "163 points · 63 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50593737",
+      "hnPoints": 163
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "url": "https://pwn.ai/upload2shell",
+      "publishedAt": "2026-11-21T18:29:29.000Z",
+      "snippet": "117 points · 57 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50592097",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "LLMs can read and write executables byte by byte from a hex dump",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "publishedAt": "2026-11-18T14:15:58.000Z",
+      "snippet": "242 points · 157 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50546587",
+      "hnPoints": 242
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GnuPG Security Advisory for GPGME",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "publishedAt": "2026-11-21T08:32:58.000Z",
+      "snippet": "252 points · 101 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50587208",
+      "hnPoints": 252
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "publishedAt": "2026-11-20T18:33:14.000Z",
+      "snippet": "2416 points · 1175 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50579568",
+      "hnPoints": 2416
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PostgreSQL Extensions in Go",
+      "url": "https://jespino.github.io/gopgext/",
+      "publishedAt": "2026-11-21T17:08:04.000Z",
+      "snippet": "148 points · 25 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50591260",
+      "hnPoints": 148
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ItsNotRexed/Leonida — Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "publishedAt": "2026-11-20T20:07:13Z",
+      "snippet": "8712 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "erkamyaman/rust-anything — Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, ",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "publishedAt": "2026-11-16T12:10:36Z",
+      "snippet": "7644 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "krisgfx9/Wireless-Device-Battery-Monitor — Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. S",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "publishedAt": "2026-11-16T19:28:29Z",
+      "snippet": "5946 stars · C++"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "publishedAt": "2026-11-19T14:43:10Z",
+      "snippet": "2713 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "gylive/google-ultra — no description",
+      "url": "https://github.com/gylive/google-ultra",
+      "publishedAt": "2026-11-17T10:21:54Z",
+      "snippet": "2651 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "iamajmeena/neonclipping — Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "publishedAt": "2026-11-19T10:00:43Z",
+      "snippet": "1898 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "sybil-solutions/inference-optimisation-skill — Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "publishedAt": "2026-11-16T18:40:04Z",
+      "snippet": "1814 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "hatsunemiku-ai/google-one-tools — no description",
+      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "publishedAt": "2026-11-20T22:12:47Z",
+      "snippet": "1183 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "R0Y00/Xbox2Windows — GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game st",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "publishedAt": "2026-11-20T17:43:52Z",
+      "snippet": "1084 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "chuanqisun/spaceship — Steer ideas like a space pilot!",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "publishedAt": "2026-11-16T14:43:45Z",
+      "snippet": "1034 stars · HTML"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "snippet": " <p><strong><a href=\"https://github.com/muruhq/muru\">Muru</a></strong></p> Graham Dumpleton started <a href=\"https://modwsgi.readthedocs.io/\">mod_wsgi</a> 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.</p> <p>Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production.</p> <p>As <a href=\"https://simonwillison.net/2026/Sep/11/wraptu",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "publishedAt": "2026-11-21T16:49:56.000Z",
+      "snippet": "Community Wisdom 306",
+      "enclosure": "https://substackcdn.com/image/fetch/$s_!KxHU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "publishedAt": "2026-11-21T05:02:13.000Z",
+      "snippet": "November 20 2026 —",
+      "enclosure": null
+    }
+  ]
+}
