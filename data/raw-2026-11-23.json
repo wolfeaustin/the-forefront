@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-23",
+  "fetchedAt": "2026-11-23T10:09:57.370Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "publishedAt": "2026-11-23T03:49:24.000Z",
+      "snippet": "308 points · 144 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50607261",
+      "hnPoints": 308
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://spelunkr.tv",
+      "publishedAt": "2026-11-23T01:13:51.000Z",
+      "snippet": "521 points · 82 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50606192",
+      "hnPoints": 521
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "publishedAt": "2026-11-22T21:01:16.000Z",
+      "snippet": "508 points · 213 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50603845",
+      "hnPoints": 508
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Masullo on the Riemann Hypothesis",
+      "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+      "publishedAt": "2026-11-22T10:59:56.000Z",
+      "snippet": "219 points · 183 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50598441",
+      "hnPoints": 219
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+      "publishedAt": "2026-11-22T19:10:34.000Z",
+      "snippet": "503 points · 250 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50602843",
+      "hnPoints": 503
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "publishedAt": "2026-11-22T17:06:27.000Z",
+      "snippet": "587 points · 400 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50601525",
+      "hnPoints": 587
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+      "publishedAt": "2026-11-18T15:43:29.000Z",
+      "snippet": "236 points · 58 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50547698",
+      "hnPoints": 236
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Assume People Are Not Interested in Your Blog Post",
+      "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
+      "publishedAt": "2026-11-22T19:41:30.000Z",
+      "snippet": "203 points · 102 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50603143",
+      "hnPoints": 203
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "url": "https://smallsf.com/",
+      "publishedAt": "2026-11-22T20:33:23.000Z",
+      "snippet": "273 points · 93 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50603589",
+      "hnPoints": 273
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+      "publishedAt": "2026-11-22T23:06:37.000Z",
+      "snippet": "201 points · 96 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50604988",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Treemap of the Riemann Hypothesis Lean Proof",
+      "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+      "publishedAt": "2026-11-23T01:50:23.000Z",
+      "snippet": "82 points · 33 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50606499",
+      "hnPoints": 82
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+      "publishedAt": "2026-11-22T21:33:12.000Z",
+      "snippet": "117 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50604123",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+      "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
+      "publishedAt": "2026-11-22T22:10:58.000Z",
+      "snippet": "126 points · 24 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50604472",
+      "hnPoints": 126
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nyx, the Oldest Internet Service Provider",
+      "url": "https://nyx.net/",
+      "publishedAt": "2026-11-22T20:15:59.000Z",
+      "snippet": "137 points · 23 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50603465",
+      "hnPoints": 137
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What Happened to Silicon Valley?",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "publishedAt": "2026-11-22T19:20:15.000Z",
+      "snippet": "655 points · 349 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50602947",
+      "hnPoints": 655
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "publishedAt": "2026-11-22T13:56:58.000Z",
+      "snippet": "318 points · 78 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50599762",
+      "hnPoints": 318
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "publishedAt": "2026-11-22T04:04:56.000Z",
+      "snippet": "1300 points · 704 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50596133",
+      "hnPoints": 1300
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "publishedAt": "2026-11-22T23:12:10.000Z",
+      "snippet": "234 points · 172 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50605045",
+      "hnPoints": 234
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ItsNotRexed/Leonida — Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "publishedAt": "2026-11-20T20:07:13Z",
+      "snippet": "18190 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "publishedAt": "2026-11-19T14:43:10Z",
+      "snippet": "2760 stars · n/a"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "publishedAt": "2026-11-21T14:40:27Z",
+      "snippet": "2521 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "iamajmeena/neonclipping — Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "publishedAt": "2026-11-19T10:00:43Z",
+      "snippet": "2208 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "omonkeyz/xbox-emulator — Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "publishedAt": "2026-11-21T08:08:39Z",
+      "snippet": "1450 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "R0Y00/Xbox2Windows — GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game st",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "publishedAt": "2026-11-20T17:43:52Z",
+      "snippet": "1377 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Lemxy/WinRust — Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+      "url": "https://github.com/Lemxy/WinRust",
+      "publishedAt": "2026-11-17T14:27:06Z",
+      "snippet": "1306 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "os6/nospeaker — make your macbook's trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "publishedAt": "2026-11-22T12:05:54Z",
+      "snippet": "786 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "leanprover-community/riemann-hypothesis — Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis",
+      "publishedAt": "2026-11-20T14:47:49Z",
+      "snippet": "715 stars · Lean"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "MSNightmare/FastUnlock — FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+      "url": "https://github.com/MSNightmare/FastUnlock",
+      "publishedAt": "2026-11-19T12:37:51Z",
+      "snippet": "687 stars · n/a"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "publishedAt": "2026-11-22T19:45:06.000Z",
+      "snippet": " <p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p> <p>I got frustrated at how HTML <code>&lt;select&gt;</code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p> <p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https:",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "publishedAt": "2026-11-22T13:31:53.000Z",
+      "snippet": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+      "enclosure": "https://api.substack.com/feed/podcast/224503136/c3eb6c0917fda5bcefa5862e3b0c1835.mp3"
+    }
+  ]
+}
