@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-25",
+  "fetchedAt": "2026-11-25T10:09:58.159Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "publishedAt": "2026-11-25T01:19:26.000Z",
+      "snippet": "637 points · 338 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50637220",
+      "hnPoints": 637
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "url": "https://buttons.joshwcomeau.com/",
+      "publishedAt": "2026-11-25T03:23:07.000Z",
+      "snippet": "376 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50638032",
+      "hnPoints": 376
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "publishedAt": "2026-11-25T02:34:21.000Z",
+      "snippet": "235 points · 92 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50637686",
+      "hnPoints": 235
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "publishedAt": "2026-11-25T04:31:48.000Z",
+      "snippet": "124 points · 26 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50638503",
+      "hnPoints": 124
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "publishedAt": "2026-11-25T03:04:37.000Z",
+      "snippet": "187 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50637890",
+      "hnPoints": 187
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "publishedAt": "2026-11-24T20:08:03.000Z",
+      "snippet": "448 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50633922",
+      "hnPoints": 448
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "publishedAt": "2026-11-25T00:54:49.000Z",
+      "snippet": "252 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50637056",
+      "hnPoints": 252
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "publishedAt": "2026-11-25T04:27:55.000Z",
+      "snippet": "84 points · 18 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50638478",
+      "hnPoints": 84
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "publishedAt": "2026-11-25T03:47:42.000Z",
+      "snippet": "117 points · 51 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50638220",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "publishedAt": "2026-11-24T21:02:22.000Z",
+      "snippet": "267 points · 83 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50634658",
+      "hnPoints": 267
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Spray Bottle",
+      "url": "https://mechanical-pencil.com/products/spray-bottle",
+      "publishedAt": "2026-11-22T11:16:30.000Z",
+      "snippet": "485 points · 109 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50598555",
+      "hnPoints": 485
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "publishedAt": "2026-11-24T20:44:15.000Z",
+      "snippet": "87 points · 72 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50634426",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "publishedAt": "2026-11-24T16:32:17.000Z",
+      "snippet": "284 points · 141 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50630594",
+      "hnPoints": 284
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "An Italian folding bicycle design that fits into a suitcase",
+      "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+      "publishedAt": "2026-11-23T12:40:08.000Z",
+      "snippet": "183 points · 120 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50610820",
+      "hnPoints": 183
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "I've been drinking wine in my kitchen",
+      "url": "https://scottaaronson.blog/?p=10362",
+      "publishedAt": "2026-11-25T03:02:10.000Z",
+      "snippet": "201 points · 170 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50637874",
+      "hnPoints": 201
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "url": "https://news.ycombinator.com/item?id=50630809",
+      "publishedAt": "2026-11-24T16:45:44.000Z",
+      "snippet": "283 points · 220 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50630809",
+      "hnPoints": 283
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GTA 6 Running on Windows",
+      "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+      "publishedAt": "2026-11-24T13:19:31.000Z",
+      "snippet": "402 points · 475 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50627783",
+      "hnPoints": 402
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Gödel Enigma",
+      "url": "https://www.helsinki.fi/en/researchgroups/godel-enigma/research/project-description",
+      "publishedAt": "2026-11-24T08:16:02.000Z",
+      "snippet": "126 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50625265",
+      "hnPoints": 126
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Marvisak/VIctory — An attempt at running GTA VI on PC",
+      "url": "https://github.com/Marvisak/VIctory",
+      "publishedAt": "2026-11-23T21:47:25Z",
+      "snippet": "11886 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xcl-dev/xcl — Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "url": "https://github.com/xcl-dev/xcl",
+      "publishedAt": "2026-11-20T20:03:21Z",
+      "snippet": "8064 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "publishedAt": "2026-11-21T14:40:27Z",
+      "snippet": "3772 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "AFK-surf/xnulinux — XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "publishedAt": "2026-11-20T10:18:31Z",
+      "snippet": "3676 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "4lwayz/portwatch-vi — Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "publishedAt": "2026-11-21T23:16:41Z",
+      "snippet": "3206 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "iamajmeena/neonclipping — Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "publishedAt": "2026-11-19T10:00:43Z",
+      "snippet": "2552 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "fxceless/victory-fork — Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+      "url": "https://github.com/fxceless/victory-fork",
+      "publishedAt": "2026-11-24T18:02:37Z",
+      "snippet": "2550 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ubiquitarianism/leonida — A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "publishedAt": "2026-11-23T23:54:39Z",
+      "snippet": "2075 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "R0Y00/Xbox2Windows — Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "publishedAt": "2026-11-20T17:43:52Z",
+      "snippet": "1932 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "omonkeyz/xbox-emulator — Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "publishedAt": "2026-11-21T08:08:39Z",
+      "snippet": "1834 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "snippet": " <p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "publishedAt": "2026-11-24T16:53:59.000Z",
+      "snippet": " <p><strong><a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">GPT 6.2 Astra Solves a Historical Mystery</a></strong></p> Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:</p> <blockquote> <p>With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at <a href=\"https://beinecke.library.yale.edu/\">Yale’s Beinecke Library</a>. It",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "publishedAt": "2026-11-24T04:24:29.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.2a0\">datasette-charts 0.2a0</a></p> <p>I introduced this new charting plugin for Datasette <a href=\"https://simonwillison.net/2026/Nov/23/datasette-charts/\">yesterday</a>. Today it's gained integration with <a href=\"https://agent.datasette.io/\">Datasette Agent</a>, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools.</p",
+      "enclosure": null
+    },
+    {
+      "source": "Stratechery",
+      "media": "text",
+      "title": "The Individual Exception",
+      "url": "https://stratechery.com/2026/the-individual-exception/",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "snippet": "Jensen Huang has been granted an exception from managerial oversight; in the age of AI, he won't be the last.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "publishedAt": "2026-11-25T04:29:07.000Z",
+      "snippet": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "publishedAt": "2026-11-24T04:14:16.000Z",
+      "snippet": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+      "enclosure": null
+    },
+    {
+      "source": "Invest Like the Best",
+      "media": "podcast",
+      "title": "Scott Wu on Cybersecurity, Compute, and the Future of Engineering - [Invest Like the Best, EP.502]",
+      "publishedAt": "2026-11-24T15:00:00.000Z",
+      "snippet": "Scott Wu is the CEO and co-founder of Cognition, the company behind the AI coding agent Devin. Cognition made its first dollar of revenue in September 2024. Less than two years later, it crossed a $1 billion run rate, and Citi is rolling Devin out to about 14,000 engineers as it brings software projects in-house. We talk about what that means for the job of an engineer, and the trade-off between buying too much compute and not having enough to serve your customers. Scott thinks major breaches at",
+      "enclosure": "https://traffic.megaphone.fm/CLS5759445410.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "How To Build A Jet Engine From Scratch",
+      "url": "https://www.youtube.com/watch?v=-ieJwYq4j-o",
+      "publishedAt": "2026-11-24T15:00:08.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
