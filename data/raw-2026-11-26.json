@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-26",
+  "fetchedAt": "2026-11-26T10:09:47.689Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "publishedAt": "2026-11-25T19:11:27.000Z",
+      "snippet": "1548 points · 1354 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50646108",
+      "hnPoints": 1548
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "publishedAt": "2026-11-25T17:18:26.000Z",
+      "snippet": "1432 points · 611 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50644817",
+      "hnPoints": 1432
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "publishedAt": "2026-11-26T05:12:59.000Z",
+      "snippet": "102 points · 16 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50651719",
+      "hnPoints": 102
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "publishedAt": "2026-11-25T21:48:10.000Z",
+      "snippet": "456 points · 235 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50648050",
+      "hnPoints": 456
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "publishedAt": "2026-11-25T21:18:02.000Z",
+      "snippet": "388 points · 324 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50647673",
+      "hnPoints": 388
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Minipg: PostgreSQL as a Single Executable",
+      "url": "https://progrium.github.io/minipg/",
+      "publishedAt": "2026-11-26T03:00:48.000Z",
+      "snippet": "128 points · 19 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50650892",
+      "hnPoints": 128
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Collection of preserved UI style guides",
+      "url": "https://aresluna.org/ui-style-guides/",
+      "publishedAt": "2026-11-26T00:40:00.000Z",
+      "snippet": "178 points · 21 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50649834",
+      "hnPoints": 178
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tell HN: Lots of Ask HNs again",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "publishedAt": "2026-11-26T00:43:34.000Z",
+      "snippet": "267 points · 99 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50649864",
+      "hnPoints": 267
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "publishedAt": "2026-11-22T16:44:48.000Z",
+      "snippet": "376 points · 108 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50601280",
+      "hnPoints": 376
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "publishedAt": "2026-11-25T20:38:00.000Z",
+      "snippet": "293 points · 136 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50647181",
+      "hnPoints": 293
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
+      "url": "https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf",
+      "publishedAt": "2026-11-22T11:29:44.000Z",
+      "snippet": "91 points · 27 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50598636",
+      "hnPoints": 91
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "What VP ≠ VNP Means (In 3 Minutes)",
+      "url": "https://www.friedgil.com/vpvnp",
+      "publishedAt": "2026-11-24T10:56:56.000Z",
+      "snippet": "131 points · 40 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50626466",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "publishedAt": "2026-11-26T03:36:58.000Z",
+      "snippet": "250 points · 129 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50651117",
+      "hnPoints": 250
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "publishedAt": "2026-11-25T20:35:50.000Z",
+      "snippet": "148 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50647161",
+      "hnPoints": 148
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "publishedAt": "2026-11-25T22:15:34.000Z",
+      "snippet": "152 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50648365",
+      "hnPoints": 152
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
+      "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+      "publishedAt": "2026-11-25T22:12:25.000Z",
+      "snippet": "99 points · 12 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50648323",
+      "hnPoints": 99
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "SSH is a GUI framework",
+      "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+      "publishedAt": "2026-11-21T14:52:41.000Z",
+      "snippet": "194 points · 99 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50589784",
+      "hnPoints": 194
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The polynomial Hirsch conjecture is false [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "publishedAt": "2026-11-25T17:34:34.000Z",
+      "snippet": "156 points · 44 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50644980",
+      "hnPoints": 156
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Marvisak/VIctory — An attempt at running GTA VI on PC",
+      "url": "https://github.com/Marvisak/VIctory",
+      "publishedAt": "2026-11-23T21:47:25Z",
+      "snippet": "12872 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "xcl-dev/xcl — Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "url": "https://github.com/xcl-dev/xcl",
+      "publishedAt": "2026-11-20T20:03:21Z",
+      "snippet": "8410 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "4lwayz/portwatch-vi — Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "publishedAt": "2026-11-21T23:16:41Z",
+      "snippet": "4762 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "publishedAt": "2026-11-21T14:40:27Z",
+      "snippet": "4093 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "AFK-surf/xnulinux — XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "publishedAt": "2026-11-20T10:18:31Z",
+      "snippet": "4082 stars · C"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "fxceless/victory-fork — Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+      "url": "https://github.com/fxceless/victory-fork",
+      "publishedAt": "2026-11-24T18:02:37Z",
+      "snippet": "3174 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ubiquitarianism/leonida — A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "publishedAt": "2026-11-23T23:54:39Z",
+      "snippet": "2411 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "R0Y00/Xbox2Windows — Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "publishedAt": "2026-11-20T17:43:52Z",
+      "snippet": "1961 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "os6/nospeaker — make your macbook's trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "publishedAt": "2026-11-22T12:05:54Z",
+      "snippet": "1916 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "omonkeyz/xbox-emulator — Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "publishedAt": "2026-11-21T08:08:39Z",
+      "snippet": "1848 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "publishedAt": "2026-11-26T06:08:25.000Z",
+      "snippet": " <p><strong><a href=\"https://www.sqlite.org/rsync.html\">sqlite3_rsync: Database Remote-Copy Tool For SQLite</a></strong></p> This additional SQLite tool has been around for a while now - it was added as \"experimental\" <a href=\"https://www.sqlite.org/releaselog/3_47_0.html\">in SQLite 3.47.0 in October 2024</a> and enhanced in <a href=\"https://www.sqlite.org/releaselog/3_50_0.html\">SQLite 3.50.0 in May 2025</a>. It was only today that I understood one of its most attractive characteristics.</p> <p",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "publishedAt": "2026-11-25T23:26:32.000Z",
+      "snippet": " <blockquote cite=\"https://scottaaronson.blog/?p=10379\"><p>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you <em>some</em> idea of how our resolution into the complexity-theoretic universe, and the whole univer",
+      "enclosure": null
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "publishedAt": "2026-11-25T18:16:50.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.3a0\">datasette-charts 0.3a0</a></p> <p>I added chart annotations to <a href=\"https://github.com/datasette/datasette-charts\">datasette-charts</a>!</p> <p>You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.</p> <p>A chart with annotations looks like this:</p> <p><img alt=\"Screenshot of an annotated bar chart with the y-axis label &quot;↑ T",
+      "enclosure": null
+    },
+    {
+      "source": "Lenny's Newsletter",
+      "media": "text",
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "publishedAt": "2026-11-25T13:04:21.000Z",
+      "snippet": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "enclosure": "https://api.substack.com/feed/podcast/226276789/784fb4d5819cc07349df297996db3655.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+      "publishedAt": "2026-11-25T22:28:01.000Z",
+      "snippet": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a214b9-5541-758c-b9a3-1d85f48144ff/01a214d7-cbb8-79f1-a627-087a38d098e9.mp3"
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+      "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+      "publishedAt": "2026-11-25T22:23:41.000Z",
+      "snippet": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "publishedAt": "2026-11-25T04:29:07.000Z",
+      "snippet": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "enclosure": null
+    },
+    {
+      "source": "My First Million",
+      "media": "podcast",
+      "title": "we need to talk about Jensen",
+      "publishedAt": "2026-11-25T12:11:00.000Z",
+      "snippet": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/sdfc Episode 885: Shaan Puri ( https://x.com/ShaanVP ) and Sam Parr ( https://x.com/theSamParr ) talk about Jensen’s RTO plus a few philosophies to pump you up. — Show Notes: (0:00) The Kings Are Back (3:30) Shaan’s failed insider trading (5:55) Jensen’s return (15:35) Shaan Breaks Down His Portfolio (19:00) Punch Card Investing (21:45) What Football Coaches Teach Us About Running Companies (24:05) Going from a",
+      "enclosure": "https://pdst.fm/e/traffic.megaphone.fm/HS5978371746.mp3"
+    },
+    {
+      "source": "Y Combinator (YouTube)",
+      "media": "video",
+      "title": "Startup School Europe 2027!",
+      "url": "https://www.youtube.com/shorts/8gOkTwEHTP8",
+      "publishedAt": "2026-11-25T17:19:05.000Z",
+      "snippet": "",
+      "enclosure": null
+    }
+  ]
+}
