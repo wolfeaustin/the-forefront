@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-28",
+  "fetchedAt": "2026-11-28T10:08:20.132Z",
+  "errors": [
+    {
+      "source": "Anthropic News",
+      "error": "Status code 404"
+    },
+    {
+      "source": "Import AI",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Dwarkesh Podcast",
+      "error": "Status code 403"
+    },
+    {
+      "source": "Founders Podcast",
+      "error": "Status code 404"
+    }
+  ],
+  "items": [
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "publishedAt": "2026-11-28T03:19:20.000Z",
+      "snippet": "308 points · 74 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50674218",
+      "hnPoints": 308
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Loom seamlessly combines weaving, knitting and braiding",
+      "url": "https://news.cornell.edu/stories/2026/11/loom-seamlessly-combines-weaving-knitting-and-braiding",
+      "publishedAt": "2026-11-24T18:10:45.000Z",
+      "snippet": "117 points · 10 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50632052",
+      "hnPoints": 117
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "publishedAt": "2026-11-27T23:06:29.000Z",
+      "snippet": "396 points · 151 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50672565",
+      "hnPoints": 396
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "The Balatro Timeline",
+      "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+      "publishedAt": "2026-11-26T17:20:27.000Z",
+      "snippet": "368 points · 87 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50657346",
+      "hnPoints": 368
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Knuth: Moratorium on Error Reports",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "publishedAt": "2026-11-28T03:49:21.000Z",
+      "snippet": "87 points · 52 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50674452",
+      "hnPoints": 87
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "publishedAt": "2026-11-25T15:16:53.000Z",
+      "snippet": "446 points · 282 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50643158",
+      "hnPoints": 446
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "publishedAt": "2026-11-27T15:40:31.000Z",
+      "snippet": "526 points · 271 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50668145",
+      "hnPoints": 526
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "publishedAt": "2026-11-27T18:02:45.000Z",
+      "snippet": "304 points · 97 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50669765",
+      "hnPoints": 304
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Citroën Hydraulic System",
+      "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+      "publishedAt": "2026-11-27T03:10:19.000Z",
+      "snippet": "202 points · 60 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50662313",
+      "hnPoints": 202
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "url": "https://tabernet.es/",
+      "publishedAt": "2026-11-27T23:00:30.000Z",
+      "snippet": "130 points · 42 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50672521",
+      "hnPoints": 130
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "snippet": "374 points · 126 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50667726",
+      "hnPoints": 374
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "url": "https://progrium.github.io/9ux/",
+      "publishedAt": "2026-11-27T21:48:14.000Z",
+      "snippet": "129 points · 32 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50672008",
+      "hnPoints": 129
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "publishedAt": "2026-11-27T19:31:01.000Z",
+      "snippet": "537 points · 333 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50670757",
+      "hnPoints": 537
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
+      "url": "https://www.guitarworld.com/gear/guitar-pedals/tone3000-daisy-audio-diy-pedal-kit",
+      "publishedAt": "2026-11-24T17:55:27.000Z",
+      "snippet": "91 points · 20 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50631823",
+      "hnPoints": 91
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "publishedAt": "2026-11-26T17:24:37.000Z",
+      "snippet": "213 points · 67 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50657392",
+      "hnPoints": 213
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Rayshader 1.0: Exit the Matrix",
+      "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+      "publishedAt": "2026-11-27T14:30:20.000Z",
+      "snippet": "131 points · 17 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50667371",
+      "hnPoints": 131
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "publishedAt": "2026-11-27T19:42:25.000Z",
+      "snippet": "387 points · 237 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50670855",
+      "hnPoints": 387
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: Analysis of Hacker News predictions since 2008",
+      "url": "https://hnpredictions.com/",
+      "publishedAt": "2026-11-24T19:46:54.000Z",
+      "snippet": "94 points · 73 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50633531",
+      "hnPoints": 94
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "publishedAt": "2026-11-27T17:56:28.000Z",
+      "snippet": "138 points · 39 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50669673",
+      "hnPoints": 138
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Cyberpunk Television Shows",
+      "url": "https://shellzine.net/cyberpunk-television/",
+      "publishedAt": "2026-11-25T16:32:28.000Z",
+      "snippet": "108 points · 95 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50644213",
+      "hnPoints": 108
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "False computer-checked proofs",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "publishedAt": "2026-11-27T15:26:09.000Z",
+      "snippet": "229 points · 88 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50667989",
+      "hnPoints": 229
+    },
+    {
+      "source": "Hacker News",
+      "media": "text",
+      "title": "Atari Homebrew Awards Cancelled",
+      "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+      "publishedAt": "2026-11-28T02:03:25.000Z",
+      "snippet": "205 points · 197 comments",
+      "hnUrl": "https://news.ycombinator.com/item?id=50673688",
+      "hnPoints": 205
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Marvisak/VIctory — An attempt at running GTA VI on PC",
+      "url": "https://github.com/Marvisak/VIctory",
+      "publishedAt": "2026-11-23T21:47:25Z",
+      "snippet": "13940 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "trustno1-coder/VIctory-NVIDIA — VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F",
+      "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "publishedAt": "2026-11-25T23:35:29Z",
+      "snippet": "4805 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "fxceless/victory-fork — Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+      "url": "https://github.com/fxceless/victory-fork",
+      "publishedAt": "2026-11-24T18:02:37Z",
+      "snippet": "3373 stars · Rust"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "ProjectLeonida/mandy — A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+      "url": "https://github.com/ProjectLeonida/mandy",
+      "publishedAt": "2026-11-23T23:54:39Z",
+      "snippet": "3060 stars · Python"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "nexu-io/opengame — The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio",
+      "url": "https://github.com/nexu-io/opengame",
+      "publishedAt": "2026-11-25T10:35:45Z",
+      "snippet": "2581 stars · TypeScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "alesha-pro/llm.asm — Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc,",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "publishedAt": "2026-11-25T07:28:51Z",
+      "snippet": "2435 stars · Assembly"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Reukix/Reloc — iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+      "url": "https://github.com/Reukix/Reloc",
+      "publishedAt": "2026-11-25T17:29:48Z",
+      "snippet": "2012 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "os6/nospeaker — make your macbook's trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "publishedAt": "2026-11-22T12:05:54Z",
+      "snippet": "2002 stars · Swift"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "crhywun/g1-acq — no description",
+      "url": "https://github.com/crhywun/g1-acq",
+      "publishedAt": "2026-11-22T10:53:17Z",
+      "snippet": "1835 stars · JavaScript"
+    },
+    {
+      "source": "GitHub Trending",
+      "media": "repo",
+      "title": "Avaneesh-Inamdar/Stream-Tube-Desktop — Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "publishedAt": "2026-11-22T18:50:17Z",
+      "snippet": "1709 stars · Rust"
+    },
+    {
+      "source": "Simon Willison",
+      "media": "text",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "snippet": " <p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.4a0\">datasette-charts 0.4a0</a></p> <p>The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional ",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "publishedAt": "2026-11-28T03:45:59.000Z",
+      "snippet": "November 27, 2026 — How frontier labs buy training data.",
+      "enclosure": null
+    },
+    {
+      "source": "Latent Space",
+      "media": "text",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "publishedAt": "2026-11-27T22:19:18.000Z",
+      "snippet": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+      "enclosure": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a21efa-24c7-769b-afbe-cd7e135e4e85/01a21efa-28a3-7145-a228-ed763afc8f37.mp3"
+    }
+  ]
+}

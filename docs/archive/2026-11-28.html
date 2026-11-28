@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forefront — Nov 28, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;900&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F6F2;
+    --ink:#191C1A;
+    --muted:#6B7370;
+    --line:#DDDCD4;
+    --signal:#0E6B4F;
+    --signal-soft:#E4EFE9;
+    --amber:#9A6A12;
+    --card:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Instrument Sans',system-ui,sans-serif;
+    font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'Spline Sans Mono',monospace}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+  /* Masthead */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;padding:14px 0}
+  .logo{font-family:'Schibsted Grotesk';font-weight:900;font-size:19px;letter-spacing:-0.02em}
+  .logo span{color:var(--signal)}
+  .mastnav{display:flex;gap:18px;font-size:13px;color:var(--muted)}
+  .mastnav a{color:inherit;text-decoration:none}
+  .mastnav a:hover,.mastnav a:focus-visible{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:2px}
+
+  /* Day header + the filter stat (signature) */
+  .dayhead{padding:44px 0 30px}
+  .datemeta{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+  .datemeta .dot{width:4px;height:4px;border-radius:50%;background:var(--line)}
+  h1{font-family:'Schibsted Grotesk';font-weight:700;font-size:clamp(28px,5vw,38px);letter-spacing:-0.03em;line-height:1.1;margin:10px 0 18px}
+  .filterstat{
+    display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px 22px;
+    border:1px solid var(--line);background:var(--card);
+    border-radius:8px;padding:12px 16px;font-size:13px;color:var(--muted)
+  }
+  .filterstat b{font-family:'Spline Sans Mono';font-weight:600;color:var(--ink);font-size:14px}
+  .filterstat .kept b{color:var(--signal)}
+
+  /* Sections */
+  .section{padding:26px 0 6px}
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Spline Sans Mono';font-size:11.5px;font-weight:600;
+    letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);
+    margin-bottom:6px
+  }
+  .eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* Story */
+  .story{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+  .story:last-child{border-bottom:none}
+  .rail{padding-top:3px}
+  .score{font-family:'Spline Sans Mono';font-size:13px;font-weight:600;color:var(--signal)}
+  .meter{display:flex;gap:2px;margin-top:6px}
+  .meter i{width:8px;height:3px;background:var(--line);border-radius:1px}
+  .meter i.on{background:var(--signal)}
+  .story h2{font-family:'Schibsted Grotesk';font-weight:700;font-size:19px;letter-spacing:-0.015em;line-height:1.25;margin-bottom:6px}
+  .story h2 a{color:inherit;text-decoration:none}
+  .story h2 a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+  .summary{font-size:15px;color:#3A403D;margin-bottom:10px}
+  .why{
+    font-size:14px;color:var(--signal);font-weight:500;
+    padding-left:12px;border-left:2px solid var(--signal);
+    margin-bottom:12px
+  }
+  .why b{font-weight:600}
+  .srcrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12.5px}
+  .chip{
+    border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:3px 10px;color:var(--muted);text-decoration:none
+  }
+  .chip:hover{border-color:var(--muted);color:var(--ink)}
+  .meta{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+  /* Media cards (podcast / video) */
+  .mediacard{
+    display:flex;align-items:center;gap:14px;
+    border:1px solid var(--line);background:var(--card);border-radius:9px;
+    padding:12px 14px;margin-bottom:12px
+  }
+  .mediacard.video{background:#15181B;border-color:#15181B}
+  .mediacard.video .mediatitle{color:#F2F2EE}
+  .mediacard.video .mediadur{color:#9BA3A0}
+  .playbtn{
+    width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--signal);color:#fff;font-size:13px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;padding-left:3px
+  }
+  .playbtn:hover{background:#0A553F}
+  .mediainfo{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .mediatitle{font-size:13.5px;font-weight:600}
+  .mediadur{font-size:11px;color:var(--muted);letter-spacing:0.04em}
+  .highlights{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:12px;
+    padding:12px 14px;border-left:2px solid var(--line)
+  }
+  .hl-label{font-size:10.5px;font-weight:600;letter-spacing:0.14em;color:var(--muted)}
+  .hl{font-size:13.5px;color:var(--ink);text-decoration:none;display:flex;gap:10px;align-items:baseline}
+  .hl:hover{color:var(--signal)}
+  .hl .ts{font-size:11.5px;color:var(--signal);font-weight:600;flex-shrink:0}
+
+  /* Opportunity callout */
+  .opp{
+    background:var(--signal-soft);border:1px solid #C9DED3;border-radius:10px;
+    padding:20px 20px 16px;margin:26px 0
+  }
+  .opp .eyebrow{color:var(--signal)}
+  .opp .eyebrow::after{background:#C9DED3}
+  .opp h3{font-family:'Schibsted Grotesk';font-weight:700;font-size:17px;margin-bottom:6px}
+  .opp p{font-size:14.5px;color:#2C4A3E;margin-bottom:8px}
+  .opp .tag{font-family:'Spline Sans Mono';font-size:11.5px;color:var(--signal)}
+
+  /* Activity tracking */
+  .story.read h2 a{color:var(--muted)}
+  .story.read h2 a::after{content:" ✓";color:var(--signal);font-size:0.8em}
+  .story.read .score{color:var(--muted)}
+  .story.read .meter i.on{background:#BFC9C3}
+  .savebtn{cursor:pointer;font-family:'Instrument Sans',system-ui,sans-serif;font-size:12.5px}
+  .savebtn.on{background:var(--signal-soft);border-color:#C9DED3;color:var(--signal);font-weight:600}
+  .youstat b{color:var(--ink)}
+
+  /* Footer / subscribe */
+  .subscribe{
+    margin:40px 0 60px;border:1px solid var(--line);background:var(--card);
+    border-radius:10px;padding:24px;text-align:center
+  }
+  .subscribe h4{font-family:'Schibsted Grotesk';font-weight:700;font-size:18px;margin-bottom:4px}
+  .subscribe p{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .subrow{display:flex;gap:8px;max-width:400px;margin:0 auto}
+  .subrow input{
+    flex:1;border:1px solid var(--line);border-radius:7px;padding:10px 12px;
+    font:inherit;font-size:14px;background:var(--paper)
+  }
+  .subrow button{
+    border:none;border-radius:7px;background:var(--ink);color:var(--paper);
+    font:inherit;font-size:14px;font-weight:600;padding:10px 16px;cursor:pointer
+  }
+  .subrow button:hover{background:#000}
+  footer{border-top:1px solid var(--line);padding:18px 0 40px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:560px){
+    .story{grid-template-columns:1fr;gap:8px}
+    .rail{display:flex;align-items:center;gap:10px;padding-top:0}
+    .meter{margin-top:0}
+    .meta{margin-left:0;width:100%}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .story{animation:rise .4s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap mast">
+    <div class="logo">The Forefront<span>.</span></div>
+    <nav class="mastnav"><a href="../index.html">Today</a><a href="./">Archive</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="dayhead">
+    <div class="datemeta mono"><span>Saturday</span><span class="dot"></span><span>Nov 28, 2026</span></div>
+    <h1>11 things worth your attention today.</h1>
+    <div class="filterstat">
+      <span>Scanned <b>35</b></span>
+      <span class="kept">Kept <b>11</b></span>
+      <span>Total read <b>~13 min</b></span>
+      <span>Filtered out <b>69%</b></span>
+    </div>
+  </div>
+  <section class="section">
+    <div class="eyebrow">Top Signal</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·88</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer" target="_blank" rel="noopener">WebRTC-based credit card skimmers found on major e-commerce sites — a new attack vector</a></h2>
+        <p class="summary">Attackers are embedding skimming scripts that exploit WebRTC data channels to exfiltrate payment data, bypassing common CSP and network-level defenses. This represents a meaningful evolution from classic Magecart-style attacks, making detection harder for store operators.</p>
+        <p class="why"><b>Why it matters:</b> If you run or acquire an e-commerce brand, your existing security tooling may not catch this class of skimmer — you need to audit now.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50668145" target="_blank" rel="noopener">Hacker News · 526 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·82</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/convex/convex-backend-skill/issues/64" target="_blank" rel="noopener">Convex AI 'skills' silently forward users' app ideas to a remote server</a></h2>
+        <p class="summary">Community investigation found that Convex's AI-powered skills feature sends user prompts and app concepts to an external server without disclosure in the UI or terms users would reasonably notice. This raises immediate data-handling and competitive IP concerns for any team using Convex as their backend.</p>
+        <p class="why"><b>Why it matters:</b> If you're building on Convex or evaluating it for a client product, your users' app ideas may be leaving your infrastructure without consent — a legal and trust liability.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50669765" target="_blank" rel="noopener">Hacker News · 304 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·55</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/" target="_blank" rel="noopener">First imagery of DART asteroid impact plume reveals deflection worked — and the physics</a></h2>
+        <p class="summary">New high-resolution images of the debris plume from NASA's DART impact on Dimorphos confirm and quantify the momentum transfer that changed the asteroid's orbit. The data provides the first empirical ground-truth for planetary defense models.</p>
+        <p class="why"><b>Why it matters:</b> Planetary defense is transitioning from theory to engineered capability — a 5-year horizon technology with real government procurement implications for sensing, tracking, and propulsion companies.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50657392" target="_blank" rel="noopener">Hacker News · 213 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <aside class="opp">
+    <div class="eyebrow">Opportunity Hidden in Today's News</div>
+    <h3>WebRTC-based credit card skimmers found on major e-commerce sites — a new attack vector</h3>
+    <p>A lightweight real-time WebRTC traffic auditing layer for Shopify/WooCommerce stores could be a defensible SaaS product; store operators have no good self-serve tooling for this.</p>
+    <span class="tag mono">DERIVED FROM TODAY'S STORIES · CONFIDENCE: SPECULATIVE</span>
+  </aside>
+  <section class="section">
+    <div class="eyebrow">AI &amp; Research</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·85</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://research.google/blog/supercharging-transformer-residual-connections/" target="_blank" rel="noopener">Google's DeepCrossAttention cuts LLM training time by up to 3x with no quality loss</a></h2>
+        <p class="summary">Google published research showing that DeepCrossAttention, a new attention mechanism, achieves comparable model quality to standard transformers while training up to 3x faster. For teams training or fine-tuning models, this could dramatically reduce compute costs at meaningful scale.</p>
+        <p class="why"><b>Why it matters:</b> A 3x training speedup is not incremental — it changes the economics of fine-tuning frontier-scale models for teams with limited GPU budgets.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50672565" target="_blank" rel="noopener">Hacker News · 396 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Business &amp; Markets</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·78</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/" target="_blank" rel="noopener">How frontier AI labs structure training data deals — exclusivity pricing and pilot-to-scale pipelines</a></h2>
+        <p class="summary">G2i founder Gabe Greenberg explains the pricing dynamics labs use when buying training data: exclusive data commands a premium, non-exclusive data is discounted, and small pilot contracts routinely become multi-million dollar relationships. The piece exposes the full market structure from both buyer and seller sides.</p>
+        <p class="why"><b>Why it matters:</b> If you have a proprietary dataset or run a business generating high-quality labeled outputs, you now have a concrete framework for pricing and negotiating with AI labs.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·75</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://latent.space/p/ainews-inside-the-exploding-coding-data-market/" target="_blank" rel="noopener">The coding training data market is exploding — how labs buy, price, and prioritize code data</a></h2>
+        <p class="summary">A detailed look at how the market for coding-specific AI training data has evolved, including which types of code problems command the highest prices and how labs are scaling procurement. The piece draws on primary conversations with buyers and brokers inside the market.</p>
+        <p class="why"><b>Why it matters:</b> Understanding what frontier labs are buying and at what price points is actionable if you're running a developer tool, code review product, or any business that generates structured code artifacts.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://latent.space/p/ainews-inside-the-exploding-coding-data-market/" target="_blank" rel="noopener">Latent Space</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·68</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://localthunk.com/blog/balatro-timeline-3aarh" target="_blank" rel="noopener">The Balatro timeline: how a solo dev built a breakout indie hit — a product development post-mortem</a></h2>
+        <p class="summary">A detailed account of the full development arc of Balatro, the poker roguelike that became a surprise commercial hit, covering the decisions, pivots, and release strategy that made it work. It functions as a case study in scoped solo game development with meaningful revenue outcomes.</p>
+        <p class="why"><b>Why it matters:</b> The specific product and launch decisions documented here are transferable lessons for any solo founder building a consumer product with limited resources.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50657346" target="_blank" rel="noopener">Hacker News · 368 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="section">
+    <div class="eyebrow">Tools &amp; Repos</div>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·72</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://unkernel.dev" target="_blank" rel="noopener">Unkernel: A real Linux kernel compiled to WebAssembly and runnable in the browser</a></h2>
+        <p class="summary">Unkernel compiles the actual Linux kernel to WebAssembly, enabling a genuine Linux environment to run inside a browser tab without virtualization hardware. This is technically distinct from existing browser-based Linux emulators because it uses the real kernel rather than a reimplementation.</p>
+        <p class="why"><b>Why it matters:</b> This opens a credible path to browser-native dev environments, sandboxed code execution, and zero-install SaaS products that need real Linux syscall compatibility.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50674218" target="_blank" rel="noopener">Hacker News · 308 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·65</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/alesha-pro/llm.asm" target="_blank" rel="noopener">LLM inference and training in pure x86-64 assembly — 12 KB binary, zero dependencies</a></h2>
+        <p class="summary">llm.asm implements Qwen3-0.6B inference in 12 KB of raw NASM assembly with no C, no libc, and a bare-metal bootable OS, plus a from-scratch GPT trainer. While extreme, it proves that LLM inference can run in deeply constrained environments with no runtime dependencies whatsoever.</p>
+        <p class="why"><b>Why it matters:</b> For teams building embedded, IoT, or air-gapped AI products, this is proof-of-concept that inference at the smallest models is achievable in environments with zero OS or library support.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/alesha-pro/llm.asm" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·60</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://tabernet.es/" target="_blank" rel="noopener">Tabernetes: Kubernetes orchestration where each node is a browser tab</a></h2>
+        <p class="summary">Tabernetes is a working proof-of-concept that turns open browser tabs into Kubernetes worker nodes, letting you run a distributed cluster from idle browser sessions. The engineering trick is using the browser's compute and network connectivity as free, ephemeral compute.</p>
+        <p class="why"><b>Why it matters:</b> The underlying pattern — recruiting idle browser sessions as compute — is a legitimate architecture for products that need bursty, distributed processing without server costs.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://news.ycombinator.com/item?id=50672521" target="_blank" rel="noopener">Hacker News · 130 pts</a>
+          <span class="meta mono">TEXT · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="story">
+      <div class="rail">
+        <div class="score">S·58</div>
+        <div class="meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+      </div>
+      <div>
+        <h2><a href="https://github.com/nexu-io/opengame" target="_blank" rel="noopener">OpenGame: A Unity/Unreal-style orchestration layer for 20+ AI coding agents building games together</a></h2>
+        <p class="summary">OpenGame positions itself as the production framework for multi-agent AI game development, routing tasks across Claude Code, Codex, DeepSeek, and others with 100+ viral game templates. It targets teams that want to treat AI agents as a full-stack studio rather than a single coding assistant.</p>
+        <p class="why"><b>Why it matters:</b> The multi-agent orchestration pattern demonstrated here — specialized agents for different production roles — is the architecture pattern worth studying for any AI-augmented product team.</p>
+        <div class="srcrow">
+          <a class="chip" href="https://github.com/nexu-io/opengame" target="_blank" rel="noopener">GitHub Trending</a>
+          <span class="meta mono">REPO · 1 SOURCE</span>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>The Forefront — we read 35 things so you don't have to.</span>
+    <span class="mono">EDITED BY A HUMAN · DRAFTED BY AI</span>
+  </div>
+</footer>
+<script>(function(){
+  var KEY = 'forefront:activity:2026-11-28';
+  // localStorage with in-memory fallback (some embedded previews block storage)
+  var store;
+  try {
+    localStorage.setItem('__ff_test','1');
+    localStorage.removeItem('__ff_test');
+    store = localStorage;
+  } catch (e) {
+    var mem = {};
+    store = {
+      getItem: function(k){ return (k in mem) ? mem[k] : null; },
+      setItem: function(k,v){ mem[k] = v; }
+    };
+  }
+
+  function load(){
+    try { return JSON.parse(store.getItem(KEY)) || {read:{}, saved:{}}; }
+    catch(e){ return {read:{}, saved:{}}; }
+  }
+  function persist(){ try { store.setItem(KEY, JSON.stringify(data)); } catch(e){} }
+
+  var data = load();
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+
+  function storyId(s){
+    var h = s.querySelector('h2');
+    return h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60) : '';
+  }
+
+  // Activity stat in the header bar
+  var bar = document.querySelector('.filterstat');
+  var stat = document.createElement('span');
+  stat.className = 'youstat';
+  if (bar) bar.appendChild(stat);
+
+  function render(){
+    var readCount = 0, savedCount = 0;
+    stories.forEach(function(s){
+      var k = storyId(s);
+      var isRead = !!data.read[k], isSaved = !!data.saved[k];
+      if (isRead) readCount++;
+      if (isSaved) savedCount++;
+      s.classList.toggle('read', isRead);
+      var btn = s.querySelector('.savebtn');
+      if (btn){
+        btn.textContent = isSaved ? 'Saved ✓' : 'Save';
+        btn.classList.toggle('on', isSaved);
+      }
+    });
+    stat.innerHTML = 'You: <b>' + readCount + '</b> read · <b>' + savedCount + '</b> saved';
+  }
+
+  stories.forEach(function(s){
+    var k = storyId(s);
+
+    // Any click into the story's content counts as engagement
+    s.querySelectorAll('a, .playbtn, .hl').forEach(function(el){
+      el.addEventListener('click', function(){
+        data.read[k] = Date.now();
+        persist(); render();
+      });
+    });
+
+    // Save button in the source row
+    var row = s.querySelector('.srcrow');
+    if (row){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip savebtn';
+      btn.addEventListener('click', function(ev){
+        ev.stopPropagation();
+        if (data.saved[k]) { delete data.saved[k]; } else { data.saved[k] = Date.now(); }
+        persist(); render();
+      });
+      var meta = row.querySelector('.meta');
+      row.insertBefore(btn, meta || null);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
